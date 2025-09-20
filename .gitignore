@@ -17,6 +17,7 @@ config/puffish_skills/*
 crash-reports
 datapacks
 data
+!kubejs/data
 defaultconfigs/*
 !defaultconfigs/
 downloads
@@ -64,3 +65,5 @@ usernamecache.json
 !config/appleskin-client.toml
 !config/farmersdelight-client.toml
 !config/enchdesc.json
+!config/relics.yaml
+!config/apotheosis/*
