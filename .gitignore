@@ -57,3 +57,10 @@ usernamecache.json
 # Config files to include
 !config/fml.toml
 !config/emi.css
+!config/emixx
+!config/item_obliterator.json5
+!config/enhancedtooltips.json5
+!config/tooltipicons.json
+!config/appleskin-client.toml
+!config/farmersdelight-client.toml
+!config/enchdesc.json
