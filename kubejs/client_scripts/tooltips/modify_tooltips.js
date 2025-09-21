@@ -1,5 +1,9 @@
-// Add the 'Unique' text to the tooltips of certain items
+// Add the 'Unique' & rarity text to the tooltips of items
 ItemEvents.modifyTooltips(event => {
+
+    event.modifyAll(tooltip => {    // Add item rarities to tooltips
+        tooltip.dynamic('item_rarity')
+    })
 
     let uniqueItemTypes = ['sword', 'scythe', 'trident', 'mace', 'harp', 'knife', 'axe', 'pickaxe',
         'shovel', 'hoe', 'bow', 'crossbow', 'staff', 'wand', 'helmet', 'chestplate', 'leggings',

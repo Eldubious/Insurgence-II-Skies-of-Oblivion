@@ -1,0 +1,7 @@
+{
+    "exclusions": [
+        "minecraft:gameplay/fishing",
+        "insurgence:chests/unique_items/swords/stone_sword",
+        "insurgence:chests/unique_items/helmets/chainmail_helmet"
+    ]
+}

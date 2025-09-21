@@ -1,5 +1,7 @@
 {
-    "tooltip.insurgence.armor_trim": "Armor Trim:",
+    "tooltip.insurgence.armor_trim": "Trim:",
+    "tooltip.insurgence.attributes": "Attributes:",
+    
     "tooltip.insurgence.unique": "Unique",
     "tooltip.insurgence.sword": "Sword",
     "tooltip.insurgence.scythe": "Scythe",
@@ -23,5 +25,12 @@
     "tooltip.insurgence.elytra": "Elytra",
     "tooltip.insurgence.ring": "Ring",
     "tooltip.insurgence.belt": "Belt",
-    "tooltip.insurgence.necklace": "Necklace"
+    "tooltip.insurgence.necklace": "Necklace",
+    "tooltip.insurgence.rarity.common": "COMMON",
+    "tooltip.insurgence.rarity.uncommon": "UNCOMMON",
+    "tooltip.insurgence.rarity.rare": "RARE",
+    "tooltip.insurgence.rarity.epic": "EPIC",
+    "tooltip.insurgence.rarity.legendary": "LEGENDARY",
+    "tooltip.insurgence.rarity.mythic": "MYTHIC",
+    "tooltip.insurgence.rarity.ancient": "ANCIENT"
 }
