@@ -66,4 +66,7 @@ usernamecache.json
 !config/farmersdelight-client.toml
 !config/enchdesc.json
 !config/relics.yaml
+!config/relics/
 !config/apotheosis/*
+!config/elytra-trims.json
+!config/legendarytooltips.toml

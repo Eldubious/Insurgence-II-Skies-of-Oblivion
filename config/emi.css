@@ -24,7 +24,7 @@
 	/**
 	 * Which sidebar should be searched using the search bar.
 	 */
-	search-sidebar: right;
+	search-sidebar: left;
 
 	/**
 	 * Whether normal search queries should include the tooltip.
@@ -51,7 +51,7 @@
 	/**
 	 * Where to display status effects in the inventory.
 	 */
-	effect-location: top;
+	effect-location: left;
 
 	/**
 	 * Whether to display a gray overlay when hovering over a stack.
@@ -98,7 +98,7 @@
 	/**
 	 * Which sidebar type to focus when the search is empty.
 	 */
-	empty-search-sidebar-focus: none;
+	empty-search-sidebar-focus: empty;
 
 	/**
 	 * Whether the EMI config button should be visible.
@@ -131,7 +131,7 @@
 	/**
 	 * Where to show workstations in the recipe screen
 	 */
-	workstation-location: bottom;
+	workstation-location: left;
 
 	/**
 	 * Display cost per batch when hovering a recipe output
@@ -202,7 +202,7 @@
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: index, craftables;
+	right-sidebar-pages: index;
 
 	/**
 	 * The subpanels in the right sidebar
@@ -212,12 +212,12 @@
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
 	 */
-	right-sidebar-size: 12, 100;
+	right-sidebar-size: 12, 16;
 
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels
 	 */
-	right-sidebar-margins: 2, 2, 2, 2;
+	right-sidebar-margins: 12, 12, 2, 2;
 
 	/**
 	 * Where to position the right sidebar
@@ -237,7 +237,7 @@
 	/**
 	 * The pages in the top sidebar
 	 */
-	top-sidebar-pages: none;
+	top-sidebar-pages: empty;
 
 	/**
 	 * The subpanels in the top sidebar
@@ -257,12 +257,12 @@
 	/**
 	 * Where to position the top sidebar
 	 */
-	top-sidebar-align: center, center;
+	top-sidebar-align: center, top;
 
 	/**
 	 * Whether to render the header buttons and page count for the top sidebar
 	 */
-	top-sidebar-header: visible;
+	top-sidebar-header: invisible;
 
 	/**
 	 * Which theme to use for the top sidebar
@@ -468,7 +468,7 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: false;
+	show-recipe-ids: true;
 
 	/**
 	 * Whether to display additional widgets added to recipes from other mods.
