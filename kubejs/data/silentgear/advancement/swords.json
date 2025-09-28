@@ -1,5 +1,5 @@
 {
-  "parent": "silentgear:blueprint_paper",
+  "parent": "insurgence:tools/modular_tools",
   "criteria": {
     "katana": {
       "conditions": {
@@ -42,7 +42,8 @@
     },
     "title": {
       "translate": "advancements.silentgear.swords.title"
-    }
+    },
+    "frame": "goal"
   },
   "requirements": [
     [

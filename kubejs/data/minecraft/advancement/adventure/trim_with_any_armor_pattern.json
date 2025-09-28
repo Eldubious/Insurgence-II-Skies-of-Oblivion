@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "insurgence:tools/root",
   "criteria": {
     "armor_trimmed_minecraft:bolt_armor_trim_smithing_template_smithing_trim": {
       "conditions": {
@@ -144,5 +144,5 @@
       "armor_trimmed_minecraft:wild_armor_trim_smithing_template_smithing_trim"
     ]
   ],
-  "sends_telemetry_event": true
+  "sends_telemetry_event": false
 }

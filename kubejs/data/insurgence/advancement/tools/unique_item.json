@@ -1,0 +1,43 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.tools.unique_item.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.tools.unique_item.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:stone_sword",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:redstone",
+                    "pattern": "minecraft:wild",
+                    "show_in_tooltip": false
+                }
+            }
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "insurgence:tools/root",
+    "criteria": {
+        "found_unique_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#insurgence:unique_item"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "found_unique_item"
+        ]
+    ]
+}

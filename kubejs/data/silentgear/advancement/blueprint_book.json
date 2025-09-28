@@ -1,5 +1,5 @@
 {
-  "parent": "silentgear:blueprint_paper",
+  "parent": "insurgence:tools/blueprint_package",
   "criteria": {
     "get_item": {
       "conditions": {

@@ -34,12 +34,13 @@
     },
     "title": {
       "translate": "advancements.adventure.spyglass_at_dragon.title"
-    }
+    },
+    "frame": "challenge"
   },
   "requirements": [
     [
       "spyglass_at_dragon"
     ]
   ],
-  "sends_telemetry_event": true
+  "sends_telemetry_event": false
 }

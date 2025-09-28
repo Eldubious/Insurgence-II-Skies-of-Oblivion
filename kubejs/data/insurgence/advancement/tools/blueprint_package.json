@@ -1,0 +1,51 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.tools.blueprint_package.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.tools.blueprint_package.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "silentgear:blueprint_package"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "insurgence:tools/root",
+    "criteria": {
+        "opened_bp_package": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "silentgear:rod_blueprint"
+                    },
+                    {
+                        "items": "silentgear:shovel_blueprint"
+                    },
+                    {
+                        "items": "silentgear:axe_blueprint"
+                    },
+                    {
+                        "items": "silentgear:pickaxe_blueprint"
+                    },
+                    {
+                        "items": "silentgear:hoe_blueprint"
+                    },
+                    {
+                        "items": "silentgear:sword_blueprint"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "opened_bp_package"
+        ]
+    ]
+}

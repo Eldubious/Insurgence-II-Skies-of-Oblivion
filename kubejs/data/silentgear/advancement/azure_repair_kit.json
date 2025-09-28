@@ -22,7 +22,8 @@
     },
     "title": {
       "translate": "advancements.silentgear.azure_repair_kit.title"
-    }
+    },
+    "frame": "challenge"
   },
   "requirements": [
     [

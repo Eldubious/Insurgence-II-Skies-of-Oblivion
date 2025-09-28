@@ -42,7 +42,8 @@
     },
     "title": {
       "translate": "advancements.silentgear.big_job_tools.title"
-    }
+    },
+    "frame": "goal"
   },
   "requirements": [
     [

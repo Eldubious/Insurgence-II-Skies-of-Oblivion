@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.side_quests.root.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.side_quests.root.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:writable_book"
+        },
+        "frame": "task",
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ]
+}

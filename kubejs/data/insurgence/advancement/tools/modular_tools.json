@@ -1,0 +1,70 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.tools.modular_tools.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.tools.modular_tools.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "silentgear:pickaxe"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+    },
+    "parent": "insurgence:tools/blueprint_package",
+    "criteria": {
+        "modular_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "silentgear:sword",
+                            "silentgear:pickaxe",
+                            "silentgear:axe",
+                            "silentgear:shovel",
+                            "silentgear:hoe",
+                            "silentgear:shield",
+                            "silentgear:katana",
+                            "silentgear:machete",
+                            "silentgear:knife",
+                            "silentgear:dagger",
+                            "silentgear:spear",
+                            "silentgear:trident",
+                            "silentgear:mace",
+                            "silentgear:bow",
+                            "silentgear:crossbow",
+                            "silentgear:slingshot",
+                            "silentgear:paxel",
+                            "silentgear:hammer",
+                            "silentgear:excavator",
+                            "silentgear:saw",
+                            "silentgear:prospector_hammer",
+                            "silentgear:mattock",
+                            "silentgear:sickle",
+                            "silentgear:shears",
+                            "silentgear:fishing_rod",
+                            "silentgear:helmet",
+                            "silentgear:chestplate",
+                            "silentgear:leggings",
+                            "silentgear:boots",
+                            "silentgear:elytra",
+                            "silentgear:ring",
+                            "silentgear:bracelet",
+                            "silentgear:necklace",
+                            "silentgear:arrow"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "modular_item"
+        ]
+    ]
+}

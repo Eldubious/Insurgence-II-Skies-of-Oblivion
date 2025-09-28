@@ -1,5 +1,5 @@
 {
-  "parent": "silentgear:template_board",
+  "parent": "insurgence:tools/modular_tools",
   "criteria": {
     "azure_repair_kit": {
       "conditions": {

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "insurgence:side_quests/root",
   "criteria": {
     "spyglass_at_parrot": {
       "conditions": {
@@ -34,12 +34,13 @@
     },
     "title": {
       "translate": "advancements.adventure.spyglass_at_parrot.title"
-    }
+    },
+    "frame": "goal"
   },
   "requirements": [
     [
       "spyglass_at_parrot"
     ]
   ],
-  "sends_telemetry_event": true
+  "sends_telemetry_event": false
 }

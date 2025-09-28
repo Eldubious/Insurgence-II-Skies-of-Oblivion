@@ -24,7 +24,7 @@
 	/**
 	 * Which sidebar should be searched using the search bar.
 	 */
-	search-sidebar: left;
+	search-sidebar: right;
 
 	/**
 	 * Whether normal search queries should include the tooltip.

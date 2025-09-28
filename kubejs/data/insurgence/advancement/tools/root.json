@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.tools.root.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.tools.root.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:iron_chestplate"
+        },
+        "frame": "task",
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ]
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/mine_diamond",
+  "parent": "insurgence:tools/unique_item",
   "criteria": {
     "diamond_boots": {
       "conditions": {
@@ -48,7 +48,14 @@
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:diamond_chestplate"
+      "id": "minecraft:diamond_chestplate",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:amethyst",
+          "pattern": "minecraft:shaper",
+          "show_in_tooltip": false
+        }
+      }
     },
     "title": {
       "translate": "advancements.story.shiny_gear.title"
@@ -62,5 +69,5 @@
       "diamond_boots"
     ]
   ],
-  "sends_telemetry_event": true
+  "sends_telemetry_event": false
 }

@@ -22,7 +22,8 @@
     },
     "title": {
       "translate": "advancements.silentgear.crimson_repair_kit.title"
-    }
+    },
+    "frame": "goal"
   },
   "requirements": [
     [

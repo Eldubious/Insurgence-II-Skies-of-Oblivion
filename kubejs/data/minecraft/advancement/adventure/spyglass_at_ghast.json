@@ -34,12 +34,13 @@
     },
     "title": {
       "translate": "advancements.adventure.spyglass_at_ghast.title"
-    }
+    },
+    "frame": "goal"
   },
   "requirements": [
     [
       "spyglass_at_ghast"
     ]
   ],
-  "sends_telemetry_event": true
+  "sends_telemetry_event": false
 }

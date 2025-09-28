@@ -1,7 +1,7 @@
 {
   "ArmorTooltip": false,
   "DamageTooltip": false,
-  "BeeHiveTooltip": true,
+  "BeeHiveTooltip": false,
   "EffectTooltip": true,
   "FoodTooltip": true,
   "ShulkerBoxTooltip": {

@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.tools.elytra.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.tools.elytra.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "silentgear:elytra"
+        },
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "silentgear:armor",
+    "criteria": {
+        "crafted_elytra": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "silentgear:elytra"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "crafted_elytra"
+        ]
+    ]
+}

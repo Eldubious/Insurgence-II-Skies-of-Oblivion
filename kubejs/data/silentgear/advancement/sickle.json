@@ -22,7 +22,8 @@
     },
     "title": {
       "translate": "advancements.silentgear.sickle.title"
-    }
+    },
+    "frame": "goal"
   },
   "requirements": [
     [

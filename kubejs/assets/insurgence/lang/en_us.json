@@ -8,6 +8,7 @@
     "tooltip.insurgence.trident": "Trident",
     "tooltip.insurgence.mace": "Mace",
     "tooltip.insurgence.harp": "Harp",
+    "tooltip.insurgence.club": "Club",
     "tooltip.insurgence.knife": "Knife",
     "tooltip.insurgence.axe": "Axe",
     "tooltip.insurgence.pickaxe": "Pickaxe",
@@ -26,11 +27,26 @@
     "tooltip.insurgence.ring": "Ring",
     "tooltip.insurgence.belt": "Belt",
     "tooltip.insurgence.necklace": "Necklace",
+    "tooltip.insurgence.shield": "Shield",
     "tooltip.insurgence.rarity.common": "COMMON",
     "tooltip.insurgence.rarity.uncommon": "UNCOMMON",
     "tooltip.insurgence.rarity.rare": "RARE",
     "tooltip.insurgence.rarity.epic": "EPIC",
     "tooltip.insurgence.rarity.legendary": "LEGENDARY",
     "tooltip.insurgence.rarity.mythic": "MYTHIC",
-    "tooltip.insurgence.rarity.ancient": "ANCIENT"
+    "tooltip.insurgence.rarity.ancient": "ANCIENT",
+
+    "advancements.insurgence.tools.root.title": "Tools & Armor",
+    "advancements.insurgence.tools.root.description": "All the information you'll need for finding, crafting, and upgrading gear",
+    "advancements.insurgence.tools.blueprint_package.title": "Getting Started With Gear Crafting",
+    "advancements.insurgence.tools.blueprint_package.description": "You cannot craft vanilla tools in this pack, so open your Blueprint Package to get started with crafting Silent Gear Tools",
+    "advancements.insurgence.tools.modular_tools.title": "Modular Tools",
+    "advancements.insurgence.tools.modular_tools.description": "Craft any modular item from Silent Gear",
+    "advancements.insurgence.tools.elytra.title": "Crafted Wings",
+    "advancements.insurgence.tools.elytra.description": "Craft a pair of Silent Gear Elytra",
+    "advancements.insurgence.tools.unique_item.title": "One of a Kind",
+    "advancements.insurgence.tools.unique_item.description": "Find a unique item in loot chests",
+
+    "advancements.insurgence.side_quests.root.title": "Side Quests",
+    "advancements.insurgence.side_quests.root.description": "Optional objective to make the most out of your experience"
 }

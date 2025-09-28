@@ -36,6 +36,11 @@ ServerEvents.tags('item', event => {
         uniqueItemTags('harp', uniqueHarps[i])
     }
 
+    let uniqueClubs = ['wan_ancient_beasts:ancient_club']
+    for (let i in uniqueClubs) {
+        uniqueItemTags('club', uniqueClubs[i])
+    }
+
     let uniqueKnives = ['farmersdelight:flint_knife', 'farmersdelight:iron_knife', 'farmersdelight:golden_knife',
         'farmersdelight:diamond_knife', 'farmersdelight:netherite_knife']
     for (let i in uniqueKnives) {
@@ -44,7 +49,7 @@ ServerEvents.tags('item', event => {
 
     let uniqueAxes = ['minecraft:wooden_axe', 'minecraft:stone_axe', 'minecraft:iron_axe',
         'minecraft:golden_axe', 'minecraft:diamond_axe', 'minecraft:netherite_axe',
-        'eidolon_repraised:cleaving_axe']
+        'eidolon_repraised:cleaving_axe', 'eidolon_repraised:silver_axe']
     for (let i in uniqueAxes) {
         uniqueItemTags('axe', uniqueAxes[i])
     }
@@ -100,7 +105,7 @@ ServerEvents.tags('item', event => {
         'irons_spellbooks:priest_helmet', 'irons_spellbooks:shadowwalker_helmet', 'irons_spellbooks:cryomancer_helmet',
         'irons_spellbooks:cultist_helmet', 'irons_spellbooks:archevoker_helmet', 'eidolon_repraised:bonelord_helm',
         'eidolon_repraised:top_hat', 'eidolon_repraised:warlock_hat', 'irons_spellbooks:tarnished_helmet',
-        'productivebees:bee_nest_diamond_helmet']
+        'productivebees:bee_nest_diamond_helmet', 'friendsandfoes:wildfire_crown']
     for (let i in uniqueHelmets) {
         uniqueItemTags('helmet', uniqueHelmets[i])
     }
@@ -187,5 +192,11 @@ ServerEvents.tags('item', event => {
         'eidolon_repraised:warded_mail']
     for (let i in uniqueCurios) {
         uniqueItemTags('curio', uniqueCurios[i])
+    }
+
+    let uniqueShields = ['minecraft:shield', 'wan_ancient_beasts:reinforced_shield', 'enderscape:kurodite_rubble_shield',
+        'enderscape:mirestone_rubble_shield', 'enderscape:veradite_rubble_shield', 'enderscape:end_stone_rubble_shield']
+    for (let i in uniqueShields) {
+        uniqueItemTags('shield', uniqueShields[i])
     }
 })

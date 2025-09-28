@@ -70,3 +70,5 @@ usernamecache.json
 !config/apotheosis/*
 !config/elytra-trims.json
 !config/legendarytooltips.toml
+!config/irons_spellbooks-server.toml
+!config/irons_rpg_tweaks-server.toml

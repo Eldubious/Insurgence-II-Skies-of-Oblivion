@@ -68,19 +68,18 @@ ItemEvents.dynamicTooltips('item_rarity', event => {
                 break
 
             case 'apotheosis:mythic}':
-                rarityName = 'legendary'
+                rarityName = 'mythic'
                 rarityColor = '#ED7014'
                 break
 
-            case 'ancientreforging:ancient_material}':
+            case 'ancientreforging:ancient}':
                 rarityName = 'ancient'
-                rarityColor = 'rainbow'
+                rarityColor = '#FF55FF'
                 break
         }
-        event.lines.add(Component.literal(' '))
-        event.lines.add(Component.literal('§kA§r').color(rarityColor).append(
+        event.lines.set(2, Component.literal('§kA§r').color(rarityColor).append(
             Component.literal(' ').append(
-            Component.translate(`tooltip.insurgence.rarity.${rarityName}`).color(rarityColor))))
+            Component.translate(`tooltip.insurgence.rarity.${rarityName}`).color(rarityColor).bold())))
     }
     else if (event.item.hasTag('insurgence:rarity_override')) { // Use custom rarity
 
@@ -100,8 +99,7 @@ ItemEvents.dynamicTooltips('item_rarity', event => {
             rarityName = 'legendary'
             rarityColor = '#FFAA00'
         }
-        event.lines.add(Component.literal(' '))
-        event.lines.add(Component.translate(`tooltip.insurgence.rarity.${rarityName}`).color(rarityColor))
+        event.lines.set(2, Component.translate(`tooltip.insurgence.rarity.${rarityName}`).color(rarityColor).bold())
     }
     else {  // Use default rarity
         switch (rarityName) {
@@ -125,7 +123,6 @@ ItemEvents.dynamicTooltips('item_rarity', event => {
             default:
                 rarityColor = 'gray'
         }
-        event.lines.add(Component.literal(' '))
-        event.lines.add(Component.translate(`tooltip.insurgence.rarity.${rarityName}`).color(rarityColor))
+        event.lines.set(2, Component.translate(`tooltip.insurgence.rarity.${rarityName}`).color(rarityColor).bold())
     }
 })

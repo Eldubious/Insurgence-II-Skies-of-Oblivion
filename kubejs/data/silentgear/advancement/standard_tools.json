@@ -1,5 +1,5 @@
 {
-  "parent": "silentgear:blueprint_paper",
+  "parent": "insurgence:tools/modular_tools",
   "criteria": {
     "axe": {
       "conditions": {

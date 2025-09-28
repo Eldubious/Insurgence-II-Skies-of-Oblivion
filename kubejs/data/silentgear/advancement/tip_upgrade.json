@@ -1,5 +1,5 @@
 {
-  "parent": "silentgear:template_board",
+  "parent": "insurgence:tools/modular_tools",
   "criteria": {
     "get_item": {
       "conditions": {
@@ -22,7 +22,8 @@
     },
     "title": {
       "translate": "advancements.silentgear.tip_upgrade.title"
-    }
+    },
+    "frame": "goal"
   },
   "requirements": [
     [
