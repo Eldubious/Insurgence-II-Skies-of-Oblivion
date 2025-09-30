@@ -84,102 +84,48 @@
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:golden_sword",
+          "type": "minecraft:loot_table",
+          "value": "insurgence:chests/unique_items/swords/ruined_portal",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:golden_axe",
+          "type": "minecraft:loot_table",
+          "value": "insurgence:chests/unique_items/axes/ruined_portal",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:golden_hoe",
+          "type": "minecraft:loot_table",
+          "value": "insurgence:chests/unique_items/hoes/ruined_portal",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:golden_shovel",
+          "type": "minecraft:loot_table",
+          "value": "insurgence:chests/unique_items/shovels/ruined_portal",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:golden_pickaxe",
+          "type": "minecraft:loot_table",
+          "value": "insurgence:chests/unique_items/pickaxes/ruined_portal",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:golden_boots",
+          "type": "minecraft:loot_table",
+          "value": "insurgence:chests/unique_items/boots/ruined_portal",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:golden_chestplate",
+          "type": "minecraft:loot_table",
+          "value": "insurgence:chests/unique_items/chestplates/ruined_portal",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:golden_helmet",
+          "type": "minecraft:loot_table",
+          "value": "insurgence:chests/unique_items/helmets/ruined_portal",
           "weight": 15
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:golden_leggings",
+          "type": "minecraft:loot_table",
+          "value": "insurgence:chests/unique_items/leggings/ruined_portal",
           "weight": 15
         },
         {

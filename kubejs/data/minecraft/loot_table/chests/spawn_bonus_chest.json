@@ -5,13 +5,9 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_axe"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:wooden_axe",
-          "weight": 3
+          "type": "minecraft:loot_table",
+          "value": "insurgence:chests/unique_items/axes/spawn_chest",
+          "weight": 1
         }
       ],
       "rolls": 1.0
@@ -20,13 +16,9 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_pickaxe"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:wooden_pickaxe",
-          "weight": 3
+          "type": "minecraft:loot_table",
+          "value": "insurgence:chests/unique_items/pickaxes/spawn_chest",
+          "weight": 1
         }
       ],
       "rolls": 1.0
