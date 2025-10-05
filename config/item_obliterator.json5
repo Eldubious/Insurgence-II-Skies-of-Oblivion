@@ -17,9 +17,7 @@
   //    Example: minecraft:diamond
   "blacklisted_items": [
     "plushie_buddies:plushie_dark_father", "plushie_buddies:plushie_emperor", "plushie_buddies:plushie_yoga",
-    "plushie_buddies:plushie_chewie", "plushie_buddies:plushie_dan_rolo", "plushie_buddies:plushie_storm_soldier",
-    "eidolon_repraised:silver_helmet", "eidolon_repraised:silver_chestplate", "eidolon_repraised:silver_leggings",
-    "eidolon_repraised:silver_boots"
+    "plushie_buddies:plushie_chewie", "plushie_buddies:plushie_dan_rolo", "plushie_buddies:plushie_storm_soldier"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
