@@ -75,3 +75,6 @@ usernamecache.json
 !config/tooltipoverhaul/
 !config/irons_spellbooks-server.toml
 !config/irons_rpg_tweaks-server.toml
+!config/xaerominimap.txt
+!config/musicnotification.json
+!config/lootr-common.toml
