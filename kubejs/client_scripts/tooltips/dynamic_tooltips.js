@@ -5,7 +5,7 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
     Component.translate('item.modifiers.mainhand').getString(), Component.translate('item.modifiers.offhand').getString(),
     Component.translate('item.modifiers.saddle').getString()]
 
-ItemEvents.dynamicTooltips('unique_items', event => {
+ItemEvents.dynamicTooltips('equipment_items', event => {
     let trimIndex = -1
     let attributeIndex = -1
     let modifiedAttributeLine = false
@@ -104,6 +104,11 @@ ItemEvents.dynamicTooltips('item_rarity', event => {
     else {  // Use default rarity
         switch (rarityName) {
             case 'irons_spellbooks_rarity_cinderous':
+                rarityName = 'legendary'
+                rarityColor = '#FFAA00'
+                break
+
+            case 'iss_magicfromtheeast_rarity_bloodful':
                 rarityName = 'legendary'
                 rarityColor = '#FFAA00'
                 break

@@ -7,7 +7,8 @@ ItemEvents.modifyTooltips(event => {
 
     let uniqueItemTypes = ['sword', 'scythe', 'trident', 'mace', 'harp', 'knife', 'axe', 'pickaxe',
         'shovel', 'hoe', 'bow', 'crossbow', 'staff', 'wand', 'helmet', 'chestplate', 'leggings',
-        'boots', 'elytra', 'ring', 'belt', 'necklace', 'curio', 'shield', 'club']
+        'boots', 'elytra', 'ring', 'belt', 'necklace', 'curio', 'shield', 'club', 'polearm',
+        'fishing_rod', 'shears', 'slingshot']
     for (let i in uniqueItemTypes) {
         event.modify(`#insurgence:unique_item/${uniqueItemTypes[i]}`, tooltip => {
             tooltip.insert(1, Component.translate('tooltip.insurgence.unique').red().append(
@@ -16,7 +17,24 @@ ItemEvents.modifyTooltips(event => {
             tooltip.insert(2, Text.of("RARITY_MARKER"))
             tooltip.insert(3, Text.of(" "))
 
-            tooltip.dynamic('unique_items')
+            tooltip.dynamic('equipment_items')
+            tooltip.dynamic('item_rarity')
+        })
+    }
+
+    let craftedItemTypes = ['sword', 'scythe', 'trident', 'mace', 'hammer', 'knife', 'axe', 'pickaxe',
+        'shovel', 'hoe', 'bow', 'crossbow', 'helmet', 'chestplate', 'leggings',
+        'boots', 'elytra', 'ring', 'necklace', 'curio', 'shield', 'polearm',
+        'fishing_rod', 'shears', 'slingshot', 'paxel', 'bracelet']
+    for (let i in craftedItemTypes) {
+        event.modify(`#insurgence:crafted_item/${craftedItemTypes[i]}`, tooltip => {
+            tooltip.insert(1, Component.translate('tooltip.insurgence.crafted').aqua().append(
+                Component.of(" ").append(
+                Component.translate(`tooltip.insurgence.${craftedItemTypes[i]}`).gray())))
+            tooltip.insert(2, Text.of("RARITY_MARKER"))
+            tooltip.insert(3, Text.of(" "))
+
+            tooltip.dynamic('equipment_items')
             tooltip.dynamic('item_rarity')
         })
     }

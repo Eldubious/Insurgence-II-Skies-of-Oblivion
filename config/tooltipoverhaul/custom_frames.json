@@ -1,0 +1,191 @@
+{
+  "frames": [
+    {
+      "texture": "tooltipoverhaul:textures/overlay/amethyst_frame.png",
+      "items": [
+        "minecraft:dragon_egg",
+        "minecraft:enchanted_golden_apple"
+      ],
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#C551C3", "#C551C3", "#C551C3"],
+      "specialEffect": "metal_shining"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/diamond_frame.png",
+      "items": [
+        "minecraft:end_crystal",
+        "minecraft:beacon",
+        "minecraft:conduit",
+        "minecraft:golden_apple"
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "items": [
+        "minecraft:elytra",
+        "minecraft:experience_bottle",
+        "minecraft:skeleton_skull",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:player_wall_head",
+        "minecraft:creeper_wall_head",
+        "minecraft:zombie_wall_head",
+        "minecraft:dragon_wall_head",
+        "minecraft:piglin_wall_head",
+        "minecraft:nether_star",
+        "minecraft:enchanted_book",
+        "minecraft:dragon_breath",
+        "minecraft:totem_of_undying",
+        "minecraft:heart_of_the_sea",
+        "minecraft:creeper_banner_pattern",
+        "minecraft:skull_banner_pattern"
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/silver_frame.png",
+      "items": [
+        "minecraft:netherite_upgrade_smithing_template",
+        "minecraft:netherite_ingot",
+        "minecraft:netherite_scrap",
+        "minecraft:netherite_sword",
+        "minecraft:netherite_shovel",
+        "minecraft:netherite_pickaxe",
+        "minecraft:netherite_axe",
+        "minecraft:netherite_hoe",
+        "minecraft:netherite_helmet",
+        "minecraft:netherite_chestplate",
+        "minecraft:netherite_leggings",
+        "minecraft:netherite_boots",
+
+        "minecraft:emerald",
+
+        "minecraft:diamond",
+        "minecraft:diamond_sword",
+        "minecraft:diamond_shovel",
+        "minecraft:diamond_pickaxe",
+        "minecraft:diamond_axe",
+        "minecraft:diamond_hoe",
+        "minecraft:diamond_helmet",
+        "minecraft:diamond_chestplate",
+        "minecraft:diamond_leggings",
+        "minecraft:diamond_boots",
+        "minecraft:diamond_horse_armor",
+        "minecraft:saddle",
+
+        "minecraft:trident",
+        "minecraft:shield",
+        "minecraft:turtle_helmet",
+        "minecraft:crossbow",
+        "minecraft:bow",
+        "minecraft:ender_pearl",
+        "minecraft:eye_of_ender",
+        "minecraft:blaze_rod",
+
+        "minecraft:netherite_scrap"
+      ],
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "gradientColors": ["#A9A9A9", "#999999", "#8F8F8F"]
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/emerald_frame.png",
+      "tags": [
+        "c:music_discs"
+      ]
+    },
+    {
+      "items": [
+        "collectorsalbum:common_card_pack",
+        "collectorsalbum:common_repacked_card_pack",
+        "collectorsalbum:common_custom_card_pack"
+      ],
+      "tags": [
+        "collectorsalbum:cards/common"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/silver_frame.png",
+      "iconAppearAnimation": "tilt_wave",
+      "borderType": "gradient",
+      "gradientType": "custom",
+      "gradientColors": ["#A9A9A9", "#999999", "#8F8F8F"]
+    },
+    {
+      "items": [
+        "collectorsalbum:uncommon_card_pack",
+        "collectorsalbum:uncommon_repacked_card_pack",
+        "collectorsalbum:uncommon_custom_card_pack"
+      ],
+      "tags": [
+        "collectorsalbum:cards/uncommon"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/emerald_frame.png",
+      "iconAppearAnimation": "tilt_wave",
+      "borderType": "gradient",
+      "gradientType": "custom",
+      "gradientColors": ["#55FF55", "#55C955", "#5EAD5E"]
+    },
+    {
+      "items": [
+        "collectorsalbum:rare_card_pack",
+        "collectorsalbum:rare_repacked_card_pack",
+        "collectorsalbum:rare_custom_card_pack"
+      ],
+      "tags": [
+        "collectorsalbum:cards/rare"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/diamond_frame.png",
+      "iconAppearAnimation": "tilt_wave",
+      "borderType": "gradient",
+      "gradientType": "custom",
+      "gradientColors": ["#5555FF", "#4E4EC7", "#5353A6"]
+    },
+    {
+      "items": [
+        "collectorsalbum:epic_card_pack",
+        "collectorsalbum:epic_repacked_card_pack",
+        "collectorsalbum:epic_custom_card_pack"
+      ],
+      "tags": [
+        "collectorsalbum:cards/epic"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amethyst_frame.png",
+      "iconAppearAnimation": "tilt_wave",
+      "borderType": "gradient",
+      "gradientType": "custom",
+      "gradientColors": ["#AA00AA", "#8A0F8A", "#701D70"]
+    },
+    {
+      "items": [
+        "collectorsalbum:legendary_card_pack",
+        "collectorsalbum:legendary_repacked_card_pack",
+        "collectorsalbum:legendary_custom_card_pack"
+      ],
+      "tags": [
+        "collectorsalbum:cards/legendary"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "iconAppearAnimation": "tilt_wave",
+      "borderType": "gradient",
+      "gradientType": "custom",
+      "gradientColors": ["#FFAA00", "#B57F14", "#916D23"]
+    },
+    {
+      "items": [
+        "collectorsalbum:mythical_card_pack",
+        "collectorsalbum:mythical_repacked_card_pack",
+        "collectorsalbum:mythical_custom_card_pack"
+      ],
+      "tags": [
+        "collectorsalbum:cards/mythical"
+      ],
+      "iconAppearAnimation": "tilt_wave",
+      "specialEffect": "cinder",
+      "borderType": "gradient",
+      "gradientType": "custom",
+      "gradientColors": ["#FF5555", "#A84545", "#733737"]
+    }
+  ]
+}

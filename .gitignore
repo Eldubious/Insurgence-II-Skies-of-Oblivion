@@ -57,8 +57,10 @@ usernamecache.json
 
 # Config files to include
 !config/fml.toml
+!config/configuration-options.json
 !config/emi.css
 !config/emixx
+!config/exmi/
 !config/item_obliterator.json5
 !config/enhancedtooltips.json5
 !config/tooltipicons.json
@@ -67,8 +69,9 @@ usernamecache.json
 !config/enchdesc.json
 !config/relics.yaml
 !config/relics/
+!config/silentgear-common.toml
 !config/apotheosis/*
 !config/elytra-trims.json
-!config/legendarytooltips.toml
+!config/tooltipoverhaul/
 !config/irons_spellbooks-server.toml
 !config/irons_rpg_tweaks-server.toml

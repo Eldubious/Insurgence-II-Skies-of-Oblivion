@@ -1365,3 +1365,225 @@
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 150.0
 		AllowCrafting = true
+
+	#iss_magicfromtheeast:symmetry
+	[Spells."iss_magicfromtheeast:throw_up"]
+		Enabled = true
+		School = "iss_magicfromtheeast:symmetry"
+		MaxLevel = 6
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 15.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:dragon_glide"]
+		Enabled = true
+		School = "iss_magicfromtheeast:symmetry"
+		MaxLevel = 10
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 5.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:jiangshi_invoke"]
+		Enabled = true
+		School = "iss_magicfromtheeast:symmetry"
+		MaxLevel = 7
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 150.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:underworld_aid"]
+		Enabled = true
+		School = "iss_magicfromtheeast:symmetry"
+		MaxLevel = 4
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 160.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:punishing_heaven"]
+		Enabled = true
+		School = "iss_magicfromtheeast:symmetry"
+		MaxLevel = 4
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 320.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:jade_judgement"]
+		Enabled = true
+		School = "iss_magicfromtheeast:symmetry"
+		MaxLevel = 6
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 60.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:qigong_controlling"]
+		Enabled = true
+		School = "iss_magicfromtheeast:symmetry"
+		MaxLevel = 10
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 20.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:sword_dance"]
+		Enabled = true
+		School = "iss_magicfromtheeast:symmetry"
+		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 90.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:bagua_array_circle"]
+		Enabled = true
+		School = "iss_magicfromtheeast:symmetry"
+		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 35.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:drapes_of_reflection"]
+		Enabled = true
+		School = "iss_magicfromtheeast:symmetry"
+		MaxLevel = 6
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 30.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:cloud_ride"]
+		Enabled = true
+		School = "iss_magicfromtheeast:symmetry"
+		MaxLevel = 9
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 90.0
+		AllowCrafting = true
+
+	#iss_magicfromtheeast:spirit
+	[Spells."iss_magicfromtheeast:ashigaru_squad"]
+		Enabled = true
+		School = "iss_magicfromtheeast:spirit"
+		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 180.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:soul_burst"]
+		Enabled = true
+		School = "iss_magicfromtheeast:spirit"
+		MaxLevel = 10
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 30.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:spirit_challenging"]
+		Enabled = true
+		School = "iss_magicfromtheeast:spirit"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 120.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:calamity_cut"]
+		Enabled = true
+		School = "iss_magicfromtheeast:spirit"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 25.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:revenant_of_honor"]
+		Enabled = true
+		School = "iss_magicfromtheeast:spirit"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 240.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:kitsune_pack"]
+		Enabled = true
+		School = "iss_magicfromtheeast:spirit"
+		MaxLevel = 10
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 180.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:soul_catalyst"]
+		Enabled = true
+		School = "iss_magicfromtheeast:spirit"
+		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 60.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:bone_hands"]
+		Enabled = true
+		School = "iss_magicfromtheeast:spirit"
+		MaxLevel = 7
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 60.0
+		AllowCrafting = true
+
+	[Spells."iss_magicfromtheeast:phantom_charge"]
+		Enabled = true
+		School = "iss_magicfromtheeast:spirit"
+		MaxLevel = 6
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 80.0
+		AllowCrafting = true

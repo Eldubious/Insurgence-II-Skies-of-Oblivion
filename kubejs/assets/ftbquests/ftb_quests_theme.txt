@@ -1,14 +1,14 @@
 [*]
-background:          ftblibrary:textures/gui/background_squares.png; color=#DCFFFFFF; tile_size=64
+background:          ftbquests:textures/gui/backgrounds/dark.png; color=#88FFFFFF; tile_size=16
 chapter_panel_background:          hollow_rectangle:{{widget_border}}; round_edges + {{background}}; color=#B4B4B4; padding=1
-key_reference_background:          ftblibrary:textures/gui/background_squares.png; color=#DCFFFFFF; tile_size=64
-extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear, task, goal, challenge
+key_reference_background:          ftbquests:textures/gui/backgrounds/dark.png; color=#88FFFFFF; tile_size=64
+extra_quest_shapes:  task, goal, challenge, star, squircle, sharp, hexagon, circle, heart, speech_bubble, corners, crested, edged, excessive, arrow_up, arrow_down, arrow_left, arrow_right
 
 text_color:          #FFFFFF
 hover_text_color:    #FFFFA0
 disabled_text_color: #999999
 
-widget_border:     #1B1D1E
+widget_border:     #000000
 widget_background: #44000000
 symbol_in:         #9BC600
 symbol_out:        #408300
@@ -32,8 +32,8 @@ wiki_icon:            ftbquests:textures/gui/info.png
 wiki_url:             -
 pin_icon_on:          ftbquests:textures/gui/pin.png; color=#F8BD1C
 pin_icon_off:         ftbquests:textures/gui/pin.png; color=#DBDBDB
-editor_icon_on:       ftbquests:textures/gui/editor.png
-editor_icon_off:      ftbquests:textures/gui/editor_white.png
+editor_icon_on:       minecraft:textures/gui/sprites/widget/unlocked_button.png
+editor_icon_off:      minecraft:textures/gui/sprites/widget/locked_button.png
 hidden_icon:          ftbquests:textures/gui/hidden.png; color=#DBDBDB
 link_icon:            ftbquests:textures/gui/link.png; color=#DBDBDB
 save_icon:            ftbquests:textures/gui/save.png
@@ -62,7 +62,7 @@ rewards_text_color:                 #FFAA00
 quest_view_background:              {{context_menu}}
 quest_view_border:                  {{widget_border}}
 quest_view_title:                   #AAAAAA
-quest_completed_color:              #C856FF56
+quest_completed_color:              #DBA213
 quest_started_color:                #C800FFFF
 quest_not_started_color:            #96FFFFFF
 quest_locked_color:                 #FF999999

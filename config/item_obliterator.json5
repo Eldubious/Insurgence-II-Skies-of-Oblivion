@@ -17,7 +17,18 @@
   //    Example: minecraft:diamond
   "blacklisted_items": [
     "plushie_buddies:plushie_dark_father", "plushie_buddies:plushie_emperor", "plushie_buddies:plushie_yoga",
-    "plushie_buddies:plushie_chewie", "plushie_buddies:plushie_dan_rolo", "plushie_buddies:plushie_storm_soldier"
+    "plushie_buddies:plushie_chewie", "plushie_buddies:plushie_dan_rolo", "plushie_buddies:plushie_storm_soldier",
+    "silentgems:ruby", "silentgems:sapphire", "silentgems:topaz", "silentgems:peridot", "silentgems:garnet",
+    "silentgems:opal", "silentgems:ruby_ore", "silentgems:sapphire_ore", "silentgems:topaz_ore", "silentgems:peridot_ore",
+    "silentgems:garnet_ore", "silentgems:opal_ore", "silentgems:deepslate_ruby_ore", "silentgems:deepslate_sapphire_ore",
+    "silentgems:deepslate_peridot_ore", "silentgems:deepslate_garnet_ore", "silentgems:deepslate_opal_ore",
+    "silentgems:nether_ruby_ore", "silentgems:nether_peridot_ore", "silentgems:nether_sapphire_ore", 
+    "silentgems:nether_topaz_ore", "silentgems:nether_garnet_ore", "silentgems:nether_opal_ore", "silentgems:end_ruby_ore",
+    "silentgems:end_sapphire_ore", "silentgems:end_topaz_ore", "silentgems:end_peridot_ore", "silentgems:end_garnet_ore",
+    "silentgems:end_opal_ore", "silentgems:silver_nugget", "silentgems:silver_ingot", "silentgems:raw_silver",
+    "silentgems:silver_block", "silentgems:silver_ore", "silentgems:deepslate_silver_ore", "occultism:raw_silver",
+    "occultism:silver_ingot", "occultism:silver_nugget", "occultism:silver_ore", "occultism:silver_ore_deepslate",
+    "occultism:silver_block", "occultism:raw_silver_block", "silentgems:deepslate_topaz_ore"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
