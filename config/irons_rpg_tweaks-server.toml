@@ -22,15 +22,15 @@
 
 [Durability-Module]
 	#The purpose of the durability module is to rework how durability damage is applied to better emulate an rpg setting.  Disabling will nullify every feature listed under this module.
-	durabilityModuleEnabled = false
+	durabilityModuleEnabled = true
 	#What type of gear should take vanilla durability damage. Default: NONE
 	#Allowed Values: ALL, TOOLS, ARMOR, NONE
-	vanillaDurabilityGearType = "NONE"
+	vanillaDurabilityGearType = "ALL"
 	#What type of gear is damaged upon death. Default: ALL
 	#Allowed Values: ALL, TOOLS, ARMOR, NONE
 	deathGearType = "ALL"
 	#The percent of durability damage equipment should take on player dying. Set to 0 to disable. Default: 0.15 (15%)
-	durabilityLostOnDeath = 0.15
+	durabilityLostOnDeath = 0.05
 	#An additional constant amount of damage taken on death. This makes items with a high max durability degrade relatively slower. Set to 0 to disable. Default: 25
 	additionalDurabilityLostOnDeath = 25
 
@@ -54,9 +54,9 @@
 	#Whether the player who dropped the xp is the only player allow to collect the xp. Default: true
 	onlyAllowOwnerPickup = true
 	#Multiplier to experience dropped by slain entities. Default: 1.0
-	mobDropXpMultiplier = 1.0
+	mobDropXpMultiplier = 1.2
 	#Multiplier to experience dropped by blocks broken. Default: 1.0
-	blockDropXpMultiplier = 1.0
+	blockDropXpMultiplier = 0.75
 
 [Hunger-Module]
 	#The hunger module removes hunger and makes food to directly heal in order to to remove the tedious task of maintaining hunger, as well as rebalance health management during combat and exploration. Disabling will nullify every feature listed under this module.
