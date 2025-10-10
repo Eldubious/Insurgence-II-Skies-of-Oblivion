@@ -78,3 +78,5 @@ usernamecache.json
 !config/xaerominimap.txt
 !config/musicnotification.json
 !config/lootr-common.toml
+!config/stylisheffects-client.toml
+!config/subtle_effects/
