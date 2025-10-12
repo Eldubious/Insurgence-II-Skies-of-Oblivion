@@ -1,0 +1,61 @@
+{
+    "type": "apotheosis:affix_loot_entry",
+    "constraints": {
+        "dimensions": [
+            "minecraft:the_end"
+        ]
+    },
+    "stack": {
+        "count": 1,
+        "id": "minecraft:shield",
+        "components": {
+            "minecraft:banner_patterns": [
+                {
+                    "pattern": "minecraft:small_stripes",
+                    "color": "black"
+                },
+                {
+                    "pattern": "minecraft:stripe_top",
+                    "color": "magenta"
+                },
+                {
+                    "pattern": "minecraft:stripe_bottom",
+                    "color": "magenta"
+                },
+                {
+                    "pattern": "minecraft:stripe_middle",
+                    "color": "magenta"
+                },
+                {
+                    "pattern": "minecraft:flower",
+                    "color": "magenta"
+                },
+                {
+                    "pattern": "minecraft:rhombus",
+                    "color": "magenta"
+                },
+                {
+                    "pattern": "minecraft:triangle_bottom",
+                    "color": "black"
+                },
+                {
+                    "pattern": "minecraft:triangle_top",
+                    "color": "black"
+                },
+                {
+                    "pattern": "minecraft:circle",
+                    "color": "black"
+                },
+                {
+                    "pattern": "enderscape:crescent",
+                    "color": "magenta"
+                }
+            ],
+            "minecraft:base_color": "magenta"
+        }
+    },
+    "weights": {
+        "quality": 1.0,
+        "weight": 600
+    }
+}

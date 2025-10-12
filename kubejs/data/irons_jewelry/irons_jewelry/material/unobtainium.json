@@ -1,7 +1,7 @@
 {
   "descriptionId": "material.irons_jewelry.unobtainium",
   "ingredient": {
-    "tag": "c:ingots/unobtainium"
+    "item": "architects_palette:unobtanium"
   },
   "materialType": [
     "metal"

@@ -2,26 +2,38 @@
 ServerEvents.tags('item', event => {
 
     // Add more modded music discs to the music disc tag
-    let music_discs = ['vanillabackport:music_disc_tears', 'vanillabackport:music_disc_lava_chicken',
+    let musicDiscs = ['vanillabackport:music_disc_tears', 'vanillabackport:music_disc_lava_chicken',
         'apothic_enchanting:music_disc_eterna', 'apothic_enchanting:music_disc_quanta',
         'apothic_enchanting:music_disc_arcana', 'apotheosis:music_disc_flash',
         'apotheosis:music_disc_glimmer', 'apotheosis:music_disc_shimmer',
         'irons_spellbooks:music_disc_dead_king_lullaby', 'irons_spellbooks:music_disc_flame_still_burns']
-    for (let i in music_discs) {
-        event.add('c:music_discs', music_discs[i])
+    for (let i in musicDiscs) {
+        event.add('c:music_discs', musicDiscs[i])
     }
 
     // Add opals to the opal tag
-    let opal_gems = ['opalescence:opal_crystal', 'opalescence:moonlit_opal_crystal', 'opalescence:unpleasant_opal_crystal']
-    for (let i in opal_gems) {
-        event.add('c:gems/opal', opal_gems[i])
-        event.add('c:gems', opal_gems[i])
+    let opalGems = ['opalescence:opal_crystal', 'opalescence:moonlit_opal_crystal', 'opalescence:unpleasant_opal_crystal']
+    for (let i in opalGems) {
+        event.add('c:gems/opal', opalGems[i])
+        event.add('c:gems', opalGems[i])
     }
 
     // Add gems which can be stored in the gem bag
-    let silent_gem_bag_items = ['iss_magicfromtheeast:jade', 'opalescence:opal_crystal', 'opalescence:moonlit_opal_crystal',
+    let silentGemBagItems = ['iss_magicfromtheeast:jade', 'opalescence:opal_crystal', 'opalescence:moonlit_opal_crystal',
         'opalescence:unpleasant_opal_crystal']
-    for (let i in silent_gem_bag_items) {
-        event.add('silentgems:gem_bag_can_store', silent_gem_bag_items[i])
+    for (let i in silentGemBagItems) {
+        event.add('silentgems:gem_bag_can_store', silentGemBagItems[i])
+    }
+
+    // Add trim templates from the More Armor Trims mod to the template tag
+    let trimPatterns = ['storm', 'ram', 'myth', 'greed', 'beast', 'fever', 'wraith', 'nihility', 'horizon', 'origin']
+    for (let i in trimPatterns) {
+        event.add('minecraft:trim_templates', `more_armor_trims:${trimPatterns[i]}_armor_trim_smithing_template`)
+    }
+
+    // Add vault keys to their own tag
+    let vaultKeys = ['minecraft:trial_key', 'minecraft:ominous_trial_key', 'enderscape:end_city_key']
+    for (let i in vaultKeys) {
+        event.add('insurgence:vault_keys', vaultKeys[i])
     }
 })

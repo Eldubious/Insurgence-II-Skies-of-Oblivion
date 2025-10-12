@@ -5,6 +5,9 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
     Component.translate('item.modifiers.mainhand').getString(), Component.translate('item.modifiers.offhand').getString(),
     Component.translate('item.modifiers.saddle').getString()]
 
+/*
+    Apply equipment-specific tooltip modifications.
+*/
 ItemEvents.dynamicTooltips('equipment_items', event => {
     let trimIndex = -1
     let attributeIndex = -1
@@ -16,7 +19,7 @@ ItemEvents.dynamicTooltips('equipment_items', event => {
         if (attributeIndex == -1 && line.startsWith('+')) {
             //attributeIndex = i
         }
-        // Replace the 'Upgrade:' text with 'Armor Trim:' 
+        // Replace the 'Upgrade:' text with 'Trim:' 
         if (line == Component.translate('item.minecraft.smithing_template.upgrade').getString()) {
             event.lines.set(i, Component.translate('tooltip.insurgence.armor_trim').gray())
 
@@ -37,8 +40,22 @@ ItemEvents.dynamicTooltips('equipment_items', event => {
     if (trimIndex != -1) {
         event.lines.add(trimIndex, Component.literal(' '))
     }
+
+    // Remove the "Can be Imbued" line
+    if (event.item.componentMap.get("irons_spellbooks:spell_container") != null) {
+        event.lines.remove(5)
+        event.lines.set(3, Component.literal('§kA§r').color('#64EBF0').append(
+            Component.literal(' ').withStyle().append(
+            Component.translate('tooltip.insurgence.spell_imbued').color('#64EBF0'))))
+    }
+    else {
+        event.lines.remove(3)   // Remove the temporary spell marker line
+    }
 })
 
+/*
+    Apply item rarity text to the tooltip.
+*/
 ItemEvents.dynamicTooltips('item_rarity', event => {
     let rarityName = event.item.rarity.toString().toLowerCase()
     let rarityColor = 'white'
@@ -77,9 +94,7 @@ ItemEvents.dynamicTooltips('item_rarity', event => {
                 rarityColor = '#FF55FF'
                 break
         }
-        event.lines.set(2, Component.literal('§kA§r').color(rarityColor).append(
-            Component.literal(' ').append(
-            Component.translate(`tooltip.insurgence.rarity.${rarityName}`).color(rarityColor).bold())))
+        event.lines.set(2, Component.translate(`tooltip.insurgence.rarity.${rarityName}`).color(rarityColor).bold())
     }
     else if (event.item.hasTag('insurgence:rarity_override')) { // Use custom rarity
 
@@ -130,4 +145,14 @@ ItemEvents.dynamicTooltips('item_rarity', event => {
         }
         event.lines.set(2, Component.translate(`tooltip.insurgence.rarity.${rarityName}`).color(rarityColor).bold())
     }
+})
+
+/*
+    Apply trim template informational tooltips.
+*/
+ItemEvents.dynamicTooltips('trim_template_information', event => {
+    let patternName = event.item.id.toString().split(':')[1].split('_')[0]
+
+    event.lines.set(1, Component.translate(`tooltip.insurgence.info.${patternName}_pattern_1`).gray().italic())
+    event.lines.set(2, Component.translate(`tooltip.insurgence.info.${patternName}_pattern_2`).gray().italic())
 })

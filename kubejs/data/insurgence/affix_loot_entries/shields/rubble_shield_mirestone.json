@@ -1,0 +1,16 @@
+{
+    "type": "apotheosis:affix_loot_entry",
+    "constraints": {
+        "dimensions": [
+            "minecraft:the_end"
+        ]
+    },
+    "stack": {
+        "count": 1,
+        "id": "enderscape:mirestone_rubble_shield"
+    },
+    "weights": {
+        "quality": 1.0,
+        "weight": 600
+    }
+}

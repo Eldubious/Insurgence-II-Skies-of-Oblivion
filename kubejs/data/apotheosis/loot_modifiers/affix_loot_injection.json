@@ -1,0 +1,33 @@
+{
+    "type": "apotheosis:affix_loot",
+    "conditions": [],
+    "entries": [
+        {
+            "chance": 1.0,
+            "pattern": {
+                "domain": "insurgence",
+                "path_regex": "chests/empty"
+            }
+        },
+        {
+            "chance": 0.5,
+            "pattern": {
+                "domain": "minecraft",
+                "path_regex": "chests.*"
+            }
+        },
+        {
+            "chance": 0.75,
+            "pattern": {
+                "domain": "insurgence",
+                "path_regex": "chests.*"
+            }
+        },
+        {
+            "chance": 0.3,
+            "pattern": {
+                "path_regex": "chests.*"
+            }
+        }
+    ]
+}

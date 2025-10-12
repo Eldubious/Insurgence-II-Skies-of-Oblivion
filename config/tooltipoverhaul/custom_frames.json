@@ -104,7 +104,8 @@
         "collectorsalbum:common_custom_card_pack"
       ],
       "tags": [
-        "collectorsalbum:cards/common"
+        "collectorsalbum:cards/common",
+        "insurgence:collectors_cards/common"
       ],
       "texture": "tooltipoverhaul:textures/overlay/silver_frame.png",
       "iconAppearAnimation": "tilt_wave",
@@ -119,7 +120,8 @@
         "collectorsalbum:uncommon_custom_card_pack"
       ],
       "tags": [
-        "collectorsalbum:cards/uncommon"
+        "collectorsalbum:cards/uncommon",
+        "insurgence:collectors_cards/uncommon"
       ],
       "texture": "tooltipoverhaul:textures/overlay/emerald_frame.png",
       "iconAppearAnimation": "tilt_wave",
@@ -134,7 +136,8 @@
         "collectorsalbum:rare_custom_card_pack"
       ],
       "tags": [
-        "collectorsalbum:cards/rare"
+        "collectorsalbum:cards/rare",
+        "insurgence:collectors_cards/rare"
       ],
       "texture": "tooltipoverhaul:textures/overlay/diamond_frame.png",
       "iconAppearAnimation": "tilt_wave",
@@ -149,7 +152,8 @@
         "collectorsalbum:epic_custom_card_pack"
       ],
       "tags": [
-        "collectorsalbum:cards/epic"
+        "collectorsalbum:cards/epic",
+        "insurgence:collectors_cards/epic"
       ],
       "texture": "tooltipoverhaul:textures/overlay/amethyst_frame.png",
       "iconAppearAnimation": "tilt_wave",
@@ -164,7 +168,8 @@
         "collectorsalbum:legendary_custom_card_pack"
       ],
       "tags": [
-        "collectorsalbum:cards/legendary"
+        "collectorsalbum:cards/legendary",
+        "insurgence:collectors_cards/legendary"
       ],
       "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
       "iconAppearAnimation": "tilt_wave",
@@ -179,7 +184,8 @@
         "collectorsalbum:mythical_custom_card_pack"
       ],
       "tags": [
-        "collectorsalbum:cards/mythical"
+        "collectorsalbum:cards/mythical",
+        "insurgence:collectors_cards/mythical"
       ],
       "iconAppearAnimation": "tilt_wave",
       "specialEffect": "cinder",

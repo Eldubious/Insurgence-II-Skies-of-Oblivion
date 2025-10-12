@@ -15,7 +15,8 @@ ItemEvents.modifyTooltips(event => {
                 Component.of(" ").append(
                 Component.translate(`tooltip.insurgence.${uniqueItemTypes[i]}`).gray())))
             tooltip.insert(2, Text.of("RARITY_MARKER"))
-            tooltip.insert(3, Text.of(" "))
+            tooltip.insert(3, Text.of("SPELL_IMBUEMENT_MARKER"))
+            tooltip.insert(4, Text.of(" "))
 
             tooltip.dynamic('equipment_items')
             tooltip.dynamic('item_rarity')
@@ -38,4 +39,18 @@ ItemEvents.modifyTooltips(event => {
             tooltip.dynamic('item_rarity')
         })
     }
+
+
+    /*
+        Apply informational tooltips on how to obtain certain items.
+    */
+    
+    // Where to find armor trims
+    event.modify('#minecraft:trim_templates', tooltip => {
+        tooltip.insert(1, Component.literal(' '))
+        tooltip.insert(2, Component.literal(' '))
+        tooltip.insert(3, Component.literal(' '))
+
+        tooltip.dynamic('trim_template_information')
+    })
 })
