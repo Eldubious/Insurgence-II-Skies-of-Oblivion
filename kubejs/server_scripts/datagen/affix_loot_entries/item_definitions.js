@@ -763,7 +763,7 @@ const itemGroups = [
         Spell-Imbued
         Affix Loot
     */
-    {   // Overworld - Golden Tools & Armor
+    {   // The Nether - Golden Tools & Armor
         groupCategory: "generic_overworld_spell_loot",
         constraints: {
             dimensions: [
@@ -870,7 +870,7 @@ const itemGroups = [
             }
         }
     },
-    {   // Overworld - Golden Tools & Armor
+    {   // The Nether - Iron Tools & Armor
         groupCategory: "generic_nether_spell_loot",
         constraints: {
             dimensions: [
@@ -878,15 +878,15 @@ const itemGroups = [
             ]
         },
         items: [
-            "minecraft:golden_helmet",
-            "minecraft:golden_chestplate",
-            "minecraft:golden_leggings",
-            "minecraft:golden_boots",
-            "minecraft:golden_sword",
-            "minecraft:golden_axe",
-            "minecraft:golden_pickaxe",
-            "minecraft:golden_shovel",
-            "minecraft:golden_hoe"
+            "minecraft:iron_helmet",
+            "minecraft:iron_chestplate",
+            "minecraft:iron_leggings",
+            "minecraft:iron_boots",
+            "minecraft:iron_sword",
+            "minecraft:iron_axe",
+            "minecraft:iron_pickaxe",
+            "minecraft:iron_shovel",
+            "minecraft:iron_hoe"
         ],
         patterns: [
             "minecraft:wayfinder",
@@ -909,11 +909,11 @@ const itemGroups = [
                 levelMin: 1,
                 levelMax: 4,
                 possibleItems: [
-                    "minecraft:golden_sword",
-                    "minecraft:golden_axe",
-                    "minecraft:golden_pickaxe",
-                    "minecraft:golden_shovel",
-                    "minecraft:golden_hoe"
+                    "minecraft:iron_sword",
+                    "minecraft:iron_axe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:iron_shovel",
+                    "minecraft:iron_hoe"
                 ],
                 needEquip: false
             },
@@ -922,9 +922,9 @@ const itemGroups = [
                 levelMin: 1,
                 levelMax: 4,
                 possibleItems: [
-                    "minecraft:golden_chestplate",
-                    "minecraft:golden_leggings",
-                    "minecraft:golden_boots"
+                    "minecraft:iron_chestplate",
+                    "minecraft:iron_leggings",
+                    "minecraft:iron_boots"
                 ],
                 needEquip: true
             },
@@ -933,7 +933,7 @@ const itemGroups = [
                 levelMin: 1,
                 levelMax: 4,
                 possibleItems: [
-                    "minecraft:golden_hoe"
+                    "minecraft:iron_hoe"
                 ],
                 needEquip: true
             },
@@ -942,7 +942,7 @@ const itemGroups = [
                 levelMin: 1,
                 levelMax: 4,
                 possibleItems: [
-                    "minecraft:golden_helmet"
+                    "minecraft:iron_helmet"
                 ],
                 needEquip: true
             },
@@ -951,7 +951,7 @@ const itemGroups = [
                 levelMin: 1,
                 levelMax: 4,
                 possibleItems: [
-                    "minecraft:golden_hoe"
+                    "minecraft:iron_hoe"
                 ],
                 needEquip: false
             },
@@ -960,125 +960,247 @@ const itemGroups = [
                 levelMin: 1,
                 levelMax: 4,
                 possibleItems: [
-                    "minecraft:golden_sword",
-                    "minecraft:golden_axe",
-                    "minecraft:golden_pickaxe",
-                    "minecraft:golden_shovel",
-                    "minecraft:golden_hoe"
+                    "minecraft:iron_sword",
+                    "minecraft:iron_axe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:iron_shovel",
+                    "minecraft:iron_hoe"
                 ],
                 needEquip: false
             }
         ],
         weights: {
             ascent: {
+                quality: 1.0,
+                weight: 5
+            },
+            summit: {
                 quality: 0.5,
                 weight: 2
             }
         }
     },
-    {   // The End - Golden Tools & Armor
-        groupCategory: "generic_end_spell_loot",
+    {   // The Nether - Diamond Tools & Armor
+        groupCategory: "generic_nether_spell_loot",
         constraints: {
             dimensions: [
-                "minecraft:the_end"
+                "minecraft:the_nether"
             ]
         },
         items: [
-            "minecraft:golden_helmet",
-            "minecraft:golden_chestplate",
-            "minecraft:golden_leggings",
-            "minecraft:golden_boots",
-            "minecraft:golden_sword",
-            "minecraft:golden_axe",
-            "minecraft:golden_pickaxe",
-            "minecraft:golden_shovel",
-            "minecraft:golden_hoe"
+            "minecraft:diamond_helmet",
+            "minecraft:diamond_chestplate",
+            "minecraft:diamond_leggings",
+            "minecraft:diamond_boots",
+            "minecraft:diamond_sword",
+            "minecraft:diamond_axe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:diamond_shovel",
+            "minecraft:diamond_hoe"
         ],
         patterns: [
             "minecraft:wayfinder",
             "minecraft:raiser",
             "minecraft:shaper",
             "minecraft:host",
-            "minecraft:eye"
+            "minecraft:rib"
         ],
         materials: [
             "minecraft:gold",
-            "minecraft:amethyst",
+            "minecraft:copper",
             "minecraft:iron",
-            "enderscape:shadoline",
-            "enderscape:nebulite"
+            "minecraft:quartz",
+            "minecraft:netherite"
         ],
         hasSpells: true,
         spells: [
             {
                 spell: "irons_spellbooks:blaze_storm",
-                levelMin: 3,
-                levelMax: 5,
+                levelMin: 1,
+                levelMax: 4,
                 possibleItems: [
-                    "minecraft:golden_sword",
-                    "minecraft:golden_axe",
-                    "minecraft:golden_pickaxe",
-                    "minecraft:golden_shovel",
-                    "minecraft:golden_hoe"
+                    "minecraft:diamond_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:diamond_shovel",
+                    "minecraft:diamond_hoe"
                 ],
                 needEquip: false
             },
             {
                 spell: "irons_spellbooks:burning_dash",
-                levelMin: 3,
-                levelMax: 5,
+                levelMin: 1,
+                levelMax: 4,
                 possibleItems: [
-                    "minecraft:golden_chestplate",
-                    "minecraft:golden_leggings",
-                    "minecraft:golden_boots"
+                    "minecraft:diamond_chestplate",
+                    "minecraft:diamond_leggings",
+                    "minecraft:diamond_boots"
                 ],
                 needEquip: true
             },
             {
                 spell: "irons_spellbooks:burning_dash",
-                levelMin: 3,
-                levelMax: 5,
+                levelMin: 1,
+                levelMax: 4,
                 possibleItems: [
-                    "minecraft:golden_hoe"
+                    "minecraft:diamond_hoe"
                 ],
                 needEquip: true
             },
             {
                 spell: "irons_spellbooks:fire_breath",
-                levelMin: 3,
-                levelMax: 5,
+                levelMin: 1,
+                levelMax: 4,
                 possibleItems: [
-                    "minecraft:golden_helmet"
+                    "minecraft:diamond_helmet"
                 ],
                 needEquip: true
             },
             {
                 spell: "irons_spellbooks:fire_breath",
-                levelMin: 3,
-                levelMax: 5,
+                levelMin: 1,
+                levelMax: 4,
                 possibleItems: [
-                    "minecraft:golden_hoe"
+                    "minecraft:diamond_hoe"
                 ],
                 needEquip: false
             },
             {
                 spell: "irons_spellbooks:ray_of_siphoning",
-                levelMin: 3,
-                levelMax: 5,
+                levelMin: 1,
+                levelMax: 4,
                 possibleItems: [
-                    "minecraft:golden_sword",
-                    "minecraft:golden_axe",
-                    "minecraft:golden_pickaxe",
-                    "minecraft:golden_shovel",
-                    "minecraft:golden_hoe"
+                    "minecraft:diamond_sword",
+                    "minecraft:diamond_axe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:diamond_shovel",
+                    "minecraft:diamond_hoe"
                 ],
                 needEquip: false
             }
         ],
         weights: {
             ascent: {
-                quality: 0.5,
-                weight: 2
+                quality: 2.0,
+                weight: 3
+            },
+            summit: {
+                quality: 2.0,
+                weight: 5
+            },
+            pinnacle: {
+                quality: 2.0,
+                weight: 5
+            }
+        }
+    },
+    {   // The Nether - Electrum Tools & Armor
+        groupCategory: "generic_nether_spell_loot",
+        constraints: {
+            dimensions: [
+                "minecraft:the_nether"
+            ]
+        },
+        items: [
+            "oreganized:electrum_helmet",
+            "oreganized:electrum_chestplate",
+            "oreganized:electrum_leggings",
+            "oreganized:electrum_boots",
+            "oreganized:electrum_sword",
+            "oreganized:electrum_axe",
+            "oreganized:electrum_pickaxe",
+            "oreganized:electrum_shovel",
+            "oreganized:electrum_hoe"
+        ],
+        patterns: [
+            "minecraft:wayfinder",
+            "minecraft:raiser",
+            "minecraft:shaper",
+            "minecraft:host",
+            "minecraft:rib"
+        ],
+        materials: [
+            "minecraft:gold",
+            "minecraft:copper",
+            "minecraft:iron",
+            "minecraft:quartz",
+            "minecraft:netherite"
+        ],
+        hasSpells: true,
+        spells: [
+            {
+                spell: "irons_spellbooks:blaze_storm",
+                levelMin: 1,
+                levelMax: 4,
+                possibleItems: [
+                    "oreganized:electrum_sword",
+                    "oreganized:electrum_axe",
+                    "oreganized:electrum_pickaxe",
+                    "oreganized:electrum_shovel",
+                    "oreganized:electrum_hoe"
+                ],
+                needEquip: false
+            },
+            {
+                spell: "irons_spellbooks:burning_dash",
+                levelMin: 1,
+                levelMax: 4,
+                possibleItems: [
+                    "oreganized:electrum_chestplate",
+                    "oreganized:electrum_leggings",
+                    "oreganized:electrum_boots"
+                ],
+                needEquip: true
+            },
+            {
+                spell: "irons_spellbooks:burning_dash",
+                levelMin: 1,
+                levelMax: 4,
+                possibleItems: [
+                    "oreganized:electrum_hoe"
+                ],
+                needEquip: true
+            },
+            {
+                spell: "irons_spellbooks:fire_breath",
+                levelMin: 1,
+                levelMax: 4,
+                possibleItems: [
+                    "oreganized:electrum_helmet"
+                ],
+                needEquip: true
+            },
+            {
+                spell: "irons_spellbooks:fire_breath",
+                levelMin: 1,
+                levelMax: 4,
+                possibleItems: [
+                    "oreganized:electrum_hoe"
+                ],
+                needEquip: false
+            },
+            {
+                spell: "irons_spellbooks:ray_of_siphoning",
+                levelMin: 1,
+                levelMax: 4,
+                possibleItems: [
+                    "oreganized:electrum_sword",
+                    "oreganized:electrum_axe",
+                    "oreganized:electrum_pickaxe",
+                    "oreganized:electrum_shovel",
+                    "oreganized:electrum_hoe"
+                ],
+                needEquip: false
+            }
+        ],
+        weights: {
+            summit: {
+                quality: 2.0,
+                weight: 5
+            },
+            pinnacle: {
+                quality: 2.0,
+                weight: 8
             }
         }
     },
@@ -1121,6 +1243,185 @@ const itemGroups = [
             }
         }
     },
+    {   // Desert - Golden Tools & Armor
+        groupCategory: "desert_loot",
+        constraints: {
+            biomes: "#c:is_desert" 
+        },
+        items: [
+            "minecraft:golden_helmet",
+            "minecraft:golden_chestplate",
+            "minecraft:golden_leggings",
+            "minecraft:golden_boots",
+            "minecraft:golden_sword",
+            "minecraft:golden_axe",
+            "minecraft:golden_pickaxe",
+            "minecraft:golden_shovel"
+        ],
+        patterns: [
+            "minecraft:dune"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            haven: {
+                weight: 15
+            },
+            frontier: {
+                weight: 30
+            },
+            ascent: {
+                weight: 15
+            }
+        }
+    },
+    {   // Desert - Iron Tools & Armor
+        groupCategory: "desert_loot",
+        constraints: {
+            biomes: "#c:is_desert" 
+        },
+        items: [
+            "minecraft:iron_helmet",
+            "minecraft:iron_chestplate",
+            "minecraft:iron_leggings",
+            "minecraft:iron_boots",
+            "minecraft:iron_sword",
+            "minecraft:iron_axe",
+            "minecraft:iron_pickaxe",
+            "minecraft:iron_shovel"
+        ],
+        patterns: [
+            "minecraft:dune"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            frontier: {
+                quality: 1.0,
+                weight: 50
+            },
+            ascent: {
+                weight: 20
+            },
+            summit: {
+                weight: 20
+            }
+        }
+    },
+    {   // Desert - Diamond Tools & Armor
+        groupCategory: "desert_loot",
+        constraints: {
+            biomes: "#c:is_desert" 
+        },
+        items: [
+            "minecraft:diamond_helmet",
+            "minecraft:diamond_chestplate",
+            "minecraft:diamond_leggings",
+            "minecraft:diamond_boots",
+            "minecraft:diamond_sword",
+            "minecraft:diamond_axe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:diamond_shovel"
+        ],
+        patterns: [
+            "minecraft:dune"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            ascent: {
+                quality: 1.5,
+                weight: 20
+            },
+            summit: {
+                weight: 50
+            },
+            pinnacle: {
+                weight: 20
+            }
+        }
+    },
+    {   // Desert - Electrum Tools & Armor
+        groupCategory: "desert_loot",
+        constraints: {
+            biomes: "#c:is_desert" 
+        },
+        items: [
+            "oreganized:electrum_helmet",
+            "oreganized:electrum_chestplate",
+            "oreganized:electrum_leggings",
+            "oreganized:electrum_boots",
+            "oreganized:electrum_sword",
+            "oreganized:electrum_axe",
+            "oreganized:electrum_pickaxe",
+            "oreganized:electrum_shovel"
+        ],
+        patterns: [
+            "minecraft:dune"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            summit: {
+                quality: 1.0,
+                weight: 20
+            },
+            pinnacle: {
+                weight: 40
+            }
+        }
+    },
+    {   // Desert - Wooden Tools
+        groupCategory: "desert_loot",
+        constraints: {
+            biomes: "#c:is_desert" 
+        },
+        items: [
+            "minecraft:wooden_sword",
+            "minecraft:wooden_pickaxe",
+            "minecraft:wooden_axe",
+            "minecraft:wooden_shovel"
+        ],
+        patterns: [
+            "minecraft:dune"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            haven: {
+                weight: 50
+            },
+            frontier: {
+                weight: 10
+            }
+        }
+    },
+    
     {   // Jungle - Stone Tools & Chain Armor
         groupCategory: "jungle_loot",
         constraints: {
@@ -1156,6 +1457,186 @@ const itemGroups = [
             }
         }
     },
+    {   // Jungle - Golden Tools & Armor
+        groupCategory: "jungle_loot",
+        constraints: {
+            biomes: "#c:is_jungle" 
+        },
+        items: [
+            "minecraft:golden_helmet",
+            "minecraft:golden_chestplate",
+            "minecraft:golden_leggings",
+            "minecraft:golden_boots",
+            "minecraft:golden_sword",
+            "minecraft:golden_axe",
+            "minecraft:golden_pickaxe",
+            "minecraft:golden_shovel"
+        ],
+        patterns: [
+            "minecraft:wild"
+        ],
+        materials: [
+            "minecraft:redstone",
+            "minecraft:gold",
+            "minecraft:emerald",
+            "minecraft:lapis",
+            "oreganized:silver"
+        ],
+        hasSpells: false,
+        weights: {
+            haven: {
+                weight: 15
+            },
+            frontier: {
+                weight: 30
+            },
+            ascent: {
+                weight: 15
+            }
+        }
+    },
+    {   // Jungle - Iron Tools & Armor
+        groupCategory: "jungle_loot",
+        constraints: {
+            biomes: "#c:is_jungle" 
+        },
+        items: [
+            "minecraft:iron_helmet",
+            "minecraft:iron_chestplate",
+            "minecraft:iron_leggings",
+            "minecraft:iron_boots",
+            "minecraft:iron_sword",
+            "minecraft:iron_axe",
+            "minecraft:iron_pickaxe",
+            "minecraft:iron_shovel"
+        ],
+        patterns: [
+            "minecraft:wild"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            frontier: {
+                quality: 1.0,
+                weight: 50
+            },
+            ascent: {
+                weight: 20
+            },
+            summit: {
+                weight: 20
+            }
+        }
+    },
+    {   // Jungle - Diamond Tools & Armor
+        groupCategory: "jungle_loot",
+        constraints: {
+            biomes: "#c:is_jungle" 
+        },
+        items: [
+            "minecraft:diamond_helmet",
+            "minecraft:diamond_chestplate",
+            "minecraft:diamond_leggings",
+            "minecraft:diamond_boots",
+            "minecraft:diamond_sword",
+            "minecraft:diamond_axe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:diamond_shovel"
+        ],
+        patterns: [
+            "minecraft:wild"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            ascent: {
+                quality: 1.5,
+                weight: 20
+            },
+            summit: {
+                weight: 50
+            },
+            pinnacle: {
+                weight: 20
+            }
+        }
+    },
+    {   // Jungle - Electrum Tools & Armor
+        groupCategory: "jungle_loot",
+        constraints: {
+            biomes: "#c:is_jungle" 
+        },
+        items: [
+            "oreganized:electrum_helmet",
+            "oreganized:electrum_chestplate",
+            "oreganized:electrum_leggings",
+            "oreganized:electrum_boots",
+            "oreganized:electrum_sword",
+            "oreganized:electrum_axe",
+            "oreganized:electrum_pickaxe",
+            "oreganized:electrum_shovel"
+        ],
+        patterns: [
+            "minecraft:wild"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            summit: {
+                quality: 1.0,
+                weight: 20
+            },
+            pinnacle: {
+                weight: 40
+            }
+        }
+    },
+    {   // Jungle - Wooden Tools
+        groupCategory: "jungle_loot",
+        constraints: {
+            biomes: "#c:is_jungle" 
+        },
+        items: [
+            "minecraft:wooden_sword",
+            "minecraft:wooden_pickaxe",
+            "minecraft:wooden_axe",
+            "minecraft:wooden_shovel"
+        ],
+        patterns: [
+            "minecraft:wild"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            haven: {
+                weight: 50
+            },
+            frontier: {
+                weight: 10
+            }
+        }
+    },
+
     {   // Dark Forest - Stone Tools & Chain Armor
         groupCategory: "dark_forest_loot",
         constraints: {
@@ -1191,6 +1672,186 @@ const itemGroups = [
             }
         }
     },
+    {   // Dark Forest - Golden Tools & Armor
+        groupCategory: "dark_forest_loot",
+        constraints: {
+            biomes: "#c:is_dark_forest" 
+        },
+        items: [
+            "minecraft:golden_helmet",
+            "minecraft:golden_chestplate",
+            "minecraft:golden_leggings",
+            "minecraft:golden_boots",
+            "minecraft:golden_sword",
+            "minecraft:golden_axe",
+            "minecraft:golden_pickaxe",
+            "minecraft:golden_shovel"
+        ],
+        patterns: [
+            "minecraft:sentry"
+        ],
+        materials: [
+            "minecraft:redstone",
+            "minecraft:gold",
+            "minecraft:emerald",
+            "minecraft:lapis",
+            "oreganized:silver"
+        ],
+        hasSpells: false,
+        weights: {
+            haven: {
+                weight: 15
+            },
+            frontier: {
+                weight: 30
+            },
+            ascent: {
+                weight: 15
+            }
+        }
+    },
+    {   // Dark Forest - Iron Tools & Armor
+        groupCategory: "dark_forest_loot",
+        constraints: {
+            biomes: "#c:is_dark_forest" 
+        },
+        items: [
+            "minecraft:iron_helmet",
+            "minecraft:iron_chestplate",
+            "minecraft:iron_leggings",
+            "minecraft:iron_boots",
+            "minecraft:iron_sword",
+            "minecraft:iron_axe",
+            "minecraft:iron_pickaxe",
+            "minecraft:iron_shovel"
+        ],
+        patterns: [
+            "minecraft:sentry"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            frontier: {
+                quality: 1.0,
+                weight: 50
+            },
+            ascent: {
+                weight: 20
+            },
+            summit: {
+                weight: 20
+            }
+        }
+    },
+    {   // Dark Forest - Diamond Tools & Armor
+        groupCategory: "dark_forest_loot",
+        constraints: {
+            biomes: "#c:is_dark_forest" 
+        },
+        items: [
+            "minecraft:diamond_helmet",
+            "minecraft:diamond_chestplate",
+            "minecraft:diamond_leggings",
+            "minecraft:diamond_boots",
+            "minecraft:diamond_sword",
+            "minecraft:diamond_axe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:diamond_shovel"
+        ],
+        patterns: [
+            "minecraft:sentry"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            ascent: {
+                quality: 1.5,
+                weight: 20
+            },
+            summit: {
+                weight: 50
+            },
+            pinnacle: {
+                weight: 20
+            }
+        }
+    },
+    {   // Dark Forest - Electrum Tools & Armor
+        groupCategory: "dark_forest_loot",
+        constraints: {
+            biomes: "#c:is_dark_forest" 
+        },
+        items: [
+            "oreganized:electrum_helmet",
+            "oreganized:electrum_chestplate",
+            "oreganized:electrum_leggings",
+            "oreganized:electrum_boots",
+            "oreganized:electrum_sword",
+            "oreganized:electrum_axe",
+            "oreganized:electrum_pickaxe",
+            "oreganized:electrum_shovel"
+        ],
+        patterns: [
+            "minecraft:sentry"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            summit: {
+                quality: 1.0,
+                weight: 20
+            },
+            pinnacle: {
+                weight: 40
+            }
+        }
+    },
+    {   // Dark Forest - Wooden Tools
+        groupCategory: "dark_forest_loot",
+        constraints: {
+            biomes: "#c:is_dark_forest" 
+        },
+        items: [
+            "minecraft:wooden_sword",
+            "minecraft:wooden_pickaxe",
+            "minecraft:wooden_axe",
+            "minecraft:wooden_shovel"
+        ],
+        patterns: [
+            "minecraft:sentry"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            haven: {
+                weight: 50
+            },
+            frontier: {
+                weight: 10
+            }
+        }
+    },
+
     {   // Ocean - Stone Tools & Chain Armor
         groupCategory: "ocean_loot",
         constraints: {
@@ -1226,6 +1887,186 @@ const itemGroups = [
             }
         }
     },
+    {   // Ocean - Golden Tools & Armor
+        groupCategory: "ocean_loot",
+        constraints: {
+            biomes: "#c:is_ocean" 
+        },
+        items: [
+            "minecraft:golden_helmet",
+            "minecraft:golden_chestplate",
+            "minecraft:golden_leggings",
+            "minecraft:golden_boots",
+            "minecraft:golden_sword",
+            "minecraft:golden_axe",
+            "minecraft:golden_pickaxe",
+            "minecraft:golden_shovel"
+        ],
+        patterns: [
+            "minecraft:coast"
+        ],
+        materials: [
+            "minecraft:redstone",
+            "minecraft:gold",
+            "minecraft:emerald",
+            "minecraft:lapis",
+            "oreganized:silver"
+        ],
+        hasSpells: false,
+        weights: {
+            haven: {
+                weight: 15
+            },
+            frontier: {
+                weight: 30
+            },
+            ascent: {
+                weight: 15
+            }
+        }
+    },
+    {   // Ocean - Iron Tools & Armor
+        groupCategory: "ocean_loot",
+        constraints: {
+            biomes: "#c:is_ocean" 
+        },
+        items: [
+            "minecraft:iron_helmet",
+            "minecraft:iron_chestplate",
+            "minecraft:iron_leggings",
+            "minecraft:iron_boots",
+            "minecraft:iron_sword",
+            "minecraft:iron_axe",
+            "minecraft:iron_pickaxe",
+            "minecraft:iron_shovel"
+        ],
+        patterns: [
+            "minecraft:coast"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            frontier: {
+                quality: 1.0,
+                weight: 50
+            },
+            ascent: {
+                weight: 20
+            },
+            summit: {
+                weight: 20
+            }
+        }
+    },
+    {   // Ocean - Diamond Tools & Armor
+        groupCategory: "ocean_loot",
+        constraints: {
+            biomes: "#c:is_ocean" 
+        },
+        items: [
+            "minecraft:diamond_helmet",
+            "minecraft:diamond_chestplate",
+            "minecraft:diamond_leggings",
+            "minecraft:diamond_boots",
+            "minecraft:diamond_sword",
+            "minecraft:diamond_axe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:diamond_shovel"
+        ],
+        patterns: [
+            "minecraft:coast"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            ascent: {
+                quality: 1.5,
+                weight: 20
+            },
+            summit: {
+                weight: 50
+            },
+            pinnacle: {
+                weight: 20
+            }
+        }
+    },
+    {   // Ocean - Electrum Tools & Armor
+        groupCategory: "ocean_loot",
+        constraints: {
+            biomes: "#c:is_ocean" 
+        },
+        items: [
+            "oreganized:electrum_helmet",
+            "oreganized:electrum_chestplate",
+            "oreganized:electrum_leggings",
+            "oreganized:electrum_boots",
+            "oreganized:electrum_sword",
+            "oreganized:electrum_axe",
+            "oreganized:electrum_pickaxe",
+            "oreganized:electrum_shovel"
+        ],
+        patterns: [
+            "minecraft:coast"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            summit: {
+                quality: 1.0,
+                weight: 20
+            },
+            pinnacle: {
+                weight: 40
+            }
+        }
+    },
+    {   // Ocean - Wooden Tools
+        groupCategory: "ocean_loot",
+        constraints: {
+            biomes: "#c:is_ocean" 
+        },
+        items: [
+            "minecraft:wooden_sword",
+            "minecraft:wooden_pickaxe",
+            "minecraft:wooden_axe",
+            "minecraft:wooden_shovel"
+        ],
+        patterns: [
+            "minecraft:coast"
+        ],
+        materials: [
+            "minecraft:copper",
+            "minecraft:gold",
+            "minecraft:redstone",
+            "minecraft:lapis"
+        ],
+        hasSpells: false,
+        weights: {
+            haven: {
+                weight: 50
+            },
+            frontier: {
+                weight: 10
+            }
+        }
+    },
+
     {   // Swamp - Slime Armor
         groupCategory: "swamp_loot",
         constraints: {
@@ -1340,6 +2181,279 @@ const itemGroups = [
             },
             summit: {
                 weight: 5
+            }
+        }
+    },
+    {   // Swamp - Iron Tools & Armor
+        groupCategory: "swamp_spell_loot",
+        constraints: {
+            biomes: "#c:is_swamp"
+        },
+        items: [
+            "minecraft:iron_helmet",
+            "minecraft:iron_chestplate",
+            "minecraft:iron_leggings",
+            "minecraft:iron_boots",
+            "minecraft:iron_sword",
+            "minecraft:iron_pickaxe",
+            "minecraft:iron_axe",
+            "minecraft:iron_shovel",
+            "minecraft:iron_hoe"
+        ],
+        patterns: [
+            "minecraft:wayfinder",
+            "minecraft:raiser",
+            "minecraft:shaper",
+            "minecraft:host",
+            "minecraft:bolt",
+            "minecraft:flow"
+        ],
+        materials: [
+            "minecraft:gold",
+            "minecraft:amethyst",
+            "minecraft:emerald"
+        ],
+        hasSpells: true,
+        spells: [
+            {
+                spell: "irons_spellbooks:poison_arrow",
+                levelMin: 1,
+                levelMax: 4,
+                possibleItems: [
+                    "minecraft:iron_helmet",
+                    "minecraft:iron_chestplate",
+                    "minecraft:iron_leggings",
+                    "minecraft:iron_boots",
+                    "minecraft:iron_sword",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:iron_axe",
+                    "minecraft:iron_shovel",
+                    "minecraft:iron_hoe"
+                ],
+                needEquip: true
+            },
+            {
+                spell: "irons_spellbooks:acid_orb",
+                levelMin: 1,
+                levelMax: 2,
+                possibleItems: [
+                    "minecraft:iron_helmet",
+                    "minecraft:iron_chestplate",
+                    "minecraft:iron_leggings",
+                    "minecraft:iron_boots",
+                    "minecraft:iron_sword",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:iron_axe",
+                    "minecraft:iron_shovel",
+                    "minecraft:iron_hoe"
+                ],
+                needEquip: true
+            },
+            {
+                spell: "irons_spellbooks:poison_breath",
+                levelMin: 1,
+                levelMax: 4,
+                possibleItems: [
+                    "minecraft:iron_helmet",
+                    "minecraft:iron_chestplate",
+                    "minecraft:iron_leggings",
+                    "minecraft:iron_boots",
+                    "minecraft:iron_hoe"
+                ],
+                needEquip: true
+            }
+        ],
+        weights: {
+            ascent: {
+                quality: 1.0,
+                weight: 3
+            },
+            summit: {
+                weight: 3
+            }
+        }
+    },
+    {   // Swamp -  Diamond Tools & Armor
+        groupCategory: "swamp_spell_loot",
+        constraints: {
+            biomes: "#c:is_swamp"
+        },
+        items: [
+            "minecraft:diamond_helmet",
+            "minecraft:diamond_chestplate",
+            "minecraft:diamond_leggings",
+            "minecraft:diamond_boots",
+            "minecraft:diamond_sword",
+            "minecraft:diamond_pickaxe",
+            "minecraft:diamond_axe",
+            "minecraft:diamond_shovel",
+            "minecraft:diamond_hoe"
+        ],
+        patterns: [
+            "minecraft:wayfinder",
+            "minecraft:raiser",
+            "minecraft:shaper",
+            "minecraft:host",
+            "minecraft:bolt",
+            "minecraft:flow"
+        ],
+        materials: [
+            "minecraft:gold",
+            "minecraft:amethyst",
+            "minecraft:emerald"
+        ],
+        hasSpells: true,
+        spells: [
+            {
+                spell: "irons_spellbooks:poison_arrow",
+                levelMin: 1,
+                levelMax: 4,
+                possibleItems: [
+                    "minecraft:diamond_helmet",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:diamond_leggings",
+                    "minecraft:diamond_boots",
+                    "minecraft:diamond_sword",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:diamond_axe",
+                    "minecraft:diamond_shovel",
+                    "minecraft:diamond_hoe"
+                ],
+                needEquip: true
+            },
+            {
+                spell: "irons_spellbooks:acid_orb",
+                levelMin: 1,
+                levelMax: 2,
+                possibleItems: [
+                    "minecraft:diamond_helmet",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:diamond_leggings",
+                    "minecraft:diamond_boots",
+                    "minecraft:diamond_sword",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:diamond_axe",
+                    "minecraft:diamond_shovel",
+                    "minecraft:diamond_hoe"
+                ],
+                needEquip: true
+            },
+            {
+                spell: "irons_spellbooks:poison_breath",
+                levelMin: 1,
+                levelMax: 4,
+                possibleItems: [
+                    "minecraft:diamond_helmet",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:diamond_leggings",
+                    "minecraft:diamond_boots",
+                    "minecraft:diamond_hoe"
+                ],
+                needEquip: true
+            }
+        ],
+        weights: {
+            ascent: {
+                quality: 2.0,
+                weight: 6
+            },
+            summit: {
+                quality: 2.0,
+                weight: 8
+            },
+            pinnacle: {
+                quality: 2.0,
+                weight: 8
+            }
+        }
+    },
+    {   // Swamp -  Electrum Tools & Armor
+        groupCategory: "swamp_spell_loot",
+        constraints: {
+            biomes: "#c:is_swamp"
+        },
+        items: [
+            "oreganized:electrum_helmet",
+            "oreganized:electrum_chestplate",
+            "oreganized:electrum_leggings",
+            "oreganized:electrum_boots",
+            "oreganized:electrum_sword",
+            "oreganized:electrum_axe",
+            "oreganized:electrum_pickaxe",
+            "oreganized:electrum_shovel",
+            "oreganized:electrum_hoe"
+        ],
+        patterns: [
+            "minecraft:wayfinder",
+            "minecraft:raiser",
+            "minecraft:shaper",
+            "minecraft:host",
+            "minecraft:bolt",
+            "minecraft:flow"
+        ],
+        materials: [
+            "minecraft:gold",
+            "minecraft:amethyst",
+            "minecraft:emerald"
+        ],
+        hasSpells: true,
+        spells: [
+            {
+                spell: "irons_spellbooks:poison_arrow",
+                levelMin: 1,
+                levelMax: 4,
+                possibleItems: [
+                    "oreganized:electrum_helmet",
+                    "oreganized:electrum_chestplate",
+                    "oreganized:electrum_leggings",
+                    "oreganized:electrum_boots",
+                    "oreganized:electrum_sword",
+                    "oreganized:electrum_axe",
+                    "oreganized:electrum_pickaxe",
+                    "oreganized:electrum_shovel",
+                    "oreganized:electrum_hoe"
+                ],
+                needEquip: true
+            },
+            {
+                spell: "irons_spellbooks:acid_orb",
+                levelMin: 1,
+                levelMax: 2,
+                possibleItems: [
+                    "oreganized:electrum_helmet",
+                    "oreganized:electrum_chestplate",
+                    "oreganized:electrum_leggings",
+                    "oreganized:electrum_boots",
+                    "oreganized:electrum_sword",
+                    "oreganized:electrum_axe",
+                    "oreganized:electrum_pickaxe",
+                    "oreganized:electrum_shovel",
+                    "oreganized:electrum_hoe"
+                ],
+                needEquip: true
+            },
+            {
+                spell: "irons_spellbooks:poison_breath",
+                levelMin: 1,
+                levelMax: 4,
+                possibleItems: [
+                    "oreganized:electrum_helmet",
+                    "oreganized:electrum_chestplate",
+                    "oreganized:electrum_leggings",
+                    "oreganized:electrum_boots",
+                    "oreganized:electrum_hoe"
+                ],
+                needEquip: true
+            }
+        ],
+        weights: {
+            summit: {
+                quality: 2.0,
+                weight: 8
+            },
+            pinnacle: {
+                quality: 2.0,
+                weight: 10
             }
         }
     },
