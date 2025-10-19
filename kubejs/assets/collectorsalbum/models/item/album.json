@@ -1,0 +1,110 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "collectorsalbum:item/album"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 200
+            },
+            "model": "irons_spellbooks:item/copper_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 201
+            },
+            "model": "irons_spellbooks:item/iron_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 202
+            },
+            "model": "irons_spellbooks:item/gold_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 203
+            },
+            "model": "irons_spellbooks:item/diamond_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 204
+            },
+            "model": "irons_spellbooks:item/netherite_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 205
+            },
+            "model": "irons_spellbooks:item/rotten_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 206
+            },
+            "model": "irons_spellbooks:item/necronomicon_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 207
+            },
+            "model": "irons_spellbooks:item/blaze_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 208
+            },
+            "model": "irons_spellbooks:item/villager_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 209
+            },
+            "model": "irons_spellbooks:item/druidic_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 210
+            },
+            "model": "irons_spellbooks:item/dragonskin_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 211
+            },
+            "model": "irons_spellbooks:item/evoker_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 212
+            },
+            "model": "irons_spellbooks:item/cursed_doll_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 213
+            },
+            "model": "irons_spellbooks:item/ice_spell_book"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 214
+            },
+            "model": "iss_magicfromtheeast:item/ritual_orihon"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 215
+            },
+            "model": "alshanex_familiars:item/familiar_spellbook"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 216
+            },
+            "model": "alshanex_familiars:item/sound_spell_book"
+        }
+    ]
+}

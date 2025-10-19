@@ -11,7 +11,7 @@ ServerEvents.tags('item', event => {
         'irons_spellbooks:magehunter', 'irons_spellbooks:spellbreaker', 'irons_spellbooks:amethyst_rapier',
         'irons_spellbooks:boreal_blade', 'irons_spellbooks:keeper_flamberge', 'irons_spellbooks:legionnaire_flamberge',
         'iss_magicfromtheeast:taiji_sword', 'iss_magicfromtheeast:soul_breaker', 'iss_magicfromtheeast:muramasa',
-        'iss_magicfromtheeast:soul_katana']
+        'iss_magicfromtheeast:soul_katana', 'irons_spellbooks:misery']
     for (let i in uniqueSwords) {
         uniqueItemTags('sword', uniqueSwords[i])
     }
