@@ -1,0 +1,36 @@
+{
+    "type": "insurgence:skies",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "insurgence:skies",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "insurgence:the_skies",
+                    "parameters": {
+                        "continentalness": 0,
+                        "depth": 0,
+                        "erosion": 0,
+                        "humidity": 0,
+                        "temperature": 0,
+                        "weirdness": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "insurgence:the_abyss",
+                    "parameters": {
+                        "continentalness": 0,
+                        "depth": 1,
+                        "erosion": 0,
+                        "humidity": 0,
+                        "temperature": 0,
+                        "weirdness": 0,
+                        "offset": 0
+                    }
+                }
+            ]
+        }
+    }
+}

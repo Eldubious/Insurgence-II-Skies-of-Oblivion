@@ -9,7 +9,7 @@ StartupEvents.registry('item', event => {
     let keyTypes = ['battle_tower', 'ominous_battle_tower', 'mansion', 'ominous_mansion', 'forge', 'heavy_forge',
         'pyromancer', 'cryomancer', 'archevoker', 'priest', 'apothecarist']
     for (let i in keyTypes) {
-        event.create(`item.insurgence.${keyTypes}_key`)
+        event.create(`insurgence:${keyTypes[i]}_key`)
             .rarity('uncommon')
             .translationKey(`item.insurgence.${keyTypes[i]}_key`)
             .tag('insurgence:vault_keys')

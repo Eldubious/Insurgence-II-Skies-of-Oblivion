@@ -528,130 +528,6 @@ const itemGroups = [
             }
         }
     },
-    {   // Overworld - Electrum Tools & Armor
-        groupCategory: "generic_overworld_loot",
-        constraints: {
-            dimensions: [
-                "minecraft:overworld"
-            ]
-        },
-        items: [
-            "oreganized:electrum_helmet",
-            "oreganized:electrum_chestplate",
-            "oreganized:electrum_leggings",
-            "oreganized:electrum_boots",
-            "oreganized:electrum_sword",
-            "oreganized:electrum_axe",
-            "oreganized:electrum_pickaxe",
-            "oreganized:electrum_shovel"
-        ],
-        patterns: [
-            "minecraft:wayfinder",
-            "minecraft:raiser",
-            "minecraft:shaper",
-            "minecraft:host",
-            "minecraft:bolt",
-            "minecraft:flow"
-        ],
-        materials: [
-            "minecraft:gold",
-            "minecraft:amethyst",
-            "minecraft:emerald",
-            "minecraft:diamond"
-        ],
-        hasSpells: false,
-        weights: {
-            summit: {
-                quality: 1.0,
-                weight: 10
-            },
-            pinnacle: {
-                weight: 20
-            }
-        }
-    },
-    {   // The Nether - Electrum Tools & Armor
-        groupCategory: "generic_nether_loot",
-        constraints: {
-            dimensions: [
-                "minecraft:the_nether"
-            ]
-        },
-        items: [
-            "oreganized:electrum_helmet",
-            "oreganized:electrum_chestplate",
-            "oreganized:electrum_leggings",
-            "oreganized:electrum_boots",
-            "oreganized:electrum_sword",
-            "oreganized:electrum_axe",
-            "oreganized:electrum_pickaxe",
-            "oreganized:electrum_shovel"
-        ],
-        patterns: [
-            "minecraft:wayfinder",
-            "minecraft:raiser",
-            "minecraft:shaper",
-            "minecraft:host",
-            "minecraft:rib"
-        ],
-        materials: [
-            "minecraft:gold",
-            "minecraft:amethyst",
-            "minecraft:emerald",
-            "minecraft:diamond"
-        ],
-        hasSpells: false,
-        weights: {
-            summit: {
-                quality: 1.0,
-                weight: 10
-            },
-            pinnacle: {
-                weight: 20
-            }
-        }
-    },
-    {   // The End - Electrum Tools & Armor
-        groupCategory: "generic_end_loot",
-        constraints: {
-            dimensions: [
-                "minecraft:the_end"
-            ]
-        },
-        items: [
-            "oreganized:electrum_helmet",
-            "oreganized:electrum_chestplate",
-            "oreganized:electrum_leggings",
-            "oreganized:electrum_boots",
-            "oreganized:electrum_sword",
-            "oreganized:electrum_axe",
-            "oreganized:electrum_pickaxe",
-            "oreganized:electrum_shovel"
-        ],
-        patterns: [
-            "minecraft:wayfinder",
-            "minecraft:raiser",
-            "minecraft:shaper",
-            "minecraft:host",
-            "minecraft:eye"
-        ],
-        materials: [
-            "minecraft:gold",
-            "minecraft:amethyst",
-            "minecraft:emerald",
-            "minecraft:diamond"
-        ],
-        hasSpells: false,
-        weights: {
-            summit: {
-                quality: 1.0,
-                weight: 10
-            },
-            pinnacle: {
-                weight: 20
-            }
-        }
-    },
     {   // Overworld - Wooden Tools
         groupCategory: "generic_overworld_loot",
         constraints: {
@@ -1094,116 +970,6 @@ const itemGroups = [
             }
         }
     },
-    {   // The Nether - Electrum Tools & Armor
-        groupCategory: "generic_nether_spell_loot",
-        constraints: {
-            dimensions: [
-                "minecraft:the_nether"
-            ]
-        },
-        items: [
-            "oreganized:electrum_helmet",
-            "oreganized:electrum_chestplate",
-            "oreganized:electrum_leggings",
-            "oreganized:electrum_boots",
-            "oreganized:electrum_sword",
-            "oreganized:electrum_axe",
-            "oreganized:electrum_pickaxe",
-            "oreganized:electrum_shovel",
-            "oreganized:electrum_hoe"
-        ],
-        patterns: [
-            "minecraft:wayfinder",
-            "minecraft:raiser",
-            "minecraft:shaper",
-            "minecraft:host",
-            "minecraft:rib"
-        ],
-        materials: [
-            "minecraft:gold",
-            "minecraft:copper",
-            "minecraft:iron",
-            "minecraft:quartz",
-            "minecraft:netherite"
-        ],
-        hasSpells: true,
-        spells: [
-            {
-                spell: "irons_spellbooks:blaze_storm",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "oreganized:electrum_sword",
-                    "oreganized:electrum_axe",
-                    "oreganized:electrum_pickaxe",
-                    "oreganized:electrum_shovel",
-                    "oreganized:electrum_hoe"
-                ],
-                needEquip: false
-            },
-            {
-                spell: "irons_spellbooks:burning_dash",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "oreganized:electrum_chestplate",
-                    "oreganized:electrum_leggings",
-                    "oreganized:electrum_boots"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:burning_dash",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "oreganized:electrum_hoe"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:fire_breath",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "oreganized:electrum_helmet"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:fire_breath",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "oreganized:electrum_hoe"
-                ],
-                needEquip: false
-            },
-            {
-                spell: "irons_spellbooks:ray_of_siphoning",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "oreganized:electrum_sword",
-                    "oreganized:electrum_axe",
-                    "oreganized:electrum_pickaxe",
-                    "oreganized:electrum_shovel",
-                    "oreganized:electrum_hoe"
-                ],
-                needEquip: false
-            }
-        ],
-        weights: {
-            summit: {
-                quality: 2.0,
-                weight: 5
-            },
-            pinnacle: {
-                quality: 2.0,
-                weight: 8
-            }
-        }
-    },
     /*
         Biome-Specific
         Non-Imbued
@@ -1353,41 +1119,6 @@ const itemGroups = [
             },
             pinnacle: {
                 weight: 20
-            }
-        }
-    },
-    {   // Desert - Electrum Tools & Armor
-        groupCategory: "desert_loot",
-        constraints: {
-            biomes: "#c:is_desert" 
-        },
-        items: [
-            "oreganized:electrum_helmet",
-            "oreganized:electrum_chestplate",
-            "oreganized:electrum_leggings",
-            "oreganized:electrum_boots",
-            "oreganized:electrum_sword",
-            "oreganized:electrum_axe",
-            "oreganized:electrum_pickaxe",
-            "oreganized:electrum_shovel"
-        ],
-        patterns: [
-            "minecraft:dune"
-        ],
-        materials: [
-            "minecraft:copper",
-            "minecraft:gold",
-            "minecraft:redstone",
-            "minecraft:lapis"
-        ],
-        hasSpells: false,
-        weights: {
-            summit: {
-                quality: 1.0,
-                weight: 20
-            },
-            pinnacle: {
-                weight: 40
             }
         }
     },
@@ -1571,41 +1302,6 @@ const itemGroups = [
             }
         }
     },
-    {   // Jungle - Electrum Tools & Armor
-        groupCategory: "jungle_loot",
-        constraints: {
-            biomes: "#c:is_jungle" 
-        },
-        items: [
-            "oreganized:electrum_helmet",
-            "oreganized:electrum_chestplate",
-            "oreganized:electrum_leggings",
-            "oreganized:electrum_boots",
-            "oreganized:electrum_sword",
-            "oreganized:electrum_axe",
-            "oreganized:electrum_pickaxe",
-            "oreganized:electrum_shovel"
-        ],
-        patterns: [
-            "minecraft:wild"
-        ],
-        materials: [
-            "minecraft:copper",
-            "minecraft:gold",
-            "minecraft:redstone",
-            "minecraft:lapis"
-        ],
-        hasSpells: false,
-        weights: {
-            summit: {
-                quality: 1.0,
-                weight: 20
-            },
-            pinnacle: {
-                weight: 40
-            }
-        }
-    },
     {   // Jungle - Wooden Tools
         groupCategory: "jungle_loot",
         constraints: {
@@ -1783,41 +1479,6 @@ const itemGroups = [
             },
             pinnacle: {
                 weight: 20
-            }
-        }
-    },
-    {   // Dark Forest - Electrum Tools & Armor
-        groupCategory: "dark_forest_loot",
-        constraints: {
-            biomes: "#c:is_dark_forest" 
-        },
-        items: [
-            "oreganized:electrum_helmet",
-            "oreganized:electrum_chestplate",
-            "oreganized:electrum_leggings",
-            "oreganized:electrum_boots",
-            "oreganized:electrum_sword",
-            "oreganized:electrum_axe",
-            "oreganized:electrum_pickaxe",
-            "oreganized:electrum_shovel"
-        ],
-        patterns: [
-            "minecraft:sentry"
-        ],
-        materials: [
-            "minecraft:copper",
-            "minecraft:gold",
-            "minecraft:redstone",
-            "minecraft:lapis"
-        ],
-        hasSpells: false,
-        weights: {
-            summit: {
-                quality: 1.0,
-                weight: 20
-            },
-            pinnacle: {
-                weight: 40
             }
         }
     },
@@ -2001,41 +1662,6 @@ const itemGroups = [
             }
         }
     },
-    {   // Ocean - Electrum Tools & Armor
-        groupCategory: "ocean_loot",
-        constraints: {
-            biomes: "#c:is_ocean" 
-        },
-        items: [
-            "oreganized:electrum_helmet",
-            "oreganized:electrum_chestplate",
-            "oreganized:electrum_leggings",
-            "oreganized:electrum_boots",
-            "oreganized:electrum_sword",
-            "oreganized:electrum_axe",
-            "oreganized:electrum_pickaxe",
-            "oreganized:electrum_shovel"
-        ],
-        patterns: [
-            "minecraft:coast"
-        ],
-        materials: [
-            "minecraft:copper",
-            "minecraft:gold",
-            "minecraft:redstone",
-            "minecraft:lapis"
-        ],
-        hasSpells: false,
-        weights: {
-            summit: {
-                quality: 1.0,
-                weight: 20
-            },
-            pinnacle: {
-                weight: 40
-            }
-        }
-    },
     {   // Ocean - Wooden Tools
         groupCategory: "ocean_loot",
         constraints: {
@@ -2066,7 +1692,6 @@ const itemGroups = [
             }
         }
     },
-
     {   // Swamp - Slime Armor
         groupCategory: "swamp_loot",
         constraints: {
@@ -2366,96 +1991,6 @@ const itemGroups = [
                 weight: 8
             }
         }
-    },
-    {   // Swamp -  Electrum Tools & Armor
-        groupCategory: "swamp_spell_loot",
-        constraints: {
-            biomes: "#c:is_swamp"
-        },
-        items: [
-            "oreganized:electrum_helmet",
-            "oreganized:electrum_chestplate",
-            "oreganized:electrum_leggings",
-            "oreganized:electrum_boots",
-            "oreganized:electrum_sword",
-            "oreganized:electrum_axe",
-            "oreganized:electrum_pickaxe",
-            "oreganized:electrum_shovel",
-            "oreganized:electrum_hoe"
-        ],
-        patterns: [
-            "minecraft:wayfinder",
-            "minecraft:raiser",
-            "minecraft:shaper",
-            "minecraft:host",
-            "minecraft:bolt",
-            "minecraft:flow"
-        ],
-        materials: [
-            "minecraft:gold",
-            "minecraft:amethyst",
-            "minecraft:emerald"
-        ],
-        hasSpells: true,
-        spells: [
-            {
-                spell: "irons_spellbooks:poison_arrow",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "oreganized:electrum_helmet",
-                    "oreganized:electrum_chestplate",
-                    "oreganized:electrum_leggings",
-                    "oreganized:electrum_boots",
-                    "oreganized:electrum_sword",
-                    "oreganized:electrum_axe",
-                    "oreganized:electrum_pickaxe",
-                    "oreganized:electrum_shovel",
-                    "oreganized:electrum_hoe"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:acid_orb",
-                levelMin: 1,
-                levelMax: 2,
-                possibleItems: [
-                    "oreganized:electrum_helmet",
-                    "oreganized:electrum_chestplate",
-                    "oreganized:electrum_leggings",
-                    "oreganized:electrum_boots",
-                    "oreganized:electrum_sword",
-                    "oreganized:electrum_axe",
-                    "oreganized:electrum_pickaxe",
-                    "oreganized:electrum_shovel",
-                    "oreganized:electrum_hoe"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:poison_breath",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "oreganized:electrum_helmet",
-                    "oreganized:electrum_chestplate",
-                    "oreganized:electrum_leggings",
-                    "oreganized:electrum_boots",
-                    "oreganized:electrum_hoe"
-                ],
-                needEquip: true
-            }
-        ],
-        weights: {
-            summit: {
-                quality: 2.0,
-                weight: 8
-            },
-            pinnacle: {
-                quality: 2.0,
-                weight: 10
-            }
-        }
-    },
+    }
     
 ]

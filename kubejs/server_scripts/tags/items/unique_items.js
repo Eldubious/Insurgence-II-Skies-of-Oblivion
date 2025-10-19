@@ -11,7 +11,7 @@ ServerEvents.tags('item', event => {
         'irons_spellbooks:magehunter', 'irons_spellbooks:spellbreaker', 'irons_spellbooks:amethyst_rapier',
         'irons_spellbooks:boreal_blade', 'irons_spellbooks:keeper_flamberge', 'irons_spellbooks:legionnaire_flamberge',
         'iss_magicfromtheeast:taiji_sword', 'iss_magicfromtheeast:soul_breaker', 'iss_magicfromtheeast:muramasa',
-        'iss_magicfromtheeast:soul_katana', 'oreganized:electrum_sword']
+        'iss_magicfromtheeast:soul_katana']
     for (let i in uniqueSwords) {
         uniqueItemTags('sword', uniqueSwords[i])
     }
@@ -47,36 +47,31 @@ ServerEvents.tags('item', event => {
     }
 
     let uniqueKnives = ['farmersdelight:flint_knife', 'farmersdelight:iron_knife', 'farmersdelight:golden_knife',
-        'farmersdelight:diamond_knife', 'farmersdelight:netherite_knife', 'occultism:butcher_knife',
-        'oreganized:electrum_knife']
+        'farmersdelight:diamond_knife', 'farmersdelight:netherite_knife', 'occultism:butcher_knife']
     for (let i in uniqueKnives) {
         uniqueItemTags('knife', uniqueKnives[i])
     }
 
     let uniqueAxes = ['minecraft:wooden_axe', 'minecraft:stone_axe', 'minecraft:iron_axe',
-        'minecraft:golden_axe', 'minecraft:diamond_axe', 'minecraft:netherite_axe',
-        'oreganized:electrum_axe']
+        'minecraft:golden_axe', 'minecraft:diamond_axe', 'minecraft:netherite_axe']
     for (let i in uniqueAxes) {
         uniqueItemTags('axe', uniqueAxes[i])
     }
 
     let uniquePickaxes = ['minecraft:wooden_pickaxe', 'minecraft:stone_pickaxe', 'minecraft:iron_pickaxe',
-        'minecraft:golden_pickaxe', 'minecraft:diamond_pickaxe', 'minecraft:netherite_pickaxe', 'occultism:iesnium_pickaxe',
-        'oreganized:electrum_pickaxe']
+        'minecraft:golden_pickaxe', 'minecraft:diamond_pickaxe', 'minecraft:netherite_pickaxe', 'occultism:iesnium_pickaxe']
     for (let i in uniquePickaxes) {
         uniqueItemTags('pickaxe', uniquePickaxes[i])
     }
 
     let uniqueShovels = ['minecraft:wooden_shovel', 'minecraft:stone_shovel', 'minecraft:iron_shovel',
-        'minecraft:golden_shovel', 'minecraft:diamond_shovel', 'minecraft:netherite_shovel',
-        'oreganized:electrum_shovel']
+        'minecraft:golden_shovel', 'minecraft:diamond_shovel', 'minecraft:netherite_shovel']
     for (let i in uniqueShovels) {
         uniqueItemTags('shovel', uniqueShovels[i])
     }
 
     let uniqueHoes = ['minecraft:wooden_hoe', 'minecraft:stone_hoe', 'minecraft:iron_hoe',
-        'minecraft:golden_hoe', 'minecraft:diamond_hoe', 'minecraft:netherite_hoe',
-        'oreganized:electrum_hoe']
+        'minecraft:golden_hoe', 'minecraft:diamond_hoe', 'minecraft:netherite_hoe']
     for (let i in uniqueHoes) {
         uniqueItemTags('hoe', uniqueHoes[i])
     }
@@ -117,7 +112,7 @@ ServerEvents.tags('item', event => {
         'irons_spellbooks:cultist_helmet', 'irons_spellbooks:archevoker_helmet', 'irons_spellbooks:tarnished_helmet',
         'productivebees:bee_nest_diamond_helmet', 'friendsandfoes:wildfire_crown', 'iss_magicfromtheeast:taoist_helmet',
         'iss_magicfromtheeast:jade_pagoda_helmet', 'iss_magicfromtheeast:onmyoji_helmet', 'iss_magicfromtheeast:jiangshi_hat',
-        'elixirum:alchemist_eye', 'usefulslime:slime_helmet', 'oreganized:electrum_helmet']
+        'elixirum:alchemist_eye', 'usefulslime:slime_helmet']
     for (let i in uniqueHelmets) {
         uniqueItemTags('helmet', uniqueHelmets[i])
     }
@@ -130,7 +125,7 @@ ServerEvents.tags('item', event => {
         'irons_spellbooks:priest_chestplate', 'irons_spellbooks:shadowwalker_chestplate', 'irons_spellbooks:cryomancer_chestplate',
         'irons_spellbooks:cultist_chestplate', 'irons_spellbooks:archevoker_chestplate', 'irons_spellbooks:electromancer_chestplate',
         'irons_spellbooks:pyromancer_chestplate', 'iss_magicfromtheeast:taoist_chestplate', 'iss_magicfromtheeast:jade_pagoda_chestplate',
-        'iss_magicfromtheeast:onmyoji_chestplate', 'usefulslime:slime_chestplate', 'oreganized:electrum_chestplate']
+        'iss_magicfromtheeast:onmyoji_chestplate', 'usefulslime:slime_chestplate']
     for (let i in uniqueChestplates) {
         uniqueItemTags('chestplate', uniqueChestplates[i])
     }
@@ -144,7 +139,7 @@ ServerEvents.tags('item', event => {
         'irons_spellbooks:cultist_leggings', 'irons_spellbooks:archevoker_leggings',
         'irons_spellbooks:electromancer_leggings', 'irons_spellbooks:pyromancer_leggings',
         'irons_spellbooks:pumpkin_leggings', 'iss_magicfromtheeast:taoist_leggings', 'iss_magicfromtheeast:jade_pagoda_leggings',
-        'iss_magicfromtheeast:onmyoji_leggings', 'usefulslime:slime_leggings', 'oreganized:electrum_leggings']
+        'iss_magicfromtheeast:onmyoji_leggings', 'usefulslime:slime_leggings']
     for (let i in uniqueLeggings) {
         uniqueItemTags('leggings', uniqueLeggings[i])
     }
@@ -157,7 +152,7 @@ ServerEvents.tags('item', event => {
         'irons_spellbooks:shadowwalker_boots', 'irons_spellbooks:cryomancer_boots', 'irons_spellbooks:cultist_boots',
         'irons_spellbooks:archevoker_boots', 'irons_spellbooks:electromancer_boots', 'irons_spellbooks:pyromancer_boots',
         'iss_magicfromtheeast:taoist_boots', 'iss_magicfromtheeast:jade_pagoda_boots', 'iss_magicfromtheeast:onmyoji_boots',
-        'usefulslime:slime_boots', 'oreganized:electrum_boots']
+        'usefulslime:slime_boots']
     for (let i in uniqueBoots) {
         uniqueItemTags('boots', uniqueBoots[i])
     }

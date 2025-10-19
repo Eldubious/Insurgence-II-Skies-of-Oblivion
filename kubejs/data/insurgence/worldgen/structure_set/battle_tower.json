@@ -1,0 +1,14 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 10387312,
+        "separation": 5,
+        "spacing": 12
+    },
+    "structures": [
+        {
+            "structure": "insurgence:battle_tower/template",
+            "weight": 1
+        }
+    ]
+}
