@@ -14,6 +14,10 @@ config/jade/*
 !config/jade/
 config/puffish_skills/*
 !config/puffish_skills/
+config/defaultworldtype/*
+!config/defaultworldtype/
+config/skyblockbuilder/*
+!config/skyblockbuilder/
 crash-reports
 datapacks
 data
@@ -82,3 +86,4 @@ usernamecache.json
 !config/subtle_effects/
 !config/ftbxmodcompat.snbt
 !config/travelerstitles-neoforge-1_21.toml
+!config/defaultworldtype/client-config.toml

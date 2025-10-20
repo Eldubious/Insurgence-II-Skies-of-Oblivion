@@ -7,7 +7,8 @@ StartupEvents.registry('item', event => {
         .tooltip(Component.translate('tooltip.insurgence.info.token_of_renewal').gray().italic())
 
     let keyTypes = ['battle_tower', 'ominous_battle_tower', 'mansion', 'ominous_mansion', 'forge', 'heavy_forge',
-        'pyromancer', 'cryomancer', 'archevoker', 'priest', 'apothecarist']
+        'pyromancer', 'cryomancer', 'archevoker', 'priest', 'apothecarist', 'common_invader', 'uncommon_invader', 'rare_invader',
+        'epic_invader', 'mythic_invader']
     for (let i in keyTypes) {
         event.create(`insurgence:${keyTypes[i]}_key`)
             .rarity('uncommon')

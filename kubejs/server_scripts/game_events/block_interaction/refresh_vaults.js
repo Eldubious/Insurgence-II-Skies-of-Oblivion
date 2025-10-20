@@ -37,12 +37,19 @@ BlockEvents.rightClicked("minecraft:vault", event => {
                 }
                 
             }
+
+            let cmdActionBar = `execute as ${event.player.uuid.toString()} run title @s actionbar {"translate":"actionbar.insurgence.token_of_renewal.success"}`
+            event.server.runCommandSilent(cmdActionBar)
+        }
+        // Tell the player they can only refresh the Vault if it is currently inactive
+        else {
+            let cmdActionBar = `execute as ${event.player.uuid.toString()} run title @s actionbar {"translate":"actionbar.insurgence.token_of_renewal.error"}`
+            event.server.runCommandSilent(cmdActionBar)
         }
     }
 })
 
 BlockEvents.rightClicked("enderscape:end_vault", event => {
-    console.log(event.hand)
 
     if (!event.level.isClientSide() &&
         ((event.player.mainHandItem.id.toString() == refresh_item && event.hand == 'MAIN_HAND') ||
@@ -78,6 +85,14 @@ BlockEvents.rightClicked("enderscape:end_vault", event => {
                 }
                 
             }
+
+            let cmdActionBar = `execute as ${event.player.uuid.toString()} run title @s actionbar {"translate":"actionbar.insurgence.token_of_renewal.success"}`
+            event.server.runCommandSilent(cmdActionBar)
+        }
+        // Tell the player they can only refresh the Vault if it is currently inactive
+        else {
+            let cmdActionBar = `execute as ${event.player.uuid.toString()} run title @s actionbar {"translate":"actionbar.insurgence.token_of_renewal.error"}`
+            event.server.runCommandSilent(cmdActionBar)
         }
     }
 })

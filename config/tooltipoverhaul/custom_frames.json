@@ -1,6 +1,12 @@
 {
   "frames": [
     {
+      "tags": [
+        "insurgence:unique_items"
+      ],
+      "specialEffect": "metal_shining"
+    },
+    {
       "texture": "tooltipoverhaul:textures/overlay/amethyst_frame.png",
       "items": [
         "minecraft:dragon_egg",
