@@ -1,0 +1,149 @@
+To-Do List
+
+Difficulty:
+  Fast Travel
+    - Waystones can be used for free unless teleporting to the Skies
+    - A Totem of Recall will allow you to cast the recall spell
+      + Recall has a 40m-1hr cooldown
+    - Recall potion can be consumed to teleport home
+  World Tiers
+    - Tier cannot be changed manually
+    - Player starts with the haven tier unlocked
+    - Spell Imbued items only start appearing in the ascent tier
+    - Unlock requirements for each tier:
+      + Haven
+        - Start the game
+      + Frontier
+        - Visit the Overworld
+        - Level up 4 different Skills
+        - Loot a vault
+        - Craft a Silent Gear tool or Iron's Jewelry
+      + Ascent
+        - Enter the Nether
+        - Defeat the Wither
+        - Obtain Netherite Ingot
+      + Summit
+        - Enter the End
+        - Defeat the Dragon
+      + Pinnacle
+        - ???
+  Challenge
+    - Monsters spawn during the day, but not frequently
+      + Monsters never spawn in the Skies
+    - The player has really slow and weak natural regen outside of the Skies
+      + Each world tier reduces the regen penalty
+    - Blocks cannot be broken or placed in certain structures
+      + Only until they have been cleared for the first time
+
+Structures:
+  The Forge
+    - A Nether Structure
+    - More Puzzles than combat
+    - Gives a crucial item which allows the player to make alloys in their foundry
+
+  Battle Towers
+    - A very common structure; in every dimension
+    - Has lots of variety and themes depending on where it's foundry
+    - A good source of common loot
+
+  Starter Island(s)
+    - Where the player spawns
+    - Island type chosen on world creation
+    - Contains the following:
+      + An empty End Portal Frame
+      + A Dimensional Storage Matrix (the simplest kind)
+      + A bonus chest
+
+Gear:
+  Crafted Gear
+    - Silent Gems are not just found as ores everywhere; each one is found in a special location
+      + Pearls are found by brushing underwater
+      + Ammonite are held by drowned or in underwater loot
+      + Some are just exclusive to a specific biome/dimension
+    - Better materials can only be made into gear with foundry improvements
+      + Alloys require an item from The Forge
+    - Crafted gear cannot be given affixes or gem sockets
+
+  Looted Gear
+    - Looted gear will always have one negative affix on them
+    - Affixes do not give attribute buffs; those are reserved for gemstones
+    - Gemstones have no drawbacks
+    - More items can have affixes:
+      + Fishing Rods (Fishing Buffs)
+      + Hoes (Magic buffs)
+
+  Enchantments
+    - Looted Equipment will never have enchantments
+    - Enchantments are limited to 3, but a rare item can increase it to 4
+
+  Spells
+    - Only are found already imbued onto weapons
+    - Spells can have their level upgraded, but not changed or removed
+      + The player can upgrade their gear's spell using its respective ink type
+      + There is a message displayed when the ink type is incorrect
+    - Spell Books or scrolls cannot be found or crafted
+    - Each spell that can be found as loot is exclusive to a biome or dimension
+      + The questbook details where each spell can be found
+
+Skill Tree:
+    - You will not be able to max out any skill tree
+    - You can refund all points spent in a skill
+      + Skills only give refundable bonuses because of this
+    - There is a level cap for each World Tier
+    - There are automatic rewards for reaching certain skill level milestones
+      + These rewards will typically unlock content and are non-refundable
+    - Milestone rewards are given through the questbook
+    
+  Combat
+    - XP gained by killing mobs (that don't give another kind of XP like fish)
+    - Increases damage stats
+  Cooking
+    - XP gained by cooking and eating complex dishes
+    - Increases health and regen
+  Dungeoneering
+    - XP gained by looting loot chests and vaults
+    - Gives luck, speed, and crit stats
+  Fishing 
+    - XP gained by fishing or killing fish
+    - Increases swim, underwater, and fishing stats
+  Enchanting
+    - XP gained by enchanting
+    - Increases vanilla & skill xp gained and mana
+    - Milestones unlock new enchantments
+  Spellcasting
+    - XP gained by casting spells
+    - Increases specific school stats, and some generic stats
+  Brewing
+    - XP gained by drinking and brewing potions
+    - Decreses spell cooldown or smth
+    - Also gives immunity to certain effects or permanent effects
+  Mining
+    - XP gained by mining ores
+    - Increases defensive and mining stats
+
+Resources:
+  Bees
+    - All bees that spawn naturally are corrupted
+      + They are useless until they are purified
+    - Productive Bees upgrades are nerfed
+    - These are the only materials bees can produce
+      + Ores
+        - Only generate ores by converting stone into an ore block
+      + Skill XP
+        - Gated behind a certain level of experience in that skill
+      + Logs
+      + Stone
+      + Dyes
+      + Mob drops
+        - Only for common mobs
+        - Not via the Wannabe
+    - The centrifuge is not used; instead the furnace or foundry is used
+
+Cosmetic:
+  EMI
+    - Uncommonly used items are grouped together
+    - Loot tables that are only called by other loot tables are hidden
+  Misc
+    - All trims and materials are compatible with tools and elytra
+    - Ores have informational tooltips saying where they are found
+    - All dyes are obtainable from flowers
