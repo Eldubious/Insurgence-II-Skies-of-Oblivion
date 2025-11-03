@@ -11,7 +11,8 @@ ServerEvents.tags('item', event => {
         'irons_spellbooks:magehunter', 'irons_spellbooks:spellbreaker', 'irons_spellbooks:amethyst_rapier',
         'irons_spellbooks:boreal_blade', 'irons_spellbooks:keeper_flamberge', 'irons_spellbooks:legionnaire_flamberge',
         'iss_magicfromtheeast:taiji_sword', 'iss_magicfromtheeast:soul_breaker', 'iss_magicfromtheeast:muramasa',
-        'iss_magicfromtheeast:soul_katana', 'irons_spellbooks:misery']
+        'iss_magicfromtheeast:soul_katana', 'irons_spellbooks:misery', 'alchemancy:dreamsteel_sword',
+        'alchemancy:feral_blade', 'alchemancy:hot_rod']
     for (let i in uniqueSwords) {
         uniqueItemTags('sword', uniqueSwords[i])
     }
@@ -34,6 +35,11 @@ ServerEvents.tags('item', event => {
     let uniqueMaces = ['minecraft:mace']
     for (let i in uniqueMaces) {
         uniqueItemTags('mace', uniqueMaces[i])
+    }
+
+    let uniqueBats = []
+    for (let i in uniqueBats) {
+        uniqueItemTags('bat', uniqueBats[i])
     }
 
     let uniqueHarps = ['alshanex_familiars:bard_harp']

@@ -1,0 +1,8 @@
+{
+  "parent": "productivemetalworks:block/foundry_capacitor_base",
+  "textures": {
+    "front": "productivemetalworks:block/forest_foundry_capacitor_front",
+    "side": "productivemetalworks:block/forest_fire_bricks",
+    "top": "productivemetalworks:block/forest_fire_bricks"
+  }
+}

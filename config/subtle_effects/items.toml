@@ -13,6 +13,7 @@ powderSnowBucketUseParticles = true
 lingeringPotionClouds = true
 splashPotionClouds = true
 structureVoidItemMarker = true
+armadilloBrushParticles = true
 
 [itemRarity]
 particlesDisplayType = "OFF"

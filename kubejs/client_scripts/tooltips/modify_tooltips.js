@@ -8,15 +8,15 @@ ItemEvents.modifyTooltips(event => {
     let uniqueItemTypes = ['sword', 'scythe', 'trident', 'mace', 'harp', 'knife', 'axe', 'pickaxe',
         'shovel', 'hoe', 'bow', 'crossbow', 'staff', 'wand', 'helmet', 'chestplate', 'leggings',
         'boots', 'elytra', 'ring', 'belt', 'necklace', 'curio', 'shield', 'club', 'polearm',
-        'fishing_rod', 'shears', 'slingshot']
+        'fishing_rod', 'shears', 'slingshot', 'bat']
     for (let i in uniqueItemTypes) {
         event.modify(`#insurgence:unique_item/${uniqueItemTypes[i]}`, tooltip => {
             tooltip.insert(1, Component.translate('tooltip.insurgence.unique').red().append(
-                Component.of(" ").append(
+                Component.translate("formatting.insurgence.spacer").append(
                 Component.translate(`tooltip.insurgence.${uniqueItemTypes[i]}`).gray())))
-            tooltip.insert(2, Text.of("RARITY_MARKER"))
-            tooltip.insert(3, Text.of("SPELL_IMBUEMENT_MARKER"))
-            tooltip.insert(4, Text.of(" "))
+            tooltip.insert(2, Component.translate("formatting.insurgence.rarity_tooltip_marker"))
+            tooltip.insert(3, Component.translate("formatting.insurgence.spell_imbuement_tooltip_marker"))
+            tooltip.insert(4, Component.translate("formatting.insurgence.spacer"))
 
             tooltip.dynamic('equipment_items')
             tooltip.dynamic('item_rarity')
@@ -30,10 +30,10 @@ ItemEvents.modifyTooltips(event => {
     for (let i in craftedItemTypes) {
         event.modify(`#insurgence:crafted_item/${craftedItemTypes[i]}`, tooltip => {
             tooltip.insert(1, Component.translate('tooltip.insurgence.crafted').aqua().append(
-                Component.of(" ").append(
+                Component.translate("formatting.insurgence.spacer").append(
                 Component.translate(`tooltip.insurgence.${craftedItemTypes[i]}`).gray())))
-            tooltip.insert(2, Text.of("RARITY_MARKER"))
-            tooltip.insert(3, Text.of(" "))
+            tooltip.insert(2, Component.translate("formatting.insurgence.rarity_tooltip_marker"))
+            tooltip.insert(3, Component.translate("formatting.insurgence.spacer"))
 
             tooltip.dynamic('equipment_items')
             tooltip.dynamic('item_rarity')
@@ -47,9 +47,9 @@ ItemEvents.modifyTooltips(event => {
     
     // Where to find armor trims
     event.modify('#minecraft:trim_templates', tooltip => {
-        tooltip.insert(1, Component.literal(' '))
-        tooltip.insert(2, Component.literal(' '))
-        tooltip.insert(3, Component.literal(' '))
+        tooltip.insert(1, Component.translate("formatting.insurgence.spacer"))
+        tooltip.insert(2, Component.translate("formatting.insurgence.spacer"))
+        tooltip.insert(3, Component.translate("formatting.insurgence.spacer"))
 
         tooltip.dynamic('trim_template_information')
     })

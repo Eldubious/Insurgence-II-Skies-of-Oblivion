@@ -14,6 +14,11 @@
     "item.insurgence.archevoker_key": "Archevoker Key",
     "item.insurgence.priest_key": "Priest Key",
     "item.insurgence.apothecarist_key": "Apothecarist Key",
+    "item.insurgence.common_invader_key": "Common Invader Key",
+    "item.insurgence.uncommon_invader_key": "Uncommon Invader Key",
+    "item.insurgence.rare_invader_key": "Rare Invader Key",
+    "item.insurgence.epic_invader_key": "Epic Invader Key",
+    "item.insurgence.mythic_invader_key": "Mythic Invader Key",
 
     "material.insurgence.sunmetal": "Sunmetal",
     "material.insurgence.candy": "Candy",
@@ -228,5 +233,9 @@
     "questbook.hovertext.action_effect_bonus": "Action Bonus:",
     "questbook.hovertext.apply_effect_self": "§7 ♢ Applies Effect To Self:§r",
     "questbook.hovertext.apply_effect_enemy": "§7 ♢ Applies Effect To Target:§r",
-    "questbook.hovertext.wind_burst": "§7  ♢ Wind Burst§r"
+    "questbook.hovertext.wind_burst": "§7  ♢ Wind Burst§r",
+
+    "formatting.insurgence.spacer": " ",
+    "formatting.insurgence.rarity_tooltip_marker": "RARITY_MARKER",
+    "formatting.insurgence.spell_imbuement_tooltip_marker": "SPELL_IMBUEMENT_MARKER"
 }

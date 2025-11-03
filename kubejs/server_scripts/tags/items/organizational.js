@@ -36,4 +36,16 @@ ServerEvents.tags('item', event => {
     for (let i in vaultKeys) {
         event.add('insurgence:vault_keys', vaultKeys[i])
     }
+
+    // Add new color foundry blocks to the correct tags
+    let newDyeColors = ['maroon', 'rose', 'coral', 'ginger', 'tan', 'beige', 'amber', 'olive', 'forest', 'verdant', 'teal', 'mint',
+        'aqua', 'slate', 'navy', 'indigo']
+    for (let i in newDyeColors) {
+        event.add('productivemetalworks:fire_bricks', `productivemetalworks:${newDyeColors[i]}_fire_bricks`)
+        event.add('productivemetalworks:foundry_controllers', `productivemetalworks:${newDyeColors[i]}_foundry_controller`)
+        event.add('productivemetalworks:foundry_drains', `productivemetalworks:${newDyeColors[i]}_foundry_drain`)
+        event.add('productivemetalworks:foundry_capacitors', `productivemetalworks:${newDyeColors[i]}_foundry_capacitor`)
+        event.add('productivemetalworks:foundry_tanks', `productivemetalworks:${newDyeColors[i]}_foundry_tank`)
+        event.add('productivemetalworks:foundry_windows', `productivemetalworks:${newDyeColors[i]}_foundry_window`)
+    }
 })
