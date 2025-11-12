@@ -19,6 +19,8 @@
     "biome.insurgence.the_abyss": "The Abyss",
     
     "item.insurgence.token_of_renewal": "Token of Renewal",
+    "item.insurgence.totem_of_return": "Totem of Return",
+    "item.insurgence.totem_of_vision": "Totem of Vision",
     "item.insurgence.battle_tower_key": "Battle Tower Key",
     "item.insurgence.ominous_battle_tower_key": "Ominous Battle Tower Key",
     "item.insurgence.mansion_key": "Mansion Key",
@@ -119,8 +121,24 @@
     "tooltip.insurgence.info.wild_pattern_1": "Found in __.",
     "tooltip.insurgence.info.wild_pattern_2": "Also found applied to looted equipment from jungles",
 
+    "insurgence.shrine/zombie_haven": "Zombie Shrine: Haven Tier",
+    "insurgence.shrine/zombie_frontier": "Zombie Shrine: Frontier Tier",
+    "insurgence.shrine/zombie_ascent": "Zombie Shrine: Ascent Tier",
+    "insurgence.shrine/zombie_summit": "Zombie Shrine: Summit Tier",
+    "insurgence.shrine/zombie_pinnacle": "Zombie Shrine: Pinnacle Tier",
+
+    "gateway_reward.insurgence.place_waystone.desc": "Create a Waystone",
+    "gateway_failure.insurgence.failed_gateway_shrine.desc": "Try interacting with the shrine again",
+
     "actionbar.insurgence.token_of_renewal.success": "Refreshed the content of this vault for all players.",
     "actionbar.insurgence.token_of_renewal.error": "Can only use this item on an inactive Vault.",
+
+    "chat_message.insurgence.set_world_tier_haven": "Your world tier has upgraded to Haven!",
+    "chat_message.insurgence.set_world_tier_frontier": "Your world tier has upgraded to Frontier!",
+    "chat_message.insurgence.set_world_tier_ascent": "Your world tier has upgraded to Ascent!",
+    "chat_message.insurgence.set_world_tier_summit": "Your world tier has upgraded to Summit!",
+    "chat_message.insurgence.set_world_tier_pinnacle": "Your world tier has upgraded to Pinnacle!",
+    "chat_message.insurgence.gateway_shrine.no_enemy_type": "Shrine does not have an enemy type set. Set one using a renamed Name Tag in creative mode.",
 
     "attribute.name.player.block_break_speed.desc": "DESC",
     "attribute.name.player.block_interaction_range.desc": "DESC",

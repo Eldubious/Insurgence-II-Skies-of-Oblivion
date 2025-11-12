@@ -135,5 +135,8 @@
             "kill_wither"
         ]
     ],
-    "sends_telemetry_event": true
+    "rewards": {
+        "function": "insurgence:advancement/set_world_tier/summit"
+    },
+    "sends_telemetry_event": false
 }

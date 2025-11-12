@@ -3,15 +3,28 @@
     "downfall": 0.8,
     "has_precipitation": true,
     "effects": {
-        "sky_color": 4145,
-        "fog_color": 9054,
-        "water_color": 927841,
-        "water_fog_color": 131603,
+        "ambient_sound": "enderscape:ambient.void_skies.loop",
+        "mood_sound": {
+            "block_search_extent": 8,
+            "offset": 2.0,
+            "sound": "enderscape:ambient.void_skies.mood",
+            "tick_delay": 6000
+        },
+        "sky_color": 525835,
+        "fog_color": 2563640,
+        "water_color": 7961249,
+        "water_fog_color": 3684693,
         "music": {
             "max_delay": 24000,
             "min_delay": 12000,
             "replace_current_music": false,
-            "sound": "minecraft:music.overworld.deep_dark"
+            "sound": "enderscape:music.the_end.biome.void_skies"
+        },
+        "particle": {
+            "options": {
+                "type": "enderscape:void_stars"
+            },
+            "probability": 0.006
         }
     },
     "carvers": {},

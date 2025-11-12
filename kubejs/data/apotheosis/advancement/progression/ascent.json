@@ -142,5 +142,8 @@
             "kill_apothic_invader"
         ]
     ],
-    "sends_telemetry_event": true
+    "rewards": {
+        "function": "insurgence:advancement/set_world_tier/ascent"
+    },
+    "sends_telemetry_event": false
 }

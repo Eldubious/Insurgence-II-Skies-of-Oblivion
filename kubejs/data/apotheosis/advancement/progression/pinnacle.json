@@ -130,5 +130,8 @@
             "kill_ender_dragon"
         ]
     ],
-    "sends_telemetry_event": true
+    "rewards": {
+        "function": "insurgence:advancement/set_world_tier/pinnacle"
+    },
+    "sends_telemetry_event": false
 }

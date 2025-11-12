@@ -32,8 +32,7 @@ const itemGroups = [
         ],
         materials: [
             "minecraft:copper",
-            "minecraft:iron",
-            "oreganized:lead"
+            "minecraft:iron"
         ],
         hasSpells: false,
         weights: {
@@ -72,7 +71,6 @@ const itemGroups = [
         materials: [
             "minecraft:gold",
             "minecraft:iron",
-            "oreganized:quartz",
             "pigsteel:pigsteel"
         ],
         hasSpells: false,
@@ -551,7 +549,6 @@ const itemGroups = [
         ],
         materials: [
             "minecraft:copper",
-            "oreganized:silver",
             "minecraft:iron"
         ],
         hasSpells: false,
@@ -586,7 +583,6 @@ const itemGroups = [
         ],
         materials: [
             "minecraft:copper",
-            "oreganized:silver",
             "minecraft:gold"
         ],
         hasSpells: false,
@@ -621,7 +617,6 @@ const itemGroups = [
         ],
         materials: [
             "minecraft:copper",
-            "oreganized:silver",
             "minecraft:gold"
         ],
         hasSpells: false,
@@ -654,8 +649,7 @@ const itemGroups = [
             "minecraft:golden_sword",
             "minecraft:golden_axe",
             "minecraft:golden_pickaxe",
-            "minecraft:golden_shovel",
-            "minecraft:golden_hoe"
+            "minecraft:golden_shovel"
         ],
         patterns: [
             "minecraft:wayfinder",
@@ -682,8 +676,7 @@ const itemGroups = [
                     "minecraft:golden_sword",
                     "minecraft:golden_axe",
                     "minecraft:golden_pickaxe",
-                    "minecraft:golden_shovel",
-                    "minecraft:golden_hoe"
+                    "minecraft:golden_shovel"
                 ],
                 needEquip: false
             },
@@ -699,15 +692,6 @@ const itemGroups = [
                 needEquip: true
             },
             {
-                spell: "irons_spellbooks:burning_dash",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:golden_hoe"
-                ],
-                needEquip: true
-            },
-            {
                 spell: "irons_spellbooks:fire_breath",
                 levelMin: 1,
                 levelMax: 4,
@@ -717,15 +701,6 @@ const itemGroups = [
                 needEquip: true
             },
             {
-                spell: "irons_spellbooks:fire_breath",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:golden_hoe"
-                ],
-                needEquip: false
-            },
-            {
                 spell: "irons_spellbooks:ray_of_siphoning",
                 levelMin: 1,
                 levelMax: 4,
@@ -733,8 +708,7 @@ const itemGroups = [
                     "minecraft:golden_sword",
                     "minecraft:golden_axe",
                     "minecraft:golden_pickaxe",
-                    "minecraft:golden_shovel",
-                    "minecraft:golden_hoe"
+                    "minecraft:golden_shovel"
                 ],
                 needEquip: false
             }
@@ -761,8 +735,7 @@ const itemGroups = [
             "minecraft:iron_sword",
             "minecraft:iron_axe",
             "minecraft:iron_pickaxe",
-            "minecraft:iron_shovel",
-            "minecraft:iron_hoe"
+            "minecraft:iron_shovel"
         ],
         patterns: [
             "minecraft:wayfinder",
@@ -788,8 +761,7 @@ const itemGroups = [
                     "minecraft:iron_sword",
                     "minecraft:iron_axe",
                     "minecraft:iron_pickaxe",
-                    "minecraft:iron_shovel",
-                    "minecraft:iron_hoe"
+                    "minecraft:iron_shovel"
                 ],
                 needEquip: false
             },
@@ -805,15 +777,6 @@ const itemGroups = [
                 needEquip: true
             },
             {
-                spell: "irons_spellbooks:burning_dash",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:iron_hoe"
-                ],
-                needEquip: true
-            },
-            {
                 spell: "irons_spellbooks:fire_breath",
                 levelMin: 1,
                 levelMax: 4,
@@ -823,15 +786,6 @@ const itemGroups = [
                 needEquip: true
             },
             {
-                spell: "irons_spellbooks:fire_breath",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:iron_hoe"
-                ],
-                needEquip: false
-            },
-            {
                 spell: "irons_spellbooks:ray_of_siphoning",
                 levelMin: 1,
                 levelMax: 4,
@@ -839,8 +793,7 @@ const itemGroups = [
                     "minecraft:iron_sword",
                     "minecraft:iron_axe",
                     "minecraft:iron_pickaxe",
-                    "minecraft:iron_shovel",
-                    "minecraft:iron_hoe"
+                    "minecraft:iron_shovel"
                 ],
                 needEquip: false
             }
@@ -871,8 +824,7 @@ const itemGroups = [
             "minecraft:diamond_sword",
             "minecraft:diamond_axe",
             "minecraft:diamond_pickaxe",
-            "minecraft:diamond_shovel",
-            "minecraft:diamond_hoe"
+            "minecraft:diamond_shovel"
         ],
         patterns: [
             "minecraft:wayfinder",
@@ -898,8 +850,7 @@ const itemGroups = [
                     "minecraft:diamond_sword",
                     "minecraft:diamond_axe",
                     "minecraft:diamond_pickaxe",
-                    "minecraft:diamond_shovel",
-                    "minecraft:diamond_hoe"
+                    "minecraft:diamond_shovel"
                 ],
                 needEquip: false
             },
@@ -915,15 +866,6 @@ const itemGroups = [
                 needEquip: true
             },
             {
-                spell: "irons_spellbooks:burning_dash",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:diamond_hoe"
-                ],
-                needEquip: true
-            },
-            {
                 spell: "irons_spellbooks:fire_breath",
                 levelMin: 1,
                 levelMax: 4,
@@ -933,15 +875,6 @@ const itemGroups = [
                 needEquip: true
             },
             {
-                spell: "irons_spellbooks:fire_breath",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:diamond_hoe"
-                ],
-                needEquip: false
-            },
-            {
                 spell: "irons_spellbooks:ray_of_siphoning",
                 levelMin: 1,
                 levelMax: 4,
@@ -949,8 +882,7 @@ const itemGroups = [
                     "minecraft:diamond_sword",
                     "minecraft:diamond_axe",
                     "minecraft:diamond_pickaxe",
-                    "minecraft:diamond_shovel",
-                    "minecraft:diamond_hoe"
+                    "minecraft:diamond_shovel"
                 ],
                 needEquip: false
             }
@@ -1175,8 +1107,7 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:gold",
             "minecraft:emerald",
-            "minecraft:lapis",
-            "oreganized:silver"
+            "minecraft:lapis"
         ],
         hasSpells: false,
         weights: {
@@ -1210,8 +1141,7 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:gold",
             "minecraft:emerald",
-            "minecraft:lapis",
-            "oreganized:silver"
+            "minecraft:lapis"
         ],
         hasSpells: false,
         weights: {
@@ -1353,7 +1283,6 @@ const itemGroups = [
         ],
         materials: [
             "minecraft:gold",
-            "oreganized:silver",
             "minecraft:lapis",
             "minecraft:emerald",
             "vanillabackport:resin"
@@ -1390,8 +1319,7 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:gold",
             "minecraft:emerald",
-            "minecraft:lapis",
-            "oreganized:silver"
+            "minecraft:lapis"
         ],
         hasSpells: false,
         weights: {
@@ -1533,7 +1461,6 @@ const itemGroups = [
         ],
         materials: [
             "minecraft:lapis",
-            "oreganized:silver",
             "minecraft:gold",
             "minecraft:emerald",
             "upgrade_aquatic:tooth"
@@ -1570,8 +1497,7 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:gold",
             "minecraft:emerald",
-            "minecraft:lapis",
-            "oreganized:silver"
+            "minecraft:lapis"
         ],
         hasSpells: false,
         weights: {
@@ -1822,8 +1748,7 @@ const itemGroups = [
             "minecraft:iron_sword",
             "minecraft:iron_pickaxe",
             "minecraft:iron_axe",
-            "minecraft:iron_shovel",
-            "minecraft:iron_hoe"
+            "minecraft:iron_shovel"
         ],
         patterns: [
             "minecraft:wayfinder",
@@ -1852,8 +1777,7 @@ const itemGroups = [
                     "minecraft:iron_sword",
                     "minecraft:iron_pickaxe",
                     "minecraft:iron_axe",
-                    "minecraft:iron_shovel",
-                    "minecraft:iron_hoe"
+                    "minecraft:iron_shovel"
                 ],
                 needEquip: true
             },
@@ -1869,8 +1793,7 @@ const itemGroups = [
                     "minecraft:iron_sword",
                     "minecraft:iron_pickaxe",
                     "minecraft:iron_axe",
-                    "minecraft:iron_shovel",
-                    "minecraft:iron_hoe"
+                    "minecraft:iron_shovel"
                 ],
                 needEquip: true
             },
@@ -1882,8 +1805,7 @@ const itemGroups = [
                     "minecraft:iron_helmet",
                     "minecraft:iron_chestplate",
                     "minecraft:iron_leggings",
-                    "minecraft:iron_boots",
-                    "minecraft:iron_hoe"
+                    "minecraft:iron_boots"
                 ],
                 needEquip: true
             }
@@ -1911,8 +1833,7 @@ const itemGroups = [
             "minecraft:diamond_sword",
             "minecraft:diamond_pickaxe",
             "minecraft:diamond_axe",
-            "minecraft:diamond_shovel",
-            "minecraft:diamond_hoe"
+            "minecraft:diamond_shovel"
         ],
         patterns: [
             "minecraft:wayfinder",
@@ -1941,8 +1862,7 @@ const itemGroups = [
                     "minecraft:diamond_sword",
                     "minecraft:diamond_pickaxe",
                     "minecraft:diamond_axe",
-                    "minecraft:diamond_shovel",
-                    "minecraft:diamond_hoe"
+                    "minecraft:diamond_shovel"
                 ],
                 needEquip: true
             },
@@ -1958,8 +1878,7 @@ const itemGroups = [
                     "minecraft:diamond_sword",
                     "minecraft:diamond_pickaxe",
                     "minecraft:diamond_axe",
-                    "minecraft:diamond_shovel",
-                    "minecraft:diamond_hoe"
+                    "minecraft:diamond_shovel"
                 ],
                 needEquip: true
             },
@@ -1971,8 +1890,7 @@ const itemGroups = [
                     "minecraft:diamond_helmet",
                     "minecraft:diamond_chestplate",
                     "minecraft:diamond_leggings",
-                    "minecraft:diamond_boots",
-                    "minecraft:diamond_hoe"
+                    "minecraft:diamond_boots"
                 ],
                 needEquip: true
             }
