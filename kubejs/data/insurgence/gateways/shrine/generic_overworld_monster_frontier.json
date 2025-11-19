@@ -6,19 +6,24 @@
             "entities": [
                 {
                     "entity": "minecraft:zombie",
-                    "count": 3,
+                    "count": 2,
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "minecraft:skeleton",
+                    "count": 1,
                     "finalize_spawn": false
                 }
             ],
             "modifiers": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": 8,
+                    "value": 6,
                     "operation": "add_value"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": 0.33,
                     "operation": "add_value"
                 }
             ],
@@ -38,19 +43,29 @@
             "entities": [
                 {
                     "entity": "minecraft:zombie",
-                    "count": 5,
+                    "count": 2,
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "minecraft:spider",
+                    "count": 2,
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "minecraft:skeleton",
+                    "count": 2,
                     "finalize_spawn": false
                 }
             ],
             "modifiers": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": 8,
+                    "value": 6,
                     "operation": "add_value"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": 0.33,
                     "operation": "add_value"
                 }
             ],
