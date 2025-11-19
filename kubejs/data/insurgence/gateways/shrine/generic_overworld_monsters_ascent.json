@@ -6,7 +6,12 @@
             "entities": [
                 {
                     "entity": "minecraft:zombie",
-                    "count": 3,
+                    "count": 2,
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "minecraft:skeleton",
+                    "count": 1,
                     "finalize_spawn": false
                 }
             ],
@@ -38,7 +43,17 @@
             "entities": [
                 {
                     "entity": "minecraft:zombie",
-                    "count": 5,
+                    "count": 2,
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "minecraft:spider",
+                    "count": 2,
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "minecraft:skeleton",
+                    "count": 2,
                     "finalize_spawn": false
                 }
             ],

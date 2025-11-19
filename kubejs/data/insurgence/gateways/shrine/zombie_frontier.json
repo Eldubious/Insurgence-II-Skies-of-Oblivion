@@ -70,7 +70,7 @@
     "rewards": [
         {
             "type": "gateways:command",
-            "command": "function insurgence:gameplay/place_waystone",
+            "command": "function insurgence:gameplay/gateway_shrine_reward",
             "desc": "gateway_reward.insurgence.place_waystone.desc"
         }
     ],
