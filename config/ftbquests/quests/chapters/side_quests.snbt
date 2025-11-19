@@ -1,0 +1,1171 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "side_quests"
+	group: "5A5007015D006F7E"
+	icon: {
+		components: {
+			"ftbquests:icon": "exposure:textures/gui/sprites/album/sign.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "17E180CE1DB38AAC"
+	images: [
+		{
+			click: "\"1F66D5E4A479CD9F\""
+			height: 1.0d
+			hover: ["Hello"]
+			image: "fzzy_config:textures/gui/sprites/widget/action/info.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/questbook/lines/straight.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/questbook/lines/straight.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/questbook/lines/straight.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/questbook/lines/straight.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/questbook/lines/straight.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/questbook/lines/straight.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/questbook/lines/straight.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/questbook/lines/straight.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -4.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			id: "4B7C10DF0A221B51"
+			tasks: [{
+				advancement: "exposure:adventure/exposure"
+				criterion: ""
+				id: "50981FA85A393B58"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B7C10DF0A221B51"]
+			hide_dependent_lines: true
+			id: "7193D84912337A89"
+			tasks: [{
+				advancement: "exposure:adventure/spotlight"
+				criterion: ""
+				id: "252C4B522840B8F0"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B7C10DF0A221B51"]
+			id: "79A35167CA6C65D3"
+			tasks: [{
+				advancement: "exposure:adventure/piercing_gaze"
+				criterion: ""
+				id: "3027BCB68F1C17CC"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B7C10DF0A221B51"]
+			id: "50DC6F3FFF3AC187"
+			tasks: [{
+				advancement: "exposure:adventure/family_portrait"
+				criterion: ""
+				id: "631E96568E226404"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B7C10DF0A221B51"]
+			hide_dependent_lines: true
+			id: "1BBD0697C527731B"
+			tasks: [{
+				advancement: "exposure:adventure/moment_in_time"
+				criterion: ""
+				id: "6CB4F451D3E6A4A1"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B7C10DF0A221B51"]
+			id: "52365CC81B39DD8D"
+			tasks: [{
+				advancement: "exposure_polaroid:adventure/instant_classic"
+				criterion: ""
+				id: "5A7495BAD74E5ECC"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B7C10DF0A221B51"]
+			id: "56C144A37B1A9E34"
+			tasks: [{
+				advancement: "exposure:adventure/wildlife_archivist"
+				criterion: ""
+				id: "48820458701CFE40"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B7C10DF0A221B51"]
+			hide_dependent_lines: true
+			id: "2F5B3FD6B89D0494"
+			tasks: [{
+				advancement: "exposure:adventure/splitting_the_photon"
+				criterion: ""
+				id: "47095E47F1D7B646"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7193D84912337A89"]
+			hide_dependent_lines: true
+			id: "6537099D1A7B0D5C"
+			tasks: [{
+				advancement: "exposure:adventure/lights_up"
+				criterion: ""
+				id: "58639AF34BE24FA5"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6537099D1A7B0D5C"]
+			id: "66744CD61AD448F7"
+			tasks: [{
+				advancement: "exposure:adventure/void"
+				criterion: ""
+				id: "6F9702B1399A4864"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6537099D1A7B0D5C"]
+			hide_dependent_lines: true
+			id: "631945F5DE0AE0CC"
+			tasks: [{
+				advancement: "exposure:adventure/exposed_paparazzi"
+				criterion: ""
+				id: "7D0D7EA05F6A4A6D"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["631945F5DE0AE0CC"]
+			hide_dependent_lines: true
+			id: "202181BF57741A4C"
+			tasks: [{
+				advancement: "exposure:adventure/unforeseen_consequences"
+				criterion: ""
+				id: "66A538ECF27947ED"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["202181BF57741A4C"]
+			id: "62B6DB2B7AF73F75"
+			tasks: [{
+				advancement: "exposure:adventure/photos_of_spider_man"
+				criterion: ""
+				id: "5C91B7A683C93367"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BBD0697C527731B"]
+			id: "317C14A7B4A8DCCF"
+			tasks: [{
+				advancement: "exposure:adventure/spooky_silly_skeletons"
+				criterion: ""
+				id: "07C4B52732FE523E"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F5B3FD6B89D0494"]
+			id: "4A70252703FF47E2"
+			tasks: [{
+				advancement: "exposure:adventure/complex_composite_compound"
+				criterion: ""
+				id: "51CAAC70D2034050"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "1366A853054DCE92"
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				id: "5B8E78AC42785837"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			id: "019FA45C37C9E391"
+			tasks: [{
+				advancement: "minecraft:adventure/blowback"
+				criterion: ""
+				id: "62D344D4C745422B"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			id: "25FBBDAC364E9CB7"
+			tasks: [{
+				advancement: "minecraft:adventure/brush_armadillo"
+				criterion: ""
+				id: "6E50A0CB46C7FA07"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			id: "7767F2608D46BFFB"
+			tasks: [{
+				advancement: "minecraft:adventure/bullseye"
+				criterion: ""
+				id: "647DA517D08E217F"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			id: "2568F4E2279AD194"
+			tasks: [{
+				advancement: "minecraft:adventure/craft_decorated_pot_using_only_sherds"
+				criterion: ""
+				id: "6BE3478AAB7FD1B4"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			id: "175FD74C333963E8"
+			tasks: [{
+				advancement: "minecraft:adventure/crafters_crafting_crafters"
+				criterion: ""
+				id: "64D856BF36204DE2"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			id: "4E83F16A34D3A601"
+			tasks: [{
+				advancement: "minecraft:adventure/fall_from_world_height"
+				criterion: ""
+				id: "1170613AE0B99249"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			id: "571DA7350396BCB2"
+			tasks: [{
+				advancement: "minecraft:adventure/honey_block_slide"
+				criterion: ""
+				id: "27EE74FF938E88A8"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			id: "34AC69E8CF4209E8"
+			tasks: [{
+				advancement: "minecraft:adventure/lighten_up"
+				criterion: ""
+				id: "7F9BB53C4771F29E"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			id: "24D62B78382BF9B1"
+			tasks: [{
+				advancement: "minecraft:adventure/lightning_rod_with_villager_no_fire"
+				criterion: ""
+				id: "559AC7A525448F1D"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			id: "3F7EA83FFE06ADE9"
+			tasks: [{
+				advancement: "minecraft:adventure/overoverkill"
+				criterion: ""
+				id: "2C8C8448D6815B8B"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			id: "40F9FD79AD8860B2"
+			tasks: [{
+				advancement: "minecraft:adventure/play_jukebox_in_meadows"
+				criterion: ""
+				id: "2972CBEFDF0CDA8D"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			id: "097AF3633BD03F09"
+			tasks: [{
+				advancement: "minecraft:adventure/read_power_of_chiseled_bookshelf"
+				criterion: ""
+				id: "69E02CC7EEC482F9"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			id: "4E8E5FE318077FA9"
+			tasks: [{
+				advancement: "minecraft:adventure/salvage_sherd"
+				criterion: ""
+				id: "12928676534C7FEC"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			id: "3BE44ABA3ACEFD5D"
+			tasks: [{
+				advancement: "minecraft:adventure/spyglass_at_dragon"
+				criterion: ""
+				id: "7E1AE9AA2390CA81"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			id: "27A879FA60E8A7CC"
+			tasks: [{
+				advancement: "minecraft:adventure/spyglass_at_ghast"
+				criterion: ""
+				id: "497E5D384D40F330"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "4941A3A439CF5971"
+			tasks: [{
+				advancement: "minecraft:adventure/spyglass_at_parrot"
+				criterion: ""
+				id: "05499C7A85206A9D"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			id: "6567E8D95A32180B"
+			tasks: [{
+				advancement: "minecraft:adventure/summon_iron_golem"
+				criterion: ""
+				id: "2D0D7B7BD189A655"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			id: "56C0AEE9E7E819B6"
+			tasks: [{
+				advancement: "minecraft:adventure/trim_with_all_exclusive_armor_patterns"
+				criterion: ""
+				id: "5EF5C7502C6FF694"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			id: "44CB1E7464C3F4AD"
+			tasks: [{
+				advancement: "minecraft:adventure/trim_with_any_armor_pattern"
+				criterion: ""
+				id: "7AB0D0067EBAD26C"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			id: "41F90E1241E5FDBB"
+			tasks: [{
+				advancement: "minecraft:adventure/walk_on_powder_snow_with_leather_boots"
+				criterion: ""
+				id: "43FF631E27E48171"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			id: "35CAAC4158461E45"
+			tasks: [{
+				advancement: "minecraft:adventure/who_needs_rockets"
+				criterion: ""
+				id: "1BD3CAC5111BDB1E"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			id: "77A26529ED6F6828"
+			tasks: [{
+				advancement: "minecraft:husbandry/allay_deliver_cake_to_note_block"
+				criterion: ""
+				id: "3453FA7332F20FE2"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			id: "0CEDA5200E434375"
+			tasks: [{
+				advancement: "minecraft:husbandry/allay_deliver_item_to_player"
+				criterion: ""
+				id: "2B8333CB6AE1395A"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			id: "1F8362B0FF10C81D"
+			tasks: [{
+				advancement: "minecraft:husbandry/axolotl_in_a_bucket"
+				criterion: ""
+				id: "14A09D02C424466A"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			id: "5F6E166275B51128"
+			tasks: [{
+				advancement: "minecraft:husbandry/balanced_diet"
+				criterion: ""
+				id: "43F7A869A4CC6F8C"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			id: "3C186A8A607BAF47"
+			tasks: [{
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+				id: "27D6262F1F32EC17"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			id: "348D132BAB0F5D62"
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				id: "238726242B87A5BC"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "45A1DB719A94A553"
+			tasks: [{
+				advancement: "minecraft:husbandry/complete_catalogue"
+				criterion: ""
+				id: "25219B27949275E4"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			id: "1AFEF5DF536FED28"
+			tasks: [{
+				advancement: "minecraft:husbandry/feed_snifflet"
+				criterion: ""
+				id: "7696E8CF5B59FD3B"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			id: "784AF98EF6F6685E"
+			tasks: [{
+				advancement: "minecraft:husbandry/froglights"
+				criterion: ""
+				id: "2D9922E3FCA272FB"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			id: "1CECB08C87E77078"
+			tasks: [{
+				advancement: "minecraft:husbandry/kill_axolotl_target"
+				criterion: ""
+				id: "793042B7CE8F62E3"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			id: "67FD03E746538F17"
+			tasks: [{
+				advancement: "minecraft:husbandry/leash_all_frog_variants"
+				criterion: ""
+				id: "27F39FE5E3B014BD"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			id: "0372D1E66422B924"
+			tasks: [{
+				advancement: "minecraft:husbandry/make_a_sign_glow"
+				criterion: ""
+				id: "133CD3F37F527AF6"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			id: "08B3DD99CD54F2D7"
+			tasks: [{
+				advancement: "minecraft:husbandry/obtain_sniffer_egg"
+				criterion: ""
+				id: "70ABE04BD588AD02"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			id: "61FD3E45BC61471F"
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_any_sniffer_seed"
+				criterion: ""
+				id: "5D52452AFB17F096"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			id: "4038B8EFD2E70588"
+			tasks: [{
+				advancement: "minecraft:husbandry/remove_wolf_armor"
+				criterion: ""
+				id: "567E48C8136BB9AB"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			id: "65ADF8372DEF759C"
+			tasks: [{
+				advancement: "minecraft:husbandry/repair_wolf_armor"
+				criterion: ""
+				id: "047C915A9C214AA8"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			id: "7F568E110E562185"
+			tasks: [{
+				advancement: "minecraft:husbandry/ride_a_boat_with_a_goat"
+				criterion: ""
+				id: "24084B1CB61BE5E9"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "5E756E9DBB008810"
+			tasks: [{
+				advancement: "minecraft:husbandry/safely_harvest_honey"
+				criterion: ""
+				id: "5495BB6040EC9918"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			id: "32BAFD95BDEB045F"
+			tasks: [{
+				advancement: "minecraft:husbandry/silk_touch_nest"
+				criterion: ""
+				id: "7038B3EA368E96BC"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			id: "06FD98EE684BFC68"
+			tasks: [{
+				advancement: "minecraft:husbandry/tactical_fishing"
+				criterion: ""
+				id: "1B46218C3DF3CA38"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			id: "1F71FF5C6AC081D2"
+			tasks: [{
+				advancement: "minecraft:husbandry/tadpole_in_a_bucket"
+				criterion: ""
+				id: "450E757A982E7F9E"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			id: "06183F9BB4F6E741"
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				id: "7CD98F2770368555"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			id: "56CF346F1BE69002"
+			tasks: [{
+				advancement: "minecraft:husbandry/wax_off"
+				criterion: ""
+				id: "534950BB7B04CB86"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			id: "1FE16760731B6992"
+			tasks: [{
+				advancement: "minecraft:husbandry/wax_on"
+				criterion: ""
+				id: "5A111D5F3F8A0FEB"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			id: "3BD9108F2553657D"
+			tasks: [{
+				advancement: "minecraft:husbandry/whole_pack"
+				criterion: ""
+				id: "0FDAD645068CCF9B"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			id: "0C10EEA8B7A4B6B4"
+			tasks: [{
+				advancement: "minecraft:nether/create_beacon"
+				criterion: ""
+				id: "005F35D1C9C86A11"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			id: "793F1649B4361B13"
+			tasks: [{
+				advancement: "minecraft:nether/create_full_beacon"
+				criterion: ""
+				id: "17A4DCBC63DE05F9"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			id: "1B4A561B7BEA9E80"
+			tasks: [{
+				advancement: "minecraft:nether/ride_strider_in_overworld_lava"
+				criterion: ""
+				id: "0D9C42A5C731D66F"
+				type: "advancement"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			id: "3C4F283CCC74CC97"
+			tasks: [{
+				advancement: "minecraft:nether/ride_strider"
+				criterion: ""
+				id: "215329FE77CB8B5B"
+				type: "advancement"
+			}]
+			x: 17.5d
+			y: 1.0d
+		}
+		{
+			id: "460A604EBF83EE86"
+			tasks: [{
+				advancement: "camping:main/get_a_bundle"
+				criterion: ""
+				id: "671727291FD77C01"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "2050A2FB76138ED1"
+			tasks: [{
+				advancement: "camping:main/get_a_enderbag"
+				criterion: ""
+				id: "76615E83BB3F10F5"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "7656C6096046A31C"
+			tasks: [{
+				advancement: "camping:main/get_a_enderpack"
+				criterion: ""
+				id: "7FE6B9A847AD3201"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "4EC05A98F0B8C571"
+			tasks: [{
+				advancement: "camping:main/get_a_large_backpack"
+				criterion: ""
+				id: "04A134BFEEEBC66D"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "5ACB51356F10EF6F"
+			tasks: [{
+				advancement: "camping:main/get_a_multitool"
+				criterion: ""
+				id: "5E89EDF2F3EA75AB"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "5268CCD9CB587E11"
+			tasks: [{
+				advancement: "camping:main/get_a_sheepbag"
+				criterion: ""
+				id: "3B5CB71FD83F9A1E"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "0DF43497A38CC6BF"
+			tasks: [{
+				advancement: "camping:main/get_a_small_backpack"
+				criterion: ""
+				id: "57B48AE9C9AA2705"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			id: "655C1DB41B0C1FBC"
+			tasks: [{
+				advancement: "camping:main/get_a_wanderer_backpack"
+				criterion: ""
+				id: "61EABC9C34B9D567"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			id: "6FFB456D2B8B85C5"
+			tasks: [{
+				advancement: "camping:main/get_all_backpacks"
+				criterion: ""
+				id: "30691D348BC5EFB8"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			id: "69442B51699F0D74"
+			tasks: [{
+				advancement: "camping:main/use_beef_on_grill"
+				criterion: ""
+				id: "717709C5D3A4AF25"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			id: "5B99AB6930A5E85D"
+			tasks: [{
+				advancement: "goated:husbandry/breed_a_geep"
+				criterion: ""
+				id: "54164BDD8733E7BD"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			id: "5834D190AD3A7C77"
+			tasks: [{
+				advancement: "upgrade_aquatic:adventure/kill_great_thrasher"
+				criterion: ""
+				id: "1AAEE1FCBA9A0AE2"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			id: "48D6ABA1CDD863EC"
+			tasks: [{
+				advancement: "upgrade_aquatic:adventure/sleep_underwater"
+				criterion: ""
+				id: "5C0288A72E8F6137"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "2F51DBCCEB6329DD"
+			tasks: [{
+				advancement: "upgrade_aquatic:adventure/tooth_fairy"
+				criterion: ""
+				id: "69AE85FAA1491F7A"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "4158FE5624CC32DC"
+			tasks: [{
+				advancement: "upgrade_aquatic:adventure/unethical_dentistry"
+				criterion: ""
+				id: "19B76C96CBE82C6C"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			id: "5831E35834F645BB"
+			tasks: [{
+				advancement: "upgrade_aquatic:adventure/collect_all_pike"
+				criterion: ""
+				id: "0857273147741662"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			id: "6A724E877B901270"
+			tasks: [{
+				advancement: "upgrade_aquatic:husbandry/eat_pickerelweed"
+				criterion: ""
+				id: "756359A030E10E41"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			id: "4752DF9C3BF8E2FE"
+			tasks: [{
+				advancement: "supplementaries:adventure/globe"
+				criterion: ""
+				id: "0B167682A0FCCDAE"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			id: "3E7E9F0B952907B5"
+			tasks: [{
+				advancement: "supplementaries:adventure/way_sign"
+				criterion: ""
+				id: "42936244F18F1653"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "7E890817F8637CD3"
+			tasks: [{
+				advancement: "supplementaries:husbandry/soap"
+				criterion: ""
+				id: "0714054CFDE52A33"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "7F3FDAF1F9AEB33B"
+			tasks: [{
+				advancement: "supplementaries:husbandry/sus_stew"
+				criterion: ""
+				id: "5FD7F8BFA5A2646A"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "468AD47285BA2831"
+			tasks: [{
+				advancement: "supplementaries:husbandry/turn_table"
+				criterion: ""
+				id: "6F5B296956A70B7D"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "07E683FC08B11C99"
+			tasks: [{
+				advancement: "supplementaries:husbandry/wrench"
+				criterion: ""
+				id: "72DF42068628B5AF"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "77D9AF76B2E61742"
+			tasks: [{
+				advancement: "supplementaries:nether/goblet"
+				criterion: ""
+				id: "0BFB237842D809A6"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "3DF58E6A96C564DD"
+			tasks: [{
+				advancement: "supplementaries:story/unenchanter"
+				criterion: ""
+				id: "2C77CB3B8F9D5553"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "7C0E7704D68D6B7B"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/crystal_berry"
+				criterion: ""
+				id: "7110BA8264DCCB3C"
+				type: "advancement"
+			}]
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			id: "5BD11295262C425C"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/impostor"
+				criterion: ""
+				id: "6BFFB8A807295D4C"
+				type: "advancement"
+			}]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			id: "7948BEEE4E50EBB2"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/memory_fragment"
+				criterion: ""
+				id: "3BB849669DE83108"
+				type: "advancement"
+			}]
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			id: "1CBCB9DA4216B8AA"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/origin_island"
+				criterion: ""
+				id: "08AB2928D8130855"
+				type: "advancement"
+			}]
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			id: "7E5EAEE8429F02C3"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/ponder_orb"
+				criterion: ""
+				id: "52A451F873D1F7BF"
+				type: "advancement"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+	]
+	tags: ["sandstone_background"]
+}

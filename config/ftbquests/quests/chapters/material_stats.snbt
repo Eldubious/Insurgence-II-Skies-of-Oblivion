@@ -1,0 +1,213 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "material_stats"
+	group: "701AFCA6D05A1685"
+	icon: {
+		components: {
+			"ftbquests:icon": "silentgear:item/blueprint_sword"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "6A23C818B4B92D6C"
+	images: [
+		{
+			click: " "
+			height: 1.0d
+			hover: [
+				"questbook.hovertext.main_materials"
+				""
+				"questbook.hovertext.used_for"
+				"questbook.hovertext.every_gear_type"
+			]
+			image: "silentgear:item/dummy_icon_main"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: [
+				"questbook.hovertext.tool_rod_materials"
+				""
+				"questbook.hovertext.used_for"
+				"questbook.hovertext.tools_and_weapons"
+			]
+			image: "silentgear:item/blueprint_rod"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: [
+				"questbook.hovertext.cord_materials"
+				""
+				"questbook.hovertext.used_for"
+				"questbook.hovertext.bows"
+				"questbook.hovertext.slingshots"
+				"questbook.hovertext.fishing_rods"
+			]
+			image: "silentgear:item/blueprint_cord"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: [
+				"questbook.hovertext.coating_materials"
+				""
+				"questbook.hovertext.upgrades"
+				"questbook.hovertext.all_but_elytra"
+			]
+			image: "silentgear:item/blueprint_coating"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: [
+				"questbook.hovertext.binding_materials"
+				""
+				"questbook.hovertext.used_for"
+				"questbook.hovertext.elytra"
+				""
+				"questbook.hovertext.upgrades"
+				"questbook.hovertext.tools_and_weapons"
+			]
+			image: "silentgear:item/blueprint_binding"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: [
+				"questbook.hovertext.fletching_materials"
+				""
+				"questbook.hovertext.used_for"
+				"questbook.hovertext.arrows"
+			]
+			image: "silentgear:item/blueprint_fletching"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: ["questbook.hovertext.jewelry_setting_materials"]
+			image: "silentgear:item/part/setting"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: [
+				"questbook.hovertext.tip_upgrade_materials"
+				""
+				"questbook.hovertext.upgrades"
+				"questbook.hovertext.tools_and_weapons"
+			]
+			image: "silentgear:item/blueprint_tip"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: [
+				"questbook.hovertext.lining_materials"
+				""
+				"questbook.hovertext.upgrades"
+				"questbook.hovertext.helmets"
+				"questbook.hovertext.chestplates"
+				"questbook.hovertext.leggings"
+				"questbook.hovertext.boots"
+			]
+			image: "silentgear:item/blueprint_lining"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: [
+				"questbook.hovertext.grip_materials"
+				""
+				"questbook.hovertext.upgrades"
+				"questbook.hovertext.tools_and_weapons"
+			]
+			image: "silentgear:item/blueprint_grip"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: ["questbook.hovertext.gemstone_materials"]
+			image: "silentgear:item/hybrid_gem"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			click: " "
+			height: 1.0d
+			hover: ["questbook.hovertext.band_materials"]
+			image: "silentgear:item/ring/main_generic_hc"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			components: {
+				"ftbquests:icon": "ftbquests:textures/gui/info.png"
+			}
+			id: "ftbquests:custom_icon"
+		}
+		id: "3DF626F8C604A60E"
+		tasks: [{
+			id: "679F686B170C5E44"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

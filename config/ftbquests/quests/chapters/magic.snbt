@@ -1,0 +1,426 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic"
+	group: "5A5007015D006F7E"
+	icon: {
+		components: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 8
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+		id: "irons_spellbooks:gold_spell_book"
+	}
+	id: "032775FB68F03842"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/font/icons/info.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "268D1CF26CE4D562"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/ink_root"
+				criterion: ""
+				id: "02D979E715750BB3"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "6AAA0023DC5E8CB2"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/ink_legendary"
+				criterion: ""
+				id: "32DF354B642DE06E"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "25957A32C8CC99C1"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/staff_root"
+				criterion: ""
+				id: "56F40E7967414674"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "5C1E97657C524A19"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/staff_ice"
+				criterion: ""
+				id: "15B642F7A355BC85"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "21A3A071A12706DF"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/staff_blood_staff"
+				criterion: ""
+				id: "0FBCEF66C485AA8C"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "62D7A3BBC12DE503"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/staff_artificer"
+				criterion: ""
+				id: "39834F1ADAEE7158"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "11D5CE2D1ED822E4"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/staff_lightning_rod"
+				criterion: ""
+				id: "4D925BC670A2ED47"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "34CC0A34499DAB3E"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/staff_pyrium"
+				criterion: ""
+				id: "1AFA408EF801196B"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "047DB221DCF06BE7"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/tame/archmage"
+				criterion: ""
+				id: "297C6A3816EDBA65"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			id: "3BC4E1B1185C7B6C"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/tame/cleric"
+				criterion: ""
+				id: "0DF347C891670891"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "42C3DF148BF8D952"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/tame/druid"
+				criterion: ""
+				id: "13F4509A1344F232"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "53ED2A632C1D9ADB"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/tame/hunter"
+				criterion: ""
+				id: "4A940D13033BCB12"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "5BCA8B8294ABF7D8"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/tame/illusionist"
+				criterion: ""
+				id: "32E5707B19C8D0FC"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "4BE9D32B17E7AE0B"
+			tasks: [{
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+				id: "77B7862503799818"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "70A25BAC3CC48EF3"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/tame/mage"
+				criterion: ""
+				id: "2DC8F232B8BC8541"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "1296150681F54F47"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/tame/necromancer"
+				criterion: ""
+				id: "6A042B4B81A94536"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "6C24E65D722CF32A"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/tame/plague"
+				criterion: ""
+				id: "7A2EDBFB9494CBAD"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "391B68A1396B6D38"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/tame/scorcher"
+				criterion: ""
+				id: "061A03572B723F88"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "5044CA910E5A9FBA"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/tame/summoner"
+				criterion: ""
+				id: "736D97F5670B253A"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "0C587BF92D76EDE8"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/tame/bard"
+				criterion: ""
+				id: "2CA0BBCAEE8ED025"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "5F04668CAC46A21D"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/tame/frostling"
+				criterion: ""
+				id: "1C3F77D4C54E3903"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "6ED7A1BA440F82EF"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/anthropologist"
+				criterion: ""
+				id: "34815045A1203B3D"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "241EDD0D72DB1606"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/full_collection"
+				criterion: ""
+				id: "7E1EB895E4974752"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "7B82AC22724B528E"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/harp"
+				criterion: ""
+				id: "7FF5CEFAD3C6C1B9"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "075DA18BA12FC202"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/learn_necromancy"
+				criterion: ""
+				id: "15CE2832DFA7646D"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "49498533CB71E29C"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/upgrade_familiar"
+				criterion: ""
+				id: "6DC6059907D69450"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "177EB9494F3309DF"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/bottle_soul"
+				criterion: ""
+				id: "544E38422AE4D4E6"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "00F510F0BCD9F57A"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/miniture_village"
+				criterion: ""
+				id: "5A268B351BBE7EFE"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "32257AB420C5ED59"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/pet_bed"
+				criterion: ""
+				id: "77FEEC10FA7EBACF"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "3633ECE3D3C77FC8"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/reincarnation"
+				criterion: ""
+				id: "4FC433B6BDF8D09D"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "3FDD9F04DB360670"
+			tasks: [{
+				advancement: "minecraft:nether/brew_potion"
+				criterion: ""
+				id: "3CE445AB68945D93"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "7B32306BFF4B1A50"
+			tasks: [{
+				advancement: "minecraft:nether/all_potions"
+				criterion: ""
+				id: "02433C7F8762ABC5"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "34ACD22D985E93FC"
+			tasks: [{
+				advancement: "minecraft:nether/all_effects"
+				criterion: ""
+				id: "2D4DA77DA8EE590D"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "2315F40F47517680"
+			tasks: [{
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+				id: "49D72D39B6EC5D40"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "46F84043DB14BC27"
+			tasks: [{
+				advancement: "upgrade_aquatic:nether/sleepless_slave"
+				criterion: ""
+				id: "5C90C1393540828D"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "53B54903D894070D"
+			tasks: [{
+				advancement: "upgrade_aquatic:nether/vibe_check"
+				criterion: ""
+				id: "5DAEF1234052865E"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+	]
+}

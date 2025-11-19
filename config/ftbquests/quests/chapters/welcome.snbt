@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "684EA9281A5030F9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "0F1A62D83AA0D407"
+		shape: "challenge"
+		tasks: [{
+			id: "597F2D69D876856A"
+			item: { count: 1, id: "minecraft:oak_wood" }
+			type: "item"
+		}]
+		x: -4.5d
+		y: -3.5d
+	}]
+	tags: ["stone_background"]
+}

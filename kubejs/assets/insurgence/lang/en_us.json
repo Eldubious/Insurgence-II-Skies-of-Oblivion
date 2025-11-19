@@ -121,6 +121,9 @@
     "tooltip.insurgence.info.wild_pattern_1": "Found in __.",
     "tooltip.insurgence.info.wild_pattern_2": "Also found applied to looted equipment from jungles",
 
+    "tooltip.insurgence.lore.poking_stick": "You may find that creatures do not enjoy being poked.",
+    "tooltip.insurgence.lore.heaviest_core": "Jumping is for the those with strong legs. It is possible that yours are not strong enough.",
+
     "insurgence.shrine/zombie_haven": "Zombie Shrine: Haven Tier",
     "insurgence.shrine/zombie_frontier": "Zombie Shrine: Frontier Tier",
     "insurgence.shrine/zombie_ascent": "Zombie Shrine: Ascent Tier",
@@ -208,7 +211,7 @@
     "advancements.insurgence.tools.root.title": "Tools & Armor",
     "advancements.insurgence.tools.root.description": "All the information you'll need for finding, crafting, and upgrading gear",
     "advancements.insurgence.tools.blueprint_package.title": "Getting Started With Gear Crafting",
-    "advancements.insurgence.tools.blueprint_package.description": "You cannot craft vanilla tools in this pack, so open your Blueprint Package to get started with crafting Silent Gear Tools",
+    "advancements.insurgence.tools.blueprint_package.description": "Open your Blueprint Package to get started with crafting Silent Gear Tools",
     "advancements.insurgence.tools.modular_tools.title": "Modular Tools",
     "advancements.insurgence.tools.modular_tools.description": "Craft any modular item from Silent Gear",
     "advancements.insurgence.tools.elytra.title": "Crafted Wings",

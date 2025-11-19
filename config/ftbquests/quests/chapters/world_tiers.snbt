@@ -1,0 +1,147 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "world_tiers"
+	group: "701AFCA6D05A1685"
+	icon: {
+		components: {
+			"ftbquests:icon": "apotheosis:textures/gui/book/summit_icon.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "4DB96DA75A8AE63D"
+	images: [{
+		height: 14.0d
+		image: "apotheosis:textures/gui/mountain.png"
+		order: -100
+		rotation: 0.0d
+		width: 21.0d
+		x: 2.5d
+		y: -2.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "apotheosis:textures/gui/book/haven_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.7d
+			id: "462226E239E7FF41"
+			shape: "none"
+			size: 1.1d
+			tasks: [{
+				advancement: "apotheosis:progression/haven"
+				criterion: ""
+				id: "43D9623A48528A5D"
+				type: "advancement"
+			}]
+			x: -2.75d
+			y: 2.2d
+		}
+		{
+			dependencies: ["462226E239E7FF41"]
+			icon: {
+				components: {
+					"ftbquests:icon": "apotheosis:textures/gui/book/frontier_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.7d
+			id: "5C46706F87877668"
+			shape: "none"
+			size: 1.1d
+			tasks: [{
+				advancement: "apotheosis:progression/frontier"
+				criterion: ""
+				id: "71B7EEAD9CAD4487"
+				type: "advancement"
+			}]
+			x: 2.75d
+			y: 1.6500000000000001d
+		}
+		{
+			dependencies: ["4FCF7F236F7245F3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "apotheosis:textures/gui/book/summit_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.7d
+			id: "78886B5907020B2D"
+			shape: "none"
+			size: 1.1d
+			tasks: [{
+				advancement: "apotheosis:progression/summit"
+				criterion: ""
+				id: "74B2304D4444BCD5"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5C46706F87877668"]
+			icon: {
+				components: {
+					"ftbquests:icon": "insurgence:textures/gui/questbook/ascent_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.7d
+			id: "4FCF7F236F7245F3"
+			shape: "none"
+			size: 1.1d
+			tasks: [{
+				advancement: "apotheosis:progression/ascent"
+				criterion: ""
+				id: "6A6A407DED2E54EB"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4FCF7F236F7245F3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "insurgence:textures/gui/questbook/pinnacle_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.7d
+			id: "4CBF9567AE191019"
+			shape: "none"
+			size: 1.1d
+			tasks: [{
+				advancement: "apotheosis:progression/pinnacle"
+				criterion: ""
+				id: "3ABF8DB966810ED9"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -8.25d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "apotheosis:items/boss_summoner"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4F2474BD4B2E9BCF"
+			shape: "challenge"
+			size: 2.0d
+			tasks: [{
+				id: "4324024BBAF6FEBC"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+	]
+}

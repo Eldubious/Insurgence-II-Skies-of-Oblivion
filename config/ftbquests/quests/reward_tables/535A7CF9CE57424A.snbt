@@ -1,0 +1,22 @@
+{
+	id: "535A7CF9CE57424A"
+	loot_size: 1
+	order_index: 0
+	rewards: [{
+		auto: "disabled"
+		command: "/apoth change_world_tier haven"
+		exclude_from_claim_all: true
+		feedback_message: "World Tier Changed to Haven"
+		icon: {
+			components: {
+				"ftbquests:icon": "apotheosis:textures/gui/book/haven_icon.png"
+			}
+			id: "ftbquests:custom_icon"
+		}
+		id: "54E46412F3B5A117"
+		permission_level: 2
+		silent: true
+		team_reward: false
+		type: "command"
+	}]
+}

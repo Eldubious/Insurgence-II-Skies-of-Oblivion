@@ -14,7 +14,7 @@
         "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
         "announce_to_chat": false,
         "show_toast": false,
-        "hidden": false
+        "hidden": true
     },
     "criteria": {
         "tick": {

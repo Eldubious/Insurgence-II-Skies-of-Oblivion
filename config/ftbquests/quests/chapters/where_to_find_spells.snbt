@@ -1,0 +1,49 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "where_to_find_spells"
+	group: "701AFCA6D05A1685"
+	icon: {
+		components: {
+			"ftbquests:icon": "irons_spellbooks:item/scroll"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "6486ED8C4AE1EDD2"
+	images: [
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/abyssal_shroud.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:textures/gui/sprites/gamemode_switcher/slot.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			components: {
+				"ftbquests:icon": "ftbquests:textures/gui/info.png"
+			}
+			id: "ftbquests:custom_icon"
+		}
+		id: "56391E82BF324A86"
+		tasks: [{
+			id: "1CE7687806B5CBBD"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

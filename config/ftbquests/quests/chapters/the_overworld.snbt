@@ -1,0 +1,729 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_overworld"
+	group: "5A5007015D006F7E"
+	icon: {
+		components: {
+			"ftbquests:icon": "structurify:textures/gui/config/images/biomes/forest.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "7D8CA731B985177A"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/font/icons/info.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0EA8E68E9EECCA3C"
+			tasks: [{
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+				id: "57CA15B0606EB396"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "4BCE21163153E970"
+			tasks: [{
+				advancement: "minecraft:story/shiny_gear"
+				criterion: ""
+				id: "2EFA2033BC9FA5E9"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "53E4257E312DDFFF"
+			tasks: [{
+				advancement: "minecraft:story/obtain_armor"
+				criterion: ""
+				id: "51C93A6E18013203"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "013622B0E2EFED68"
+			tasks: [{
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+				id: "7BAE2EEC233B963D"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "55ABD0D94EFAC809"
+			tasks: [{
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+				id: "0AD0393B60A1AE02"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "6D1F8912A8826934"
+			tasks: [{
+				advancement: "minecraft:story/lava_bucket"
+				criterion: ""
+				id: "53E304A520542111"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			id: "57E858BC30315015"
+			tasks: [{
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+				id: "4D588D5AAB12F434"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			id: "7AC38F83F7818EF3"
+			tasks: [{
+				advancement: "minecraft:story/form_obsidian"
+				criterion: ""
+				id: "0D624FF964009253"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "104A339C1E8EC494"
+			tasks: [{
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+				id: "21A85021766BC050"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			id: "592BA4589A2E08C2"
+			tasks: [{
+				advancement: "minecraft:story/deflect_arrow"
+				criterion: ""
+				id: "2675CB70C801F39B"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			id: "710E7119D8C6FB8A"
+			tasks: [{
+				advancement: "minecraft:story/upgrade_tools"
+				criterion: ""
+				id: "2367A2F458AB2CAB"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			id: "6AA06BBE2488D3A5"
+			tasks: [{
+				advancement: "minecraft:adventure/ol_betsy"
+				criterion: ""
+				id: "6EB2619CD7471CA3"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			id: "4753FDD4372BEDD8"
+			tasks: [{
+				advancement: "minecraft:adventure/two_birds_one_arrow"
+				criterion: ""
+				id: "296FC06F9CFFAE43"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			id: "402975CFDA5409AA"
+			tasks: [{
+				advancement: "minecraft:adventure/arbalistic"
+				criterion: ""
+				id: "5AA1A7250409DD93"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			id: "742D6F3E2DE753A9"
+			tasks: [{
+				advancement: "minecraft:adventure/whos_the_pillager_now"
+				criterion: ""
+				id: "2411DB1F15445863"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			id: "5897DAA1A8476283"
+			tasks: [{
+				advancement: "minecraft:adventure/shoot_arrow"
+				criterion: ""
+				id: "068F3D41758353D2"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "1AB0708AB1CC31AB"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "4733268AE3DA5473"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "234057BD6FCE61CD"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_all_mobs"
+				criterion: ""
+				id: "168A78CC569BA7E8"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "67B5AE8EAFD66614"
+			tasks: [{
+				advancement: "minecraft:adventure/totem_of_undying"
+				criterion: ""
+				id: "28F6F599AC960B26"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			id: "56E215218F0D2958"
+			tasks: [{
+				advancement: "minecraft:husbandry/fishy_business"
+				criterion: ""
+				id: "40F3C643E0812316"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			id: "32C0923FCDEC4270"
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				id: "1E382385678FACEA"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "29282BC3FD62AEC3"
+			tasks: [{
+				advancement: "minecraft:adventure/trade_at_world_height"
+				criterion: ""
+				id: "7FFA8E939B6ADC1A"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "149ADEC8030DDDE1"
+			tasks: [{
+				advancement: "minecraft:adventure/sniper_duel"
+				criterion: ""
+				id: "63354B55795638AD"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "13A75341804F0038"
+			tasks: [{
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				id: "7FCC67F2DDCB7446"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "6C596E33B84A50D4"
+			tasks: [{
+				advancement: "minecraft:adventure/voluntary_exile"
+				criterion: ""
+				id: "2BE3C6482C066B4E"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "4EF31B6CDC29B44B"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "2C18640B370A3657"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "73EFE3A3BF7001EC"
+			tasks: [{
+				advancement: "minecraft:adventure/under_lock_and_key"
+				criterion: ""
+				id: "57FB1F7285E15CFE"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			id: "02E29E17C809ED3C"
+			tasks: [{
+				advancement: "minecraft:adventure/revaulting"
+				criterion: ""
+				id: "0290DA5877093912"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			id: "6B6A6943A08CBF9F"
+			tasks: [{
+				advancement: "minecraft:adventure/minecraft_trials_edition"
+				criterion: ""
+				id: "7719EE22D2B7D848"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			id: "626A444F0437698A"
+			tasks: [{
+				advancement: "minecraft:adventure/throw_trident"
+				criterion: ""
+				id: "7C542ECBF814DCCF"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			id: "3613907B300B6DE1"
+			tasks: [{
+				advancement: "minecraft:adventure/avoid_vibration"
+				criterion: ""
+				id: "65F1CC0D29219109"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			id: "798AD2E3B9436C93"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_mob_near_sculk_catalyst"
+				criterion: ""
+				id: "7AAE71CCCACA1740"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			id: "170B9D1034B8FDC3"
+			tasks: [{
+				advancement: "insurgence:tools/blueprint_package"
+				criterion: ""
+				id: "18033CE0271B77D8"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			id: "2DE4B840C586FF45"
+			tasks: [{
+				advancement: "insurgence:tools/modular_tools"
+				criterion: ""
+				id: "39CF8CFFBC257A35"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			id: "6778A8A159892E19"
+			tasks: [{
+				advancement: "insurgence:tools/unique_item"
+				criterion: ""
+				id: "787C990B247B10F3"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			id: "38CA068C298EF354"
+			tasks: [{
+				advancement: "apotheosis:gateways/frontier"
+				criterion: ""
+				id: "2845ABC5C8DF66DE"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			id: "62078BC56A8AB397"
+			tasks: [{
+				advancement: "apotheosis:gateways/ascent"
+				criterion: ""
+				id: "73B3A37A46CE85BC"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			id: "08F5944BB81387DF"
+			tasks: [{
+				advancement: "apotheosis:gateways/summit"
+				criterion: ""
+				id: "0A9511B3CE54D7F6"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			id: "2668D0BEC32884DE"
+			tasks: [{
+				advancement: "apotheosis:gateways/pinnacle"
+				criterion: ""
+				id: "23DAB5AA3A6AF264"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "2E05356C13096BFB"
+			tasks: [{
+				advancement: "apotheosis:gateways/sigil_of_supremacy"
+				criterion: ""
+				id: "427D00510187E5FE"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			id: "49F6D4F6C62CF3BE"
+			tasks: [{
+				advancement: "minecraft:adventure/very_very_frightening"
+				criterion: ""
+				id: "5CD48C38796CBBAD"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "634354BE5C8AB9F5"
+			tasks: [{
+				advancement: "silentgear:armor"
+				criterion: ""
+				id: "251621683126F8F4"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			id: "138AB35001F89D66"
+			tasks: [{
+				advancement: "silentgear:big_job_tools"
+				criterion: ""
+				id: "183FB9374FBBF4CE"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			id: "03968FED02640BEC"
+			tasks: [{
+				advancement: "silentgear:blueprint_book"
+				criterion: ""
+				id: "50CBD57C08346290"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			id: "631FB466DC2995B5"
+			tasks: [{
+				advancement: "silentgear:blueprint_paper"
+				criterion: ""
+				id: "2069A7FEDDAC48C3"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			id: "0F1036FDACF220CD"
+			tasks: [{
+				advancement: "silentgear:bow"
+				criterion: ""
+				id: "4EDFE53A8AA00279"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			id: "3CE4EEC9F2189B8E"
+			tasks: [{
+				advancement: "silentgear:crossbow"
+				criterion: ""
+				id: "03256D9B0E1C5F1D"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			id: "05D3B7F661CEF6FB"
+			tasks: [{
+				advancement: "silentgear:high_durability"
+				criterion: ""
+				id: "6824980F193481AE"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			id: "6ADCA55807A4A3D5"
+			tasks: [{
+				advancement: "silentgear:kachink1"
+				criterion: ""
+				id: "68529BACE7A8654B"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			id: "7159E28437B129FD"
+			tasks: [{
+				advancement: "silentgear:kachink2"
+				criterion: ""
+				id: "1FE54CB975826456"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			id: "417DBD68CC59201A"
+			tasks: [{
+				advancement: "silentgear:material_grader"
+				criterion: ""
+				id: "3460A724A5DD3AB1"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			id: "3C1A79C5B7A4B270"
+			tasks: [{
+				advancement: "silentgear:mattock"
+				criterion: ""
+				id: "7EB68FAE59A54202"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			id: "601EFB9DB4F8DAA5"
+			tasks: [{
+				advancement: "silentgear:moonwalker"
+				criterion: ""
+				id: "583B89C55DDEC4B4"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			id: "73E6289F2D2397CB"
+			tasks: [{
+				advancement: "silentgear:overworld_plants"
+				criterion: ""
+				id: "28CB16396B35DDAE"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			id: "60B86BCFF1F4068D"
+			tasks: [{
+				advancement: "silentgear:repair_from_broken"
+				criterion: ""
+				id: "457CA19ACD0BA59F"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -8.5d
+		}
+		{
+			id: "09499ECC89FE03DB"
+			tasks: [{
+				advancement: "silentgear:repair_kit"
+				criterion: ""
+				id: "1F602EF62C4F2B41"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -7.5d
+		}
+		{
+			id: "7A5DF0F5F5A9A7F7"
+			tasks: [{
+				advancement: "silentgear:salvager"
+				criterion: ""
+				id: "04FF8A764C17B0AE"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			id: "58AABF904D3AD459"
+			tasks: [{
+				advancement: "silentgear:sickle"
+				criterion: ""
+				id: "5284B6458D011840"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			id: "2DBD10D189FBBEBA"
+			tasks: [{
+				advancement: "silentgear:standard_tools"
+				criterion: ""
+				id: "523ED393ACF9ABCA"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			id: "700C15AB7D866B6C"
+			tasks: [{
+				advancement: "silentgear:swords"
+				criterion: ""
+				id: "181EDA843CC20A45"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			id: "2D0A68BC96280B5E"
+			tasks: [{
+				advancement: "silentgear:tip_upgrade"
+				criterion: ""
+				id: "296B0185C56E0923"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			id: "44BA3BD3B551FEFC"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/make_wayward_compass"
+				criterion: ""
+				id: "1E30410D36468854"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			id: "09B32861B5AD6342"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/enter_catacombs"
+				criterion: ""
+				id: "733D95DD2F13A57E"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: -6.5d
+		}
+		{
+			id: "56211FDBBB7EA20E"
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/steal_from_wizard"
+				criterion: ""
+				id: "3668D60BE8F27E4C"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: -8.5d
+		}
+	]
+}

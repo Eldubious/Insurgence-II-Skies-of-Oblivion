@@ -1,0 +1,300 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "5A5007015D006F7E"
+	icon: {
+		components: {
+			"ftbquests:icon": "amendments:item/dragon_charge"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "4042CC471B39F39A"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/font/icons/info.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "467F3267FBD9D686"
+			tasks: [{
+				advancement: "enderscape:bottle_drift_jelly"
+				criterion: ""
+				id: "2B15939B0CCEB484"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "0F689125D00B3060"
+			tasks: [{
+				advancement: "enderscape:drift_leggings"
+				criterion: ""
+				id: "28A05867B00CF0E8"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "1E026151F50F65CA"
+			tasks: [{
+				advancement: "enderscape:explore_end"
+				criterion: ""
+				id: "59A7829039D58606"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "56219DA70925A7CC"
+			tasks: [{
+				advancement: "enderscape:glide_onto_drifter"
+				criterion: ""
+				id: "1104F7C8231755EC"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "474816FC3BA0A236"
+			tasks: [{
+				advancement: "enderscape:long_distance"
+				criterion: ""
+				id: "4EFDCEF1CC414DA2"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "5292FDD7DFDE9C3D"
+			tasks: [{
+				advancement: "enderscape:mirror_teleport"
+				criterion: ""
+				id: "57525D3A2BAF221A"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "1ADBFBABF7C58739"
+			tasks: [{
+				advancement: "enderscape:craft_nebulite"
+				criterion: ""
+				id: "1E03870E1672902A"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "15A596A207CCBFB6"
+			tasks: [{
+				advancement: "enderscape:pull_item_with_attractor"
+				criterion: ""
+				id: "4B8E71D1B8AF56A9"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "48844CE5B449F65A"
+			tasks: [{
+				advancement: "enderscape:rustle_bucket"
+				criterion: ""
+				id: "637BE11ECFA50049"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "32928CF4D7C3B607"
+			tasks: [{
+				advancement: "enderscape:transdimensional"
+				criterion: ""
+				id: "01E7E5D06B8BCA91"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "301FE6293C55D418"
+			tasks: [{
+				advancement: "enderscape:unlock_end_vault"
+				criterion: ""
+				id: "4A06081E19FF04B0"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "13999EFF6D62498A"
+			tasks: [{
+				advancement: "minecraft:end/dragon_breath"
+				criterion: ""
+				id: "242CC2668EE6579F"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "5CDC33447C52F224"
+			tasks: [{
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+				id: "3A8E22FF783BD095"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "5DAC8FA739A430A7"
+			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+				id: "144991197948EA0B"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "04FE8A3BB0EFBD76"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "73B7EF1EA6DAD6C7"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "4ACC8212B4D70352"
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "40669EDC31DD3EBA"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "411B9A179C1EFB1C"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "0487B4C7DD1C1F45"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "05674524B128608A"
+			tasks: [{
+				advancement: "minecraft:end/levitate"
+				criterion: ""
+				id: "76F12A7C465BF231"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "0FA44C4138ADF339"
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "4E4A43D7FE9614B3"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "1D15C78830F2D7CD"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "5D599F5FDD0B1626"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "18ED01D2DC28033D"
+			tasks: [{
+				advancement: "insurgence:tools/elytra"
+				criterion: ""
+				id: "5B763720ABF27AF7"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "61ABDDD8D67C0C56"
+			tasks: [{
+				advancement: "silentgear:azure_electrum"
+				criterion: ""
+				id: "124E838A3416C5F2"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "429E463CF30D4590"
+			tasks: [{
+				advancement: "silentgear:azure_repair_kit"
+				criterion: ""
+				id: "08168DCB8DBF57FC"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "10422C2A6F0EB83D"
+			tasks: [{
+				advancement: "silentgear:azure_silver"
+				criterion: ""
+				id: "7F8C39E3C19D5E09"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "26409472281B6A1E"
+			tasks: [{
+				advancement: "silentgear:grader_catalyst_3"
+				criterion: ""
+				id: "47872270F404173A"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+	]
+}

@@ -1,0 +1,289 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "5A5007015D006F7E"
+	icon: {
+		components: {
+			"ftbquests:icon": "mynethersdelight:item/zoglin_trophy"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "6033B4AADA3A0C57"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/font/icons/info.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6FD05D421D4565B3"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "1787FC776B582C81"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "274C51AA15D4B8EC"
+			tasks: [{
+				advancement: "minecraft:nether/use_lodestone"
+				criterion: ""
+				id: "1498E5DD604E1353"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "0E43286585328ADB"
+			tasks: [{
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+				id: "1D78033E94D852A0"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "5D6EE5C386DA7349"
+			tasks: [{
+				advancement: "minecraft:nether/obtain_blaze_rod"
+				criterion: ""
+				id: "031E08834A7EAAAE"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "12BD4E5E4725C580"
+			tasks: [{
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+				id: "472DBA28FDE41A10"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "43FA8DE0381F2E73"
+			tasks: [{
+				advancement: "minecraft:nether/charge_respawn_anchor"
+				criterion: ""
+				id: "2A3E9FE00EC36A7D"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "492EF220D611BBE0"
+			tasks: [{
+				advancement: "minecraft:nether/obtain_crying_obsidian"
+				criterion: ""
+				id: "7DF9CB421677DC3D"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "2BA6EDA586625669"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "7A03954A8983D017"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "0B8C927F37037327"
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "4B8ABA9033C12C8D"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "5994304EF725B401"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "46E62ECC5181B72F"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "2DE1F1AAD683EC32"
+			tasks: [{
+				advancement: "minecraft:nether/fast_travel"
+				criterion: ""
+				id: "20F64D2926398E93"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "2A7CEB40ACD6FB3F"
+			tasks: [{
+				advancement: "minecraft:nether/get_wither_skull"
+				criterion: ""
+				id: "5B85505848E00AE0"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "50BD881F06C6801D"
+			tasks: [{
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+				id: "3089EA15964389A9"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "7517C10F0C7AEE09"
+			tasks: [{
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+				id: "2BC89D5F930BD8B7"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "7B4A62B5848B8E79"
+			tasks: [{
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+				id: "1A668767A084C5DC"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "0BBE0B08F9E5C722"
+			tasks: [{
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+				id: "4A67176094909492"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			id: "376624DEC918B12E"
+			tasks: [{
+				advancement: "minecraft:nether/uneasy_alliance"
+				criterion: ""
+				id: "20BADD0A2922E69D"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "37EB66688A04BEE9"
+			tasks: [{
+				advancement: "minecraft:husbandry/obtain_netherite_hoe"
+				criterion: ""
+				id: "28EF75DB501FDEBB"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "1730CB3E5336A556"
+			tasks: [{
+				advancement: "silentgear:blaze_gold"
+				criterion: ""
+				id: "5E6C57FE315CEF95"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			id: "456D43896A1C17C7"
+			tasks: [{
+				advancement: "silentgear:crimson_iron"
+				criterion: ""
+				id: "5888BC52B3C45B34"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			id: "1BCE51FE22B631F0"
+			tasks: [{
+				advancement: "silentgear:crimson_repair_kit"
+				criterion: ""
+				id: "54040EC0CA4FD459"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			id: "6819FAE0ED93B723"
+			tasks: [{
+				advancement: "silentgear:crimson_steel"
+				criterion: ""
+				id: "1EBCA4ECBF72EF45"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "472C72892A20F60F"
+			tasks: [{
+				advancement: "silentgear:grader_catalyst_2"
+				criterion: ""
+				id: "2A6066616ED20E65"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "0E828CD9356F36C7"
+			tasks: [{
+				advancement: "silentgear:nether_plants"
+				criterion: ""
+				id: "3ABE0506EBF88293"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+	]
+}

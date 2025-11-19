@@ -90,4 +90,5 @@ usernamecache.json
 !config/ftbxmodcompat.snbt
 !config/travelerstitles-neoforge-1_21.toml
 !config/defaultworldtype/client-config.toml
-!config/arts_and_crafts-common.toml
+!config/emojitype.json
+!config/ftbquests
