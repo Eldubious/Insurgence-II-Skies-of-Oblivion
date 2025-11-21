@@ -1,29 +1,49 @@
 {
     "size": "small",
-    "color": "#33AE53",
+    "color": "#8F4B40",
     "waves": [
         {
             "entities": [
                 {
-                    "entity": "minecraft:zombie",
+                    "entity": "minecraft:spider",
                     "count": 2,
                     "finalize_spawn": false
                 },
                 {
-                    "entity": "minecraft:skeleton",
-                    "count": 1,
+                    "entity": "minecraft:silverfish",
+                    "count": 6,
                     "finalize_spawn": false
                 }
             ],
             "modifiers": [
                 {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.1,
+                    "operation": "add_multiplied_total"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.05,
+                    "operation": "add_multiplied_total"
+                },
+                {
                     "attribute": "minecraft:generic.armor",
-                    "value": 6,
+                    "value": 2,
                     "operation": "add_value"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.33,
+                    "value": 0.2,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "apothic_attributes:life_steal",
+                    "value": 0.2,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "apothic_attributes:armor_shred",
+                    "value": 0.1,
                     "operation": "add_value"
                 }
             ],
@@ -31,7 +51,7 @@
                 {
                     "type": "gateways:stack",
                     "stack": {
-                        "id": "minecraft:rotten_flesh",
+                        "id": "minecraft:string",
                         "count": 3
                     }
                 }
@@ -42,30 +62,45 @@
         {
             "entities": [
                 {
-                    "entity": "minecraft:zombie",
-                    "count": 2,
-                    "finalize_spawn": false
-                },
-                {
                     "entity": "minecraft:spider",
-                    "count": 2,
+                    "count": 3,
                     "finalize_spawn": false
                 },
                 {
-                    "entity": "minecraft:skeleton",
-                    "count": 2,
+                    "entity": "minecraft:silverfish",
+                    "count": 8,
                     "finalize_spawn": false
                 }
             ],
             "modifiers": [
                 {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.1,
+                    "operation": "add_multiplied_total"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.05,
+                    "operation": "add_multiplied_total"
+                },
+                {
                     "attribute": "minecraft:generic.armor",
-                    "value": 6,
+                    "value": 2,
                     "operation": "add_value"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.33,
+                    "value": 0.2,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "apothic_attributes:life_steal",
+                    "value": 0.2,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "apothic_attributes:armor_shred",
+                    "value": 0.1,
                     "operation": "add_value"
                 }
             ],
@@ -73,7 +108,7 @@
                 {
                     "type": "gateways:stack",
                     "stack": {
-                        "id": "minecraft:rotten_flesh",
+                        "id": "minecraft:string",
                         "count": 5
                     }
                 }

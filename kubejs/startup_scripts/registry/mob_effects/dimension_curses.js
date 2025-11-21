@@ -20,7 +20,7 @@ StartupEvents.registry("mob_effect", event => {
         .effectTick((e) => {
             let dimensionId = e.level.dimension.toString();
 
-            if (dimensionId != "minecraft:overworld") {
+            if (dimensionId != "minecraft:the_nether") {
                 e.server.runCommandSilent(`effect clear ${e.getUuid().toString()} insurgence:nether_curse`)
             }
         })

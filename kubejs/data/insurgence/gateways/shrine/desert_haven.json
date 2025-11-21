@@ -1,0 +1,205 @@
+{
+    "size": "small",
+    "color": "#B3A222",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:camel",
+                    "desc": "custom_enemy_name.insurgence.camel_jockey",
+                    "count": 1,
+                    "nbt": {
+                        "Passengers": [
+                            {
+                                "id": "minecraft:husk",
+                                "HandItems": [
+                                    {
+                                        "id": "minecraft:wooden_sword"
+                                    }
+                                ],
+                                "HandDropChances": [ 0, 0 ]
+                            },
+                            {
+                                "id": "minecraft:skeleton",
+                                "HandItems": [
+                                    {
+                                        "id": "minecraft:bow"
+                                    }
+                                ],
+                                "HandDropChances": [ 0, 0 ],
+                                "ArmorItems": [
+                                    {},
+                                    {},
+                                    {},
+                                    {
+                                        "id": "minecraft:leather_helmet"
+                                    }
+                                ],
+                                "ArmorDropChances": [ 0, 0, 0, 0 ]
+                            }
+                        ]
+                    },
+                    "modifiers": [
+                        {
+                            "attribute": "minecraft:generic.movement_speed",
+                            "operation": "add_multiplied_total",
+                            "value": 1.0
+                        },
+                        {
+                            "attribute": "minecraft:generic.max_health",
+                            "operation": "add_multiplied_total",
+                            "value": 0.2
+                        }
+                    ],
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "minecraft:skeleton",
+                    "count": 2,
+                    "modifiers": [
+                        {
+                            "type": "gateways:gear_set",
+                            "gear_set": "insurgence:leather_helmet_and_bow"
+                        }
+                    ],
+                    "finalize_spawn": false
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 8,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.45,
+                    "operation": "add_value"
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:stack",
+                    "stack": {
+                        "id": "minecraft:rotten_flesh",
+                        "count": 3
+                    }
+                }
+            ],
+            "max_wave_time": 1200,
+            "setup_time": 40
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:camel",
+                    "desc": "custom_enemy_name.insurgence.camel_jockey",
+                    "count": 1,
+                    "nbt": {
+                        "Passengers": [
+                            {
+                                "id": "minecraft:husk",
+                                "HandItems": [
+                                    {
+                                        "id": "minecraft:wooden_sword"
+                                    }
+                                ],
+                                "HandDropChances": [ 0, 0 ]
+                            },
+                            {
+                                "id": "minecraft:skeleton",
+                                "HandItems": [
+                                    {
+                                        "id": "minecraft:bow"
+                                    }
+                                ],
+                                "HandDropChances": [ 0, 0 ],
+                                "ArmorItems": [
+                                    {},
+                                    {},
+                                    {},
+                                    {
+                                        "id": "minecraft:leather_helmet"
+                                    }
+                                ],
+                                "ArmorDropChances": [ 0, 0, 0, 0 ]
+                            }
+                        ]
+                    },
+                    "modifiers": [
+                        {
+                            "attribute": "minecraft:generic.movement_speed",
+                            "operation": "add_multiplied_total",
+                            "value": 1.0
+                        },
+                        {
+                            "attribute": "minecraft:generic.max_health",
+                            "operation": "add_multiplied_total",
+                            "value": 0.2
+                        }
+                    ],
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "minecraft:husk",
+                    "count": 3,
+                    "modifiers": [
+                        {
+                            "type": "gateways:gear_set",
+                            "gear_set": "insurgence:leather_helmet_and_sword"
+                        }
+                    ],
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "minecraft:skeleton",
+                    "count": 2,
+                    "modifiers": [
+                        {
+                            "type": "gateways:gear_set",
+                            "gear_set": "insurgence:leather_helmet_and_bow"
+                        }
+                    ],
+                    "finalize_spawn": false
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 8,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.45,
+                    "operation": "add_value"
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:stack",
+                    "stack": {
+                        "id": "minecraft:rotten_flesh",
+                        "count": 5
+                    }
+                }
+            ],
+            "max_wave_time": 1200,
+            "setup_time": 80
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:command",
+            "command": "function insurgence:gameplay/gateway_shrine_reward",
+            "desc": "gateway_reward.insurgence.place_waystone.desc"
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:command",
+            "command": "function insurgence:gameplay/failed_gateway_shrine",
+            "desc": "gateway_failure.insurgence.failed_gateway_shrine.desc"
+        }
+    ]
+}

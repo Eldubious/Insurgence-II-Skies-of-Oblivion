@@ -1,6 +1,6 @@
 {
     "size": "small",
-    "color": "#33AE53",
+    "color": "#5F665C",
     "waves": [
         {
             "entities": [
@@ -18,12 +18,12 @@
             "modifiers": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": 10,
+                    "value": 6,
                     "operation": "add_value"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": 0.33,
                     "operation": "add_value"
                 }
             ],
@@ -60,12 +60,12 @@
             "modifiers": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": 10,
+                    "value": 6,
                     "operation": "add_value"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": 0.33,
                     "operation": "add_value"
                 }
             ],

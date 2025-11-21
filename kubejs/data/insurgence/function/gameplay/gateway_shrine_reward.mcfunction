@@ -18,3 +18,5 @@ execute if block ~ ~-1 ~ insurgence:blackstone_gateway_shrine run \
 
 execute if block ~ ~-1 ~ insurgence:end_stone_gateway_shrine run \
     function insurgence:gameplay/convert_shrine {type: "end_stone_"}
+
+summon minecraft:lightning_bolt ~ ~1 ~

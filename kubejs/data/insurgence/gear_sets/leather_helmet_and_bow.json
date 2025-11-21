@@ -1,0 +1,27 @@
+{
+    "weight": 0,
+    "quality": 0,
+    "mainhands": [
+        {
+            "weight": 1,
+            "stack": {
+                "id": "minecraft:bow"
+            },
+            "drop_chance": 0
+        }
+    ],
+    "offhands": [],
+    "boots": [],
+    "leggings": [],
+    "chestplates": [],
+    "helmets": [
+        {
+            "weight": 1,
+            "stack": {
+                "id": "minecraft:leather_helmet"
+            },
+            "drop_chance": 0
+        }
+    ],
+    "tags": []
+}

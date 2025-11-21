@@ -54,19 +54,19 @@
 		debug_container_types = false
 		#Render active status effects in every menu screen, not just in the player inventory.
 		#Default Value: true
-		effects_everywhere = true
+		effects_everywhere = false
 		#Allow effect renderer to fall back to a more compact version (when available) if not enough screen space exists. Otherwise effect widgets might run off-screen.
 		#Default Value: true
 		allow_fallback = true
 		#Screen side to render status effects on.
 		#Default Value: LEFT
 		#Allowed Values: LEFT, RIGHT
-		screen_side = "LEFT"
+		screen_side = "RIGHT"
 		#Effect renderer to be used.
 		#This setting might not be respected when not enough screen space is available. To force this setting disable "allow_fallback".
 		#Default Value: gui_compact_widget
 		#Allowed Values: NONE, GUI_SMALL, GUI_COMPACT, INVENTORY_COMPACT, INVENTORY_FULL_SIZE
-		renderer_type = "GUI_COMPACT"
+		renderer_type = "INVENTORY_FULL_SIZE"
 
 	[renderers.gui_renderer]
 		#Prevent status effects with infinite duration from showing.

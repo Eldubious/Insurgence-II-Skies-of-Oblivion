@@ -12,11 +12,21 @@ PlayerEvents.tick(event => {
     let playerId = event.player.uuid.toString()
     let mainHandItem = event.player.mainHandItem.id.toString()
     let offHandItem = event.player.offHandItem.id.toString()
-    let dimension = event.player.dimension.id.toString()
+    let dimension = event.player.level.dimension.toString()
 
     // Give the player the dimension's status effect
     applyDimensionEffects(server, playerId, dimension)
 
+    // Apply Night Vision to players holding the Totem of Vision
+    visionTotemEffect(server, playerId, mainHandItem, offHandItem)
+
+    
+    if (pTick == 100) pTick = 0
+    pTick++
+})
+
+// Check if the player is holding the Totem of Vision
+function visionTotemEffect(server, playerId, mainHandItem, offHandItem) {
     // Give the player night vision if holding the Totem of Vision
     if (!hasTotemVision && (mainHandItem == 'insurgence:totem_of_vision' || offHandItem == 'insurgence:totem_of_vision')) {
         let giveNightVisionCmd = `effect give ${playerId} minecraft:night_vision infinite 0 true`
@@ -29,11 +39,7 @@ PlayerEvents.tick(event => {
         server.runCommandSilent(rmNightVisionCmd)
         hasTotemVision = false
     }
-
-    
-    if (pTick == 100) pTick = 0
-    pTick++
-})
+}
 
 // Do the necessary checks for applying and removing dimension curses or blessings
 function applyDimensionEffects(server, playerId, dimension) {
@@ -64,6 +70,10 @@ function applyDimensionEffects(server, playerId, dimension) {
         server.runCommandSilent(giveDimCurseCmd)
         hasEndCurse = true
         hasHavenBlessing = false; hasOverworldCurse = false; hasNetherCurse = false
+    }
+    // Player already has correct effect; do nothing
+    else if (hasOverworldCurse || hasNetherCurse || hasEndCurse || hasHavenBlessing) {
+        return
     }
     // Player is in another dimension, or the flags are messed up
     else {

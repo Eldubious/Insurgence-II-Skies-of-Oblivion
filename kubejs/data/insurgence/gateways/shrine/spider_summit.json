@@ -1,0 +1,172 @@
+{
+    "size": "small",
+    "color": "#8F4B40",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:cave_spider",
+                    "count": 5,
+                    "nbt": {
+                        "active_effects": [
+                            {
+                                "id": "minecraft:infested",
+                                "amplifier": 0,
+                                "duration": -1
+                            }
+                        ]
+                    },
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "minecraft:silverfish",
+                    "count": 10,
+                    "finalize_spawn": false
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 1.0,
+                    "operation": "add_multiplied_total"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.2,
+                    "operation": "add_multiplied_total"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 10,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.45,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "apothic_attributes:life_steal",
+                    "value": 0.2,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "apothic_attributes:armor_shred",
+                    "value": 0.4,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "apothic_attributes:prot_shred",
+                    "value": 0.5,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "apothic_attributes:current_hp_damage",
+                    "value": 0.02,
+                    "operation": "add_value"
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:stack",
+                    "stack": {
+                        "id": "minecraft:string",
+                        "count": 3
+                    }
+                }
+            ],
+            "max_wave_time": 1200,
+            "setup_time": 40
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:cave_spider",
+                    "count": 6,
+                    "nbt": {
+                        "active_effects": [
+                            {
+                                "id": "minecraft:infested",
+                                "amplifier": 0,
+                                "duration": -1
+                            }
+                        ]
+                    },
+                    "finalize_spawn": false
+                },
+                {
+                    "entity": "minecraft:silverfish",
+                    "count": 12,
+                    "finalize_spawn": false
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 1.0,
+                    "operation": "add_multiplied_total"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.2,
+                    "operation": "add_multiplied_total"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 10,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.45,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "apothic_attributes:life_steal",
+                    "value": 0.2,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "apothic_attributes:armor_shred",
+                    "value": 0.4,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "apothic_attributes:prot_shred",
+                    "value": 0.5,
+                    "operation": "add_value"
+                },
+                {
+                    "attribute": "apothic_attributes:current_hp_damage",
+                    "value": 0.02,
+                    "operation": "add_value"
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:stack",
+                    "stack": {
+                        "id": "minecraft:string",
+                        "count": 5
+                    }
+                }
+            ],
+            "max_wave_time": 1200,
+            "setup_time": 80
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:command",
+            "command": "function insurgence:gameplay/gateway_shrine_reward",
+            "desc": "gateway_reward.insurgence.place_waystone.desc"
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:command",
+            "command": "function insurgence:gameplay/failed_gateway_shrine",
+            "desc": "gateway_failure.insurgence.failed_gateway_shrine.desc"
+        }
+    ]
+}

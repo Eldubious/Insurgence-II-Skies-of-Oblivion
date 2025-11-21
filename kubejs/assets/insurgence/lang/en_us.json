@@ -134,9 +134,17 @@
     "insurgence.shrine/generic_overworld_monsters_ascent": "Common Monster Shrine: Ascent Tier",
     "insurgence.shrine/generic_overworld_monsters_summit": "Common Monster Shrine: Summit Tier",
     "insurgence.shrine/generic_overworld_monsters_pinnacle": "Common Monster Shrine: Pinnacle Tier",
+    "insurgence.shrine/spider_haven": "Infested Shrine: Haven Tier",
+    "insurgence.shrine/spider_frontier": "Infested Shrine: Frontier Tier",
+    "insurgence.shrine/spider_ascent": "Infested Shrine: Ascent Tier",
+    "insurgence.shrine/spider_summit": "Infested Shrine: Summit Tier",
+    "insurgence.shrine/spider_pinnacle": "Infested Shrine: Pinnacle Tier",
+
+    "custom_enemy_name.insurgence.camel_jockey": "Camel Jockey",
+    "custom_enemy_name.insurgence.armadillo_jockey": "Armadillo Jockey",
 
     "gateway_reward.insurgence.place_waystone.desc": "Create a Waystone",
-    "gateway_failure.insurgence.failed_gateway_shrine.desc": "Try interacting with the shrine again",
+    "gateway_failure.insurgence.failed_gateway_shrine.desc": "Interact with the shrine to try again",
 
     "actionbar.insurgence.token_of_renewal.success": "Refreshed the content of this vault for all players.",
     "actionbar.insurgence.token_of_renewal.error": "Can only use this item on an inactive Vault.",
