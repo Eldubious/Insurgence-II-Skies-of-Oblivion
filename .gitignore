@@ -41,6 +41,7 @@ resourcepacks
 saves
 screenshots
 shaderpacks
+skyblockbuilder/*
 xaero
 XaeroWaypoints*
 
@@ -65,6 +66,7 @@ usernamecache.json
 .probe
 
 # Config files to include
+!config/skyblockbuilder/*
 !config/fml.toml
 !config/configuration-options.json
 !config/emi.css
