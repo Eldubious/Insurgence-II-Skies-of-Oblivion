@@ -35,6 +35,29 @@ Difficulty:
     - Blocks cannot be broken or placed in certain structures
       + Only until they have been cleared for the first time
 
+Cards:
+  - Minor arcana obtained from battle Towers
+  - Major arcana are from other sources
+  Swords
+    - Combat challenges in Towers
+    - Minibosses can be summoned to get major Cards
+    - Album grants crit chance
+  Staves
+    - Puzzle challenges in Towers
+    - Cards can be found in secret rooms in other structures for major Cards
+    - Album grants mana regen
+  Cups
+    - Parkour challenges in Towers
+    - 
+    - Album grants health regen
+  Rings
+    - Item submission in Towers
+    - Major cards are crafted through rituals
+    - Album grants dodge chance 
+  Universe
+    - Beaten the game
+    - Album grants permanent strong effect
+
 Structures:
   The Forge
     - A Nether Structure
