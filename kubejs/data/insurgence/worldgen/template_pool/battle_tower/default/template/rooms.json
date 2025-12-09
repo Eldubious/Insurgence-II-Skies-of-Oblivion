@@ -4,8 +4,8 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "insurgence:battle_tower/template/room",
-                "processors": "insurgence:battle_tower_aging",
+                "location": "insurgence:battle_tower/default/template/room",
+                "processors": "insurgence:battle_tower/default_aging",
                 "projection": "rigid"
             },
             "weight": 3
@@ -13,8 +13,8 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "insurgence:battle_tower/template/roof",
-                "processors": "insurgence:battle_tower_aging",
+                "location": "insurgence:battle_tower/default/template/roof",
+                "processors": "insurgence:battle_tower/default_aging",
                 "projection": "rigid"
             },
             "weight": 1

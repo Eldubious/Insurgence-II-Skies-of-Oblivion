@@ -4,7 +4,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "insurgence:battle_tower/template/treasure/iron",
+                "location": "insurgence:battle_tower/default/template/treasure/iron",
                 "processors": "minecraft:empty",
                 "projection": "rigid"
             },
@@ -13,7 +13,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "insurgence:battle_tower/template/treasure/gold",
+                "location": "insurgence:battle_tower/default/template/treasure/gold",
                 "processors": "minecraft:empty",
                 "projection": "rigid"
             },
@@ -22,7 +22,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "insurgence:battle_tower/template/treasure/emerald",
+                "location": "insurgence:battle_tower/default/template/treasure/emerald",
                 "processors": "minecraft:empty",
                 "projection": "rigid"
             },
@@ -31,7 +31,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "insurgence:battle_tower/template/treasure/diamond",
+                "location": "insurgence:battle_tower/default/template/treasure/diamond",
                 "processors": "minecraft:empty",
                 "projection": "rigid"
             },

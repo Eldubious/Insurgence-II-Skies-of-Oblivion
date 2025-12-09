@@ -7,7 +7,19 @@
     },
     "structures": [
         {
-            "structure": "insurgence:battle_tower/template",
+            "structure": "insurgence:battle_tower/default/swords",
+            "weight": 1
+        },
+        {
+            "structure": "insurgence:battle_tower/default/staves",
+            "weight": 1
+        },
+        {
+            "structure": "insurgence:battle_tower/default/cups",
+            "weight": 1
+        },
+        {
+            "structure": "insurgence:battle_tower/default/rings",
             "weight": 1
         }
     ]

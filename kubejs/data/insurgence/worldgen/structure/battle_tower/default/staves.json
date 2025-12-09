@@ -4,7 +4,7 @@
         "minecraft:plains",
         "minecraft:forest"
     ],
-    "start_pool": "insurgence:battle_tower/template/base",
+    "start_pool": "insurgence:battle_tower/default/staves/base",
     "step": "surface_structures",
     "terrain_adaptation": "none",
     "max_distance_from_center": 128,

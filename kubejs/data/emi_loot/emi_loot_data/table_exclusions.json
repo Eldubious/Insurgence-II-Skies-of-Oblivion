@@ -1,27 +1,5 @@
 {
     "exclusions": [
-        "minecraft:gameplay/fishing",
-        "insurgence:chests/unique_items/swords/ruined_portal",
-        "insurgence:chests/unique_items/axes/ruined_portal",
-        "insurgence:chests/unique_items/pickaxes/ruined_portal",
-        "insurgence:chests/unique_items/shovels/ruined_portal",
-        "insurgence:chests/unique_items/hoes/ruined_portal",
-        "insurgence:chests/unique_items/helmets/ruined_portal",
-        "insurgence:chests/unique_items/chestplates/ruined_portal",
-        "insurgence:chests/unique_items/leggings/ruined_portal",
-        "insurgence:chests/unique_items/boots/ruined_portal",
-        "insurgence:chests/unique_items/axes/spawn_chest",
-        "insurgence:chests/unique_items/pickaxes/spawn_chest",
-        "insurgence:chests/unique_items/helmets/trial_chamber",
-        "insurgence:chests/unique_items/chestplates/trial_chamber",
-        "insurgence:chests/unique_items/leggings/trial_chamber",
-        "insurgence:chests/unique_items/boots/trial_chamber",
-        "insurgence:chests/unique_items/helmets/village_blacksmith",
-        "insurgence:chests/unique_items/chestplates/village_blacksmith",
-        "insurgence:chests/unique_items/leggings/village_blacksmith",
-        "insurgence:chests/unique_items/boots/village_blacksmith",
-        "insurgence:chests/unique_items/axes/village_blacksmith",
-        "insurgence:chests/unique_items/swords/stone_sword",
-        "insurgence:chests/unique_items/helmets/chainmail_helmet"
+        "insurgence:chests/empty"
     ]
 }
