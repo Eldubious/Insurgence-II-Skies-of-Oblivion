@@ -5,8 +5,7 @@
     "block.insurgence.deepslate_gateway_pillar": "Deepslate Gateway Pillar",
     "block.insurgence.blackstone_gateway_pillar": "Blackstone Gateway Pillar",
     "block.insurgence.end_stone_gateway_pillar": "Ender Gateway Pillar",
-    "block.insurgence.nether_portal_frame": "Nether Portal Bricks",
-    "block.insurgence.overworld_portal_frame": "Overworld Portal Bricks",
+    "block.insurgence.nether_portal": "Nether Portal",
 
     "effect.insurgence.overworld_curse": "Blight of the Overworld",
     "effect.insurgence.overworld_curse.desc": "Feel the curse of the Overworld",
