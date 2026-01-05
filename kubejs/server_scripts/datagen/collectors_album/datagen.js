@@ -3,7 +3,8 @@ ServerEvents.generateData("last", event => {
   let currPageOrder = 0
   let currIndex = 1
 
-  for (let category in cardDefinitions) {
+  for (let catIndex in cardDefinitions) {
+    let category = cardDefinitions[catIndex]
     // Register the category
     let json = {
       type: "collectorsalbum:category",
@@ -28,8 +29,10 @@ ServerEvents.generateData("last", event => {
 
     // Register number cards if necessary
     if (category.hasNumberCards) {
-      for (let rank in ranks) {
-        for (let rarity in rarities) {
+      for (let rankIndex in ranks) {
+        let rank = ranks[rankIndex]
+        for (let rarityIndex in rarities) {
+          let rarity = rarities[rarityIndex]
 
           let json = {
             type: "collectorsalbum:rarity_card",
@@ -48,9 +51,11 @@ ServerEvents.generateData("last", event => {
     }
 
     // Register the other cards in the category
-    for (let card in category.cards) {
+    for (let cIndex in category.cards) {
+      let card = category.cards[cIndex]
       if (card.hasRarity) {
-        for (let rarity in rarities) {
+        for (let rarityIndex in rarities) {
+          let rarity = rarityIndex
 
           let json = {
             type: "collectorsalbum:rarity_card",
@@ -63,7 +68,7 @@ ServerEvents.generateData("last", event => {
           currIndex++
 
           event.json(`${card.namespace}:album/cards/${rarity}_${card.id}`, json)
-          event.getGenerated(`${card.namespace}:album/cards/${rarity}_${card_id}`)
+          event.getGenerated(`${card.namespace}:album/cards/${rarity}_${card.id}`)
         }
       }
       else {
@@ -79,16 +84,22 @@ function getCardList(category, generateNumberCards) {
   let retVal = []
 
   if (generateNumberCards) {
-    for (let rank in ranks) {
-      for (let rarity in rarities) {
+    for (let rankIndex in ranks) {
+      let rank = ranks[rankIndex]
+      for (let rarityIndex in rarities) {
+        let rarity = rarities[rarityIndex]
         retVal.push(`${category.namespace}:${rarity}_${rank}_of_${category.id}`)
       }
     }
   }
 
-  for (let card in category.cards) {
+  for (let cIndex in category.cards) {
+    let card = category.cards[cIndex]
     if (card.hasRarity) {
-      retVal.push(`${card.namespace}:${rarity}_${card.id}`)
+      for (let rarityIndex in rarities) {
+        let rarity = rarities[rarityIndex]
+        retVal.push(`${card.namespace}:${rarity}_${card.id}`)
+      }
     }
     else {
       retVal.push(`${card.namespace}:${card.id}`)

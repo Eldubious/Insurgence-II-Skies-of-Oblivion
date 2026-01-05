@@ -1,10 +1,6 @@
 // Add the 'Unique' & rarity text to the tooltips of items
 ItemEvents.modifyTooltips(event => {
 
-    event.modifyAll(tooltip => {    // Add item rarities to tooltips
-        
-    })
-
     let uniqueItemTypes = ['sword', 'scythe', 'trident', 'mace', 'harp', 'knife', 'axe', 'pickaxe',
         'shovel', 'hoe', 'bow', 'crossbow', 'staff', 'wand', 'helmet', 'chestplate', 'leggings',
         'boots', 'elytra', 'ring', 'belt', 'necklace', 'curio', 'shield', 'club', 'polearm',
@@ -52,5 +48,17 @@ ItemEvents.modifyTooltips(event => {
         tooltip.insert(3, Component.translate("formatting.insurgence.spacer"))
 
         tooltip.dynamic('trim_template_information')
+    })
+
+    // Effects of debug tickets
+    event.modify('insurgence:debug_ticket', tooltip => {
+        tooltip.dynamic('debug_tickets')
+    })
+
+    /*
+        Apply basic formatting changes to the tooltips of some items.
+    */
+    event.modify('#insurgence:tarot_cards', tooltip => {
+        tooltip.insert(2, Component.translate("formatting.insurgence.spacer"))
     })
 })

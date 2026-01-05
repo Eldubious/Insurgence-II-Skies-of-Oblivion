@@ -4,7 +4,88 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "insurgence:battle_tower/default/template/base",
+                "location": "insurgence:battle_tower/default/template/base/base_1",
+                "processors": "insurgence:battle_tower/default_aging",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:battle_tower/default/template/base/base_2",
+                "processors": "insurgence:battle_tower/default_aging",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:battle_tower/default/template/base/base_3",
+                "processors": "insurgence:battle_tower/default_aging",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:battle_tower/default/template/base/base_4",
+                "processors": "insurgence:battle_tower/default_aging",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:battle_tower/default/template/base/base_5",
+                "processors": "insurgence:battle_tower/default_aging",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:battle_tower/default/template/base/base_6",
+                "processors": "insurgence:battle_tower/default_aging",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:battle_tower/default/template/base/base_7",
+                "processors": "insurgence:battle_tower/default_aging",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:battle_tower/default/template/base/base_8",
+                "processors": "insurgence:battle_tower/default_aging",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:battle_tower/default/template/base/base_9",
+                "processors": "insurgence:battle_tower/default_aging",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:battle_tower/default/template/base/base_10",
                 "processors": "insurgence:battle_tower/default_aging",
                 "projection": "rigid"
             },

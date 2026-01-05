@@ -10,9 +10,12 @@ const ringArcana = ['the_brilliance', 'the_mine', 'the_alloy', 'the_spectrum']
 StartupEvents.registry("item", event => {
 
   // Register all of the minor arcana
-  for (let suit in suits) {
-    for (let rank in ranks) {
-      for (let rarity in rarities) {
+  for (let i in suits) {
+    let suit = suits[i]
+    for (let j in ranks) {
+      let rank = ranks[j]
+      for (let k in rarities) {
+        let rarity = rarities[k]
         event.create(`insurgence:${rarity}_${rank}_of_${suit}`)
           .translationKey(`item.insurgence.${rank}_of_${suit}`)
           .tooltip(Component.translate(`tooltip.insurgence.lore.card_of_${suit}`).gray())
@@ -29,8 +32,10 @@ StartupEvents.registry("item", event => {
   }
 
   // Register all the major arcana
-  for (let rarity in rarities) {
-    for (let arcana in swordArcana) {
+  for (let i in rarities) {
+    let rarity = rarities[i]
+    for (let j in swordArcana) {
+      let arcana = swordArcana[j]
       event.create(`insurgence:${rarity}_${arcana}`)
         .translationKey(`item.insurgence.${arcana}`)
         .tooltip(Component.translate(`tooltip.insurgence.lore.${arcana}`).gray())
@@ -40,7 +45,8 @@ StartupEvents.registry("item", event => {
         .tag('insurgence:tarot_cards/major_arcana')
         .tag('insurgence:tarot_cards/swords')
     }
-    for (let arcana in staffArcana) {
+    for (let j in staffArcana) {
+      let arcana = staffArcana[j]
       event.create(`insurgence:${rarity}_${arcana}`)
         .translationKey(`item.insurgence.${arcana}`)
         .tooltip(Component.translate(`tooltip.insurgence.lore.${arcana}`).gray())
@@ -50,7 +56,8 @@ StartupEvents.registry("item", event => {
         .tag('insurgence:tarot_cards/major_arcana')
         .tag('insurgence:tarot_cards/staves')
     }
-    for (let arcana in cupArcana) {
+    for (let j in cupArcana) {
+      let arcana = cupArcana[j]
       event.create(`insurgence:${rarity}_${arcana}`)
         .translationKey(`item.insurgence.${arcana}`)
         .tooltip(Component.translate(`tooltip.insurgence.lore.${arcana}`).gray())
@@ -60,7 +67,8 @@ StartupEvents.registry("item", event => {
         .tag('insurgence:tarot_cards/major_arcana')
         .tag('insurgence:tarot_cards/cups')
     }
-    for (let arcana in ringArcana) {
+    for (let j in ringArcana) {
+      let arcana = ringArcana[j]
       event.create(`insurgence:${rarity}_${arcana}`)
         .translationKey(`item.insurgence.${arcana}`)
         .tooltip(Component.translate(`tooltip.insurgence.lore.${arcana}`).gray())
@@ -109,7 +117,7 @@ StartupEvents.registry("item", event => {
     .tag('insurgence:tarot_cards/ultimate_arcana')
     .tag('insurgence:tarot_cards/rings')
 
-  event.create('insurgence:the_universe') // Ultimate ring arcana
+  event.create('insurgence:the_universe') // Ultimate arcana
     .translationKey('item.insurgence.the_universe')
     .tooltip(Component.translate('tooltip.insurgence.lore.the_universe').gray())
     .texture('insurgence:item/tarot_cards/the_universe')

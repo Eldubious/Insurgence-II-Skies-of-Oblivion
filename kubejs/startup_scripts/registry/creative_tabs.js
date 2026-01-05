@@ -15,4 +15,12 @@ StartupEvents.registry("creative_mode_tab", event => {
             'insurgence:apothecarist_key'
         ]
     )
+
+    event.create("insurgence:collectors_cards")
+        .translationKey("creative_tab.insurgence.collectors_cards")
+        .icon(() => "insurgence:common_two_of_swords")
+
+    event.create("insurgence:debug_tickets")
+        .translationKey("creative_tab.insurgence.debug_tickets")
+        .icon(() => "insurgence:debug_ticket")
 })

@@ -1,9 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": [
-        "minecraft:plains",
-        "minecraft:forest"
-    ],
+    "biomes": "#insurgence:has_structure/battle_tower/default",
     "start_pool": "insurgence:battle_tower/default/template/base",
     "step": "surface_structures",
     "terrain_adaptation": "none",

@@ -103,9 +103,14 @@
     "item.insurgence.the_peak": "The Peak",
     "item.insurgence.the_wealth": "The Wealth",
     "item.insurgence.the_universe": "The Universe",
+    "item.insurgence.debug_ticket": "Debug Ticket",
 
     "material.insurgence.sunmetal": "Sunmetal",
     "material.insurgence.candy": "Candy",
+
+    "creative_tab.insurgence.vault_keys": "Vaults",
+    "creative_tab.insurgence.collectors_cards": "Tarot Cards",
+    "creative_tab.insurgence.debug_tickets": "Debug Tickets",
 
     "album.category.insurgence.swords": "Sword",
     "album.category.insurgence.staves": "Staff",
@@ -203,6 +208,13 @@
     "tooltip.insurgence.lore.the_universe": "The lands, skies, and depths of %s submit to you.",
     "tooltip.insurgence.lore.poking_stick": "You may find that creatures do not enjoy being poked.",
     "tooltip.insurgence.lore.heaviest_core": "Jumping is for the those with strong legs. It is possible that yours are not strong enough.",
+
+    "tooltip.insurgence.debug_ticket.no_data": "No custom data attached to this item. It does nothing :(",
+    "tooltip.insurgence.debug_ticket.world_tier_haven": "Sets your world tier to Haven.",
+    "tooltip.insurgence.debug_ticket.world_tier_frontier": "Sets your world tier to Frontier.",
+    "tooltip.insurgence.debug_ticket.world_tier_ascent": "Sets your world tier to Ascent.",
+    "tooltip.insurgence.debug_ticket.world_tier_summit": "Sets your world tier to Summit.",
+    "tooltip.insurgence.debug_ticket.world_tier_pinnacle": "Sets your world tier to Pinnacle.",
 
     "insurgence.shrine/zombie_haven": "Zombie Shrine: Haven Tier",
     "insurgence.shrine/zombie_frontier": "Zombie Shrine: Frontier Tier",

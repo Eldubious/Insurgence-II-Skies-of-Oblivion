@@ -156,3 +156,20 @@ ItemEvents.dynamicTooltips('trim_template_information', event => {
     event.lines.set(1, Component.translate(`tooltip.insurgence.info.${patternName}_pattern_1`).gray().italic())
     event.lines.set(2, Component.translate(`tooltip.insurgence.info.${patternName}_pattern_2`).gray().italic())
 })
+
+/*
+    Apply information about debug ticket effects.
+*/
+ItemEvents.dynamicTooltips('debug_tickets', event => {
+    let type = event.item.customData.get('type')
+    if (type != null) type = type.getAsString()
+
+    if (type == 'world_tier') {
+        let tier = event.item.customData.get('tier')
+        if (tier != null) tier = tier.getAsString()
+        
+        if (tier == 'haven' || tier == 'frontier' || tier == 'ascent' || tier == 'summit' || tier == 'pinnacle') {
+            event.lines.set(1, Component.translate(`tooltip.insurgence.debug_ticket.world_tier_${tier.substring(1, tier.length - 1)}`).gold().italic())
+        }
+    }
+})

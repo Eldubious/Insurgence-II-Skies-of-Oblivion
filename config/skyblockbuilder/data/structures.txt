@@ -12,7 +12,7 @@ enderscape:center_gateway
 enderscape:end_city
 enderscape:large_center_gateway
 enderscape:mirestone_ruins
-insurgence:battle_tower/template
+insurgence:battle_tower/default/template
 irons_spellbooks:ancient_battleground
 irons_spellbooks:catacombs
 irons_spellbooks:citadel
@@ -154,7 +154,8 @@ nova_structures:well_savana
 nova_structures:well_spruce
 nova_structures:wild_ruin
 nova_structures:witch_villa
-supplementaries:way_sign
+supplementaries:galleon
+supplementaries:road_sign
 wan_ancient_beasts:abandoned_village
 wan_ancient_beasts:ancient_nest
 wan_ancient_beasts:dead_coral
