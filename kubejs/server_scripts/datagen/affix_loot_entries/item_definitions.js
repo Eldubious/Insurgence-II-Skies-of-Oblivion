@@ -2,7 +2,6 @@
 const itemGroups = [
     /*
         Generic
-        Non-Imbued
         Affix Loot
     */
     {   // Overworld - Stone Tools & Chain Armor
@@ -34,7 +33,6 @@ const itemGroups = [
             "minecraft:copper",
             "minecraft:iron"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 15
@@ -73,7 +71,6 @@ const itemGroups = [
             "minecraft:iron",
             "pigsteel:pigsteel"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 15
@@ -112,7 +109,6 @@ const itemGroups = [
             "enderscape:nebulite",
             "enderscape:shadoline"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 15
@@ -154,7 +150,6 @@ const itemGroups = [
             "minecraft:quartz",
             "minecraft:netherite"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 5
@@ -198,7 +193,6 @@ const itemGroups = [
             "minecraft:quartz",
             "minecraft:netherite"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 5
@@ -242,7 +236,6 @@ const itemGroups = [
             "enderscape:nebulite",
             "enderscape:shadoline"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 5
@@ -287,7 +280,6 @@ const itemGroups = [
             "minecraft:emerald",
             "minecraft:diamond"
         ],
-        hasSpells: false,
         weights: {
             frontier: {
                 quality: 1.0,
@@ -333,7 +325,6 @@ const itemGroups = [
             "minecraft:diamond",
             "pigsteel:pigsteel"
         ],
-        hasSpells: false,
         weights: {
             frontier: {
                 quality: 1.0,
@@ -379,7 +370,6 @@ const itemGroups = [
             "minecraft:emerald",
             "minecraft:diamond"
         ],
-        hasSpells: false,
         weights: {
             frontier: {
                 quality: 1.0,
@@ -424,7 +414,6 @@ const itemGroups = [
             "minecraft:emerald",
             "minecraft:diamond"
         ],
-        hasSpells: false,
         weights: {
             ascent: {
                 quality: 1.5,
@@ -468,7 +457,6 @@ const itemGroups = [
             "minecraft:emerald",
             "minecraft:diamond"
         ],
-        hasSpells: false,
         weights: {
             ascent: {
                 quality: 1.5,
@@ -512,7 +500,6 @@ const itemGroups = [
             "minecraft:emerald",
             "minecraft:diamond"
         ],
-        hasSpells: false,
         weights: {
             ascent: {
                 quality: 1.5,
@@ -551,7 +538,6 @@ const itemGroups = [
             "minecraft:copper",
             "minecraft:iron"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 25
@@ -585,7 +571,6 @@ const itemGroups = [
             "minecraft:copper",
             "minecraft:gold"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 25
@@ -619,7 +604,6 @@ const itemGroups = [
             "minecraft:copper",
             "minecraft:gold"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 25
@@ -630,281 +614,7 @@ const itemGroups = [
         }
     },
     /*
-        Generic
-        Spell-Imbued
-        Affix Loot
-    */
-    {   // The Nether - Golden Tools & Armor
-        groupCategory: "generic_overworld_spell_loot",
-        constraints: {
-            dimensions: [
-                "minecraft:overworld"
-            ]
-        },
-        items: [
-            "minecraft:golden_helmet",
-            "minecraft:golden_chestplate",
-            "minecraft:golden_leggings",
-            "minecraft:golden_boots",
-            "minecraft:golden_sword",
-            "minecraft:golden_axe",
-            "minecraft:golden_pickaxe",
-            "minecraft:golden_shovel"
-        ],
-        patterns: [
-            "minecraft:wayfinder",
-            "minecraft:raiser",
-            "minecraft:shaper",
-            "minecraft:host",
-            "minecraft:flow",
-            "minecraft:bolt"
-        ],
-        materials: [
-            "minecraft:gold",
-            "minecraft:copper",
-            "minecraft:iron",
-            "minecraft:quartz",
-            "minecraft:netherite"
-        ],
-        hasSpells: true,
-        spells: [
-            {
-                spell: "irons_spellbooks:blaze_storm",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:golden_sword",
-                    "minecraft:golden_axe",
-                    "minecraft:golden_pickaxe",
-                    "minecraft:golden_shovel"
-                ],
-                needEquip: false
-            },
-            {
-                spell: "irons_spellbooks:burning_dash",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:golden_chestplate",
-                    "minecraft:golden_leggings",
-                    "minecraft:golden_boots"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:fire_breath",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:golden_helmet"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:ray_of_siphoning",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:golden_sword",
-                    "minecraft:golden_axe",
-                    "minecraft:golden_pickaxe",
-                    "minecraft:golden_shovel"
-                ],
-                needEquip: false
-            }
-        ],
-        weights: {
-            ascent: {
-                quality: 0.5,
-                weight: 2
-            }
-        }
-    },
-    {   // The Nether - Iron Tools & Armor
-        groupCategory: "generic_nether_spell_loot",
-        constraints: {
-            dimensions: [
-                "minecraft:the_nether"
-            ]
-        },
-        items: [
-            "minecraft:iron_helmet",
-            "minecraft:iron_chestplate",
-            "minecraft:iron_leggings",
-            "minecraft:iron_boots",
-            "minecraft:iron_sword",
-            "minecraft:iron_axe",
-            "minecraft:iron_pickaxe",
-            "minecraft:iron_shovel"
-        ],
-        patterns: [
-            "minecraft:wayfinder",
-            "minecraft:raiser",
-            "minecraft:shaper",
-            "minecraft:host",
-            "minecraft:rib"
-        ],
-        materials: [
-            "minecraft:gold",
-            "minecraft:copper",
-            "minecraft:iron",
-            "minecraft:quartz",
-            "minecraft:netherite"
-        ],
-        hasSpells: true,
-        spells: [
-            {
-                spell: "irons_spellbooks:blaze_storm",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:iron_sword",
-                    "minecraft:iron_axe",
-                    "minecraft:iron_pickaxe",
-                    "minecraft:iron_shovel"
-                ],
-                needEquip: false
-            },
-            {
-                spell: "irons_spellbooks:burning_dash",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:iron_chestplate",
-                    "minecraft:iron_leggings",
-                    "minecraft:iron_boots"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:fire_breath",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:iron_helmet"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:ray_of_siphoning",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:iron_sword",
-                    "minecraft:iron_axe",
-                    "minecraft:iron_pickaxe",
-                    "minecraft:iron_shovel"
-                ],
-                needEquip: false
-            }
-        ],
-        weights: {
-            ascent: {
-                quality: 1.0,
-                weight: 5
-            },
-            summit: {
-                quality: 0.5,
-                weight: 2
-            }
-        }
-    },
-    {   // The Nether - Diamond Tools & Armor
-        groupCategory: "generic_nether_spell_loot",
-        constraints: {
-            dimensions: [
-                "minecraft:the_nether"
-            ]
-        },
-        items: [
-            "minecraft:diamond_helmet",
-            "minecraft:diamond_chestplate",
-            "minecraft:diamond_leggings",
-            "minecraft:diamond_boots",
-            "minecraft:diamond_sword",
-            "minecraft:diamond_axe",
-            "minecraft:diamond_pickaxe",
-            "minecraft:diamond_shovel"
-        ],
-        patterns: [
-            "minecraft:wayfinder",
-            "minecraft:raiser",
-            "minecraft:shaper",
-            "minecraft:host",
-            "minecraft:rib"
-        ],
-        materials: [
-            "minecraft:gold",
-            "minecraft:copper",
-            "minecraft:iron",
-            "minecraft:quartz",
-            "minecraft:netherite"
-        ],
-        hasSpells: true,
-        spells: [
-            {
-                spell: "irons_spellbooks:blaze_storm",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:diamond_sword",
-                    "minecraft:diamond_axe",
-                    "minecraft:diamond_pickaxe",
-                    "minecraft:diamond_shovel"
-                ],
-                needEquip: false
-            },
-            {
-                spell: "irons_spellbooks:burning_dash",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:diamond_chestplate",
-                    "minecraft:diamond_leggings",
-                    "minecraft:diamond_boots"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:fire_breath",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:diamond_helmet"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:ray_of_siphoning",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:diamond_sword",
-                    "minecraft:diamond_axe",
-                    "minecraft:diamond_pickaxe",
-                    "minecraft:diamond_shovel"
-                ],
-                needEquip: false
-            }
-        ],
-        weights: {
-            ascent: {
-                quality: 2.0,
-                weight: 3
-            },
-            summit: {
-                quality: 2.0,
-                weight: 5
-            },
-            pinnacle: {
-                quality: 2.0,
-                weight: 5
-            }
-        }
-    },
-    /*
         Biome-Specific
-        Non-Imbued
         Affix Loot
     */
     {   // Desert - Stone Tools & Chain Armor
@@ -931,7 +641,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 45
@@ -965,7 +674,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 15
@@ -1002,7 +710,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             frontier: {
                 quality: 1.0,
@@ -1040,7 +747,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             ascent: {
                 quality: 1.5,
@@ -1074,7 +780,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 50
@@ -1109,7 +814,6 @@ const itemGroups = [
             "minecraft:emerald",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 45
@@ -1143,7 +847,6 @@ const itemGroups = [
             "minecraft:emerald",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 15
@@ -1180,7 +883,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             frontier: {
                 quality: 1.0,
@@ -1218,7 +920,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             ascent: {
                 quality: 1.5,
@@ -1252,7 +953,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 50
@@ -1287,7 +987,6 @@ const itemGroups = [
             "minecraft:emerald",
             "vanillabackport:resin"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 45
@@ -1321,7 +1020,6 @@ const itemGroups = [
             "minecraft:emerald",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 15
@@ -1358,7 +1056,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             frontier: {
                 quality: 1.0,
@@ -1396,7 +1093,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             ascent: {
                 quality: 1.5,
@@ -1430,7 +1126,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 50
@@ -1465,7 +1160,6 @@ const itemGroups = [
             "minecraft:emerald",
             "upgrade_aquatic:tooth"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 45
@@ -1499,7 +1193,6 @@ const itemGroups = [
             "minecraft:emerald",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 15
@@ -1536,7 +1229,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             frontier: {
                 quality: 1.0,
@@ -1574,7 +1266,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             ascent: {
                 quality: 1.5,
@@ -1608,7 +1299,6 @@ const itemGroups = [
             "minecraft:redstone",
             "minecraft:lapis"
         ],
-        hasSpells: false,
         weights: {
             haven: {
                 weight: 50
@@ -1618,6 +1308,7 @@ const itemGroups = [
             }
         }
     },
+
     {   // Swamp - Slime Armor
         groupCategory: "swamp_loot",
         constraints: {
@@ -1642,7 +1333,6 @@ const itemGroups = [
             "minecraft:amethyst",
             "minecraft:emerald"
         ],
-        hasSpells: false,
         weights: {
             frontier: {
                 quality: 1.5,
@@ -1654,259 +1344,6 @@ const itemGroups = [
             },
             summit: {
                 weight: 30
-            }
-        }
-    },
-    /*
-        Biome-Specific
-        Spell-Imbued
-        Affix Loot
-    */
-    {   // Swamp - Slime Armor
-        groupCategory: "swamp_spell_loot",
-        constraints: {
-            biomes: "#c:is_swamp"
-        },
-        items: [
-            "usefulslime:slime_helmet",
-            "usefulslime:slime_chestplate",
-            "usefulslime:slime_leggings",
-            "usefulslime:slime_boots"
-        ],
-        patterns: [
-            "minecraft:wayfinder",
-            "minecraft:raiser",
-            "minecraft:shaper",
-            "minecraft:host",
-            "minecraft:bolt",
-            "minecraft:flow"
-        ],
-        materials: [
-            "minecraft:gold",
-            "minecraft:amethyst",
-            "minecraft:emerald"
-        ],
-        hasSpells: true,
-        spells: [
-            {
-                spell: "irons_spellbooks:poison_arrow",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "usefulslime:slime_helmet",
-                    "usefulslime:slime_chestplate",
-                    "usefulslime:slime_leggings",
-                    "usefulslime:slime_boots"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:acid_orb",
-                levelMin: 1,
-                levelMax: 2,
-                possibleItems: [
-                    "usefulslime:slime_helmet",
-                    "usefulslime:slime_chestplate",
-                    "usefulslime:slime_leggings",
-                    "usefulslime:slime_boots"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:poison_breath",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "usefulslime:slime_helmet",
-                    "usefulslime:slime_chestplate",
-                    "usefulslime:slime_leggings",
-                    "usefulslime:slime_boots"
-                ],
-                needEquip: true
-            }
-        ],
-        weights: {
-            ascent: {
-                quality: 2.0,
-                weight: 5
-            },
-            summit: {
-                weight: 5
-            }
-        }
-    },
-    {   // Swamp - Iron Tools & Armor
-        groupCategory: "swamp_spell_loot",
-        constraints: {
-            biomes: "#c:is_swamp"
-        },
-        items: [
-            "minecraft:iron_helmet",
-            "minecraft:iron_chestplate",
-            "minecraft:iron_leggings",
-            "minecraft:iron_boots",
-            "minecraft:iron_sword",
-            "minecraft:iron_pickaxe",
-            "minecraft:iron_axe",
-            "minecraft:iron_shovel"
-        ],
-        patterns: [
-            "minecraft:wayfinder",
-            "minecraft:raiser",
-            "minecraft:shaper",
-            "minecraft:host",
-            "minecraft:bolt",
-            "minecraft:flow"
-        ],
-        materials: [
-            "minecraft:gold",
-            "minecraft:amethyst",
-            "minecraft:emerald"
-        ],
-        hasSpells: true,
-        spells: [
-            {
-                spell: "irons_spellbooks:poison_arrow",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:iron_helmet",
-                    "minecraft:iron_chestplate",
-                    "minecraft:iron_leggings",
-                    "minecraft:iron_boots",
-                    "minecraft:iron_sword",
-                    "minecraft:iron_pickaxe",
-                    "minecraft:iron_axe",
-                    "minecraft:iron_shovel"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:acid_orb",
-                levelMin: 1,
-                levelMax: 2,
-                possibleItems: [
-                    "minecraft:iron_helmet",
-                    "minecraft:iron_chestplate",
-                    "minecraft:iron_leggings",
-                    "minecraft:iron_boots",
-                    "minecraft:iron_sword",
-                    "minecraft:iron_pickaxe",
-                    "minecraft:iron_axe",
-                    "minecraft:iron_shovel"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:poison_breath",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:iron_helmet",
-                    "minecraft:iron_chestplate",
-                    "minecraft:iron_leggings",
-                    "minecraft:iron_boots"
-                ],
-                needEquip: true
-            }
-        ],
-        weights: {
-            ascent: {
-                quality: 1.0,
-                weight: 3
-            },
-            summit: {
-                weight: 3
-            }
-        }
-    },
-    {   // Swamp -  Diamond Tools & Armor
-        groupCategory: "swamp_spell_loot",
-        constraints: {
-            biomes: "#c:is_swamp"
-        },
-        items: [
-            "minecraft:diamond_helmet",
-            "minecraft:diamond_chestplate",
-            "minecraft:diamond_leggings",
-            "minecraft:diamond_boots",
-            "minecraft:diamond_sword",
-            "minecraft:diamond_pickaxe",
-            "minecraft:diamond_axe",
-            "minecraft:diamond_shovel"
-        ],
-        patterns: [
-            "minecraft:wayfinder",
-            "minecraft:raiser",
-            "minecraft:shaper",
-            "minecraft:host",
-            "minecraft:bolt",
-            "minecraft:flow"
-        ],
-        materials: [
-            "minecraft:gold",
-            "minecraft:amethyst",
-            "minecraft:emerald"
-        ],
-        hasSpells: true,
-        spells: [
-            {
-                spell: "irons_spellbooks:poison_arrow",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:diamond_helmet",
-                    "minecraft:diamond_chestplate",
-                    "minecraft:diamond_leggings",
-                    "minecraft:diamond_boots",
-                    "minecraft:diamond_sword",
-                    "minecraft:diamond_pickaxe",
-                    "minecraft:diamond_axe",
-                    "minecraft:diamond_shovel"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:acid_orb",
-                levelMin: 1,
-                levelMax: 2,
-                possibleItems: [
-                    "minecraft:diamond_helmet",
-                    "minecraft:diamond_chestplate",
-                    "minecraft:diamond_leggings",
-                    "minecraft:diamond_boots",
-                    "minecraft:diamond_sword",
-                    "minecraft:diamond_pickaxe",
-                    "minecraft:diamond_axe",
-                    "minecraft:diamond_shovel"
-                ],
-                needEquip: true
-            },
-            {
-                spell: "irons_spellbooks:poison_breath",
-                levelMin: 1,
-                levelMax: 4,
-                possibleItems: [
-                    "minecraft:diamond_helmet",
-                    "minecraft:diamond_chestplate",
-                    "minecraft:diamond_leggings",
-                    "minecraft:diamond_boots"
-                ],
-                needEquip: true
-            }
-        ],
-        weights: {
-            ascent: {
-                quality: 2.0,
-                weight: 6
-            },
-            summit: {
-                quality: 2.0,
-                weight: 8
-            },
-            pinnacle: {
-                quality: 2.0,
-                weight: 8
             }
         }
     }
