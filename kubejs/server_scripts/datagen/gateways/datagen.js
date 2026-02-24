@@ -1,5 +1,4 @@
 let worldTiers = ["haven", "frontier", "ascent", "summit", "pinnacle"]
-let shrineWaveCount = 2
 let shrineWaveTime = 1200
 let shrineSetupTime = 60
 let shrineSetupTimeScaleFactor = 20
@@ -31,7 +30,7 @@ ServerEvents.generateData("last", event => {
           ]
         }
 
-        for (let waveIdx = 0; j < shrineWaveCount; j++) {  // Append wave info to gateway json
+        for (let waveIdx = 0; j < gateway.waveCount; j++) {  // Append wave info to gateway json
           let waveJson = {
             entities: [],
             modifiers: [],
@@ -52,11 +51,11 @@ ServerEvents.generateData("last", event => {
 
             if (entity.modifiers.length > 0) {  // Append enemy's attributes to its json
               for (let modifierIdx in entity.modifiers) {
-                let modifier = {}
+                let modifier = gatewayModifiers[entity.modifiers[modifierIdx]]
                 let modifierJson = {
-                  attribute: entity.modifiers[modifierIdx],
-                  value: Math.max([0, 0]),
-                  operation: "add_value"
+                  attribute: modifier.id,
+                  value: Math.max([0, modifier.baseValue + ((tierIdx + waveIdx) * modifier.scaleFactor)]),
+                  operation: modifier.operation
                 }
 
                 entityJson.modifiers.push(modifierJson)
@@ -67,11 +66,11 @@ ServerEvents.generateData("last", event => {
               let effectsList = []
 
               for (let effectIdx in entity.effects) {
-                let effect = entity.effects[effectIdx]
+                let effect = gatewayEffects[entity.effects[effectIdx]]
                 let effectJson = {
-                  id: entity.effects[effectIdx],
-                  amplifier: Math.max([0, 0]),
-                  duration: -1
+                  id: effect.id,
+                  amplifier: Math.max([0, Math.floor(effect.baseAmplifier + ((tierIdx + waveIdx) * effect.scaleFactor))]),
+                  duration: effect.duration
                 }
                 effectsList.push(effectJson)
               }
@@ -88,7 +87,7 @@ ServerEvents.generateData("last", event => {
               type: "gateways:stack",
               stack: {
                 id: reward.item,
-                count: reward.baseCount + (waveIdx * reward.scaleFactor)
+                count: reward.baseCount + ((tierIdx + waveIdx) * reward.scaleFactor)
               }
             }
             waveJson.rewards.push(rewardJson)
