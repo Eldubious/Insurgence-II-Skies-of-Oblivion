@@ -28,7 +28,7 @@
     "silentgems:end_opal_ore", "silentgems:silver_nugget", "silentgems:silver_ingot", "silentgems:raw_silver",
     "silentgems:silver_block", "silentgems:silver_ore", "silentgems:deepslate_silver_ore", "occultism:raw_silver",
     "occultism:silver_ingot", "occultism:silver_nugget", "occultism:silver_ore", "occultism:silver_ore_deepslate",
-    "occultism:silver_block", "occultism:raw_silver_block", "silentgems:deepslate_topaz_ore"
+    "occultism:silver_block", "occultism:raw_silver_block", "silentgems:deepslate_topaz_ore", "!collectorsalbum:.*_card"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

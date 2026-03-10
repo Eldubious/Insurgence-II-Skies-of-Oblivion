@@ -61,6 +61,7 @@ emi.json
 minecraftinstance.json
 options.txt
 patchouli_data.json
+user-prefs.json
 usercache.json
 usernamecache.json
 .probe
@@ -96,3 +97,4 @@ usernamecache.json
 !config/defaultworldtype/client-config.toml
 !config/emojitype.json
 !config/ftbquests
+!config/collectorsalbum.yaml

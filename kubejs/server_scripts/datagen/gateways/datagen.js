@@ -30,7 +30,7 @@ ServerEvents.generateData("last", event => {
           ]
         }
 
-        for (let waveIdx = 0; j < gateway.waveCount; j++) {  // Append wave info to gateway json
+        for (let waveIdx = 0; waveIdx < gateway.waveCount; waveIdx++) {  // Append wave info to gateway json
           let waveJson = {
             entities: [],
             modifiers: [],

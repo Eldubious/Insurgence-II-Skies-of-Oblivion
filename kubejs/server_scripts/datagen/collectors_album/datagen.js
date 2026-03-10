@@ -1,10 +1,10 @@
 // Generate all the JSON files for the cards in the collector's album
 ServerEvents.generateData("last", event => {
   let currPageOrder = 0
-  let currIndex = 1
 
   for (let catIndex in cardDefinitions) {
     let category = cardDefinitions[catIndex]
+    let currIndex = 1
     // Register the category
     let json = {
       type: "collectorsalbum:category",
@@ -42,11 +42,12 @@ ServerEvents.generateData("last", event => {
             category: `${category.namespace}:${category.id}`,
             number: currIndex
           }
-          currIndex++
+          
 
           event.json(`${category.namespace}:album/cards/${rarity}_${rank}_of_${category.id}`, json)
           event.getGenerated(`${category.namespace}:album/cards/${rarity}_${rank}_of_${category.id}`)
         }
+        currIndex++
       }
     }
 
@@ -55,7 +56,7 @@ ServerEvents.generateData("last", event => {
       let card = category.cards[cIndex]
       if (card.hasRarity) {
         for (let rarityIndex in rarities) {
-          let rarity = rarityIndex
+          let rarity = rarities[rarityIndex]
 
           let json = {
             type: "collectorsalbum:rarity_card",
@@ -65,11 +66,12 @@ ServerEvents.generateData("last", event => {
             category: `${category.namespace}:${category.id}`,
             number: currIndex
           }
-          currIndex++
-
+          
+          console.log(json)
           event.json(`${card.namespace}:album/cards/${rarity}_${card.id}`, json)
           event.getGenerated(`${card.namespace}:album/cards/${rarity}_${card.id}`)
         }
+        currIndex++
       }
       else {
 

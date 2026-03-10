@@ -1,0 +1,58 @@
+{
+  "title": {
+    "translate": "album.bonus.insurgence.set_complete.title"
+  },
+  "description": {
+    "translate": "album.bonus.insurgence.set_complete.desc"
+  },
+  "value": {
+    "type": "collectorsalbum:list",
+    "items": [
+        {
+            "type": "collectorsalbum:category_cards",
+            "category": "insurgence:swords",
+            "filter": {
+                "rarities": ["COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY", "MYTHICAL"],
+                "cards": {
+                    "min": 14
+                }
+            },
+            "item": {
+                "type": "collectorsalbum:attribute",
+                "attribute": "minecraft:generic.max_health",
+                "modifier": {
+                    "id": "insurgence:sword_set_complete",
+                    "amount": 10,
+                    "operation": "add_value"
+                },
+                "label": {
+                    "color": "#FFFF55",
+                    "translate": "album.bonus.insurgence.set_complete.swords"
+                }
+            }
+        },
+        {
+            "type": "collectorsalbum:category_cards",
+            "category": "insurgence:staves",
+            "filter": {
+                "rarities": ["COMMON", "UNCOMMON", "RARE", "EPIC", "LEGENDARY", "MYTHICAL"],
+                "cards": {
+                    "min": 14
+                }
+            },
+            "item": {
+                "type": "collectorsalbum:attribute",
+                "attribute": "minecraft:generic.max_health",
+                "modifier": {
+                    "id": "insurgence:staff_set_complete",
+                    "amount": 10,
+                    "operation": "add_value"
+                },
+                "label": {
+                    "translate": "album.bonus.insurgence.set_complete.staves"
+                }
+            }
+        }
+    ]
+  }
+}

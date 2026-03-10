@@ -44,6 +44,8 @@ StartupEvents.registry("item", event => {
         .tag('insurgence:tarot_cards')
         .tag('insurgence:tarot_cards/major_arcana')
         .tag('insurgence:tarot_cards/swords')
+        .tag(`insurgence:tarot_cards/${arcana}`)
+        .tag(`insurgence:tarot_cards/${rarity}`)
     }
     for (let j in staffArcana) {
       let arcana = staffArcana[j]
@@ -55,6 +57,8 @@ StartupEvents.registry("item", event => {
         .tag('insurgence:tarot_cards')
         .tag('insurgence:tarot_cards/major_arcana')
         .tag('insurgence:tarot_cards/staves')
+        .tag(`insurgence:tarot_cards/${arcana}`)
+        .tag(`insurgence:tarot_cards/${rarity}`)
     }
     for (let j in cupArcana) {
       let arcana = cupArcana[j]
@@ -66,6 +70,8 @@ StartupEvents.registry("item", event => {
         .tag('insurgence:tarot_cards')
         .tag('insurgence:tarot_cards/major_arcana')
         .tag('insurgence:tarot_cards/cups')
+        .tag(`insurgence:tarot_cards/${arcana}`)
+        .tag(`insurgence:tarot_cards/${rarity}`)
     }
     for (let j in ringArcana) {
       let arcana = ringArcana[j]
@@ -77,6 +83,8 @@ StartupEvents.registry("item", event => {
         .tag('insurgence:tarot_cards')
         .tag('insurgence:tarot_cards/major_arcana')
         .tag('insurgence:tarot_cards/rings')
+        .tag(`insurgence:tarot_cards/${arcana}`)
+        .tag(`insurgence:tarot_cards/${rarity}`)
     }
   }
   

@@ -7,11 +7,14 @@ apotheosis:tower_main
 apotheosis:tower_sand
 apotheosis:tower_spruce
 betterfortresses:fortress
-betterstrongholds:stronghold
 enderscape:center_gateway
 enderscape:end_city
 enderscape:large_center_gateway
 enderscape:mirestone_ruins
+friendsandfoes:citadel
+friendsandfoes:iceologer_cabin
+friendsandfoes:illusioner_shack
+friendsandfoes:illusioner_training_grounds
 insurgence:battle_tower/default/template
 irons_spellbooks:ancient_battleground
 irons_spellbooks:catacombs
@@ -154,6 +157,9 @@ nova_structures:well_savana
 nova_structures:well_spruce
 nova_structures:wild_ruin
 nova_structures:witch_villa
+pigsteel:pigsteel_mine
+ribbits:ribbit_village
+skyvillages:skyvillage
 supplementaries:galleon
 supplementaries:road_sign
 wan_ancient_beasts:abandoned_village

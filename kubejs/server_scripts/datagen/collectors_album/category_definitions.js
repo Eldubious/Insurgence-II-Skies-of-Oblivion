@@ -45,7 +45,7 @@ const cardDefinitions = [
     cards: [
       {
         namespace: "insurgence",
-        id: "the_protector",
+        id: "the_tower",
         hasRarity: true
       }
     ]
