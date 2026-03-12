@@ -263,6 +263,8 @@
     "chat_message.insurgence.set_world_tier_summit": "Your world tier has upgraded to Summit!",
     "chat_message.insurgence.set_world_tier_pinnacle": "Your world tier has upgraded to Pinnacle!",
     "chat_message.insurgence.gateway_shrine.no_enemy_type": "Shrine does not have an enemy type set. Set one using a renamed Name Tag in creative mode.",
+    "chat_message.insurgence.debug_ticket_wrong_hand": "Please use the Debug Ticket in the main hand.",
+    "chat_message.insurgence.debug_ticket_no_data": "This Debug Ticket has no function associated with it.",
 
     "attribute.name.player.block_break_speed.desc": "Multiplier for the speed at which players can break blocks.",
     "attribute.name.player.block_interaction_range.desc": "The range of blocks in which players can interact with blocks.",

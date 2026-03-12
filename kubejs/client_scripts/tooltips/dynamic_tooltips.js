@@ -166,10 +166,10 @@ ItemEvents.dynamicTooltips('debug_tickets', event => {
 
     if (type == 'world_tier') {
         let tier = event.item.customData.get('tier')
-        if (tier != null) tier = tier.getAsString()
+        if (tier != null) tier = tier.getAsString().toString()
         
         if (tier == 'haven' || tier == 'frontier' || tier == 'ascent' || tier == 'summit' || tier == 'pinnacle') {
-            event.lines.set(1, Component.translate(`tooltip.insurgence.debug_ticket.world_tier_${tier.substring(1, tier.length - 1)}`).gold().italic())
+            event.lines.set(1, Component.translate(`tooltip.insurgence.debug_ticket.world_tier_${tier}`).gold().italic())
         }
     }
 })

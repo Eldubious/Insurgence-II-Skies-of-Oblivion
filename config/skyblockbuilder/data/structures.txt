@@ -15,7 +15,7 @@ friendsandfoes:citadel
 friendsandfoes:iceologer_cabin
 friendsandfoes:illusioner_shack
 friendsandfoes:illusioner_training_grounds
-insurgence:battle_tower/default/template
+insurgence:battle_tower/default/swords
 irons_spellbooks:ancient_battleground
 irons_spellbooks:catacombs
 irons_spellbooks:citadel
