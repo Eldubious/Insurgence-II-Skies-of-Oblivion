@@ -37,7 +37,8 @@ mods
 moonlight-global-datapacks
 patchouli_books
 profileImage
-resourcepacks
+resourcepacks/*
+!resourcepacks/
 saves
 screenshots
 shaderpacks
@@ -98,3 +99,7 @@ usernamecache.json
 !config/emojitype.json
 !config/ftbquests
 !config/collectorsalbum.yaml
+
+# Resource packs to include
+!resourcepacks/consistent_metalworks
+!resourcepacks/dye_depot_plus
