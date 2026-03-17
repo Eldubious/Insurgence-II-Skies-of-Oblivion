@@ -17,7 +17,7 @@ StartupEvents.registry("item", event => {
       for (let k in rarities) {
         let rarity = rarities[k]
         event.create(`insurgence:${rarity}_${rank}_of_${suit}`)
-          .translationKey(`item.insurgence.${rank}_of_${suit}`)
+          .translationKey(`item.insurgence.${rarity}_${rank}_of_${suit}`)
           .tooltip(Component.translate(`tooltip.insurgence.lore.card_of_${suit}`).gray())
           .texture(`insurgence:item/tarot_cards/${rank}_of_${suit}`)  // or *.png
           .rarity('uncommon')
@@ -37,7 +37,7 @@ StartupEvents.registry("item", event => {
     for (let j in swordArcana) {
       let arcana = swordArcana[j]
       event.create(`insurgence:${rarity}_${arcana}`)
-        .translationKey(`item.insurgence.${arcana}`)
+        .translationKey(`item.insurgence.${rarity}_${arcana}`)
         .tooltip(Component.translate(`tooltip.insurgence.lore.${arcana}`).gray())
         .texture(`insurgence:item/tarot_cards/${arcana}`)
         .rarity('rare')
@@ -50,7 +50,7 @@ StartupEvents.registry("item", event => {
     for (let j in staffArcana) {
       let arcana = staffArcana[j]
       event.create(`insurgence:${rarity}_${arcana}`)
-        .translationKey(`item.insurgence.${arcana}`)
+        .translationKey(`item.insurgence.${rarity}_${arcana}`)
         .tooltip(Component.translate(`tooltip.insurgence.lore.${arcana}`).gray())
         .texture(`insurgence:item/tarot_cards/${arcana}`)
         .rarity('rare')
@@ -63,7 +63,7 @@ StartupEvents.registry("item", event => {
     for (let j in cupArcana) {
       let arcana = cupArcana[j]
       event.create(`insurgence:${rarity}_${arcana}`)
-        .translationKey(`item.insurgence.${arcana}`)
+        .translationKey(`item.insurgence.${rarity}_${arcana}`)
         .tooltip(Component.translate(`tooltip.insurgence.lore.${arcana}`).gray())
         .texture(`insurgence:item/tarot_cards/${arcana}`)
         .rarity('rare')
@@ -76,7 +76,7 @@ StartupEvents.registry("item", event => {
     for (let j in ringArcana) {
       let arcana = ringArcana[j]
       event.create(`insurgence:${rarity}_${arcana}`)
-        .translationKey(`item.insurgence.${arcana}`)
+        .translationKey(`item.insurgence.${rarity}_${arcana}`)
         .tooltip(Component.translate(`tooltip.insurgence.lore.${arcana}`).gray())
         .texture(`insurgence:item/tarot_cards/${arcana}`)
         .rarity('rare')

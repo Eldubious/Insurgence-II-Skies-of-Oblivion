@@ -13,9 +13,7 @@ PlayerEvents.tick(event => {
     let mainHandItem = event.player.mainHandItem.id.toString()
     let offHandItem = event.player.offHandItem.id.toString()
     let dimension = event.player.level.dimension.toString()
-    let x = event.player.getX()
-    let y = event.player.getY()
-    let z = event.player.getZ()
+    let x = event.player.getX(); let y = event.player.getY(); let z = event.player.getZ()
 
     // Teleport players between dimensions depending on their y coordinate
     dimensionTp(server, playerId, dimension, x, y, z)
@@ -32,34 +30,28 @@ PlayerEvents.tick(event => {
 })
 
 // Teleport the player between dimensions
+// Connections are Overworld <--> Haven <-- The End
 function dimensionTp(server, playerId, dimension, x, y, z) {
     let targetDim = null
     let targetX = null
     let targetY = null
     let targetZ = null
 
-    if (y <= -15 && dimension == 'insurgence:skies') {
+    if (y <= -61 && dimension == 'insurgence:skies') {
         // Haven -> Overworld
         targetDim = 'minecraft:overworld'
         targetX = x
         targetY = 321
         targetZ = z
     }
-    else if (y >= 320 && dimension == 'insurgence:skies') {
-        // Haven -> The End
-        targetDim = 'minecraft:the_end'
-        targetX = 0
-        targetY = -30
-        targetZ = 0
-    }
-    else if (y <= -70 && dimension == 'minecraft:the_end') {
+    else if (y <= -71 && dimension == 'minecraft:the_end') {
         // The End -> Haven
         targetDim = 'insurgence:skies'
         targetX = 0
         targetY = 257
         targetZ = 0
     }
-    else if (y > 380 && dimension == 'minecraft:overworld') {
+    else if (y > 400 && dimension == 'minecraft:overworld') {
         // Overworld -> Haven
         targetDim = 'insurgence:skies'
         targetX = x
