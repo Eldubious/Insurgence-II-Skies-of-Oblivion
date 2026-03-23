@@ -37,7 +37,7 @@ ServerEvents.tags('item', event => {
         event.add('insurgence:vault_keys', vaultKeys[i])
     }
 
-    // Add new color foundry blocks to the correct tags
+    // Add new color blocks and items to the correct tags
     let newDyeColors = ['maroon', 'rose', 'coral', 'ginger', 'tan', 'beige', 'amber', 'olive', 'forest', 'verdant', 'teal', 'mint',
         'aqua', 'slate', 'navy', 'indigo']
     for (let i in newDyeColors) {
