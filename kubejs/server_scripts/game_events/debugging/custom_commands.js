@@ -12,7 +12,7 @@ ServerEvents.commandRegistry(event => {
             .executes(ctx => tellStages(Arguments.PLAYER.getResult(ctx, 'target')))
         )
     )
-    // Helper function
+    // Helper function for get_stages command
     const tellStages = (player) => {
         player.tell(Component.literal(`Stages on the player ${player.name.getString()}:`))
 
@@ -21,4 +21,5 @@ ServerEvents.commandRegistry(event => {
         })
         return 1
     }
+
 })

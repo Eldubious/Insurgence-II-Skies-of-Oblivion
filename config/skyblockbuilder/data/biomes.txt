@@ -73,3 +73,4 @@ minecraft:windswept_gravelly_hills
 minecraft:windswept_hills
 minecraft:windswept_savanna
 minecraft:wooded_badlands
+quark:glimmering_weald

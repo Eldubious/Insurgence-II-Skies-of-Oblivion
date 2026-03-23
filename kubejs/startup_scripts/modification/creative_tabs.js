@@ -100,4 +100,5 @@ StartupEvents.modifyCreativeTab("insurgence:debug_tickets", event => {
     event.add("insurgence:debug_ticket[custom_data={type:\"world_tier\",tier:\"ascent\"}]")
     event.add("insurgence:debug_ticket[custom_data={type:\"world_tier\",tier:\"summit\"}]")
     event.add("insurgence:debug_ticket[custom_data={type:\"world_tier\",tier:\"pinnacle\"}]")
+    event.add("insurgence:debug_ticket[custom_data={type:\"place_effect\",effect:\"nether_portal_area\"}]")
 })

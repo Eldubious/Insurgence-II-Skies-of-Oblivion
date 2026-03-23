@@ -172,4 +172,10 @@ ItemEvents.dynamicTooltips('debug_tickets', event => {
             event.lines.set(1, Component.translate(`tooltip.insurgence.debug_ticket.world_tier_${tier}`).gold().italic())
         }
     }
+    else if (type == 'place_effect') {
+        let effectType = event.item.customData.get('effect')
+        if (effectType != null) effectType = effectType.getAsString().toString()
+
+        event.lines.set(1, Component.translate(`tooltip.insurgence.debug_ticket.place_effect_${effectType}`).gold().italic())
+    }
 })

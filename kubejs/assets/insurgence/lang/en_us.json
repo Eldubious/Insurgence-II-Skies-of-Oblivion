@@ -531,6 +531,7 @@
     "tooltip.insurgence.debug_ticket.world_tier_ascent": "Sets your world tier to Ascent.",
     "tooltip.insurgence.debug_ticket.world_tier_summit": "Sets your world tier to Summit.",
     "tooltip.insurgence.debug_ticket.world_tier_pinnacle": "Sets your world tier to Pinnacle.",
+    "tooltip.insurgence.debug_ticket.place_effect_nether_portal_area": "Places a temporary nether portal.",
 
     "insurgence.shrine/zombie_haven": "Zombie Shrine: Haven Tier",
     "insurgence.shrine/zombie_frontier": "Zombie Shrine: Frontier Tier",
@@ -562,6 +563,7 @@
     "chat_message.insurgence.set_world_tier_ascent": "Your world tier has upgraded to Ascent!",
     "chat_message.insurgence.set_world_tier_summit": "Your world tier has upgraded to Summit!",
     "chat_message.insurgence.set_world_tier_pinnacle": "Your world tier has upgraded to Pinnacle!",
+    "chat_message.insurgence.place_effect_nether_portal_area": "Placed nether portal effect.",
     "chat_message.insurgence.gateway_shrine.no_enemy_type": "Shrine does not have an enemy type set. Set one using a renamed Name Tag in creative mode.",
     "chat_message.insurgence.debug_ticket_wrong_hand": "Please use the Debug Ticket in the main hand.",
     "chat_message.insurgence.debug_ticket_no_data": "This Debug Ticket has no function associated with it.",
