@@ -48,7 +48,7 @@ Cards:
     - Album grants mana regen
   Cups
     - Parkour challenges in Towers
-    - 
+    - Cards are found on islands in the sky of the overworld
     - Album grants health regen
   Rings
     - Item submission in Towers
@@ -56,7 +56,7 @@ Cards:
     - Album grants dodge chance 
   Universe
     - Beaten the game
-    - Album grants permanent strong effect
+    - Album grants permanent not yet decided strong effect
 
 Structures:
   The Forge
@@ -66,26 +66,20 @@ Structures:
 
   Battle Towers
     - A very common structure; in every dimension
-    - Has lots of variety and themes depending on where it's foundry
+    - Has lots of variety and themes depending on where it's found
     - A good source of common loot
 
   Starter Island(s)
     - Where the player spawns
     - Island type chosen on world creation
     - Contains the following:
-      + An empty End Portal Frame
-      + A Dimensional Storage Matrix (the simplest kind)
       + A bonus chest
 
 Gear:
   Crafted Gear
-    - Silent Gems are not just found as ores everywhere; each one is found in a special location
-      + Pearls are found by brushing underwater
-      + Ammonite are held by drowned or in underwater loot
-      + Some are just exclusive to a specific biome/dimension
-    - Better materials can only be made into gear with foundry improvements
-      + Alloys require an item from The Forge
-    - Crafted gear cannot be given affixes or gem sockets
+    - Jewelry is the only thing which can be crafted.
+      + gives a variety of bonuses from attributes to effects, etc.
+      + the best materials can only be forged as alloys in a foundry
 
   Looted Gear
     - Looted gear will always have one negative affix on them
@@ -97,52 +91,19 @@ Gear:
 
   Enchantments
     - Looted Equipment will never have enchantments
-    - Enchantments are limited to 3, but a rare item can increase it to 4
+    - Enchantments are limited to 1
+    - Most will be reworked completely
 
   Spells
-    - Only are found already imbued onto weapons
-    - Spells can have their level upgraded, but not changed or removed
+    - Spells are found as runes (retextured scrolls), but cannot be cast.
+    - Cannot craft spells
+    - Spells can only be imbued into tools, weapons, and armor (1 spell per item)
+    - Spells can have their level upgraded
       + The player can upgrade their gear's spell using its respective ink type
       + There is a message displayed when the ink type is incorrect
-    - Spell Books or scrolls cannot be found or crafted
+    - Spell Books cannot be found or crafted
     - Each spell that can be found as loot is exclusive to a biome or dimension
       + The questbook details where each spell can be found
-
-Skill Tree:
-    - You will not be able to max out any skill tree
-    - You can refund all points spent in a skill
-      + Skills only give refundable bonuses because of this
-    - There is a level cap for each World Tier
-    - There are automatic rewards for reaching certain skill level milestones
-      + These rewards will typically unlock content and are non-refundable
-    - Milestone rewards are given through the questbook
-    
-  Combat
-    - XP gained by killing mobs (that don't give another kind of XP like fish)
-    - Increases damage stats
-  Cooking
-    - XP gained by cooking and eating complex dishes
-    - Increases health and regen
-  Dungeoneering
-    - XP gained by looting loot chests and vaults
-    - Gives luck, speed, and crit stats
-  Fishing 
-    - XP gained by fishing or killing fish
-    - Increases swim, underwater, and fishing stats
-  Enchanting
-    - XP gained by enchanting
-    - Increases vanilla & skill xp gained and mana
-    - Milestones unlock new enchantments
-  Spellcasting
-    - XP gained by casting spells
-    - Increases specific school stats, and some generic stats
-  Brewing
-    - XP gained by drinking and brewing potions
-    - Decreses spell cooldown or smth
-    - Also gives immunity to certain effects or permanent effects
-  Mining
-    - XP gained by mining ores
-    - Increases defensive and mining stats
 
 Resources:
   Bees
@@ -152,8 +113,7 @@ Resources:
     - These are the only materials bees can produce
       + Ores
         - Only generate ores by converting stone into an ore block
-      + Skill XP
-        - Gated behind a certain level of experience in that skill
+      + Attribute upgrades
       + Logs
       + Stone
       + Dyes
@@ -169,4 +129,4 @@ Cosmetic:
   Misc
     - All trims and materials are compatible with tools and elytra
     - Ores have informational tooltips saying where they are found
-    - All dyes are obtainable from flowers
+    - All dyes are obtainable from at least flowers
