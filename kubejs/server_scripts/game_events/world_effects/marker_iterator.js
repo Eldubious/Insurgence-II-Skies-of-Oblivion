@@ -1,7 +1,7 @@
 // Iterates on all marker entities every tick.
 ServerEvents.tick(event => {
     let server = event.server
-    let markers = server.getEntities().filterSelector("@e[type=minecraft:marker]")
+    let markers = server.getEntities().filter(e => e.id.toString() == "minecraft:marker")
     for (let i in markers) {
         let m = markers[i]
         let data = m.getNbt().data

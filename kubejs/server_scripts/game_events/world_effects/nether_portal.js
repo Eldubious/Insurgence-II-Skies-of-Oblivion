@@ -1,5 +1,6 @@
-let particleTypes = ["minecraft:flame", "irons_spellbooks:dragon_fire", "amendments:fireball_trail"]
-let ambientParticle = "minecraft:trial_spawner_detection"
+const netherPortalBoxParticles = ["minecraft:flame", "irons_spellbooks:dragon_fire", "amendments:fireball_trail"]
+const netherPortalAmbientParticle = "minecraft:trial_spawner_detection"
+const netherPortalClosingParticle = "amendments:fireball_explosion"
 
 function createNetherPortal(server, marker) {
     let uuid = marker.uuid.toString()   // Also used as the id of the portal event
@@ -34,18 +35,11 @@ function createNetherPortal(server, marker) {
             closeBox(server, dim, pos, timer, 0.5)
         }
         else if (timer == 220) {  // Marker has expired after 11 seconds
-            server.runCommandSilent(`execute in ${dim} run particle amendments:fireball_explosion ${pos.x()} ${pos.y()} ${pos.z()}`)
+            server.runCommandSilent(`execute in ${dim} run particle ${netherPortalClosingParticle} ${pos.x()} ${pos.y()} ${pos.z()}`)
             server.runCommandSilent(`execute in ${dim} run playsound minecraft:entity.player.teleport block @a ${pos.x()} ${pos.y()} ${pos.z()} 100 0.7`)
             server.runCommandSilent(`execute in ${dim} run playsound minecraft:ambient.nether_wastes.mood block @a ${pos.x()} ${pos.y()} ${pos.z()} 50`)
-            server.runCommandSilent(`execute in ${dim} positioned as ${uuid} run tag @e[x=${pos.x() - 5},dx=9.5,y=${pos.y() - 0.5},dy=4.5,z=${pos.z() - 5},dz=9.5,
-                predicate=insurgence:can_travel_to_nether] add ${tpId}`)
-            let teleportedEntities = server.getEntities().filter(e => e.tags.contains(tpId))
-            for (let i in teleportedEntities) {
-                let e = teleportedEntities[i]
-                let posTmp = e.pos
-                spawnTeleportParticles(server, dim, posTmp.x, posTmp.y, posTmp.z)
-            }
-            server.runCommandSilent(`execute in insurgence:the_nether run spreadplayers ${pos.x() - 0.5} ${pos.z() - 0.5} 0 200 under 100 true @e[tag=${tpId}]`)
+
+            teleportEntities(server, tpId, dim, pos, uuid)
             marker.kill()
 
             let tpTagIdx = persistentData.get("active_events").toArray().indexOf(`${tpId}`)
@@ -75,7 +69,7 @@ function createBox(server, dim, pos, timer) {
     server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() - 5} ${pos.y() + 2} ${pos.z() + 5} 0 0.9 0 0 1 normal`)
 
     if (timer % 2 == 0) {
-        server.runCommandSilent(`execute in ${dim} run particle ${ambientParticle} ${pos.x()} ${pos.y() + 1.25} ${pos.z()} 2 0.9 2 0 1 normal`)
+        server.runCommandSilent(`execute in ${dim} run particle ${netherPortalAmbientParticle} ${pos.x()} ${pos.y() + 1.25} ${pos.z()} 2 0.9 2 0 1 normal`)
     }
 }
 
@@ -108,6 +102,20 @@ function closeBox(server, dim, pos, timer, startPos) {
     }
 }
 
+function teleportEntities(server, tpId, dim, pos, uuid) {
+    server.runCommandSilent(`execute in ${dim} positioned as ${uuid} run tag @e[x=${pos.x() - 5},dx=9.5,y=${pos.y() - 0.5},dy=4.5,z=${pos.z() - 5},dz=9.5,
+        predicate=insurgence:can_travel_to_nether] add ${tpId}`)
+
+    let teleportedEntities = server.getEntities().filter(e => e.tags.contains(tpId))
+    for (let i in teleportedEntities) {
+        let e = teleportedEntities[i]
+        let posTmp = e.pos
+        spawnTeleportParticles(server, dim, posTmp.x, posTmp.y, posTmp.z)
+    }
+
+    server.runCommandSilent(`execute in insurgence:the_nether run spreadplayers ${pos.x() - 0.5} ${pos.z() - 0.5} 0 200 under 100 true @e[tag=${tpId}]`)
+}
+
 // Spawn particles to indicate that an entity was teleported
 function spawnTeleportParticles(server, dim, x, y, z) {
     server.runCommandSilent(`execute in ${dim} run particle irons_spellbooks:fiery_smoke ${x} ${y + 0.5} ${z} 0.25 0.25 0.25 0.015 2 normal`)
@@ -124,6 +132,21 @@ function getRandomSpeed() {
 
 // Get a random particle to be used when outlining the portal area
 function getRandomParticle() {
-    let idx = Math.round(Math.random() * (particleTypes.length - 1))
-    return particleTypes[idx]
+    let idx = Math.round(Math.random() * (netherPortalBoxParticles.length - 1))
+    return netherPortalBoxParticles[idx]
+}
+
+// Mark the return coordinates and dimension of only player entities' persistent data
+function attachPlayersToAnchor(entity, pos, dim) {
+    let entityType = entity.id.toString()
+    if (entityType == "minecraft:player") {
+        let persistentData = entity.getPersistentData()
+        let returnPoint = {
+            "x": pos.x(),
+            "y": pos.y() + 1,   // Teleport on top of the portal block
+            "z": pos.z(),
+            "dim": dim
+        }
+        persistentData.put("nether_portal_return_coordinates", returnPoint)
+    }
 }
