@@ -20,7 +20,6 @@ config/defaultworldtype/*
 config/skyblockbuilder/*
 !config/skyblockbuilder/
 crash-reports
-datapacks
 data
 !kubejs/data
 defaultconfigs/*
