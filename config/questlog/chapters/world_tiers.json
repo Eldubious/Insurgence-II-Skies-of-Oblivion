@@ -1,0 +1,8 @@
+{
+    "name": "questlog.chapter.insurgence.world_tiers",
+    "translatable": true,
+    "icon": {
+        "item": "apotheosis:boss_summoner"
+    },
+    "order": 1
+}

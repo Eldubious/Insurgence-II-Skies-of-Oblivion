@@ -1,0 +1,133 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.insurgence.custom_machine.nether_portal"
+    }
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:block": "insurgence:active_nether_portal_machine_dummy"
+    },
+    "custommachinery:block": "minecraft:respawn_anchor",
+    "custommachinery:interaction_sound": {
+      "step": "minecraft:block.stone.step",
+      "place": "minecraft:block.stone.place",
+      "hit": "minecraft:block.stone.hit",
+      "fall": "minecraft:block.stone.fall",
+      "break": "minecraft:block.stone.break"
+    },
+    "custommachinery:item": "minecraft:respawn_anchor",
+    "custommachinery:mining_level": "minecraft:needs_stone_tool"
+  },
+  "components": {
+    "type": "custommachinery:item",
+    "max_output": 0,
+    "whitelist": "insurgence:nether_fuel",
+    "id": "input",
+    "mode": "input"
+  },
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:button",
+      "text": {
+        "text": {
+          "translate": "gui.insurgence.custom_machine.activate_portal"
+        },
+        "color": "white"
+      },
+      "id": "activation_button",
+      "x": 83,
+      "y": 75,
+      "width": 90,
+      "height": 24
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 105
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "TOP",
+      "x": 120,
+      "y": 22,
+      "width": 16,
+      "height": 24
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 119,
+      "y": 51,
+      "ghost": {
+        "items": {
+          "item": "insurgence:nether_fuel"
+        },
+        "color": {
+          "alpha": 0.24705882
+        }
+      }
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 10,
+      "y": 9,
+      "text": {
+        "text": {
+          "translate": "block.insurgence.custom_machine.nether_portal"
+        }
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "tooltip.insurgence.info.nether_portal_1"
+      },
+      "color": "#FFAA00"
+    },
+    {
+      "text": {
+        "translate": "formatting.insurgence.spacer"
+      }
+    },
+    {
+      "text": {
+        "translate": "tooltip.insurgence.info.nether_portal_2"
+      },
+      "color": "#AAAAAA",
+      "italic": true
+    },
+    {
+      "text": {
+        "translate": "tooltip.insurgence.info.nether_portal_3"
+      },
+      "color": "#AAAAAA",
+      "italic": true
+    },
+    {
+      "text": {
+        "translate": "formatting.insurgence.spacer"
+      }
+    },
+    {
+      "text": {
+        "translate": "tooltip.insurgence.info.nether_portal_4"
+      },
+      "color": "#AAAAAA",
+      "italic": true
+    },
+    {
+      "text": {
+        "translate": "tooltip.insurgence.info.nether_portal_5"
+      },
+      "color": "#AAAAAA",
+      "italic": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "questlog.chapter.insurgence.overworld",
+    "translatable": true,
+    "icon": {
+        "texture": "structurify:textures/gui/config/images/biomes/cherry_grove.png"
+    },
+    "order": 3
+}

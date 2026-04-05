@@ -1,0 +1,33 @@
+{
+    "type": "custommachinery:custom_machine",
+    "machine": "custommachinery:nether_portal",
+    "time": 120,
+    "priority": 1000,
+    "hidden": true,
+    "requirements": [
+        {
+            "type": "custommachinery:dimension",
+            "filter": "insurgence:skies"
+        },
+        {
+            "type": "custommachinery:button",
+            "id": "activation_button"
+        },
+        {
+            "type": "custommachinery:item",
+            "mode": "input",
+            "ingredient": {
+                "item": "insurgence:nether_fuel"
+            },
+            "amount": 1,
+            "slot": "input",
+            "chance": 1.0
+        },
+        {
+            "type": "custommachinery:command",
+            "command": "/function insurgence:gameplay/create_nether_portal",
+            "phase": "starting",
+            "delay": 0.0
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "questlog.chapter.insurgence.nether",
+    "translatable": true,
+    "icon": {
+        "texture": "structurify:textures/gui/config/images/biomes/nether_wastes.png"
+    },
+    "order": 4
+}

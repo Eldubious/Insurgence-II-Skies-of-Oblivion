@@ -1,0 +1,8 @@
+{
+    "name": "questlog.chapter.insurgence.end",
+    "translatable": true,
+    "icon": {
+        "texture": "structurify:textures/gui/config/images/biomes/the_end.png"
+    },
+    "order": 5
+}

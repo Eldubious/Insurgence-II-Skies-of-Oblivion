@@ -5,7 +5,9 @@
     "block.insurgence.deepslate_gateway_pillar": "Deepslate Gateway Pillar",
     "block.insurgence.blackstone_gateway_pillar": "Blackstone Gateway Pillar",
     "block.insurgence.end_stone_gateway_pillar": "Ender Gateway Pillar",
-    "block.insurgence.nether_portal": "Nether Portal",
+    "block.insurgence.custom_machine.nether_portal": "Nether Portal",
+    "block.insurgence.active_nether_portal_machine_dummy": "Active Dummy Nether Portal",
+    "block.insurgence.idle_nether_portal_machine_dummy": "Idle Dummy Nether Portal",
 
     "effect.insurgence.overworld_curse": "Blight of the Overworld",
     "effect.insurgence.overworld_curse.desc": "Feel the curse of the Overworld",
@@ -512,6 +514,13 @@
     "tooltip.insurgence.info.sentry_pattern_2": "Also found applied to looted equipment from dark forests",
     "tooltip.insurgence.info.wild_pattern_1": "Found in __.",
     "tooltip.insurgence.info.wild_pattern_2": "Also found applied to looted equipment from jungles",
+    "tooltip.insurgence.info.nether_fuel": "Used to power the Nether Portal one time.",
+    "tooltip.insurgence.info.nether_portal_1": "Consumes Nether Fuel to allow temporary travel to The Nether.",
+    "tooltip.insurgence.info.nether_portal_2": "The portal will teleport you to a random location each time,",
+    "tooltip.insurgence.info.nether_portal_3": "and it will teleport all entities in a 5 block radius together.",
+    "tooltip.insurgence.info.nether_portal_4": "Your visit to The Nether will be limited in time.",
+    "tooltip.insurgence.info.nether_portal_5": "When your time has run out, you will be teleported back to the Nether Portal.",
+    "tooltip.insurgence.info.unused_item": "This is an unused item. It has no purpose.",
 
     "tooltip.insurgence.lore.card_of_swords": "Earned through a demonstration of Strength.",
     "tooltip.insurgence.lore.card_of_staves": "Earned through a demonstration of Wisdom.",
@@ -659,6 +668,16 @@
     "attribute.iss_magicfromtheeast.dune_magic_resist.desc": "Increases resistance to the dune school of magic.",
     "attribute.familiarslib.sound_spell_power.desc": "Increases power of the sound school of magic.",
     "attribute.familiarslib.sound_magic_resist.desc": "Increases resistance to the sound school of magic.",
+
+    "gui.insurgence.custom_machine.activate_portal": "Activate Portal",
+
+    "questlog.chapter.insurgence.main": "Introduction",
+    "questlog.chapter.insurgence.world_tiers": "World Tiers",
+    "questlog.chapter.insurgence.skies": "The Haven",
+    "questlog.chapter.insurgence.overworld": "The Overworld",
+    "questlog.chapter.insurgence.nether": "The Nether",
+    "questlog.chapter.insurgence.end": "The End",
+    "questlog.chapter.insurgence.side_quests": "Side Quests",
 
     "advancements.insurgence.tools.root.title": "Tools & Armor",
     "advancements.insurgence.tools.root.description": "All the information you'll need for finding, crafting, and upgrading gear",

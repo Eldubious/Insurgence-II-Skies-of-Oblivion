@@ -1,0 +1,9 @@
+{
+  "name": "questlog.chapter.insurgence.main",
+  "translatable": true,
+  "icon": {
+    "item": "minecraft:knowledge_book"
+  },
+  "default_chapter": true,
+  "order": 0
+}

@@ -50,6 +50,11 @@ ItemEvents.modifyTooltips(event => {
         tooltip.dynamic('trim_template_information')
     })
 
+    // Mark unused items
+    event.modify('#insurgence:unused', tooltip => {
+        tooltip.add(Component.translate("tooltip.insurgence.info.unused_item").red())
+    })
+
     // Effects of debug tickets
     event.modify('insurgence:debug_ticket', tooltip => {
         tooltip.dynamic('debug_tickets')

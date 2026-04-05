@@ -1,6 +1,7 @@
 // Register new creative tabs to help with organization
 StartupEvents.registry("creative_mode_tab", event => {
 
+    
     event.create("insurgence:vault_keys")
         .translationKey("creative_tab.insurgence.vault_keys")
         .icon(() => "minecraft:ominous_trial_key")

@@ -1,0 +1,8 @@
+{
+    "name": "questlog.chapter.insurgence.side_quests",
+    "translatable": true,
+    "icon": {
+        "texture": "exposure:textures/gui/sprites/album/sign.png"
+    },
+    "order": 6
+}

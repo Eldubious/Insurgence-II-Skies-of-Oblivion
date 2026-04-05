@@ -1,0 +1,8 @@
+{
+    "name": "questlog.chapter.insurgence.skies",
+    "translatable": true,
+    "icon": {
+        "texture": "structurify:textures/gui/config/images/biomes/the_void.png"
+    },
+    "order": 2
+}

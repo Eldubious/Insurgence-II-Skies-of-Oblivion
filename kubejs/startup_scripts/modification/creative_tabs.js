@@ -1,8 +1,12 @@
 // Modify existing creative tabs
 StartupEvents.modifyCreativeTab("kubejs:tab", event => {
     event.setDisplayName(Component.translate("creative_tab.insurgence.main"))
-    event.setIcon("insurgence:nether_portal")
+    event.setIcon("insurgence:totem_of_vision")
 
+    // Add items
+    event.add("custommachinery:custom_machine_item[custommachinery:machine=\"custommachinery:nether_portal\"]")
+
+    // Remove items
     for (let i in keyTypes) {
         event.remove(`insurgence:${keyTypes[i]}_key`)
     }
@@ -41,6 +45,8 @@ StartupEvents.modifyCreativeTab("kubejs:tab", event => {
     event.remove("insurgence:the_wealth")
     event.remove("insurgence:the_universe")
     event.remove("insurgence:debug_ticket")
+    event.remove("insurgence:active_nether_portal_machine_dummy")
+    event.remove("insurgence:idle_nether_portal_machine_dummy")
 })
 
 StartupEvents.modifyCreativeTab("insurgence:collectors_cards", event => {

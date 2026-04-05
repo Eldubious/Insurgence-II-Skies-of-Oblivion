@@ -111,7 +111,7 @@ function teleportEntities(server, tpId, dim, pos, uuid) {
         let e = teleportedEntities[i]
         let posTmp = e.pos
         spawnTeleportParticles(server, dim, posTmp.x, posTmp.y, posTmp.z)
-        attachPlayersToAnchor(e, posTmp, dim)
+        attachPlayersToAnchor(e, pos, dim)
     }
 
     server.runCommandSilent(`execute in insurgence:the_nether run spreadplayers ${pos.x() - 0.5} ${pos.z() - 0.5} 0 200 under 100 true @e[tag=${tpId}]`)
@@ -149,13 +149,5 @@ function attachPlayersToAnchor(entity, pos, dim) {
             "dim": dim
         }
         persistentData.put("nether_portal_return_coordinates", returnPoint)
-    }
-}
-
-// Give players the Nether Dimension curse effect to bring them back to the overworld
-function givePlayersNetherCurse(entity) {
-    let entityType = entity.type
-    if (entityType == "minecraft:player") {
-        let cmd = ``
     }
 }

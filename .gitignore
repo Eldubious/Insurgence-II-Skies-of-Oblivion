@@ -68,6 +68,7 @@ usernamecache.json
 
 # Config files to include
 !config/skyblockbuilder/*
+!config/questlog/
 !config/fml.toml
 !config/configuration-options.json
 !config/emi.css
@@ -78,7 +79,6 @@ usernamecache.json
 !config/tooltipicons.json
 !config/appleskin-client.toml
 !config/farmersdelight-client.toml
-!config/enchdesc.json
 !config/relics.yaml
 !config/relics/
 !config/silentgear-common.toml
@@ -98,6 +98,8 @@ usernamecache.json
 !config/emojitype.json
 !config/ftbquests
 !config/collectorsalbum.yaml
+!config/item_descriptions.toml
+!config/enchant_limiter.json
 
 # Resource packs to include
 !resourcepacks/Consistent Metalworks
