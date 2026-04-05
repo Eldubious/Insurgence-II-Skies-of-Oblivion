@@ -25,16 +25,16 @@ function createNetherPortal(server, marker) {
     else {
         timer = parseInt(timer.getAsString())
 
-        if (timer < 120) {   // Start by highlighting the activation area
+        if (timer < 80) {   // Start by highlighting the activation area
             createBox(server, dim, pos, timer)
         }
-        else if (timer == 141) {    // Create the portal closing particles
+        else if (timer == 100) {    // Create the portal closing particles
             closeBox(server, dim, pos, timer, 0)
         }
-        else if (timer == 146) {
+        else if (timer == 105) {
             closeBox(server, dim, pos, timer, 0.5)
         }
-        else if (timer == 220) {  // Marker has expired after 11 seconds
+        else if (timer == 120) {  // Marker has expired after 6 seconds
             server.runCommandSilent(`execute in ${dim} run particle ${netherPortalClosingParticle} ${pos.x()} ${pos.y()} ${pos.z()}`)
             server.runCommandSilent(`execute in ${dim} run playsound minecraft:entity.player.teleport block @a ${pos.x()} ${pos.y()} ${pos.z()} 100 0.7`)
             server.runCommandSilent(`execute in ${dim} run playsound minecraft:ambient.nether_wastes.mood block @a ${pos.x()} ${pos.y()} ${pos.z()} 50`)
@@ -111,6 +111,7 @@ function teleportEntities(server, tpId, dim, pos, uuid) {
         let e = teleportedEntities[i]
         let posTmp = e.pos
         spawnTeleportParticles(server, dim, posTmp.x, posTmp.y, posTmp.z)
+        attachPlayersToAnchor(e, posTmp, dim)
     }
 
     server.runCommandSilent(`execute in insurgence:the_nether run spreadplayers ${pos.x() - 0.5} ${pos.z() - 0.5} 0 200 under 100 true @e[tag=${tpId}]`)
@@ -138,7 +139,7 @@ function getRandomParticle() {
 
 // Mark the return coordinates and dimension of only player entities' persistent data
 function attachPlayersToAnchor(entity, pos, dim) {
-    let entityType = entity.id.toString()
+    let entityType = entity.type
     if (entityType == "minecraft:player") {
         let persistentData = entity.getPersistentData()
         let returnPoint = {
@@ -148,5 +149,13 @@ function attachPlayersToAnchor(entity, pos, dim) {
             "dim": dim
         }
         persistentData.put("nether_portal_return_coordinates", returnPoint)
+    }
+}
+
+// Give players the Nether Dimension curse effect to bring them back to the overworld
+function givePlayersNetherCurse(entity) {
+    let entityType = entity.type
+    if (entityType == "minecraft:player") {
+        let cmd = ``
     }
 }
