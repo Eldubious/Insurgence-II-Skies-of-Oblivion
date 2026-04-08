@@ -56,7 +56,13 @@ function handleShrineInteraction(event) {
     else if (stages.has('ascent')) worldTier = 'ascent'
     else if (stages.has('frontier')) worldTier = 'frontier' 
     let enemyType = String(entityData.get('enemyType'))
-    let gateway = `insurgence:shrine/${enemyType.substring(1, enemyType.length - 1).toLowerCase()}_${worldTier}`
+    let gateway = ""
+    if (enemyType.substring(1, enemyType.length - 1).toLowerCase() == "tutorial") {  // Add exception for the starting waystone
+        gateway = "insurgence:shrine/tutorial"
+    }
+    else {
+        gateway = `insurgence:shrine/${enemyType.substring(1, enemyType.length - 1).toLowerCase()}_${worldTier}`
+    }
 
     let summonGatewayCmd = `open_gateway ${block.x} ${block.y + 1} ${block.z} ${gateway}`
     event.server.runCommandSilent(summonGatewayCmd)

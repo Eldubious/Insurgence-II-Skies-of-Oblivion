@@ -13,7 +13,7 @@
 	#In order to prevent spam attacks, a minimum threshold of attack strength can be set before an attack can deal damage. Default: 0.75
 	minimumAttackStrength = 0.75
 	#Whether a player is allowed to swing if the minimumAttackStrength threshold is not met. Default: true
-	allowNonMinStrengthAttacks = true
+	allowNonMinStrengthAttacks = false
 	#Global multiplier to all knockback. Default: 1.0
 	globalKnockbackMultiplier = 1.0
 	#Enable Combat Snapshot Inspired Changes (experimental): Attack cooldown no longer affects damage, but instead affects weapon reach
@@ -50,13 +50,13 @@
 	#The purpose of the xp module is to rework how experience is dropped on a player's death by creating a souls-like xp catalyst instead. Disabling will nullify every feature listed under this module.
 	xpModuleEnabled = true
 	#Whether players will drop xp despite keepInventory gamerule. Default: true
-	ignoreKeepInventory = true
+	ignoreKeepInventory = false
 	#Whether the player who dropped the xp is the only player allow to collect the xp. Default: true
 	onlyAllowOwnerPickup = true
 	#Multiplier to experience dropped by slain entities. Default: 1.0
-	mobDropXpMultiplier = 1.2
+	mobDropXpMultiplier = 1.0
 	#Multiplier to experience dropped by blocks broken. Default: 1.0
-	blockDropXpMultiplier = 0.75
+	blockDropXpMultiplier = 0.5
 
 [Hunger-Module]
 	#The hunger module removes hunger and makes food to directly heal in order to to remove the tedious task of maintaining hunger, as well as rebalance health management during combat and exploration. Disabling will nullify every feature listed under this module.
@@ -94,6 +94,6 @@
 
 [Sleep-Module]
 	#The sleep module addresses imbalance caused by the ease of skipping nights via sleeping. Disabling will nullify every feature listed under this module.
-	sleepModuleEnabled = true
+	sleepModuleEnabled = false
 	#After a set tick delay of not sleeping, players will automatically become drowsy. Set to -1 to disable feature. Default: 72000 (delay before phantoms start spawning)
 	naturalDrowsinessDelay = 72000

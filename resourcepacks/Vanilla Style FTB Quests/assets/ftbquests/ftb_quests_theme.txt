@@ -2,7 +2,7 @@
 background:          ftbquests:textures/gui/backgrounds/dark.png; color=#88FFFFFF; tile_size=16
 chapter_panel_background:          hollow_rectangle:{{widget_border}}; round_edges + {{background}}; color=#B4B4B4; padding=1
 key_reference_background:          ftbquests:textures/gui/backgrounds/dark.png; color=#88FFFFFF; tile_size=64
-extra_quest_shapes:  task, goal, challenge, star, squircle, sharp, hexagon, circle, heart, speech_bubble, corners, crested, edged, excessive, arrow_up, arrow_down, arrow_left, arrow_right
+extra_quest_shapes:  task, goal, challenge
 
 text_color:          #FFFFFF
 hover_text_color:    #FFFFA0

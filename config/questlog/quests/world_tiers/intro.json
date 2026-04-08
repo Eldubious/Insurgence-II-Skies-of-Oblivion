@@ -1,0 +1,42 @@
+{
+  "title": "questlog.world_tiers.insurgence.intro.title",
+  "description": [
+    {
+      "translate": "questlog.world_tiers.insurgence.intro.desc_1"
+    },
+    {
+      "translate": "questlog.world_tiers.insurgence.intro.desc_2"
+    },
+    {
+      "translate": "questlog.world_tiers.insurgence.intro.desc_3"
+    },
+    {
+      "translate": "questlog.world_tiers.insurgence.intro.desc_4"
+    },
+    {
+      "translate": "questlog.world_tiers.insurgence.intro.desc_5"
+    },
+    {
+      "translate": "questlog.world_tiers.insurgence.intro.desc_6"
+    },
+    {
+      "translate": "questlog.world_tiers.insurgence.intro.desc_7"
+    }
+  ],
+  "translatable": true,
+  "icon": {
+    "item": "apotheosis:boss_summoner"
+  },
+  "sort_order": 0,
+  "chapter": "questlog:world_tiers",
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "toast_on_unlock": false,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

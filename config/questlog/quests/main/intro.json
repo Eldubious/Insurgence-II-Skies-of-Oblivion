@@ -3,10 +3,24 @@
   "description": [
     {
       "translate": "questlog.main.insurgence.intro.desc_1"
+    },
+    {
+      "translate": "questlog.main.insurgence.intro.desc_2"
+    },
+    {
+      "translate": "questlog.main.insurgence.intro.desc_3"
+    },
+    {
+      "translate": "questlog.main.insurgence.intro.desc_4"
+    },
+    {
+      "translate": "questlog.main.insurgence.intro.desc_5"
     }
   ],
   "translatable": true,
-  "icon": {},
+  "icon": {
+    "item": "insurgence:totem_of_return"
+  },
   "sort_order": 0,
   "chapter": "questlog:main",
   "requirements": [],
@@ -17,6 +31,6 @@
   ],
   "rewards": [],
   "toast_on_unlock": false,
-  "toast_on_complete": true,
+  "toast_on_complete": false,
   "show_popup_on_unlock": false
 }

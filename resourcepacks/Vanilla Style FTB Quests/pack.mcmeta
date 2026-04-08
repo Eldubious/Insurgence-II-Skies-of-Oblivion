@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": {
+      "text": "Gives FTB Quests a more vanilla style.",
+      "color": "gray"
+    },
+    "pack_format": 34,
+    "supported_formats": 34
+  }
+}
