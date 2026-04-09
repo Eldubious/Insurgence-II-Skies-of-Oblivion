@@ -34,15 +34,15 @@
         },
         {
             "type": "apotheosis:affix",
-            "affix_type": "stat"
-        },
-        {
-            "type": "apotheosis:affix",
             "affix_type": "basic_effect"
         },
         {
-            "type": "apotheosis:affix",
-            "affix_type": "basic_effect"
+            "type": "apotheosis:chanced",
+            "chance": 0.75,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "basic_effect"
+            }
         },
         {
             "type": "apotheosis:affix",
@@ -63,20 +63,9 @@
             }
         },
         {
-            "type": "apotheosis:select",
-            "chance": 0.99,
-            "if_false": {
-                "type": "apotheosis:component",
-                "components": {
-                    "!apotheosis:durability_bonus": {},
-                    "minecraft:unbreakable": {}
-                }
-            },
-            "if_true": {
-                "type": "apotheosis:durability",
-                "min": 0.45,
-                "max": 0.75
-            }
+            "type": "apotheosis:durability",
+            "min": 0.2,
+            "max": 0.35
         }
     ],
     "sort_index": 700,

@@ -21,8 +21,16 @@
     },
     "rules": [
         {
-            "type": "apotheosis:affix",
-            "affix_type": "stat"
+            "type": "apotheosis:select",
+            "chance": 0.2,
+            "if_true": {
+                "type": "apotheosis:affix",
+                "affix_type": "negative_stat"
+            },
+            "if_false": {
+                "type": "apotheosis:affix",
+                "affix_type": "stat"
+            }
         },
         {
             "type": "apotheosis:affix",
@@ -38,15 +46,19 @@
         },
         {
             "type": "apotheosis:chanced",
-            "chance": 0.25,
+            "chance": 0.1,
             "rule": {
                 "type": "apotheosis:affix",
                 "affix_type": "basic_effect"
             }
         },
         {
-            "type": "apotheosis:affix",
-            "affix_type": "ability"
+            "type": "apotheosis:chanced",
+            "chance": 0.5,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "ability"
+            }
         },
         {
             "type": "apotheosis:socket",
@@ -55,8 +67,8 @@
         },
         {
             "type": "apotheosis:durability",
-            "min": 0.25,
-            "max": 0.55
+            "min": 0.1,
+            "max": 0.3
         }
     ],
     "sort_index": 600,

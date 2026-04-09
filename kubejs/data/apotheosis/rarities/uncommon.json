@@ -18,8 +18,16 @@
     },
     "rules": [
         {
-            "type": "apotheosis:affix",
-            "affix_type": "stat"
+            "type": "apotheosis:select",
+            "chance": 0.6,
+            "if_true": {
+                "type": "apotheosis:affix",
+                "affix_type": "negative_stat"
+            },
+            "if_false": {
+                "type": "apotheosis:affix",
+                "affix_type": "stat"
+            }
         },
         {
             "type": "apotheosis:affix",
@@ -27,7 +35,7 @@
         },
         {
             "type": "apotheosis:chanced",
-            "chance": 0.5,
+            "chance": 0.25,
             "rule": {
                 "type": "apotheosis:affix",
                 "affix_type": "basic_effect"
