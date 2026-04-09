@@ -61,6 +61,22 @@
             }
         },
         {
+            "type": "apotheosis:chanced",
+            "chance": 0.2,
+            "rule": {
+                "type": "apotheosis:component",
+                "components": {
+                    "irons_spellbooks:spell_container": {
+                        "maxSpells": 1,
+                        "spellWheel": true,
+                        "locked": false,
+                        "mustEquip": false,
+                        "data": []
+                    }
+                }
+            }
+        },
+        {
             "type": "apotheosis:socket",
             "min": 1,
             "max": 3
