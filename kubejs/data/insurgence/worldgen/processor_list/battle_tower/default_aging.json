@@ -1,123 +1,269 @@
 {
-    "processors": [
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
         {
-            "processor_type": "minecraft:rule",
-            "rules": [
-                {
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:stone_bricks",
-                        "probability": 0.15
-                    },
-                    "output_state": {
-                        "Name": "minecraft:cracked_stone_bricks"
-                    }
-                },
-                {
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:stone_bricks",
-                        "probability": 0.1
-                    },
-                    "output_state": {
-                        "Name": "minecraft:mossy_stone_bricks"
-                    }
-                },
-                {
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "supplementaries:stone_tile",
-                        "probability": 0.33
-                    },
-                    "output_state": {
-                        "Name": "minecraft:polished_andesite"
-                    }
-                },
-                {
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "supplementaries:stone_tile",
-                        "probability": 0.1
-                    },
-                    "output_state": {
-                        "Name": "minecraft:chiseled_stone_bricks"
-                    }
-                },
-                {
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:smooth_stone",
-                        "probability": 0.2
-                    },
-                    "output_state": {
-                        "Name": "minecraft:polished_andesite"
-                    }
-                },
-                {
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:smooth_stone",
-                        "probability": 0.33
-                    },
-                    "output_state": {
-                        "Name": "minecraft:polished_diorite"
-                    }
-                },
-                {
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:smooth_stone_slab",
-                        "probability": 0.2
-                    },
-                    "output_state": {
-                        "Name": "minecraft:polished_andesite_slab",
-                        "Properties": {
-                            "type": "bottom"
-                        }
-                    }
-                },
-                {
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:smooth_stone_slab",
-                        "probability": 0.33
-                    },
-                    "output_state": {
-                        "Name": "minecraft:polished_diorite_slab",
-                        "Properties": {
-                            "type": "bottom"
-                        }
-                    }
-                }
-            ]
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:cobblestone"
+          },
+          "output_state": {
+            "Name": "minecraft:polished_deepslate"
+          }
         },
         {
-            "processor_type": "minecraft:protected_blocks",
-            "value": "#minecraft:features_cannot_replace"
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_slab",
+              "Properties": {
+                "type": "top"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:polished_deepslate_slab",
+            "Properties": {
+              "type": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_slab",
+              "Properties": {
+                "type": "bottom"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:polished_deepslate_slab",
+            "Properties": {
+              "type": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "supplementaries:stone_tile",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "architects_palette:cracked_olivestone_tiles"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "supplementaries:stone_tile"
+          },
+          "output_state": {
+            "Name": "architects_palette:olivestone_tiles"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "supplementaries:stone_tile_slab",
+              "Properties": {
+                "type": "top"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "architects_palette:olivestone_tile_slab",
+            "Properties": {
+              "type": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "supplementaries:stone_tile_slab",
+              "Properties": {
+                "type": "bottom"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "architects_palette:olivestone_tile_slab",
+            "Properties": {
+              "type": "bottom"
+            }
+          }
         }
-    ]
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:stone_bricks",
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_stone_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:stone_bricks",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_stone_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:stone_brick_slab",
+              "Properties": {
+                "type": "bottom"
+              }
+            },
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_stone_brick_slab",
+            "Properties": {
+              "type": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:stone_brick_slab",
+              "Properties": {
+                "type": "top"
+              }
+            },
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_stone_brick_slab",
+            "Properties": {
+              "type": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:smooth_stone",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:polished_andesite"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:smooth_stone",
+            "probability": 0.33
+          },
+          "output_state": {
+            "Name": "minecraft:polished_diorite"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_stone_slab",
+              "Properties": "bottom"
+            },
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:polished_andesite_slab",
+            "Properties": {
+              "type": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_stone_slab",
+              "Properties": {
+                "type": "bottom"
+              }
+            },
+            "probability": 0.33
+          },
+          "output_state": {
+            "Name": "minecraft:polished_diorite_slab",
+            "Properties": {
+              "type": "bottom"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:protected_blocks",
+      "value": "#minecraft:features_cannot_replace"
+    }
+  ]
 }

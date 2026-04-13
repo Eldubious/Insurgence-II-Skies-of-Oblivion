@@ -1,226 +1,276 @@
 {
-    "type": "minecraft:jigsaw",
-    "biomes": "#insurgence:has_structure/battle_tower/default",
-    "start_pool": "insurgence:battle_tower/default/template/foundation",
-    "step": "surface_structures",
-    "terrain_adaptation": "none",
-    "max_distance_from_center": 128,
-    "size": 7,
-    "project_start_to_heightmap": "WORLD_SURFACE",
-    "start_height": {
-        "absolute": -3
+  "type": "minecraft:jigsaw",
+  "biomes": "#insurgence:has_structure/battle_tower/default",
+  "start_pool": "insurgence:battle_tower/default/template/foundation",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "max_distance_from_center": 128,
+  "size": 7,
+  "project_start_to_heightmap": "WORLD_SURFACE",
+  "start_height": {
+    "absolute": -3
+  },
+  "liquid_settings": "apply_waterlogging",
+  "use_expansion_hack": false,
+  "pool_aliases": [
+    {
+      "type": "minecraft:direct",
+      "alias": "insurgence:base_room",
+      "target": "insurgence:battle_tower/default/swords/base"
     },
-    "liquid_settings": "apply_waterlogging",
-    "use_expansion_hack": false,
-    "pool_aliases": [
+    {
+      "type": "minecraft:direct",
+      "alias": "insurgence:floor",
+      "target": "insurgence:battle_tower/default/swords/rooms"
+    },
+    {
+      "type": "minecraft:direct",
+      "alias": "insurgence:feature_floor",
+      "target": "insurgence:battle_tower/default/swords/feature_rooms"
+    },
+    {
+      "type": "minecraft:direct",
+      "alias": "insurgence:roof",
+      "target": "insurgence:battle_tower/default/swords/roofs"
+    },
+    {
+      "type": "minecraft:random_group",
+      "groups": [
         {
-            "type": "minecraft:direct",
-            "alias": "insurgence:base_room",
-            "target": "insurgence:battle_tower/default/swords/base"
+          "weight": 10,
+          "data": [
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:difficulty_marker",
+              "target": "insurgence:battle_tower/default/template/difficulty_marker/1"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:tower_spine",
+              "target": "insurgence:battle_tower/default/template/spine/4_floors"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:large_banner",
+              "target": "insurgence:battle_tower/default/swords/large_banner/lime"
+            }
+          ]
         },
         {
-            "type": "minecraft:direct",
-            "alias": "insurgence:floor",
-            "target": "insurgence:battle_tower/default/template/rooms"
+          "weight": 10,
+          "data": [
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:difficulty_marker",
+              "target": "insurgence:battle_tower/default/template/difficulty_marker/2"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:tower_spine",
+              "target": "insurgence:battle_tower/default/template/spine/4_floors"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:large_banner",
+              "target": "insurgence:battle_tower/default/swords/large_banner/lime"
+            }
+          ]
         },
         {
-            "type": "minecraft:direct",
-            "alias": "insurgence:feature_floor",
-            "target": "insurgence:battle_tower/default/template/rooms"
+          "weight": 10,
+          "data": [
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:difficulty_marker",
+              "target": "insurgence:battle_tower/default/template/difficulty_marker/3"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:tower_spine",
+              "target": "insurgence:battle_tower/default/template/spine/5_floors"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:large_banner",
+              "target": "insurgence:battle_tower/default/swords/large_banner/yellow"
+            }
+          ]
         },
         {
-            "type": "minecraft:direct",
-            "alias": "insurgence:roof",
-            "target": "insurgence:battle_tower/default/template/roofs"
+          "weight": 8,
+          "data": [
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:difficulty_marker",
+              "target": "insurgence:battle_tower/default/template/difficulty_marker/4"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:tower_spine",
+              "target": "insurgence:battle_tower/default/template/spine/5_floors"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:large_banner",
+              "target": "insurgence:battle_tower/default/swords/large_banner/yellow"
+            }
+          ]
         },
         {
-            "type": "minecraft:random_group",
-            "groups": [
-                {
-                    "weight": 10,
-                    "data": [
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:difficulty_marker",
-                            "target": "insurgence:battle_tower/default/template/difficulty_marker/1"
-                        },
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:tower_spine",
-                            "target": "insurgence:battle_tower/default/template/spine/4_floors"
-                        }
-                    ]
-                },
-                {
-                    "weight": 10,
-                    "data": [
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:difficulty_marker",
-                            "target": "insurgence:battle_tower/default/template/difficulty_marker/2"
-                        },
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:tower_spine",
-                            "target": "insurgence:battle_tower/default/template/spine/4_floors"
-                        }
-                    ]
-                },
-                {
-                    "weight": 10,
-                    "data": [
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:difficulty_marker",
-                            "target": "insurgence:battle_tower/default/template/difficulty_marker/3"
-                        },
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:tower_spine",
-                            "target": "insurgence:battle_tower/default/template/spine/5_floors"
-                        }
-                    ]
-                },
-                {
-                    "weight": 8,
-                    "data": [
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:difficulty_marker",
-                            "target": "insurgence:battle_tower/default/template/difficulty_marker/4"
-                        },
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:tower_spine",
-                            "target": "insurgence:battle_tower/default/template/spine/5_floors"
-                        }
-                    ]
-                },
-                {
-                    "weight": 8,
-                    "data": [
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:difficulty_marker",
-                            "target": "insurgence:battle_tower/default/template/difficulty_marker/5"
-                        },
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:tower_spine",
-                            "target": "insurgence:battle_tower/default/template/spine/6_floors"
-                        }
-                    ]
-                },
-                {
-                    "weight": 8,
-                    "data": [
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:difficulty_marker",
-                            "target": "insurgence:battle_tower/default/template/difficulty_marker/6"
-                        },
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:tower_spine",
-                            "target": "insurgence:battle_tower/default/template/spine/6_floors"
-                        }
-                    ]
-                },
-                {
-                    "weight": 6,
-                    "data": [
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:difficulty_marker",
-                            "target": "insurgence:battle_tower/default/template/difficulty_marker/7"
-                        },
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:tower_spine",
-                            "target": "insurgence:battle_tower/default/template/spine/7_floors"
-                        }
-                    ]
-                },
-                {
-                    "weight": 6,
-                    "data": [
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:difficulty_marker",
-                            "target": "insurgence:battle_tower/default/template/difficulty_marker/8"
-                        },
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:tower_spine",
-                            "target": "insurgence:battle_tower/default/template/spine/7_floors"
-                        }
-                    ]
-                },
-                {
-                    "weight": 6,
-                    "data": [
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:difficulty_marker",
-                            "target": "insurgence:battle_tower/default/template/difficulty_marker/9"
-                        },
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:tower_spine",
-                            "target": "insurgence:battle_tower/default/template/spine/8_floors"
-                        }
-                    ]
-                },
-                {
-                    "weight": 5,
-                    "data": [
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:difficulty_marker",
-                            "target": "insurgence:battle_tower/default/template/difficulty_marker/10"
-                        },
-                        {
-                            "type": "minecraft:direct",
-                            "alias": "insurgence:tower_spine",
-                            "target": "insurgence:battle_tower/default/template/spine/8_floors"
-                        }
-                    ]
-                }
-            ]
+          "weight": 8,
+          "data": [
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:difficulty_marker",
+              "target": "insurgence:battle_tower/default/template/difficulty_marker/5"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:tower_spine",
+              "target": "insurgence:battle_tower/default/template/spine/6_floors"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:large_banner",
+              "target": "insurgence:battle_tower/default/swords/large_banner/orange"
+            }
+          ]
+        },
+        {
+          "weight": 8,
+          "data": [
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:difficulty_marker",
+              "target": "insurgence:battle_tower/default/template/difficulty_marker/6"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:tower_spine",
+              "target": "insurgence:battle_tower/default/template/spine/6_floors"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:large_banner",
+              "target": "insurgence:battle_tower/default/swords/large_banner/orange"
+            }
+          ]
+        },
+        {
+          "weight": 6,
+          "data": [
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:difficulty_marker",
+              "target": "insurgence:battle_tower/default/template/difficulty_marker/7"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:tower_spine",
+              "target": "insurgence:battle_tower/default/template/spine/7_floors"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:large_banner",
+              "target": "insurgence:battle_tower/default/swords/large_banner/coral"
+            }
+          ]
+        },
+        {
+          "weight": 6,
+          "data": [
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:difficulty_marker",
+              "target": "insurgence:battle_tower/default/template/difficulty_marker/8"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:tower_spine",
+              "target": "insurgence:battle_tower/default/template/spine/7_floors"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:large_banner",
+              "target": "insurgence:battle_tower/default/swords/large_banner/coral"
+            }
+          ]
+        },
+        {
+          "weight": 6,
+          "data": [
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:difficulty_marker",
+              "target": "insurgence:battle_tower/default/template/difficulty_marker/9"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:tower_spine",
+              "target": "insurgence:battle_tower/default/template/spine/8_floors"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:large_banner",
+              "target": "insurgence:battle_tower/default/swords/large_banner/red"
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "data": [
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:difficulty_marker",
+              "target": "insurgence:battle_tower/default/template/difficulty_marker/10"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:tower_spine",
+              "target": "insurgence:battle_tower/default/template/spine/8_floors"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:large_banner",
+              "target": "insurgence:battle_tower/default/swords/large_banner/red"
+            }
+          ]
         }
-    ],
-    "spawn_overrides": {
-        "monster": {
-            "bounding_box": "piece",
-            "spawns": []
-        },
-        "creature": {
-            "bounding_box": "piece",
-            "spawns": []
-        },
-        "ambient": {
-            "bounding_box": "piece",
-            "spawns": []
-        },
-        "axolotls": {
-            "bounding_box": "piece",
-            "spawns": []
-        },
-        "underground_water_creature": {
-            "bounding_box": "piece",
-            "spawns": []
-        },
-        "water_creature": {
-            "bounding_box": "piece",
-            "spawns": []
-        },
-        "water_ambient": {
-            "bounding_box": "piece",
-            "spawns": []
-        },
-        "misc": {
-            "bounding_box": "piece",
-            "spawns": []
-        }
+      ]
     }
+  ],
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "ambient": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "axolotls": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "underground_water_creature": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "water_creature": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "water_ambient": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "misc": {
+      "bounding_box": "piece",
+      "spawns": []
+    }
+  }
 }
