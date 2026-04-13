@@ -1,0 +1,33 @@
+{
+  "title": "questlog.skies.insurgence.punch_wood.title",
+  "description": [
+    {
+      "translate": "questlog.skies.insurgence.punch_wood.desc_1"
+    },
+    {
+      "translate": "questlog.skies.insurgence.punch_wood.desc_2"
+    }
+  ],
+  "translatable": true,
+  "icon": {
+    "item": "minecraft:crafting_table"
+  },
+  "sort_order": 1,
+  "chapter": "questlog:skies",
+  "requirements": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "insurgence:skies"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:crafting_table"
+    }
+  ],
+  "rewards": [],
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

@@ -1,0 +1,25 @@
+{
+  "title": "questlog.world_tiers.insurgence.summit.title",
+  "description": [],
+  "translatable": true,
+  "icon": {
+    "item": "minecraft:oak_sapling"
+  },
+  "sort_order": 40,
+  "chapter": "questlog:world_tiers",
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "apotheosis:progression/summit"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

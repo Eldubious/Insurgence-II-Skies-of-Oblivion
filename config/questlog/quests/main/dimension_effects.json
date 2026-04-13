@@ -1,0 +1,41 @@
+{
+  "title": "questlog.main.insurgence.dimension_effects.title",
+  "description": [
+    {
+      "translate": "questlog.main.insurgence.dimension_effects.desc_1"
+    },
+    {
+      "translate": "questlog.main.insurgence.dimension_effects.desc_2"
+    },
+    {
+      "translate": "questlog.main.insurgence.dimension_effects.desc_3"
+    },
+    {
+      "translate": "questlog.main.insurgence.dimension_effects.desc_4"
+    },
+    {
+      "translate": "questlog.main.insurgence.dimension_effects.desc_5"
+    }
+  ],
+  "translatable": true,
+  "icon": {
+    "item": "insurgence:active_nether_portal_machine_dummy"
+  },
+  "sort_order": 2,
+  "chapter": "questlog:main",
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:main/intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "toast_on_unlock": false,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

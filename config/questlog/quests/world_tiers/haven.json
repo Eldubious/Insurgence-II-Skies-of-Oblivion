@@ -1,0 +1,35 @@
+{
+  "title": "questlog.world_tiers.insurgence.haven.title",
+  "description": [
+    {
+      "translate": "questlog.world_tiers.insurgence.haven.desc_1"
+    },
+    {
+      "translate": "questlog.world_tiers.insurgence.haven.desc_2"
+    },
+    {
+      "translate": "questlog.world_tiers.insurgence.haven.desc_3"
+    }
+  ],
+  "translatable": true,
+  "icon": {
+    "item": "minecraft:oak_sapling"
+  },
+  "sort_order": 10,
+  "chapter": "questlog:world_tiers",
+  "requirements": [
+    {
+      "type": "questlog:advancement",
+      "advancement": "apotheosis:progression/haven"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "toast_on_unlock": false,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

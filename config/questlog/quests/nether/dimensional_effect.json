@@ -1,0 +1,34 @@
+{
+  "title": "questlog.nether.insurgence.dimensional_effect.title",
+  "description": [],
+  "translatable": true,
+  "icon": {
+    "item": "insurgence:active_nether_portal_machine_dummy"
+  },
+  "sort_order": -1,
+  "chapter": "questlog:nether",
+  "requirements": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:visit_dimension",
+          "dimension": "minecraft:the_nether"
+        },
+        {
+          "type": "questlog:visit_dimension",
+          "dimension": "insurgence:the_nether"
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

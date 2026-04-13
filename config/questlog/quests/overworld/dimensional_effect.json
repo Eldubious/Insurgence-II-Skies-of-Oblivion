@@ -1,0 +1,25 @@
+{
+  "title": "questlog.overworld.insurgence.dimensional_effect.title",
+  "description": [],
+  "translatable": true,
+  "icon": {
+    "item": "insurgence:active_nether_portal_machine_dummy"
+  },
+  "sort_order": -1,
+  "chapter": "questlog:overworld",
+  "requirements": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:overworld"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

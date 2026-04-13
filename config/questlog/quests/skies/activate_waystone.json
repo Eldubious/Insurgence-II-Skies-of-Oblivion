@@ -1,0 +1,54 @@
+{
+  "title": "questlog.skies.insurgence.activate_waystone.title",
+  "description": [
+    {
+      "translate": "questlog.skies.insurgence.activate_waystone.desc_1"
+    },
+    {
+      "translate": "questlog.skies.insurgence.activate_waystone.desc_2"
+    },
+    {
+      "translate": "questlog.skies.insurgence.activate_waystone.desc_3"
+    },
+    {
+      "translate": "questlog.skies.insurgence.activate_waystone.desc_4"
+    },
+    {
+      "translate": "questlog.skies.insurgence.activate_waystone.desc_5"
+    },
+    {
+      "translate": "questlog.skies.insurgence.activate_waystone.desc_6"
+    },
+    {
+      "translate": "questlog.skies.insurgence.activate_waystone.desc_7"
+    }
+  ],
+  "translatable": true,
+  "icon": {
+    "item": "waystones:waystone"
+  },
+  "sort_order": 2,
+  "chapter": "questlog:skies",
+  "requirements": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "insurgence:skies"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:block_interact",
+      "block": "insurgence:andesite_gateway_shrine"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:command",
+      "command": "function insurgence:advancement/allow_travel_to_overworld",
+      "auto_claim": true
+    }
+  ],
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

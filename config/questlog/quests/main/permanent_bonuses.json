@@ -1,0 +1,41 @@
+{
+  "title": "questlog.main.insurgence.permanent_bonuses.title",
+  "description": [
+    {
+      "translate": "questlog.main.insurgence.permanent_bonuses.desc_1"
+    },
+    {
+      "translate": "questlog.main.insurgence.permanent_bonuses.desc_2"
+    },
+    {
+      "translate": "questlog.main.insurgence.permanent_bonuses.desc_3"
+    },
+    {
+      "translate": "questlog.main.insurgence.permanent_bonuses.desc_4"
+    },
+    {
+      "translate": "questlog.main.insurgence.permanent_bonuses.desc_5"
+    }
+  ],
+  "translatable": true,
+  "icon": {
+    "item": "collectorsalbum:album"
+  },
+  "sort_order": 3,
+  "chapter": "questlog:main",
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:main/intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [],
+  "toast_on_unlock": false,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

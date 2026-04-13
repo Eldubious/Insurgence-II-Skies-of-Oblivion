@@ -1,0 +1,42 @@
+{
+  "title": "questlog.skies.insurgence.leap_of_faith.title",
+  "description": [
+    {
+      "translate": "questlog.skies.insurgence.leap_of_faith.desc_1"
+    },
+    {
+      "translate": "questlog.skies.insurgence.leap_of_faith.desc_2"
+    },
+    {
+      "translate": "questlog.skies.insurgence.leap_of_faith.desc_3"
+    },
+    {
+      "translate": "questlog.skies.insurgence.leap_of_faith.desc_4"
+    },
+    {
+      "translate": "questlog.skies.insurgence.leap_of_faith.desc_5"
+    }
+  ],
+  "translatable": true,
+  "icon": {
+    "item": "minecraft:feather"
+  },
+  "sort_order": 3,
+  "chapter": "insurgence:skies",
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:skies/activate_waystone"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:overworld"
+    }
+  ],
+  "rewards": [],
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}
