@@ -10,6 +10,13 @@
             }
         },
         {
+          "chance": 0.0,
+          "pattern": {
+            "domain": "insurgence",
+            "path_regex": "chests/starting_island_bonus_chest"
+          }
+        },
+        {
             "chance": 0.5,
             "pattern": {
                 "domain": "minecraft",

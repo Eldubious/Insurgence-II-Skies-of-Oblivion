@@ -1,6 +1,6 @@
 minecraft:overworld
-minecraft:the_nether
-irons_spellbooks:pocket_dimension
 insurgence:skies
-insurgence:the_nether
 minecraft:the_end
+insurgence:the_nether
+irons_spellbooks:pocket_dimension
+minecraft:the_nether

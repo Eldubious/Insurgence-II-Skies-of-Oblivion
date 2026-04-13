@@ -120,7 +120,8 @@
         },
         "title": {
             "translate": "advancements.apotheosis.progression.ascent.title"
-        }
+        },
+        "announce_to_chat": false
     },
     "requirements": [
         [

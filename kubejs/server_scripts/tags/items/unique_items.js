@@ -52,7 +52,7 @@ ServerEvents.tags('item', event => {
         uniqueItemTags('club', uniqueClubs[i])
     }
 
-    let uniqueKnives = ['farmersdelight:flint_knife', 'farmersdelight:iron_knife', 'farmersdelight:golden_knife',
+    let uniqueKnives = ['farmersdelight:iron_knife', 'farmersdelight:golden_knife',
         'farmersdelight:diamond_knife', 'farmersdelight:netherite_knife', 'occultism:butcher_knife']
     for (let i in uniqueKnives) {
         uniqueItemTags('knife', uniqueKnives[i])

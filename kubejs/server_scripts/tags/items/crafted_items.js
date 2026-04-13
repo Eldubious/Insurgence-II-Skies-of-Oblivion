@@ -32,7 +32,7 @@ ServerEvents.tags('item', event => {
         craftedItemTags('mace', craftedMaces[i])
     }
 
-    let craftedKnives = []
+    let craftedKnives = ['farmersdelight:flint_knife']
     for (let i in craftedKnives) {
         craftedItemTags('knife', craftedKnives[i])
     }

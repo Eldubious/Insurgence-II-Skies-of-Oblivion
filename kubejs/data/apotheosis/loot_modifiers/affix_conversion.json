@@ -1,0 +1,24 @@
+{
+  "type": "apotheosis:affix_conversion",
+  "conditions": [],
+  "entries": [
+    {
+      "chance": 1.0,
+      "pattern": {
+        "path_regex": "chests.*"
+      }
+    },
+    {
+      "chance": 0.0,
+      "pattern": {
+        "path_regex": ".*blocks.*"
+      }
+    },
+    {
+      "chance": 0.35,
+      "pattern": {
+        "path_regex": ".*"
+      }
+    }
+  ]
+}

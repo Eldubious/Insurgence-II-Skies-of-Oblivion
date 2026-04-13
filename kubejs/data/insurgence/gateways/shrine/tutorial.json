@@ -19,15 +19,7 @@
         }
       ],
       "modifiers": [],
-      "rewards": [
-        {
-          "type": "gateways:stack",
-          "stack": {
-            "id": "minecraft:bone",
-            "count": 2
-          }
-        }
-      ],
+      "rewards": [],
       "max_wave_time": 1200,
       "setup_time": 100
     },
@@ -48,22 +40,7 @@
         }
       ],
       "modifiers": [],
-      "rewards": [
-        {
-          "type": "gateways:stack",
-          "stack": {
-            "id": "minecraft:gold_ingot",
-            "count": 1
-          }
-        },
-        {
-          "type": "gateways:stack",
-          "stack": {
-            "id": "minecraft:bone",
-            "count": 6
-          }
-        }
-      ],
+      "rewards": [],
       "max_wave_time": 1200,
       "setup_time": 60
     }

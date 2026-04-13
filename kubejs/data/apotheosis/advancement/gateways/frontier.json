@@ -28,7 +28,8 @@
         },
         "title": {
             "translate": "advancements.apotheosis.challenge_gates.frontier.title"
-        }
+        },
+        "announce_to_chat": false
     },
     "requirements": [
         [

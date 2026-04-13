@@ -30,7 +30,7 @@
     }
   ],
   "rewards": [],
-  "toast_on_unlock": false,
+  "toast_on_unlock": true,
   "toast_on_complete": false,
   "show_popup_on_unlock": false
 }

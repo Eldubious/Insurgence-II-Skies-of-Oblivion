@@ -15,7 +15,7 @@
             "chance": 0.8,
             "if_true": {
                 "type": "apotheosis:affix",
-                "affix_type": "negative_stat"
+                "affix_type": "stat"
             },
             "if_false": {
                 "type": "apotheosis:affix",

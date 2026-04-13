@@ -29,7 +29,8 @@
         },
         "title": {
             "translate": "advancements.apotheosis.challenge_gates.pinnacle.title"
-        }
+        },
+        "announce_to_chat": false
     },
     "requirements": [
         [

@@ -113,7 +113,8 @@
         },
         "title": {
             "translate": "advancements.apotheosis.progression.summit.title"
-        }
+        },
+        "announce_to_chat": false
     },
     "requirements": [
         [

@@ -17,7 +17,8 @@
         "show_toast": false,
         "title": {
             "translate": "advancements.apotheosis.progression.root.title"
-        }
+        },
+        "hidden": true
     },
     "requirements": [
         [

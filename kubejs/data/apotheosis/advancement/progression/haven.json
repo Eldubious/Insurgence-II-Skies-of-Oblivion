@@ -1,17 +1,8 @@
 {
     "parent": "apotheosis:progression/root",
     "criteria": {
-        "affixed": {
-            "conditions": {
-                "items": [
-                    {
-                        "predicates": {
-                            "apotheosis:affixed_item": {}
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:inventory_changed"
+        "tick": {
+            "trigger": "minecraft:tick"
         }
     },
     "display": {
@@ -25,15 +16,16 @@
         },
         "title": {
             "translate": "advancements.apotheosis.progression.haven.title"
-        }
+        },
+        "announce_to_chat": false
     },
     "requirements": [
         [
-            "affixed"
+            "tick"
         ]
     ],
     "rewards": {
-        "function": "insurgence:advancement/set_world_tier/haven"
+        "function": "insurgence:advancement/set_world_tier/haven_silent"
     },
     "sends_telemetry_event": false
 }

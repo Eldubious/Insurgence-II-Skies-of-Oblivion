@@ -30,7 +30,8 @@
         },
         "title": {
             "translate": "advancements.apotheosis.challenge_gates.sigil_of_supremacy.title"
-        }
+        },
+        "announce_to_chat": false
     },
     "requirements": [
         [

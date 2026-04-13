@@ -30,6 +30,7 @@ function handleShrineInteraction(event) {
     let player = event.player
     let stages = player.getStages()
     let block = event.block
+    let dim = event.block.dimension.toString()
     
     // Don't do anything if a trial is in progress
     if (entityData.get('trialInProgress').toString() == '1b') {
@@ -64,7 +65,8 @@ function handleShrineInteraction(event) {
         gateway = `insurgence:shrine/${enemyType.substring(1, enemyType.length - 1).toLowerCase()}_${worldTier}`
     }
 
-    let summonGatewayCmd = `open_gateway ${block.x} ${block.y + 1} ${block.z} ${gateway}`
+    let summonGatewayCmd = `execute in ${dim} run open_gateway ${block.x} ${block.y + 1} ${block.z} ${gateway}`
+    console.log(summonGatewayCmd)
     event.server.runCommandSilent(summonGatewayCmd)
     entityData.put('trialInProgress', true)
 }
