@@ -159,7 +159,6 @@ nova_structures:wild_ruin
 nova_structures:witch_villa
 pigsteel:pigsteel_mine
 ribbits:ribbit_village
-skyvillages:skyvillage
 supplementaries:galleon
 supplementaries:road_sign
 wan_ancient_beasts:abandoned_village
