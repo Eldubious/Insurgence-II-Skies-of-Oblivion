@@ -2,27 +2,26 @@ const netherPortalBoxParticles = ["minecraft:flame", "irons_spellbooks:dragon_fi
 const netherPortalAmbientParticle = "minecraft:trial_spawner_detection"
 const netherPortalClosingParticle = "amendments:fireball_explosion"
 
-function createNetherPortal(server, marker) {
+// Handles the creation and teleportation of the entire nether portal effect
+function createNetherPortal(server, svrData, marker) {
     let uuid = marker.uuid.toString()   // Also used as the id of the portal event
     let tpId = `teleporting_to_nether+${uuid}`
-    let persistentData = server.getPersistentData()
-    if (!persistentData.contains("active_events")) {
-        persistentData.put("active_events", [])
-    }
-    if (persistentData.get("active_events").toArray().indexOf(tpId) == -1) {
-        persistentData.get("active_events").push(tpId)
-    }
-    let i = [].values
+
+    // Mark the event as active if not already marked
+    if (!svrData.contains("active_events")) svrData.put("active_events", [])
+    let activeEvents = svrData.get("active_events")
+    if (activeEvents.toArray().indexOf(tpId) == -1) activeEvents.push(tpId)
+
     let pos = marker.pos
     let dim = marker.level.dimension.toString()
     let data = marker.nbt.data
     let timer = data.timer
-    if (timer == undefined) {
+    if (timer == undefined) {   // Initialize the effect timer
         server.runCommandSilent(`data modify entity ${uuid} data.timer set value 0`)
 
         server.runCommandSilent(`execute in ${dim} run playsound minecraft:block.portal.trigger block @a ${pos.x()} ${pos.y()} ${pos.z()} 100 0.7`)
     }
-    else {
+    else {    // The effect has already started
         timer = parseInt(timer.getAsString())
 
         if (timer < 80) {   // Start by highlighting the activation area
@@ -42,8 +41,8 @@ function createNetherPortal(server, marker) {
             teleportEntities(server, tpId, dim, pos, uuid)
             marker.kill()
 
-            let tpTagIdx = persistentData.get("active_events").toArray().indexOf(`${tpId}`)
-            if (tpTagIdx != -1) persistentData.get("active_events").remove(tpTagIdx)
+            let tpTagIdx = activeEvents.toArray().indexOf(`${tpId}`)
+            if (tpTagIdx != -1) activeEvents.remove(tpTagIdx)
             return
         }
         server.runCommandSilent(`data modify entity ${uuid} data.timer set value ${timer + 1}`)
@@ -141,13 +140,13 @@ function getRandomParticle() {
 function attachPlayersToAnchor(entity, pos, dim) {
     let entityType = entity.type
     if (entityType == "minecraft:player") {
-        let persistentData = entity.getPersistentData()
+        let entData = entity.getPersistentData()
         let returnPoint = {
             "x": pos.x(),
             "y": pos.y() + 1,   // Teleport on top of the portal block
             "z": pos.z(),
             "dim": dim
         }
-        persistentData.put("nether_portal_return_coordinates", returnPoint)
+        entData.put("nether_portal_return_coordinates", returnPoint)
     }
 }
