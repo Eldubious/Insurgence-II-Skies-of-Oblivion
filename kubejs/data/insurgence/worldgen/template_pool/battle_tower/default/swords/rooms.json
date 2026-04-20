@@ -4,7 +4,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "insurgence:battle_tower/default/template/room/empty",
+                "location": "insurgence:battle_tower/default/swords/room/empty",
                 "processors": "insurgence:battle_tower/default_aging",
                 "projection": "rigid"
             },
@@ -13,7 +13,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "insurgence:battle_tower/default/template/room/empty_small",
+                "location": "insurgence:battle_tower/default/swords/room/empty_small",
                 "processors": "insurgence:battle_tower/default_aging",
                 "projection": "rigid"
             },

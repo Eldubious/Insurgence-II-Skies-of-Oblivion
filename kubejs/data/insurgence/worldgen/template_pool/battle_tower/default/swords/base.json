@@ -4,7 +4,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "insurgence:battle_tower/default/template/base_room",
+                "location": "insurgence:battle_tower/default/swords/base_room",
                 "processors": "insurgence:battle_tower/default_aging",
                 "projection": "rigid"
             },

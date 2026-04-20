@@ -985,7 +985,7 @@ const itemGroups = [
             "minecraft:gold",
             "minecraft:lapis",
             "minecraft:emerald",
-            "vanillabackport:resin"
+            "minecraft:resin"
         ],
         weights: {
             haven: {

@@ -1,22 +1,22 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": "#insurgence:has_structure/battle_tower/default",
-  "start_pool": "insurgence:battle_tower/default/template/foundation",
+  "start_pool": "insurgence:battle_tower/default/swords/base",
   "step": "surface_structures",
-  "terrain_adaptation": "none",
-  "max_distance_from_center": 128,
+  "terrain_adaptation": "beard_thin",
+  "max_distance_from_center": 116,
   "size": 7,
   "project_start_to_heightmap": "WORLD_SURFACE",
   "start_height": {
-    "absolute": -3
+    "absolute": 0
   },
   "liquid_settings": "apply_waterlogging",
   "use_expansion_hack": false,
   "pool_aliases": [
     {
       "type": "minecraft:direct",
-      "alias": "insurgence:base_room",
-      "target": "insurgence:battle_tower/default/swords/base"
+      "alias": "insurgence:foundation",
+      "target": "insurgence:battle_tower/default/swords/foundation"
     },
     {
       "type": "minecraft:direct",
@@ -31,7 +31,7 @@
     {
       "type": "minecraft:direct",
       "alias": "insurgence:roof",
-      "target": "insurgence:battle_tower/default/swords/roofs"
+      "target": "insurgence:battle_tower/default/swords/roof"
     },
     {
       "type": "minecraft:random_group",
@@ -53,6 +53,11 @@
               "type": "minecraft:direct",
               "alias": "insurgence:large_banner",
               "target": "insurgence:battle_tower/default/swords/large_banner/lime"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:room_layout",
+              "target": "insurgence:battle_tower/default/swords/layout/very_easy"
             }
           ]
         },
@@ -73,6 +78,11 @@
               "type": "minecraft:direct",
               "alias": "insurgence:large_banner",
               "target": "insurgence:battle_tower/default/swords/large_banner/lime"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:room_layout",
+              "target": "insurgence:battle_tower/default/swords/layout/very_easy"
             }
           ]
         },
@@ -93,6 +103,11 @@
               "type": "minecraft:direct",
               "alias": "insurgence:large_banner",
               "target": "insurgence:battle_tower/default/swords/large_banner/yellow"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:room_layout",
+              "target": "insurgence:battle_tower/default/swords/layout/easy"
             }
           ]
         },
@@ -113,6 +128,11 @@
               "type": "minecraft:direct",
               "alias": "insurgence:large_banner",
               "target": "insurgence:battle_tower/default/swords/large_banner/yellow"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:room_layout",
+              "target": "insurgence:battle_tower/default/swords/layout/easy"
             }
           ]
         },
@@ -133,6 +153,11 @@
               "type": "minecraft:direct",
               "alias": "insurgence:large_banner",
               "target": "insurgence:battle_tower/default/swords/large_banner/orange"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:room_layout",
+              "target": "insurgence:battle_tower/default/swords/layout/medium"
             }
           ]
         },
@@ -153,6 +178,11 @@
               "type": "minecraft:direct",
               "alias": "insurgence:large_banner",
               "target": "insurgence:battle_tower/default/swords/large_banner/orange"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:room_layout",
+              "target": "insurgence:battle_tower/default/swords/layout/medium"
             }
           ]
         },
@@ -173,6 +203,11 @@
               "type": "minecraft:direct",
               "alias": "insurgence:large_banner",
               "target": "insurgence:battle_tower/default/swords/large_banner/coral"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:room_layout",
+              "target": "insurgence:battle_tower/default/swords/layout/hard"
             }
           ]
         },
@@ -193,6 +228,11 @@
               "type": "minecraft:direct",
               "alias": "insurgence:large_banner",
               "target": "insurgence:battle_tower/default/swords/large_banner/coral"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:room_layout",
+              "target": "insurgence:battle_tower/default/swords/layout/hard"
             }
           ]
         },
@@ -213,6 +253,11 @@
               "type": "minecraft:direct",
               "alias": "insurgence:large_banner",
               "target": "insurgence:battle_tower/default/swords/large_banner/red"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:room_layout",
+              "target": "insurgence:battle_tower/default/swords/layout/very_hard"
             }
           ]
         },
@@ -233,6 +278,11 @@
               "type": "minecraft:direct",
               "alias": "insurgence:large_banner",
               "target": "insurgence:battle_tower/default/swords/large_banner/red"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "insurgence:room_layout",
+              "target": "insurgence:battle_tower/default/swords/layout/very_hard"
             }
           ]
         }

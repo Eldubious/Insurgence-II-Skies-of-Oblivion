@@ -4,7 +4,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "insurgence:battle_tower/default/template/roof/empty_crown",
+                "location": "insurgence:battle_tower/default/swords/foundation",
                 "processors": "insurgence:battle_tower/default_aging",
                 "projection": "rigid"
             },

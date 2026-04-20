@@ -27,6 +27,7 @@ irons_spellbooks:mountain_tower
 irons_spellbooks:pyromancer_tower
 iss_magicfromtheeast:onmyoji_shrine
 iss_magicfromtheeast:taoist_house
+malum:weeping_well
 minecraft:ancient_city
 minecraft:bastion_remnant
 minecraft:buried_treasure

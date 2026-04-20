@@ -94,6 +94,16 @@ fruitsdelight:tree/persimmon_tree
 fruitsdelight:tree/persimmon_tree_wild
 irons_spellbooks:ore_mithril_feature
 iss_magicfromtheeast:ore_jadestone_feature
+malum:azure_runewood_tree
+malum:blazing_quartz_ore
+malum:brilliant_ore
+malum:cthonic_gold_ore
+malum:deepslate_quartz_geode
+malum:natural_quartz_ore
+malum:quartz_geode
+malum:runewood_tree
+malum:soulstone_ore
+malum:soulwood_tree
 minecraft:acacia
 minecraft:amethyst_geode
 minecraft:azalea_tree

@@ -1,14 +1,23 @@
 {
-    "fallback": "minecraft:empty",
-    "elements": [
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "insurgence:battle_tower/default/template/room/feature/empty",
-                "processors": "insurgence:battle_tower/default_aging",
-                "projection": "rigid"
-            },
-            "weight": 1
-        }
-    ]
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "insurgence:battle_tower/default/swords/room/feature/empty",
+        "processors": "insurgence:battle_tower/default_aging",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "insurgence:battle_tower/default/swords/room/feature/empty_small",
+        "processors": "insurgence:battle_tower/default_aging",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
 }

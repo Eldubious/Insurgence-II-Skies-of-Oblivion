@@ -19,6 +19,8 @@ config/defaultworldtype/*
 !config/defaultworldtype/
 config/skyblockbuilder/*
 !config/skyblockbuilder/
+config/structures_tweaker/*
+!config/structures_tweaker/
 crash-reports
 data
 debug
@@ -73,42 +75,50 @@ usernamecache.json
 win_event*
 
 # Config files to include
+# Gameplay system configs
 !config/skyblockbuilder/*
+!config/defaultworldtype/client-config.toml
 !config/questlog/
-!config/fml.toml
-!config/configuration-options.json
+!config/ftbquests
+!config/ftbxmodcompat.snbt
 !config/emi.css
 !config/emixx
 !config/exmi/
+!config/structures_tweaker/global.json
+!config/structures_tweaker/insurgence
+!config/structurify.json
+!config/lootr-common.toml
 !config/item_obliterator.json5
-!config/enhancedtooltips.json5
-!config/tooltipicons.json
-!config/appleskin-client.toml
-!config/farmersdelight-client.toml
+!config/enchant_limiter.json
+!config/irons_rpg_tweaks-server.toml
+
+# Content mod configs
 !config/relics.yaml
 !config/relics/
-!config/silentgear-common.toml
 !config/apotheosis/*
-!config/elytra-trims.json
-!config/tooltipoverhaul/
+!config/collectorsalbum.yaml
+!config/quark-common.toml
+!config/farmersdelight-client.toml
 !config/irons_spellbooks-server.toml
-!config/irons_rpg_tweaks-server.toml
-!config/xaerominimap.txt
-!config/musicnotification.json
-!config/lootr-common.toml
+
+# Cosmetic mod configs
+!config/tooltipoverhaul/
+!config/tooltipicons.json
+!config/enhancedtooltips.json5
+!config/item_descriptions.toml
+!config/emojitype.json
+!config/elytra-trims.json
+!config/travelerstitles-neoforge-1_21.toml
 !config/stylisheffects-client.toml
 !config/subtle_effects/
-!config/ftbxmodcompat.snbt
-!config/travelerstitles-neoforge-1_21.toml
-!config/defaultworldtype/client-config.toml
-!config/emojitype.json
-!config/ftbquests
-!config/collectorsalbum.yaml
-!config/item_descriptions.toml
-!config/enchant_limiter.json
-!config/structurify.json
-!config/quark-common.toml
+!config/appleskin-client.toml
+!config/musicnotification.json
+!config/xaerominimap.txt
+!config/jade/plugins.json
 
+# Mod loader configs
+!config/fml.toml
+!config/configuration-options.json
 
 # Resource packs to include
 !resourcepacks/Consistent Metalworks
