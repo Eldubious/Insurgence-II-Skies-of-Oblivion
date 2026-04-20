@@ -99,12 +99,6 @@
                 "custom_model_data": 215
             },
             "model": "alshanex_familiars:item/familiar_spellbook"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 216
-            },
-            "model": "alshanex_familiars:item/sound_spell_book"
         }
     ]
 }

@@ -1,6 +1,7 @@
 {
   "enabledIntegrations": {
     "irons_spellbooks": true,
-    "farmersdelight": true
+    "farmersdelight": true,
+    "reliquary": true
   }
 }

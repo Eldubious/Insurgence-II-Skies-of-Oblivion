@@ -89,10 +89,6 @@
   "apotheosis": {
     "adventure": true
   },
-  "occultism": {
-    "foliot": true,
-    "sacrificial": true
-  },
   "balm": {
     "jade": true
   },
@@ -117,6 +113,12 @@
   },
   "jadeaddons.lootr": {
     "info": true
+  },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
   },
   "supplementaries": {
     "hat_stand": true
