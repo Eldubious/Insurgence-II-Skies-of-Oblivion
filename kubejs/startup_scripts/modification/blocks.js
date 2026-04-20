@@ -1,6 +1,6 @@
 // Modify the properties of certain blocks
 BlockEvents.modification(event => {
-  /*
+  
   // Make all these blocks indestructible
   event.modify("architects_palette:plating_block", block => {
     block.destroySpeed = -1
@@ -22,5 +22,5 @@ BlockEvents.modification(event => {
   })
   event.modify("create:creative_motor", block => {
     block.destroySpeed = -1
-  })*/
+  })
 })

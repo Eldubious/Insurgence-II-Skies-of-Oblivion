@@ -16,10 +16,21 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "plushie_buddies:plushie_dark_father", "plushie_buddies:plushie_emperor", "plushie_buddies:plushie_yoga",
-    "plushie_buddies:plushie_chewie", "plushie_buddies:plushie_dan_rolo", "plushie_buddies:plushie_storm_soldier",
-    "occultism:raw_silver", "occultism:silver_ingot", "occultism:silver_nugget", "occultism:silver_ore", "occultism:silver_ore_deepslate",
-    "occultism:silver_block", "occultism:raw_silver_block", "!collectorsalbum:.*_card"
+    "create:mechanical_mixer", "create:basin", "create:mechanical_press", "create:deployer", "create:millstone",
+    "create:crushing_wheel", "create:mechanical_crafter", "create:mechanical_saw", "create:factory_gauge",
+    "create:mechanical_drill", "create:mechanical_roller", "create:mechanical_harvester", "create:mechanical_plough",
+    "iss_magicfromtheeast:ritual_orihon", "alshanex_familiars:familiar_spellbook", "irons_spellbooks:netherite_spell_book",
+    "irons_spellbooks:diamond_spell_book", "irons_spellbooks:gold_spell_book", "irons_spellbooks:iron_spell_book",
+    "irons_spellbooks:copper_spell_book", "irons_spellbooks:evoker_spell_book", "irons_spellbooks:necronomicon_spell_book",
+    "irons_spellbooks:dragonskin_spell_book", "irons_spellbooks:villager_spell_book", "irons_spellbooks:druidic_spell_book",
+    "irons_spellbooks:cursed_doll_spell_book", "irons_spellbooks:ice_spell_book", "irons_spellbooks:inscription_table",
+    "irons_spellbooks:scroll_forge", "apothic_enchanting:helmet_tome", "apothic_enchanting:chestplate_tome",
+    "apothic_enchanting:leggings_tome", "apothic_enchanting:boots_tome", "apothic_enchanting:weapon_tome",
+    "apothic_enchanting:bow_tome", "apothic_enchanting:pickaxe_tome", "apothic_enchanting:fishing_tome",
+    "apothic_enchanting:other_tome", "apothic_enchanting:scrap_tome", "apothic_enchanting:improved_scrap_tome",
+    "apothic_enchanting:extraction_tome", "apothic_enchanting:flimsy_ender_lead", "apothic_enchanting:ender_lead",
+    "apothic_enchanting:occult_ender_lead", "custommachinery:configuration_card", "plushie_buddies:workbench",
+    "plushie_buddies:stuffing", "plushie_buddies:thread", "plushie_buddies:sewing_needle", "plushie_buddies:fabric"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
