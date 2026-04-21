@@ -46,6 +46,8 @@ friendsandfoes:citadel
 friendsandfoes:iceologer_cabin
 friendsandfoes:illusioner_shack
 friendsandfoes:illusioner_training_grounds
+galosphere:forgotten_ruins
+galosphere:pink_salt_shrine
 insurgence:battle_tower/default/swords
 irons_spellbooks:ancient_battleground
 irons_spellbooks:catacombs
@@ -189,6 +191,7 @@ nova_structures:well_savana
 nova_structures:well_spruce
 nova_structures:wild_ruin
 nova_structures:witch_villa
+oreganized:boulder
 pigsteel:pigsteel_mine
 ribbits:ribbit_village
 supplementaries:galleon

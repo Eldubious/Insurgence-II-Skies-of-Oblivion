@@ -88,9 +88,8 @@ win_event*
 !config/structures_tweaker/insurgence
 !config/structurify.json
 !config/lootr-common.toml
-!config/item_obliterator.json5
-!config/enchant_limiter.json
 !config/irons_rpg_tweaks-server.toml
+!config/reliable_remover
 
 # Content mod configs
 !config/relics.yaml
@@ -115,6 +114,7 @@ win_event*
 !config/musicnotification.json
 !config/xaerominimap.txt
 !config/jade/plugins.json
+!config/recreative/
 
 # Mod loader configs
 !config/fml.toml

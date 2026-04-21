@@ -35,7 +35,7 @@ function tellRefreshSuccess(server, player) {
 
 // Tell the player the vault couldn't be refreshed
 function tellRefreshError(server, player) {
-    let cmdActionBar = `execute as ${player.uuid.toString()} run title @s actionbar {"translate":"actionbar.insurgence.token_of_renewal.error"}`
+    let cmdActionBar = `execute as ${player.uuid.toString()} run title @s actionbar [{"text":"W.","font":"kubejs:icons"},{"translate":"actionbar.insurgence.token_of_renewal.error","font":"minecraft:default"}]`
     server.runCommandSilent(cmdActionBar)
 }
 

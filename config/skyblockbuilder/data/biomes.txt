@@ -6,6 +6,9 @@ enderscape:veiled_woodlands
 enderscape:void_depths
 enderscape:void_skies
 enderscape:void_sky_islands
+galosphere:crystal_canyons
+galosphere:lichen_caves
+galosphere:pink_salt_caves
 insurgence:the_abyss
 insurgence:the_skies
 minecraft:badlands

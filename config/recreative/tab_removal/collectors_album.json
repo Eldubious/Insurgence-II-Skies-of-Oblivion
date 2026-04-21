@@ -1,0 +1,6 @@
+[
+  {
+    "action": "remove_tab",
+    "tabs": ["collectorsalbum:album"]
+  }
+]

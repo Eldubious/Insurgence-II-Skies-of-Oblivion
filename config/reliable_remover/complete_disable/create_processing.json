@@ -1,0 +1,10 @@
+[
+  {
+    "action": "remove",
+    "items": [
+      "create:mechanical_mixer", "create:basin", "create:mechanical_press", "create:deployer", "create:millstone",
+      "create:crushing_wheel", "create:mechanical_crafter", "create:mechanical_saw", "create:factory_gauge",
+      "create:mechanical_drill", "create:mechanical_roller", "create:mechanical_harvester", "create:mechanical_plough"
+    ]
+  }
+]

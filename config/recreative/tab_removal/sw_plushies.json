@@ -1,0 +1,18 @@
+[
+  {
+    "action": "remove_tab",
+    "tabs": ["plushie_buddies:sw_plushie_tab"]
+  },
+  {
+    "action": "modify_tab",
+    "tabs": ["plushie_buddies:plushie_tab"],
+    "add_items": [
+      "plushie_buddies:plushie_dark_father",
+      "plushie_buddies:plushie_emperor",
+      "plushie_buddies:plushie_yoga",
+      "plushie_buddies:plushie_chewie",
+      "plushie_buddies:plushie_dan_rolo",
+      "plushie_buddies:plushie_storm_soldier"
+    ]
+  }
+]
