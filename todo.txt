@@ -1,132 +1,64 @@
-To-Do List
+Recipe To-Do:
+  Make plating blocks uncraftable
+  Make all create machines crafted from casing in stonecutter
+  Disable most RS, apoth enchanting/spawners, and PSI machine recipes
+  Create recipes and tags for untextured dye depot items as files for external datapack
 
-Difficulty:
-  Fast Travel
-    - Waystones can be used for free unless teleporting to the Skies
-    - A Totem of Recall will allow you to cast the recall spell
-      + Recall has a 40m-1hr cooldown
-    - Recall potion can be consumed to teleport home
-  World Tiers
-    - Tier cannot be changed manually
-    - Player starts with the haven tier unlocked
-    - Spell Imbued items only start appearing in the ascent tier
-    - Unlock requirements for each tier:
-      + Haven
-        - Start the game
-      + Frontier
-        - Visit the Overworld
-        - Level up 4 different Skills
-        - Loot a vault
-        - Craft a Silent Gear tool or Iron's Jewelry
-      + Ascent
-        - Enter the Nether
-        - Defeat the Wither
-        - Obtain Netherite Ingot
-      + Summit
-        - Enter the End
-        - Defeat the Dragon
-      + Pinnacle
-        - ???
-  Challenge
-    - Monsters spawn during the day, but not frequently
-      + Monsters never spawn in the Skies
-    - The player has really slow and weak natural regen outside of the Skies
-      + Each world tier reduces the regen penalty
-    - Blocks cannot be broken or placed in certain structures
-      + Only until they have been cleared for the first time
+Field Guide To-Do:
+  Create categories for structures, machines, ores, spells, and food
+  Remove plant category
+  Populate all categories by tags instead of automatically
+  Show structure loot in structure category
+  Build micro-structures for display
 
-Cards:
-  - Minor arcana obtained from battle Towers
-  - Major arcana are from other sources
-  Swords
-    - Combat challenges in Towers
-    - Minibosses can be summoned to get major Cards
-    - Album grants crit chance
-  Staves
-    - Puzzle challenges in Towers
-    - Cards can be found in secret rooms in other structures for major Cards
-    - Album grants mana regen
-  Cups
-    - Parkour challenges in Towers
-    - Cards are found on islands in the sky of the overworld
-    - Album grants health regen
-  Rings
-    - Item submission in Towers
-    - Major cards are crafted through rituals
-    - Album grants dodge chance 
-  Universe
-    - Beaten the game
-    - Album grants permanent not yet decided strong effect
+Script To-Do:
+  Fix gateway datagen
+  Create method for upgrading spells in imbued items
+  Create method for upgrading enchantments on items (smithing table?)
+  Hide unused emi recipe categories
+  Make apoth items spawn with a random curse
+  Add functionality to permanent buff food items
+  Add method to reach secret world
+  Add functionality to return player from nether to respawn if they have no return point
 
-Structures:
-  The Forge
-    - A Nether Structure
-    - More Puzzles than combat
-    - Gives a crucial item which allows the player to make alloys in their foundry
+Texture To-Do:
+  Create textures for all untextured dye depot items
+  Create textures for nether portal UI
+  Create textures for tower keys
+  Create textures for dimension effects
+  Create trim textures for items/elytra
+  Create attribute icons for modded attributes
 
-  Battle Towers
-    - A very common structure; in every dimension
-    - Has lots of variety and themes depending on where it's found
-    - A good source of common loot
+Structure To-Do:
+  Decorate tower of swords' interior
+  Create tower of staves exterior
+  Create tower of cups exterior
+  Create tower of rings exterior
+  Create underground sci-fi structure
+  Create secret world structure
 
-  Starter Island(s)
-    - Where the player spawns
-    - Island type chosen on world creation
-    - Contains the following:
-      + A bonus chest
+Datapack To-Do:
+  Create trial spawner configurations for battle towers
+  Create trial spawner equipment loot tables
+  Create custom curse enchantments for apoth items
+  Remove most enchants from available pool
+  Make secret world generate structure at 0,0 always
+  Give secret world more custom effects
 
-Gear:
-  Crafted Gear
-    - Jewelry is the only thing which can be crafted.
-      + gives a variety of bonuses from attributes to effects, etc.
-      + the best materials can only be forged as alloys in a foundry
+Config To-Do:
+  Hide items using new mod
+  Also reorganize creative tabs using mod
 
-  Looted Gear
-    - Looted gear will always have one negative affix on them
-    - Affixes do not give attribute buffs; those are reserved for gemstones
-    - Gemstones have no drawbacks
-    - More items can have affixes:
-      + Fishing Rods (Fishing Buffs)
-      + Hoes (Magic buffs)
+Gameplay To-Do:
+  Balance apoth affixes
+  Balance Spells
+  Decide on attributes for dimensional effects
+  Customize irons jewelry stats
 
-  Enchantments
-    - Looted Equipment will never have enchantments
-    - Enchantments are limited to 1
-    - Most will be reworked completely
-
-  Spells
-    - Spells are found as runes (retextured scrolls), but cannot be cast.
-    - Cannot craft spells
-    - Spells can only be imbued into tools, weapons, and armor (1 spell per item)
-    - Spells can have their level upgraded
-      + The player can upgrade their gear's spell using its respective ink type
-      + There is a message displayed when the ink type is incorrect
-    - Spell Books cannot be found or crafted
-    - Each spell that can be found as loot is exclusive to a biome or dimension
-      + The questbook details where each spell can be found
-
-Resources:
-  Bees
-    - All bees that spawn naturally are corrupted
-      + They are useless until they are purified
-    - Productive Bees upgrades are nerfed
-    - These are the only materials bees can produce
-      + Ores
-        - Only generate ores by converting stone into an ore block
-      + Attribute upgrades
-      + Logs
-      + Stone
-      + Dyes
-      + Mob drops
-        - Only for common mobs
-        - Not via the Wannabe
-    - The centrifuge is not used; instead the furnace or foundry is used
-
-Cosmetic:
-  EMI
-    - Uncommonly used items are grouped together
-    - Loot tables that are only called by other loot tables are hidden
-  Misc
-    - All trims and materials are compatible with tools and elytra
-    - Ores have informational tooltips saying where they are found
-    - All dyes are obtainable from at least flowers
+Cosmetic To-Do:
+  Assign icons to every attribute
+  Remove EMI addons eventually; have special drop info available in fieldguide
+  Assign more categories to emi items
+  Show enchantment descriptions when holding keybind
+  Only show trim information when holding keybind
+  show detailed spell info only when holding shift

@@ -1,0 +1,10 @@
+{
+  "sort_index": 7,
+  "icon": "fieldguide:textures/gui/icons/pufferfish.png",
+  "contents": [
+    {
+      "type": "auto_populate",
+      "strategy": "tag:insurgence:food"
+    }
+  ]
+}

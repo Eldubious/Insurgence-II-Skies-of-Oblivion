@@ -1,0 +1,10 @@
+{
+  "sort_index": 10,
+  "icon": "fieldguide:textures/gui/icons/villager.png",
+  "contents": [
+    {
+      "type": "auto_populate",
+      "strategy": "tag:insurgence:structures"
+    }
+  ]
+}
