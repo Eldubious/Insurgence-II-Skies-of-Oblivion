@@ -31,6 +31,10 @@
   ],
   "objectives": [
     {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:skies/activate_waystone"
+    },
+    {
       "type": "questlog:visit_dimension",
       "dimension": "minecraft:overworld"
     }

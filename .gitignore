@@ -64,9 +64,11 @@ kubejs/README.txt
 .curseclient
 command_history.txt
 emi.json
+imgui.ini
 minecraftinstance.json
 options.txt
 patchouli_data.json
+ponders_watched.json
 user-prefs.json
 usercache.json
 usernamecache.json

@@ -1,1 +1,0 @@
-// TODO write the code which controls the blaze's behavior every tick
