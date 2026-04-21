@@ -1,3 +1,4 @@
+eternal_starlight:caves
 minecraft:canyon
 minecraft:cave
 minecraft:cave_extra_underground

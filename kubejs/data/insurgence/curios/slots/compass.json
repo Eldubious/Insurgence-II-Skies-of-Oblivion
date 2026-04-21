@@ -2,7 +2,7 @@
   "replace": true,
   "order": 240,
   "size": 1,
-  "icon": "insurgence:gui/curio_slot/compass.png",
+  "icon": "insurgence:slot/compass",
   "render_toggle": false,
   "validators": ["curios:tag"]
 }

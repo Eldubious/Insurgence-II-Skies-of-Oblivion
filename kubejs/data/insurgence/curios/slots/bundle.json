@@ -2,7 +2,7 @@
   "replace": true,
   "order": 90,
   "size": 1,
-  "icon": "insurgence:gui/curio_slot/bundle.png",
+  "icon": "insurgence:slot/bundle",
   "render_toggle": false,
   "validators": ["curios:tag"]
 }

@@ -117,6 +117,7 @@ win_event*
 !config/xaerominimap.txt
 !config/jade/plugins.json
 !config/recreative/
+!config/immersiveoverlays.json
 
 # Mod loader configs
 !config/fml.toml

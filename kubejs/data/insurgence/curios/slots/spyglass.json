@@ -2,7 +2,7 @@
   "replace": true,
   "order": 190,
   "size": 1,
-  "icon": "insurgence:gui/curio_slot/spyglass.png",
+  "icon": "insurgence:slot/spyglass",
   "render_toggle": true,
   "validators": ["curios:tag"]
 }

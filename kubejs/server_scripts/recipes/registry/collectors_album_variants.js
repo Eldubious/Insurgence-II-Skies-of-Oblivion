@@ -68,10 +68,4 @@ ServerEvents.recipes(event => {
 
     // Ritual Orihon
     albumRecipes(214, 'iss_magicfromtheeast:crystallized_soul')
-
-    // Familiar Spell Book
-    albumRecipes(215, 'alshanex_familiars:memory_fragment')
-
-    // Sound Spell Book
-    albumRecipes(216, 'minecraft:note_block')
 })
