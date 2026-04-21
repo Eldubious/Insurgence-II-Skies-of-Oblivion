@@ -7,9 +7,7 @@
   "biomes": {
     "minecraft:overworld": {
       "allow_list": false,
-      "elements": [
-        "minecraft:*ocean*"
-      ]
+      "elements": []
     },
     "minecraft:the_nether": {
       "allow_list": false,
@@ -22,15 +20,15 @@
   // These are resource lists. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
   "carvers": {
     "minecraft:overworld": {
-      "allow_list": true,
+      "allow_list": false,
       "elements": []
     },
     "minecraft:the_nether": {
-      "allow_list": true,
+      "allow_list": false,
       "elements": []
     },
     "minecraft:the_end": {
-      "allow_list": true,
+      "allow_list": false,
       "elements": []
     }
   },
@@ -54,18 +52,7 @@
   // The block settings for generating the different dimensions surfaces.
   // Same format as flat world generation settings (blocks only)
   "surfaceSettings": {
-    "minecraft:overworld": [
-      {
-        "block": "minecraft:bedrock"
-      },
-      {
-        "block": "minecraft:dirt",
-        "height": 2
-      },
-      {
-        "block": "minecraft:grass_block"
-      }
-    ],
+    "minecraft:overworld": [],
     "minecraft:the_nether": [],
     "minecraft:the_end": []
   }

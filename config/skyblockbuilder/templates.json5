@@ -30,23 +30,7 @@
   // A list of possible spawn points.
   // You may also directly use these in the template config, or use a reference created here.
   "spawnPointReferences": {
-    "default": {
-      "south": [
-        [ 6, 3, 5 ]
-      ],
-      "west": [],
-      "north": [],
-      "east": []
-    },
     "minimalist": {
-      "south": [],
-      "west": [],
-      "north": [],
-      "east": [
-        [ 3, 3, 1 ]
-      ]
-    },
-    "minimalist_1": {
       "south": [],
       "west": [],
       "north": [],
@@ -69,27 +53,14 @@
   //     },
   //     "origin": "center"
   // }
-  "spreadReferences": {
-    "default": []
-  },
+  "spreadReferences": {},
   
   // A list of blocks which can be used to surround islands/caves.
   // You may also directly use these in the template config, or use a reference created here.
-  "surroundingBlockReferences": {
-    "default": {
-      "margin": 1
-    }
-  },
+  "surroundingBlockReferences": {},
   
   // The list of templates being available. The first entry is the default template.
   "templateList": [
-    {
-      "name": "default",
-      "file": "default.nbt",
-      "spawns": "default",
-      "surroundingBlocks": "default",
-      "spreads": "default"
-    },
     {
       "name": "minimalist",
       "file": "minimalist.snbt",

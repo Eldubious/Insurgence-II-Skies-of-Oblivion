@@ -5,22 +5,6 @@
 cache
 config/*
 !config/
-config/apotheosis/*
-!config/apotheosis/
-config/attributefix/*
-!config/attributefix/
-config/bettercombat/*
-!config/bettercombat/
-config/jade/*
-!config/jade/
-config/puffish_skills/*
-!config/puffish_skills/
-config/defaultworldtype/*
-!config/defaultworldtype/
-config/skyblockbuilder/*
-!config/skyblockbuilder/
-config/structures_tweaker/*
-!config/structures_tweaker/
 crash-reports
 data
 debug
@@ -78,16 +62,18 @@ win_event*
 
 # Config files to include
 # Gameplay system configs
-!config/skyblockbuilder/*
+!config/skyblockbuilder/templates/icons
+!config/skyblockbuilder/templates/islands
+!config/skyblockbuilder/client.json5
+!config/skyblockbuilder/dimensions.json5
+!config/skyblockbuilder/spawn.json5
+!config/skyblockbuilder/templates.json5
+!config/skyblockbuilder/world.json5
 !config/defaultworldtype/client-config.toml
 !config/questlog/
-!config/ftbquests
-!config/ftbxmodcompat.snbt
 !config/emi.css
 !config/emixx
 !config/exmi/
-!config/structures_tweaker/global.json
-!config/structures_tweaker/insurgence
 !config/structurify.json
 !config/lootr-common.toml
 !config/irons_rpg_tweaks-server.toml
