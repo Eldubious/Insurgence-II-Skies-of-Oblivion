@@ -7,6 +7,12 @@ function updateDimensionEffect(server, player, playerId, pData, dimension) {
   if (dimension != "minecraft:the_nether" && dimension != "insurgence:the_nether" && pData.contains("applied_nether_curse"))
     pData.remove("applied_nether_curse")
 
+  // Return player to survival if they left the secret world
+  if (dimension != "insurgence:secret_world" && !player.creative && !player.spectator && pData.contains("in_secret_world")) {
+    pData.remove("in_secret_world")
+    server.runCommandSilent(`execute as ${playerId} run gamemode survival @s`)
+  }
+
   switch (dimension) {
     case 'insurgence:skies':
       applyDimensionEffect(server, player, playerId, "insurgence:haven_blessing", "infinite", parseFloat(amps["insurgence:skies"]), pData)
@@ -26,6 +32,23 @@ function updateDimensionEffect(server, player, playerId, pData, dimension) {
     
     case 'minecraft:the_end':
       applyDimensionEffect(server, player, playerId, "insurgence:end_curse", "infinite", parseFloat(amps["minecraft:the_end"]), pData)
+      break
+
+    case 'eternal_starlight:starlight':
+      applyDimensionEffect(server, player, playerId, "insurgence:starlight_curse", "infinite", parseFloat(amps["eternal_starlight:starlight"]), pData)
+      break
+
+    case 'irons_spellbooks:pocket_dimension':
+      applyDimensionEffect(server, player, playerId, "insurgence:secret_blessing", "infinite", 0, pData)
+      break
+
+    case 'insurgence:secret_world':
+      // Special case for Secret World; switch gamemode to adventure to prevent block placing/breaking
+      if (!player.creative && !player.spectator && !pData.contains("in_secret_world")) {
+        pData.putBoolean("in_secret_world", true)
+        server.runCommandSilent(`execute as ${playerId} run gamemode adventure @s`)
+      }
+      applyDimensionEffect(server, player, playerId, "insurgence:secret_blessing", "infinite", 0, pData)
       break
   }
 }
@@ -50,7 +73,8 @@ function applyDimensionEffect(server, player, playerId, effectId, duration, ampl
 }
 
 // Clear every dimensional curse from a player other than the exception param
-const dimensionCurses = ["insurgence:overworld_curse", "insurgence:nether_curse", "insurgence:end_curse", "insurgence:haven_blessing"]
+const dimensionCurses = ["insurgence:overworld_curse", "insurgence:nether_curse", "insurgence:end_curse", "insurgence:haven_blessing",
+  "insurgence:secret_blessing", "insurgence:starlight_curse"]
 function removeAllCurses(server, playerId, exception) {
   for (let i in dimensionCurses) {
     let curse = dimensionCurses[i]
@@ -66,6 +90,7 @@ function getDimensionEffectLevels(pData) {
       "minecraft:overworld": 5,
       "insurgence:the_nether": 5,
       "minecraft:the_end": 5,
+      "eternal_starlight:starlight": 5,
       "insurgence:skies": 0
     }
     
@@ -79,6 +104,7 @@ function getDimensionEffectLevels(pData) {
     effectLevels["insurgence:the_nether"] = playerEffectLevels["insurgence:the_nether"]
     effectLevels["minecraft:the_end"] = playerEffectLevels["minecraft:the_end"]
     effectLevels["insurgence:skies"] = playerEffectLevels["insurgence:skies"]
+    effectLevels["eternal_starlight:starlight"] = playerEffectLevels["eternal_starlight:starlight"]
     return effectLevels
 }
 

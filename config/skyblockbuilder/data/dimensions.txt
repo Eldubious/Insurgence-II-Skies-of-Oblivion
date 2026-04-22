@@ -1,8 +1,8 @@
 minecraft:overworld
-eternal_starlight:starlight
-insurgence:the_nether
 insurgence:secret_world
-minecraft:the_end
-insurgence:skies
 irons_spellbooks:pocket_dimension
 minecraft:the_nether
+eternal_starlight:starlight
+insurgence:skies
+minecraft:the_end
+insurgence:the_nether

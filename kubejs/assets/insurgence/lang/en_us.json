@@ -18,9 +18,14 @@
     "effect.insurgence.end_curse.desc": "Feel the strange air of the End",
     "effect.insurgence.haven_blessing": "Blessing of the Haven",
     "effect.insurgence.haven_blessing.desc": "Feel the welcoming air of the Haven",
+    "effect.insurgence.starlight_curse": "Wrath of the Stars",
+    "effect.insurgence.starlight_curse.desc": "You've entered the dangerous Starlight dimension.",
+    "effect.insurgence.secret_blessing": "Blessing of Secrets",
+    "effect.insurgence.secret_blessing.desc": "Finding this ethereal sanctuary is a blessing in and of itself.",
     
     "biome.insurgence.the_skies": "The Skies",
     "biome.insurgence.the_abyss": "The Void",
+    "biome.insurgence.secret_lands": "Secret Lands",
     
     "item.insurgence.token_of_renewal": "Token of Renewal",
     "item.insurgence.totem_of_return": "Totem of Return",

@@ -9,7 +9,7 @@
     "ore_veins_enabled": false,
     "disable_mob_generation": true,
     "legacy_random_source": false,
-    "sea_level": 63,
+    "sea_level": 0,
     "noise": {
         "height": 256,
         "min_y": 0,

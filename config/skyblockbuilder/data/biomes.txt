@@ -1,3 +1,5 @@
+autumnity:maple_forest
+autumnity:pumpkin_fields
 blueprint:original_source_marker
 enderscape:celestial_grove
 enderscape:corrupt_barrens
@@ -23,6 +25,7 @@ eternal_starlight:warm_shore
 galosphere:crystal_canyons
 galosphere:lichen_caves
 galosphere:pink_salt_caves
+insurgence:secret_lands
 insurgence:the_abyss
 insurgence:the_skies
 minecraft:badlands

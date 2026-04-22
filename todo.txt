@@ -62,3 +62,4 @@ Cosmetic To-Do:
   Show enchantment descriptions when holding keybind
   Only show trim information when holding keybind
   show detailed spell info only when holding shift
+  Customize skybox of haven and secret world with sky aesthetics

@@ -24,7 +24,7 @@ PlayerEvents.tick(event => {
     // Cleanup nether portal return data if no longer in the nether
     netherPortalReturnCleanup(pData, dimension)
   }
-  
+
 })
 
 // Teleport the player between dimensions
