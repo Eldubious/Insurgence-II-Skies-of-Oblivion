@@ -1,181 +1,374 @@
+const DEBUG = false
+let lastLoggedItem = "" // DEBUG make sure to only log tooltip if new item is hovered over
+
 const item_modifier_tooltips = [Component.translate('item.modifiers.any').getString(), Component.translate('item.modifiers.armor').getString(),
-    Component.translate('item.modifiers.body').getString(), Component.translate('item.modifiers.chest').getString(),
-    Component.translate('item.modifiers.feet').getString(), Component.translate('item.modifiers.hand').getString(),
-    Component.translate('item.modifiers.head').getString(), Component.translate('item.modifiers.legs').getString(),
-    Component.translate('item.modifiers.mainhand').getString(), Component.translate('item.modifiers.offhand').getString(),
-    Component.translate('item.modifiers.saddle').getString()]
+  Component.translate('item.modifiers.body').getString(), Component.translate('item.modifiers.chest').getString(),
+  Component.translate('item.modifiers.feet').getString(), Component.translate('item.modifiers.hand').getString(),
+  Component.translate('item.modifiers.head').getString(), Component.translate('item.modifiers.legs').getString(),
+  Component.translate('item.modifiers.mainhand').getString(), Component.translate('item.modifiers.offhand').getString(),
+  Component.translate('item.modifiers.saddle').getString()]
+  
+  /*
+  Apply equipment-specific tooltip modifications.
+  */
+  ItemEvents.dynamicTooltips('organize_equipment_tooltip', event => {
+    if (event.shift && event.alt) { // Keep original tooltip if both shift and alt are held
+      event.lines.set(event.lines.size() - 1, getKeypressComponent(event.shift, event.alt))
+      return
+    }
+    let item = event.item
 
-/*
-    Apply equipment-specific tooltip modifications.
-*/
-ItemEvents.dynamicTooltips('equipment_items', event => {
-    let trimIndex = -1
-    let attributeIndex = -1
-    let modifiedAttributeLine = false
+    let affixCount = 0
+    let firstAffixIdx = -1
+    let gemSocketIdx = -1
+    let spellImbueMarkerIdx = -1
+    let selectedSpellStart = -1
+    let currentlyCountingSpellLineCount = false
+    let selectedSpellLineCount = 0
+    let currentlyReadingAttributes = false
+    let attributes = []
+    let enchantments = []
+    let itemIdIdx = -1
+    let currentlyReadingUpgrades = false
+    let materialIdx = -1
+    let patternIdx = -1
+    let runicEtchIdx = -1
+
     
-    for (let i in event.lines) {
-        let line = event.lines[i].getString()
+    // DEBUG log entire tooltip
+    //console.log(`${event.item.id} | ${lastLoggedItem}`)
+    if (DEBUG && item.id != lastLoggedItem) console.log(`Tooltip for ${event.item.id}:`)
+      
+    for (let i in event.lines) {  // Scan the entire tooltip first
+      let line = event.lines[i]
+      let tKey = line.getContents().key
+      let siblings = line.getSiblings()
+      let args = line.getContents().args
 
-        if (attributeIndex == -1 && line.startsWith('+')) {
-            //attributeIndex = i
-        }
-        // Replace the 'Upgrade:' text with 'Trim:' 
-        if (line == Component.translate('item.minecraft.smithing_template.upgrade').getString()) {
-            event.lines.set(i, Component.translate('tooltip.insurgence.armor_trim').gray())
+      if (DEBUG && item.id != lastLoggedItem) { // DEBUG
+        console.log(`Line ${i}\n${event.lines[i]}\n${event.lines[i].getString()}\nKey: ${event.lines[i].getContents().key}\n
+          Siblings: ${event.lines[i].getSiblings()}`)
+      }
+      
+      if (line.getString() == "APOTH_SOCKET_MARKER") gemSocketIdx = i
 
-            if (event.lines[i-1].getString().startsWith('•')) { // Only apply spacer if affixes are immediately before
-                trimIndex = i
+      // Advanced tooltips are on; found item id line
+      if (line.getString() == item.id) {
+        itemIdIdx = i
+        if (currentlyCountingSpellLineCount) currentlyCountingSpellLineCount = false
+      }
+      // Count the number of lines the selected spell takes up
+      if (currentlyCountingSpellLineCount && selectedSpellStart > -1) {
+        if (tKey == undefined && siblings.size() > 0) selectedSpellLineCount += 1
+        else if (tKey != undefined) selectedSpellLineCount += 1
+        else currentlyCountingSpellLineCount = false
+      }
+      // Attribute is not from a modifier or is not an attribute
+      if (currentlyReadingAttributes && tKey == undefined) {
+        if (siblings.length > 0) {
+          let sKey = siblings[0].getContents().key
+          let sArgs = siblings[0].getContents().args
+
+          if (sArgs != undefined && sArgs.length >= 2) {
+            if (event.shift) {  // Check for duplicate attribute listings when holding shift due to stat breakdown when holding
+              let isDupeAttr = false
+              for (let j in attributes) {
+                if (attributes[j].name == sArgs[1].getContents().key) {
+                  isDupeAttr = true
+                }
+              }
+              if (isDupeAttr) continue
             }
-        }
-
-        // Make the spacer before attributes show again, but only the first spacer
-        if (!modifiedAttributeLine && item_modifier_tooltips.indexOf(line) != -1) {
-            event.lines.set(i, Component.translate('tooltip.insurgence.attributes').gray())
-            modifiedAttributeLine = true
-            attributeIndex = i
-        }
-    }
-
-    // Add spacing before the armor trim
-    if (trimIndex != -1) {
-        event.lines.add(trimIndex, Component.literal(' '))
-    }
-
-    // Remove the "Can be Imbued" line
-    if (event.item.componentMap.get("irons_spellbooks:spell_container") != null) {
-        event.lines.remove(5)
-        event.lines.set(3, Component.literal('§kA§r').color('#64EBF0').append(
-            Component.literal(' ').withStyle().append(
-            Component.translate('tooltip.insurgence.spell_imbued').color('#64EBF0'))))
-    }
-    else {
-        event.lines.remove(3)   // Remove the temporary spell marker line
-    }
-})
-
-/*
-    Apply item rarity text to the tooltip.
-*/
-ItemEvents.dynamicTooltips('item_rarity', event => {
-    let rarityName = event.item.rarity.toString().toLowerCase()
-    let rarityColor = 'white'
-
-    if (event.item.components.has('apotheosis:rarity')) {   // Use Apotheosis rarity
-        let rarityName = event.item.components.get('apotheosis:rarity').toString().split(' ')[2]
-
-        switch (rarityName) {
-            case 'apotheosis:common}':
-                rarityName = 'common'
-                rarityColor = '#808080'
-                break
-
-            case 'apotheosis:uncommon}':
-                rarityName = 'uncommon'
-                rarityColor = '#33FF33'
-                break
             
-            case 'apotheosis:rare}':
-                rarityName = 'rare'
-                rarityColor = '#5555FF'
-                break
-
-            case 'apotheosis:epic}':
-                rarityName = 'epic'
-                rarityColor = '#BB00BB'
-                break
-
-            case 'apotheosis:mythic}':
-                rarityName = 'mythic'
-                rarityColor = '#ED7014'
-                break
-
-            case 'ancientreforging:ancient}':
-                rarityName = 'ancient'
-                rarityColor = '#FF55FF'
-                break
+            let attribute = {
+              name: sArgs[1].getContents().key,
+              idx: i,
+              operator: "",
+              number: String(sArgs[0])
+            }
+            attributes.push(attribute)
+          }
+          else {
+            console.log(`Error parsing attribute at line ${i} for item ${item.id}.`)
+            console.log(`Line ${i}: ${event.lines[i]}`)
+          }
         }
-        event.lines.set(2, Component.translate(`tooltip.insurgence.rarity.${rarityName}`).color(rarityColor).bold())
+        else {
+          currentlyReadingAttributes = false
+        }
+      }
+      else if (currentlyReadingUpgrades && tKey == undefined) {
+        let sKey = siblings[0].getContents().key
+        let splitSKey = String(sKey).split(".")
+        if (splitSKey.length >= 2) {
+          if (splitSKey[0] == "trim_pattern") {
+            patternIdx = i
+          }
+          else if (splitSKey[0] == "trim_material") {
+            materialIdx = i
+          }
+          else if (splitSKey[0] == "rune" && splitSKey[1] == "quark") {
+            runicEtchIdx = i
+          }
+        }
+        else currentlyReadingUpgrades = false
+      }
+
+      // Parse translation keys
+      if (tKey != undefined) {
+        let splitKey = String(tKey).split(".")
+
+        if (splitKey.length > 0) {
+
+          // Line is enchantment
+          if (splitKey[0] == "enchantment") {
+            enchantments.push({
+              name: tKey,
+              desc: String(tKey) + ".desc",
+              idx: i
+            })
+          }
+          
+          // Following lines are attributes
+          if (splitKey[0] == "curios" && splitKey[1] == "modifiers") {
+            currentlyReadingAttributes = true
+            continue
+          }
+          // Following lines are attributes
+          else if (splitKey[0] == "item" && splitKey[1] == "modifiers") {
+            currentlyReadingAttributes = true
+            continue
+          }
+
+          if (currentlyReadingAttributes) {
+            // Current line is attribute
+            if (splitKey[0] == "neoforge" && splitKey[1] == "modifier") {
+              if (args != undefined && args.length >= 2) {
+                if (event.shift) {  // Check for duplicate attribute listings when holding shift due to stat breakdown when holding
+                  let isDupeAttr = false
+                  for (let j in attributes) {
+                    if (attributes[j].name == args[1].getContents().key) {
+                      isDupeAttr = true
+                    }
+                  }
+                  if (isDupeAttr) continue
+                }
+
+                let op = '+'
+                if (tKey == "neoforge.modifier.take") op = ''
+                let attribute = {
+                  name: args[1].getContents().key,
+                  idx: i,
+                  operator: op,
+                  number: args[0].getString()
+                }
+                attributes.push(attribute)
+              }
+              else {
+                console.log(`Error parsing attribute at line ${i} for item ${item.id}.`)
+                console.log(`Line ${i}: ${event.lines[i]}`)
+              }
+              
+            }
+            else {
+              currentlyReadingAttributes = false
+            }
+          }
+
+          if (currentlyReadingUpgrades) currentlyReadingUpgrades = false
+        }
+
+        // Armor Trim header
+        if (tKey == "item.minecraft.smithing_template.upgrade") {
+          currentlyReadingUpgrades = true
+          continue
+        }
+
+        // Beginning of an apotheosis affix
+        if (tKey == "text.apotheosis.dot_prefix") {  
+          if (affixCount == 0) firstAffixIdx = i
+          affixCount += 1
+        }
+
+        // Can be imbued (?/?)
+        if (tKey == "tooltip.irons_spellbooks.can_be_imbued_frame") { 
+          spellImbueMarkerIdx = i
+        }
+
+        // Header for selected spell
+        if (spellImbueMarkerIdx > -1 && tKey == "tooltip.irons_spellbooks.imbued_tooltip" && selectedSpellStart == -1) {
+          selectedSpellStart = i
+          currentlyCountingSpellLineCount = true
+        }
+      }
     }
-    else if (event.item.hasTag('insurgence:rarity_override')) { // Use custom rarity
 
-        if (event.item.hasTag('insurgence:rarity_override/uncommon')) {
-            rarityName = 'uncommon'
-            rarityColor = '#FFFF55'
-        }
-        else if (event.item.hasTag('insurgence:rarity_override/rare')) {
-            rarityName = 'rare'
-            rarityColor = '#55FFFF'
-        }
-        else if (event.item.hasTag('insurgence:rarity_override/epic')) {
-            rarityName = 'epic'
-            rarityColor = '#FF55FF'
-        }
-        else if (event.item.hasTag('insurgence:rarity_override/legendary')) {
-            rarityName = 'legendary'
-            rarityColor = '#FFAA00'
-        }
-        event.lines.set(2, Component.translate(`tooltip.insurgence.rarity.${rarityName}`).color(rarityColor).bold())
+    /* Setup tooltips according to this schema:
+        (Skip lines if item doesn't have relevant info)
+
+      Item Name
+      ---------
+      Rarity
+      Durability
+      Attributes
+      Gem sockets
+      ---------
+      Affix Abilities
+
+      Enchantments
+
+      Spells
+      --------
+      Cosmetic information
+
+      All other information
+    */
+    let linesCopy = event.lines.toArray()
+    for (let i in event.lines) event.lines.set(i, Component.literal("DELETE_ME")) // Wipe the tooltip clean
+
+    // Item name
+    event.lines.set(0, linesCopy[0])
+    // Rarity
+    event.lines.set(1, getRarityComponent(item))
+    // Durability
+    event.lines.set(2, getDurabilityComponent(item))
+    // Attributes
+    event.lines.set(3, getAttributeComponent(attributes, event.shift))
+    // Gem Sockets
+    if (gemSocketIdx > -1) {
+      event.lines.set(4, Component.literal("APOTH_SOCKET_MARKER"))
+      event.lines.set(gemSocketIdx, Component.literal("DELETE_ME"))
     }
-    else {  // Use default rarity
-        switch (rarityName) {
-            case 'irons_spellbooks_rarity_cinderous':
-                rarityName = 'legendary'
-                rarityColor = '#FFAA00'
-                break
+    event.lines.set(5, getDividerComponent())
+    let currIdx = 6   // From now on the number tooltip lines in each category are dynamic
 
-            case 'iss_magicfromtheeast_rarity_bloodful':
-                rarityName = 'legendary'
-                rarityColor = '#FFAA00'
-                break
-            
-            case 'epic':
-                rarityColor = 'light_purple'
-                break
-
-            case 'rare':
-                rarityColor = 'aqua'
-                break
-
-            case 'uncommon':
-                rarityColor = 'yellow'
-                break
-
-            default:
-                rarityColor = 'gray'
+    if (!event.alt) {  // Hide these categories when pressing alt
+      // Affix Abilities
+      if (firstAffixIdx > -1) {
+        event.lines.set(currIdx, getAffixAbilityComponent(event.shift, affixCount))
+        currIdx += 1
+        if (affixCount > 0 && event.shift) {  // Show abilities when holding shift
+          for (let i = parseInt(firstAffixIdx); i < parseInt(firstAffixIdx) + parseInt(affixCount); i++) {
+            event.lines.set(currIdx, linesCopy[i])
+            currIdx += 1
+          }
         }
-        event.lines.set(2, Component.translate(`tooltip.insurgence.rarity.${rarityName}`).color(rarityColor).bold())
-    }
-})
+        event.lines.set(currIdx, Component.empty())
+        currIdx += 1
+      }
 
-/*
-    Apply trim template informational tooltips.
-*/
-ItemEvents.dynamicTooltips('trim_template_information', event => {
+      // Enchantments
+      for (let i in enchantments) {
+        event.lines.set(currIdx, linesCopy[enchantments[i].idx])
+        currIdx += 1
+        if (event.shift) {
+          event.lines.set(currIdx, Component.translate(enchantments[i].desc).color("#555555").italic())
+          currIdx += 1
+        }
+      }
+      if (enchantments.length > 0) {
+        event.lines.set(currIdx, Component.empty())
+        currIdx += 1
+      }
+
+      // Spells
+      if (spellImbueMarkerIdx > -1) {
+        let spellLvl = -1
+        let spellName = ""
+        let isObfuscated = false
+        if (selectedSpellStart > -1) {
+          let spellData = linesCopy[parseInt(selectedSpellStart) + 1].getSiblings()[0].getContents().args
+          spellName = spellData[0].getContents().key
+          isObfuscated = spellData[0].getStyle().obfuscated
+          spellLvl = spellData[1].getString()
+        }
+        
+        event.lines.set(currIdx, getSpellComponent(event.shift, (selectedSpellStart > -1 && selectedSpellLineCount > 0), spellName, spellLvl, isObfuscated))
+        currIdx += 1
+      }
+      if (selectedSpellStart > -1 && selectedSpellLineCount > 0 && event.shift) {  // Add all spell details when shift is held
+        for (let i = parseInt(selectedSpellStart) + 1; i < parseInt(selectedSpellStart) + parseInt(selectedSpellLineCount) + 1; i++) {
+          event.lines.set(currIdx, linesCopy[i])
+          currIdx += 1
+        }
+      }
+      if (spellImbueMarkerIdx > -1) {
+        event.lines.set(currIdx, Component.empty())
+        currIdx += 1
+      }
+    }
+    else {          // Show these categories when pressing alt
+      // Armor Trim
+      if (materialIdx > -1 && patternIdx > -1) {
+        event.lines.set(currIdx, Component.translate("tooltip.insurgence.format.armor_trim"))
+        currIdx += 1
+
+        let patternName = linesCopy[patternIdx].getSiblings()[0].getContents().key
+        let patternColor = linesCopy[patternIdx].getSiblings()[0].getStyle().color
+        let materialName = linesCopy[materialIdx].getSiblings()[0].getContents().key
+        let materialColor = linesCopy[materialIdx].getSiblings()[0].getStyle().color
+
+        event.lines.set(currIdx, Component.translate(patternName).color(patternColor))
+        currIdx += 1
+        event.lines.set(currIdx, Component.translate(materialName).color(materialColor))
+        currIdx += 1
+
+        event.lines.set(currIdx, Component.empty())
+        currIdx += 1
+      }
+
+      // Runic Etching
+      if (runicEtchIdx > -1) {
+        let runeName = linesCopy[runicEtchIdx].getSiblings()[0].getContents().key
+        let runeColor = linesCopy[runicEtchIdx].getSiblings()[0].getStyle().color
+        event.lines.set(currIdx, Component.translate(runeName).color(runeColor))
+        currIdx += 1
+
+        event.lines.set(currIdx, Component.empty())
+        currIdx += 1
+      }
+    }
+    
+    // Other information
+    event.lines.set(currIdx, getKeypressComponent(event.shift, event.alt))
+    currIdx += 1
+
+    if (itemIdIdx > -1) event.lines.set(currIdx, linesCopy[itemIdIdx])
+    
+    if (DEBUG && item.id != lastLoggedItem) {
+      lastLoggedItem = item.id
+    }
+  })
+  
+  /*
+  Apply trim template informational tooltips.
+  */
+  ItemEvents.dynamicTooltips('trim_template_information', event => {
     let patternName = event.item.id.toString().split(':')[1].split('_')[0]
-
+    
     event.lines.set(1, Component.translate(`tooltip.insurgence.info.${patternName}_pattern_1`).gray().italic())
     event.lines.set(2, Component.translate(`tooltip.insurgence.info.${patternName}_pattern_2`).gray().italic())
-})
-
-/*
-    Apply information about debug ticket effects.
-*/
-ItemEvents.dynamicTooltips('debug_tickets', event => {
+  })
+  
+  /*
+  Apply information about debug ticket effects.
+  */
+  ItemEvents.dynamicTooltips('debug_tickets', event => {
     let type = event.item.customData.get('type')
     if (type != null) type = type.getAsString()
-
+      
     if (type == 'world_tier') {
-        let tier = event.item.customData.get('tier')
-        if (tier != null) tier = tier.getAsString().toString()
+      let tier = event.item.customData.get('tier')
+      if (tier != null) tier = tier.getAsString().toString()
         
-        if (tier == 'haven' || tier == 'frontier' || tier == 'ascent' || tier == 'summit' || tier == 'pinnacle') {
-            event.lines.set(1, Component.translate(`tooltip.insurgence.debug_ticket.world_tier_${tier}`).gold().italic())
-        }
+      if (tier == 'haven' || tier == 'frontier' || tier == 'ascent' || tier == 'summit' || tier == 'pinnacle') {
+        event.lines.set(1, Component.translate(`tooltip.insurgence.debug_ticket.world_tier_${tier}`).gold().italic())
+      }
     }
     else if (type == 'place_effect') {
-        let effectType = event.item.customData.get('effect')
-        if (effectType != null) effectType = effectType.getAsString().toString()
-
-        event.lines.set(1, Component.translate(`tooltip.insurgence.debug_ticket.place_effect_${effectType}`).gold().italic())
+      let effectType = event.item.customData.get('effect')
+      if (effectType != null) effectType = effectType.getAsString().toString()
+        
+      event.lines.set(1, Component.translate(`tooltip.insurgence.debug_ticket.place_effect_${effectType}`).gold().italic())
     }
-})
+  })

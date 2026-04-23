@@ -89,6 +89,9 @@
   "apotheosis": {
     "adventure": true
   },
+  "delighto_flight": {
+    "crop_progress": true
+  },
   "balm": {
     "jade": true
   },
@@ -97,12 +100,6 @@
   },
   "custommachinery": {
     "machine_component_provider": true
-  },
-  "productivebees": {
-    "bee": true,
-    "solitary_nest": true,
-    "canvas_beehive": true,
-    "bee_attributes": true
   },
   "jadeaddons": {
     "equipment_requirement": ""

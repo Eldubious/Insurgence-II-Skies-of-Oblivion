@@ -56,6 +56,7 @@ culturaldelights:avocado
 culturaldelights:corn
 culturaldelights:cucumber
 culturaldelights:eggplant
+delighto_flight:patch_wild_lotus
 enderscape:blinklight_vines
 enderscape:bulb_flower
 enderscape:ceiling_nebulite_ore
@@ -484,6 +485,7 @@ minecraft:weeping_vines
 minecraft:wildflowers_birch_forest
 minecraft:wildflowers_meadow
 minecraft:witch_hut_base
+minersdelight:wild_cave_carrot
 mynethersdelight:patch_powdery_cane
 nirvana:patch_wild_hemp
 nova_structures:chorus_plant

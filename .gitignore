@@ -105,9 +105,10 @@ win_event*
 !config/recreative/
 !config/immersiveoverlays.json
 
-# Mod loader configs
+# Mod loader and option configs
 !config/fml.toml
 !config/configuration-options.json
+!config/resourcepackoverrides.json
 
 # Resource packs to include
 !resourcepacks/Consistent Metalworks

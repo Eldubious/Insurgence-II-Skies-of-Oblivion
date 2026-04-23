@@ -77,7 +77,7 @@ ServerEvents.tags('item', event => {
         craftedItemTags('crossbow', craftedCrossbows[i])
     }
 
-    let craftedSlingshots = []
+    let craftedSlingshots = ['supplementaries:slingshot']
     for (let i in craftedSlingshots) {
         craftedItemTags('slingshot', craftedSlingshots[i])
     }
@@ -133,7 +133,7 @@ ServerEvents.tags('item', event => {
         craftedItemTags('shield', craftedShields[i])
     }
 
-    let craftedFishingRods = []
+    let craftedFishingRods = ['minecraft:fishing_rod']
     for (let i in craftedFishingRods) {
         craftedItemTags('fishing_rod', craftedFishingRods[i])
     }

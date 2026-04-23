@@ -200,6 +200,9 @@
         "insurgence:tarot_cards/mythical"
       ],
       "iconAppearAnimation": "tilt_wave",
+      "itemRating": "key.tooltipoverhaul.insurgence.mythical_card",
+      "colorItemRating": "0x555555",
+      "showRating": true,
       "specialEffect": "cinder",
       "borderType": "gradient",
       "gradientType": "custom",

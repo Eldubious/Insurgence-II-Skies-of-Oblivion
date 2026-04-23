@@ -21,12 +21,7 @@ ItemEvents.firstRightClicked("insurgence:debug_ticket", event => {
                 else ticket_error("no_data")
 
                 if (tier == 'haven' || tier == 'frontier' || tier == 'ascent' || tier == 'summit' || tier == 'pinnacle') {
-                    event.server.runCommandSilent(`apoth set_world_tier ${event.player.uuid.toString()} ${tier}`)
-                    event.player.tell(Component.translate(`chat_message.insurgence.set_world_tier_${tier}`).gray().italic())
-                    
-                    event.player.stages.remove("haven"); event.player.stages.remove("frontier"); event.player.stages.remove("ascent")
-                    event.player.stages.remove("summit"); event.player.stages.remove("pinnacle")
-                    event.player.stages.add(tier)
+                    event.server.runCommandSilent(`execute as ${event.player.uuid} run function insurgence:advancement/set_world_tier/${tier}`)
                 }
                 break
             case "place_effect":

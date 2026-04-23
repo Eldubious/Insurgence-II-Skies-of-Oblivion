@@ -93,7 +93,7 @@ ServerEvents.tags('item', event => {
         uniqueItemTags('crossbow', uniqueCrossbows[i])
     }
 
-    let uniqueSlingshots = ['supplementaries:slingshot']
+    let uniqueSlingshots = []
     for (let i in uniqueSlingshots) {
         uniqueItemTags('slingshot', uniqueSlingshots[i])
     }
@@ -104,7 +104,7 @@ ServerEvents.tags('item', event => {
         uniqueItemTags('staff', uniqueStaves[i])
     }
 
-    let uniqueWands = ['irons_spellbooks:hither_thither_wand']
+    let uniqueWands = ['irons_spellbooks:hither_thither_wand', 'minecraft:debug_stick']
     for (let i in uniqueWands) {
         uniqueItemTags('wand', uniqueWands[i])
     }
@@ -212,7 +212,7 @@ ServerEvents.tags('item', event => {
         uniqueItemTags('shield', uniqueShields[i])
     }
 
-    let uniqueFishingRods = ['minecraft:fishing_rod']
+    let uniqueFishingRods = []
     for (let i in uniqueFishingRods) {
         uniqueItemTags('fishing_rod', uniqueFishingRods[i])
     }
