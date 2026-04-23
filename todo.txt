@@ -3,6 +3,7 @@ Recipe To-Do:
   Make all create machines crafted from casing in stonecutter
   Disable most RS, apoth enchanting/spawners, and PSI machine recipes
   Create recipes and tags for untextured dye depot items as files for external datapack
+  Make create parts obtained through gacha machine uncraftable normally
 
 Field Guide To-Do:
   Create categories for structures, machines, ores, spells, and food
@@ -27,7 +28,6 @@ Texture To-Do:
   Create textures for tower keys
   Create textures for dimension effects
   Create trim textures for items/elytra
-  Create attribute icons for modded attributes
 
 Structure To-Do:
   Decorate tower of swords' interior
@@ -44,6 +44,7 @@ Datapack To-Do:
   Remove most enchants from available pool
   Make secret world generate structure at 0,0 always
   Give secret world more custom effects
+  Create gacha machine loot table for create parts
 
 Config To-Do:
   Hide items using new mod
@@ -62,3 +63,4 @@ Cosmetic To-Do:
   Remove EMI addons eventually; have special drop info available in fieldguide
   Assign more categories to emi items
   Customize skybox of haven and secret world with sky aesthetics
+  Add tooltip parsing for all items (notably most curios)
