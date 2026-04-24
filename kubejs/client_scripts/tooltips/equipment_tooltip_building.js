@@ -232,6 +232,60 @@ function getSpellComponent(shift, hasSpell, spellName, spellLvl, isObfuscated) {
   }
 }
 
+// Returns the header text component for custom jewelry construction
+function getJewelryComponent(shift, jewelryType, jewelryPattern) {
+  let headerColor = "#5555FF"
+  let dashColor = "#555555"
+  let partColor = "#00AAAA"
+  if (!shift) {
+    let component = Component.translate(`tooltip.insurgence.format.${jewelryType}_construction`).color(headerColor).append(
+      Component.literal(" ")
+    )
+    let parts = jewelryParts[jewelryPattern]
+    for (let i in parts) {
+      let p = parts[i]
+      component.append(
+        Component.translate(p).color(partColor)
+      )
+
+      if (i < parts.length - 1) {
+        component.append(
+          Component.literal("—").color(dashColor)
+        )
+      }
+    }
+    return component
+  }
+  return Component.translate(`tooltip.insurgence.format.${jewelryType}_construction`).color(headerColor)
+}
+
+// Returns the number of different parts a jewelry pattern has
+function getJewelryPartCount(jewelryPattern) {
+  return jewelryParts[jewelryPattern].length
+}
+
+// Store the number of different parts a jewelry pattern has
+const jewelryParts = {
+  "unknown": [],
+  "undefined": [],
+  "pattern.irons_jewelry.simple_amulet.item": ["part.irons_jewelry.chain_simple_amulet", "part.irons_jewelry.gem_simple_amulet"],
+  "pattern.irons_jewelry.simple_band.item": ["part.irons_jewelry.band_simple"],
+  "pattern.irons_jewelry.gemset_ring.item": ["part.irons_jewelry.band_gem", "part.irons_jewelry.gem_round"],
+  "pattern.irons_jewelry.simple_chain.item": ["part.irons_jewelry.chain_simple"],
+  "pattern.irons_jewelry.sharpshooter_loop.item": ["part.irons_jewelry.band_gem_thin", "part.irons_jewelry.gem_pointy"],
+  "pattern.irons_jewelry.stalwart_ring.item": ["part.irons_jewelry.band_stalwart"],
+  "pattern.irons_jewelry.rhinestone_amulet.item": ["part.irons_jewelry.chain_rhinestone", "part.irons_jewelry.gem_rhinestone_a", "part.irons_jewelry.gem_rhinestone_b", "part.irons_jewelry.gem_rhinestone_c"],
+  "pattern.irons_jewelry.improved_gemset_ring.item": ["part.irons_jewelry.band_gem", "part.irons_jewelry.gem_pointy"],
+  "pattern.irons_jewelry.tearstone_ring.item": ["part.irons_jewelry.band_tearstone", "part.irons_jewelry.gem_tearstone"],
+  "pattern.irons_jewelry.amulet_of_protection.item": ["part.irons_jewelry.chain_amulet_of_protection", "part.irons_jewelry.gem_amulet_of_protection"],
+  "pattern.irons_jewelry.barbed_band.item": ["part.irons_jewelry.band_barbed", "part.irons_jewelry.gem_band_barbed"],
+  "pattern.irons_spellbooks.rune_inscribed_ring.item": ["part.irons_spellbooks.band_rune_inscribed", "part.irons_spellbooks.rune_inscription"],
+  "pattern.irons_jewelry.bane_ring.item": ["part.irons_jewelry.band_bane_ring", "part.irons_jewelry.skull_bane_ring"],
+  "pattern.irons_jewelry.haggler_ring.item": ["part.irons_jewelry.band_gem", "part.irons_jewelry.haggler_stone"],
+  "superior_gemset_ring": ["part.irons_jewelry.band_gem_superior", "part.irons_jewelry.gems_side", "part.irons_jewelry.gem_pointy"],
+  "piglin_signet": ["part.irons_jewelry.piglin_signet_band", "part.irons_jewelry.piglin_signet"]
+}
+
 // Map the translation keys of attributes to components containing their associated icon
 const attributeMapping = {
   "attribute.name.generic.armor": Component.literal("\uDB80\uDD03").font("minecraft:include/info").color("#FFFFFF"),
@@ -364,14 +418,4 @@ const attributeMapping = {
   "apothic_attributes:prot_pierce": Component.literal("").font("minecraft:include/").color("#FFFFFF"),
   "apothic_attributes:prot_shred": Component.literal("").font("minecraft:include/").color("#FFFFFF"),
   "apothic_attributes:elytra_flight": Component.literal("").font("minecraft:include/").color("#FFFFFF")
-}
-
-// Map the names of spells to the school they correspond to
-const spellMapping = {
-
-}
-
-// Map the schools of magic to different icons
-const schoolMapping = {
-  "irons_spellbooks:blood": Component.literal("\uDBC7\uDF54").font("minecraft:include/smithing").color("dark_red")
 }

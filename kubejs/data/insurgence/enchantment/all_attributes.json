@@ -651,24 +651,6 @@
         "id": "enchant.all_attributes.irons_spellbooks.eldritch_spell_power"
       },
       {
-        "attribute": "sable:player.sub_level_punch_strength",
-        "amount": 1,
-        "operation": "add_value",
-        "id": "enchant.all_attributes.sub_level_punch_strength"
-      },
-      {
-        "attribute": "sable:player.sub_level_punch_cooldown",
-        "amount": 1,
-        "operation": "add_value",
-        "id": "enchant.all_attributes.sub_level_punch_cooldown"
-      },
-      {
-        "attribute": "oreganized:kinetic_damage",
-        "amount": 1,
-        "operation": "add_value",
-        "id": "enchant.all_attributes.kinetic_damage"
-      },
-      {
         "attribute": "lodestone:magic_resistance",
         "amount": 1,
         "operation": "add_value",
@@ -781,6 +763,24 @@
         "amount": 1,
         "operation": "add_value",
         "id": "enchant.all_attributes.malum.malignant_aegis_capacity"
+      },
+      {
+        "attribute": "sable:player.sub_level_punch_strength",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "enchant.all_attributes.sub_level_punch_strength"
+      },
+      {
+        "attribute": "sable:player.sub_level_punch_cooldown",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "enchant.all_attributes.sub_level_punch_cooldown"
+      },
+      {
+        "attribute": "oreganized:kinetic_damage",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "enchant.all_attributes.kinetic_damage"
       }
     ]
   }

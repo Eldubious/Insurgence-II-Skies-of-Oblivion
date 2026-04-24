@@ -9,8 +9,12 @@
     "mod/wilderflowers:resourcepacks/wildflowers",
     "file/Dye Depot Plus",
     "file/Icons v.1.13.3.zip",
-    "file/Consistent Metalworks"
+    "file/Consistent Metalworks",
+    "file/JollyTooltips-1.0.0.zip"
   ],
+  "default_overrides": {
+    "force_compatible": true
+  },
   "pack_overrides": {
     "vanilla": {
       "fixed_position": true,
@@ -37,11 +41,12 @@
       "hidden": true
     },
     "file/Icons v.1.13.3.zip": {
-      "fixed_position": true,
       "required": true
     },
     "file/Dye Depot Plus": {
-      "fixed_position": true,
+      "required": true
+    },
+    "file/JollyTooltips-1.0.0.zip": {
       "required": true
     }
   }

@@ -9,7 +9,7 @@ ItemEvents.modifyTooltips(event => {
   
   for (let i in uniqueItemTypes) {
     event.modify(`#insurgence:unique_item/${uniqueItemTypes[i]}`, tooltip => {
-      for (let i = 0; i < 20; i++) {
+      for (let i = 0; i < 30; i++) {
         tooltip.add(Component.literal("DELETE_ME"))
       }
       tooltip.dynamic('organize_equipment_tooltip')
@@ -25,6 +25,9 @@ ItemEvents.modifyTooltips(event => {
   
   for (let i in craftedItemTypes) {
     event.modify(`#insurgence:crafted_item/${craftedItemTypes[i]}`, tooltip => {
+      for (let i = 0; i < 30; i++) {
+        tooltip.add(Component.literal("DELETE_ME"))
+      }
       tooltip.dynamic('organize_equipment_tooltip')
       tooltip.removeText(Component.literal("DELETE_ME"))
     })

@@ -2,106 +2,25 @@
   "frames": [
     {
       "tags": [
-        "insurgence:unique_items"
+        "insurgence:unique_item/sword"
       ],
-      "specialEffect": "metal_shining"
-    },
-    {
-      "texture": "tooltipoverhaul:textures/overlay/amethyst_frame.png",
-      "items": [
-        "minecraft:dragon_egg",
-        "minecraft:enchanted_golden_apple"
-      ],
-      "gradientType": "custom",
-      "borderType": "static",
-      "gradientColors": ["#C551C3", "#C551C3", "#C551C3"],
-      "specialEffect": "metal_shining"
-    },
-    {
-      "texture": "tooltipoverhaul:textures/overlay/diamond_frame.png",
-      "items": [
-        "minecraft:end_crystal",
-        "minecraft:beacon",
-        "minecraft:conduit",
-        "minecraft:golden_apple"
-      ],
-      "gradientType": "custom",
-      "borderType": "auto_gradient"
-    },
-    {
       "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
-      "items": [
-        "minecraft:elytra",
-        "minecraft:experience_bottle",
-        "minecraft:skeleton_skull",
-        "minecraft:wither_skeleton_skull",
-        "minecraft:player_wall_head",
-        "minecraft:creeper_wall_head",
-        "minecraft:zombie_wall_head",
-        "minecraft:dragon_wall_head",
-        "minecraft:piglin_wall_head",
-        "minecraft:nether_star",
-        "minecraft:enchanted_book",
-        "minecraft:dragon_breath",
-        "minecraft:totem_of_undying",
-        "minecraft:heart_of_the_sea",
-        "minecraft:creeper_banner_pattern",
-        "minecraft:skull_banner_pattern"
-      ],
-      "gradientType": "custom",
-      "borderType": "auto_gradient"
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_sword",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
     },
     {
-      "texture": "tooltipoverhaul:textures/overlay/silver_frame.png",
-      "items": [
-        "minecraft:netherite_upgrade_smithing_template",
-        "minecraft:netherite_ingot",
-        "minecraft:netherite_scrap",
-        "minecraft:netherite_sword",
-        "minecraft:netherite_shovel",
-        "minecraft:netherite_pickaxe",
-        "minecraft:netherite_axe",
-        "minecraft:netherite_hoe",
-        "minecraft:netherite_helmet",
-        "minecraft:netherite_chestplate",
-        "minecraft:netherite_leggings",
-        "minecraft:netherite_boots",
-
-        "minecraft:emerald",
-
-        "minecraft:diamond",
-        "minecraft:diamond_sword",
-        "minecraft:diamond_shovel",
-        "minecraft:diamond_pickaxe",
-        "minecraft:diamond_axe",
-        "minecraft:diamond_hoe",
-        "minecraft:diamond_helmet",
-        "minecraft:diamond_chestplate",
-        "minecraft:diamond_leggings",
-        "minecraft:diamond_boots",
-        "minecraft:diamond_horse_armor",
-        "minecraft:saddle",
-
-        "minecraft:trident",
-        "minecraft:shield",
-        "minecraft:turtle_helmet",
-        "minecraft:crossbow",
-        "minecraft:bow",
-        "minecraft:ender_pearl",
-        "minecraft:eye_of_ender",
-        "minecraft:blaze_rod",
-
-        "minecraft:netherite_scrap"
-      ],
-      "gradientType": "custom",
-      "borderType": "gradient",
-      "gradientColors": ["#A9A9A9", "#999999", "#8F8F8F"]
-    },
-    {
-      "texture": "tooltipoverhaul:textures/overlay/emerald_frame.png",
       "tags": [
-        "c:music_discs"
-      ]
+        "insurgence:crafted_item/knife"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_knife",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
     },
     {
       "items": [
@@ -115,6 +34,9 @@
         "insurgence:tarot_cards/common"
       ],
       "texture": "tooltipoverhaul:textures/overlay/silver_frame.png",
+      "itemRating": "key.tooltipoverhaul.insurgence.common_card",
+      "colorItemRating": "0x555555",
+      "showRating": true,
       "iconAppearAnimation": "tilt_wave",
       "borderType": "gradient",
       "gradientType": "custom",
@@ -132,6 +54,9 @@
         "insurgence:tarot_cards/uncommon"
       ],
       "texture": "tooltipoverhaul:textures/overlay/emerald_frame.png",
+      "itemRating": "key.tooltipoverhaul.insurgence.uncommon_card",
+      "colorItemRating": "0x555555",
+      "showRating": true,
       "iconAppearAnimation": "tilt_wave",
       "borderType": "gradient",
       "gradientType": "custom",
@@ -149,6 +74,9 @@
         "insurgence:tarot_cards/rare"
       ],
       "texture": "tooltipoverhaul:textures/overlay/diamond_frame.png",
+      "itemRating": "key.tooltipoverhaul.insurgence.rare_card",
+      "colorItemRating": "0x555555",
+      "showRating": true,
       "iconAppearAnimation": "tilt_wave",
       "borderType": "gradient",
       "gradientType": "custom",
@@ -166,6 +94,9 @@
         "insurgence:tarot_cards/epic"
       ],
       "texture": "tooltipoverhaul:textures/overlay/amethyst_frame.png",
+      "itemRating": "key.tooltipoverhaul.insurgence.epic_card",
+      "colorItemRating": "0x555555",
+      "showRating": true,
       "iconAppearAnimation": "tilt_wave",
       "borderType": "gradient",
       "gradientType": "custom",
@@ -184,6 +115,9 @@
       ],
       "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
       "iconAppearAnimation": "tilt_wave",
+      "itemRating": "key.tooltipoverhaul.insurgence.legendary_card",
+      "colorItemRating": "0x555555",
+      "showRating": true,
       "borderType": "gradient",
       "gradientType": "custom",
       "gradientColors": ["#FFAA00", "#B57F14", "#916D23"]
@@ -199,6 +133,7 @@
         "insurgence:collectors_cards/mythical",
         "insurgence:tarot_cards/mythical"
       ],
+      "texture": "tooltipoverhaul:textures/overlay/red_scale_frame.png",
       "iconAppearAnimation": "tilt_wave",
       "itemRating": "key.tooltipoverhaul.insurgence.mythical_card",
       "colorItemRating": "0x555555",

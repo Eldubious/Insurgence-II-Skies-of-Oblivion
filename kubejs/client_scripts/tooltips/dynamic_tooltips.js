@@ -1,4 +1,4 @@
-const DEBUG = false
+const DEBUG = true
 let lastLoggedItem = "" // DEBUG make sure to only log tooltip if new item is hovered over
 
 const item_modifier_tooltips = [Component.translate('item.modifiers.any').getString(), Component.translate('item.modifiers.armor').getString(),
@@ -27,13 +27,15 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
     let selectedSpellLineCount = 0
     let currentlyReadingAttributes = false
     let attributes = []
+    let unconventionalAttr = []
     let enchantments = []
     let itemIdIdx = -1
     let currentlyReadingUpgrades = false
     let materialIdx = -1
     let patternIdx = -1
     let runicEtchIdx = -1
-
+    let curioSlotIdx = -1
+    let jewelryHeaderIdx = -1
     
     // DEBUG log entire tooltip
     //console.log(`${event.item.id} | ${lastLoggedItem}`)
@@ -55,7 +57,10 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
       // Advanced tooltips are on; found item id line
       if (line.getString() == item.id) {
         itemIdIdx = i
-        if (currentlyCountingSpellLineCount) currentlyCountingSpellLineCount = false
+        if (currentlyCountingSpellLineCount || currentlyReadingAttributes) {
+          currentlyCountingSpellLineCount = false
+          currentlyReadingAttributes = false
+        }
       }
       // Count the number of lines the selected spell takes up
       if (currentlyCountingSpellLineCount && selectedSpellStart > -1) {
@@ -88,9 +93,8 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
             }
             attributes.push(attribute)
           }
-          else {
-            console.log(`Error parsing attribute at line ${i} for item ${item.id}.`)
-            console.log(`Line ${i}: ${event.lines[i]}`)
+          else {  // Bonus is unconventional
+            unconventionalAttr.push(line)
           }
         }
         else {
@@ -164,9 +168,8 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
                 }
                 attributes.push(attribute)
               }
-              else {
-                console.log(`Error parsing attribute at line ${i} for item ${item.id}.`)
-                console.log(`Line ${i}: ${event.lines[i]}`)
+              else {  // Line is unconventional bonus
+                unconventionalAttr.push(line)
               }
               
             }
@@ -183,22 +186,27 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
           currentlyReadingUpgrades = true
           continue
         }
-
         // Beginning of an apotheosis affix
-        if (tKey == "text.apotheosis.dot_prefix") {  
+        else if (tKey == "text.apotheosis.dot_prefix") {  
           if (affixCount == 0) firstAffixIdx = i
           affixCount += 1
         }
-
         // Can be imbued (?/?)
-        if (tKey == "tooltip.irons_spellbooks.can_be_imbued_frame") { 
+        else if (tKey == "tooltip.irons_spellbooks.can_be_imbued_frame") { 
           spellImbueMarkerIdx = i
         }
-
         // Header for selected spell
-        if (spellImbueMarkerIdx > -1 && tKey == "tooltip.irons_spellbooks.imbued_tooltip" && selectedSpellStart == -1) {
+        else if (spellImbueMarkerIdx > -1 && tKey == "tooltip.irons_spellbooks.imbued_tooltip" && selectedSpellStart == -1) {
           selectedSpellStart = i
           currentlyCountingSpellLineCount = true
+        }
+        // Curio slot id
+        else if (tKey == "curios.tooltip.slot") {
+          curioSlotIdx = i
+        }
+        // Iron's jewelry header
+        else if (tKey == "tooltip.irons_jewelry.hold_shift") {
+          jewelryHeaderIdx = i
         }
       }
     }
@@ -212,14 +220,19 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
       Durability
       Attributes
       Gem sockets
-      ---------
+      Curio Slot
+      --------- (ALT is not pressed)
+      Item description
+
       Affix Abilities
 
       Enchantments
 
       Spells
-      --------
-      Cosmetic information
+      -------- (ALT is pressed)
+      Trim
+
+      Runic Etching
 
       All other information
     */
@@ -228,27 +241,72 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
 
     // Item name
     event.lines.set(0, linesCopy[0])
+    let currIdx = 1
     // Rarity
-    event.lines.set(1, getRarityComponent(item))
+    event.lines.set(currIdx, getRarityComponent(item))
+    currIdx += 1
     // Durability
-    event.lines.set(2, getDurabilityComponent(item))
+    event.lines.set(currIdx, getDurabilityComponent(item))
+    currIdx += 1
     // Attributes
-    event.lines.set(3, getAttributeComponent(attributes, event.shift))
+    event.lines.set(currIdx, getAttributeComponent(attributes, event.shift))
+    currIdx += 1
     // Gem Sockets
     if (gemSocketIdx > -1) {
-      event.lines.set(4, Component.literal("APOTH_SOCKET_MARKER"))
-      event.lines.set(gemSocketIdx, Component.literal("DELETE_ME"))
+      event.lines.set(currIdx, Component.literal("APOTH_SOCKET_MARKER"))
+      currIdx += 1
     }
-    event.lines.set(5, getDividerComponent())
-    let currIdx = 6   // From now on the number tooltip lines in each category are dynamic
+    // Any non-standard attribute bonuses
+    for (let i in unconventionalAttr) {
+      event.lines.set(currIdx, unconventionalAttr[i])
+      currIdx += 1
+    }
+    
+    event.lines.set(currIdx, getDividerComponent())
+    currIdx += 1
 
     if (!event.alt) {  // Hide these categories when pressing alt
+      // Curio slot id
+      if (curioSlotIdx > -1) {
+        event.lines.set(currIdx, linesCopy[curioSlotIdx])
+        currIdx += 1
+        event.lines.set(currIdx, Component.empty())
+        currIdx += 1
+      }
+      // Jewelry Construction
+      if (jewelryHeaderIdx > -1) {
+        let jewelryType = "ring"
+        if (item.id == "irons_jewelry:necklace") jewelryType = "necklace"
+        let jewelryPattern = "unknown"
+        let jewelrySibl = linesCopy[0].getSiblings()
+        if (jewelrySibl.length > 0) jewelryPattern = jewelrySibl[0].getContents().key
+        // Item might still be superior gemset or signet ring which for whatever reason don't use translation keys
+        if (jewelryPattern == undefined) {  
+          let nameLiteral = linesCopy[0].getString()
+          if (nameLiteral.includes("Piglin Signet")) jewelryPattern = "piglin_signet"
+          else if (nameLiteral.includes("Superior") && nameLiteral.includes("Ring")) jewelryPattern = "superior_gemset_ring"
+        }
+
+        event.lines.set(currIdx, getJewelryComponent(event.shift, jewelryType, jewelryPattern))
+        currIdx += 1
+        if (event.shift) {
+          let jewelryPartCount = getJewelryPartCount(jewelryPattern)
+          for (let i = parseInt(jewelryHeaderIdx) + 1; i < event.lines.length && i < (parseInt(jewelryHeaderIdx) + (parseInt(jewelryPartCount) * 2)); i++) {
+            event.lines.set(currIdx, linesCopy[i])
+            currIdx += 1
+          }
+        }
+
+        event.lines.set(currIdx, Component.empty())
+        currIdx += 1
+      }
       // Affix Abilities
       if (firstAffixIdx > -1) {
         event.lines.set(currIdx, getAffixAbilityComponent(event.shift, affixCount))
         currIdx += 1
         if (affixCount > 0 && event.shift) {  // Show abilities when holding shift
           for (let i = parseInt(firstAffixIdx); i < parseInt(firstAffixIdx) + parseInt(affixCount); i++) {
+            if (i >= event.lines.length) break
             event.lines.set(currIdx, linesCopy[i])
             currIdx += 1
           }
@@ -256,7 +314,6 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
         event.lines.set(currIdx, Component.empty())
         currIdx += 1
       }
-
       // Enchantments
       for (let i in enchantments) {
         event.lines.set(currIdx, linesCopy[enchantments[i].idx])
@@ -287,9 +344,11 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
         currIdx += 1
       }
       if (selectedSpellStart > -1 && selectedSpellLineCount > 0 && event.shift) {  // Add all spell details when shift is held
-        for (let i = parseInt(selectedSpellStart) + 1; i < parseInt(selectedSpellStart) + parseInt(selectedSpellLineCount) + 1; i++) {
-          event.lines.set(currIdx, linesCopy[i])
-          currIdx += 1
+        if (parseInt(selectedSpellStart) + parseInt(selectedSpellLineCount) + 1 < event.lines.length) {
+          for (let i = parseInt(selectedSpellStart) + 1; i < parseInt(selectedSpellStart) + parseInt(selectedSpellLineCount) + 1; i++) {
+            event.lines.set(currIdx, linesCopy[i])
+            currIdx += 1
+          }
         }
       }
       if (spellImbueMarkerIdx > -1) {
