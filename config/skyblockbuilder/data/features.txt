@@ -248,6 +248,8 @@ galosphere:pink_salt_ceiling_noise_patch
 galosphere:pink_salt_ground_noise_patch
 galosphere:pink_salt_straw_ceiling_patch
 galosphere:pink_salt_straw_floor_patch
+insurgence:potted_flower
+insurgence:potted_sapling
 irons_spellbooks:ore_mithril_feature
 iss_magicfromtheeast:ore_jadestone_feature
 malum:azure_runewood_tree

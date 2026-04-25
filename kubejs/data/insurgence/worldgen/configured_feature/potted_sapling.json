@@ -1,0 +1,190 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:potted_oak_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:potted_birch_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:potted_spruce_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:potted_jungle_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:potted_acacia_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:potted_dark_oak_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:potted_pale_oak_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "quark:potted_red_blossom_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "quark:potted_yellow_blossom_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "quark:potted_orange_blossom_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "quark:potted_blue_blossom_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "quark:potted_lavender_blossom_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "autumnity:potted_maple_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "autumnity:potted_red_maple_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "autumnity:potted_orange_maple_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "autumnity:potted_yellow_maple_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "fruitsdelight:potted_apple_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "fruitsdelight:potted_bayberry_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "fruitsdelight:potted_durian_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "fruitsdelight:potted_fig_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "fruitsdelight:potted_hawberry_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "fruitsdelight:potted_kiwi_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "fruitsdelight:potted_lychee_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "fruitsdelight:potted_mango_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "fruitsdelight:potted_mangosteen_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "fruitsdelight:potted_orange_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "fruitsdelight:potted_peach_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "fruitsdelight:potted_pear_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "fruitsdelight:potted_persimmon_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "upgrade_aquatic:potted_river_sapling"
+          }
+        }
+      ]
+    }
+  }
+}

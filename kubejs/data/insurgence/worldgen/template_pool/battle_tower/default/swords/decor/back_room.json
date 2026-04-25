@@ -1,0 +1,41 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "insurgence:battle_tower/default/swords/decor/back_room/empty",
+        "processors": "insurgence:battle_tower/default_aging",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "insurgence:battle_tower/default/swords/decor/back_room/furnace_cobblestone",
+        "processors": "insurgence:battle_tower/default_aging",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "insurgence:battle_tower/default/swords/decor/back_room/furnace_deepslate",
+        "processors": "insurgence:battle_tower/default_aging",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "insurgence:battle_tower/default/swords/decor/back_room/brewing",
+        "processors": "insurgence:battle_tower/default_aging",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

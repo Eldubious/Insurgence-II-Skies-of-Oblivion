@@ -4,13 +4,13 @@
   "start_pool": "insurgence:battle_tower/default/swords/base",
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
-  "max_distance_from_center": 116,
-  "size": 7,
+  "max_distance_from_center": 250,
+  "size": 12,
   "project_start_to_heightmap": "WORLD_SURFACE",
   "start_height": {
     "absolute": 0
   },
-  "liquid_settings": "apply_waterlogging",
+  "liquid_settings": "ignore_waterlogging",
   "use_expansion_hack": false,
   "pool_aliases": [
     {
@@ -20,7 +20,32 @@
     },
     {
       "type": "minecraft:direct",
-      "alias": "insurgence:floor",
+      "alias": "insurgence:floor_red",
+      "target": "insurgence:battle_tower/default/swords/rooms"
+    },
+    {
+      "type": "minecraft:direct",
+      "alias": "insurgence:floor_green",
+      "target": "insurgence:battle_tower/default/swords/rooms"
+    },
+    {
+      "type": "minecraft:direct",
+      "alias": "insurgence:floor_yellow",
+      "target": "insurgence:battle_tower/default/swords/rooms"
+    },
+    {
+      "type": "minecraft:direct",
+      "alias": "insurgence:floor_blue",
+      "target": "insurgence:battle_tower/default/swords/rooms"
+    },
+    {
+      "type": "minecraft:direct",
+      "alias": "insurgence:floor_pink",
+      "target": "insurgence:battle_tower/default/swords/rooms"
+    },
+    {
+      "type": "minecraft:direct",
+      "alias": "insurgence:floor_purple",
       "target": "insurgence:battle_tower/default/swords/rooms"
     },
     {
@@ -34,6 +59,11 @@
       "target": "insurgence:battle_tower/default/swords/roof"
     },
     {
+      "type": "minecraft:direct",
+      "alias": "insurgence:back_room_decor",
+      "target": "insurgence:battle_tower/default/swords/decor/back_room"
+    },
+    {
       "type": "minecraft:random_group",
       "groups": [
         {
@@ -42,12 +72,12 @@
             {
               "type": "minecraft:direct",
               "alias": "insurgence:difficulty_marker",
-              "target": "insurgence:battle_tower/default/template/difficulty_marker/1"
+              "target": "insurgence:battle_tower/default/common/difficulty_marker/1"
             },
             {
               "type": "minecraft:direct",
               "alias": "insurgence:tower_spine",
-              "target": "insurgence:battle_tower/default/template/spine/4_floors"
+              "target": "insurgence:battle_tower/default/common/spine/4_floors"
             },
             {
               "type": "minecraft:direct",
@@ -67,12 +97,12 @@
             {
               "type": "minecraft:direct",
               "alias": "insurgence:difficulty_marker",
-              "target": "insurgence:battle_tower/default/template/difficulty_marker/2"
+              "target": "insurgence:battle_tower/default/common/difficulty_marker/2"
             },
             {
               "type": "minecraft:direct",
               "alias": "insurgence:tower_spine",
-              "target": "insurgence:battle_tower/default/template/spine/4_floors"
+              "target": "insurgence:battle_tower/default/common/spine/4_floors"
             },
             {
               "type": "minecraft:direct",
@@ -92,12 +122,12 @@
             {
               "type": "minecraft:direct",
               "alias": "insurgence:difficulty_marker",
-              "target": "insurgence:battle_tower/default/template/difficulty_marker/3"
+              "target": "insurgence:battle_tower/default/common/difficulty_marker/3"
             },
             {
               "type": "minecraft:direct",
               "alias": "insurgence:tower_spine",
-              "target": "insurgence:battle_tower/default/template/spine/5_floors"
+              "target": "insurgence:battle_tower/default/common/spine/5_floors"
             },
             {
               "type": "minecraft:direct",
@@ -117,12 +147,12 @@
             {
               "type": "minecraft:direct",
               "alias": "insurgence:difficulty_marker",
-              "target": "insurgence:battle_tower/default/template/difficulty_marker/4"
+              "target": "insurgence:battle_tower/default/common/difficulty_marker/4"
             },
             {
               "type": "minecraft:direct",
               "alias": "insurgence:tower_spine",
-              "target": "insurgence:battle_tower/default/template/spine/5_floors"
+              "target": "insurgence:battle_tower/default/common/spine/5_floors"
             },
             {
               "type": "minecraft:direct",
@@ -142,12 +172,12 @@
             {
               "type": "minecraft:direct",
               "alias": "insurgence:difficulty_marker",
-              "target": "insurgence:battle_tower/default/template/difficulty_marker/5"
+              "target": "insurgence:battle_tower/default/common/difficulty_marker/5"
             },
             {
               "type": "minecraft:direct",
               "alias": "insurgence:tower_spine",
-              "target": "insurgence:battle_tower/default/template/spine/6_floors"
+              "target": "insurgence:battle_tower/default/common/spine/6_floors"
             },
             {
               "type": "minecraft:direct",
@@ -167,12 +197,12 @@
             {
               "type": "minecraft:direct",
               "alias": "insurgence:difficulty_marker",
-              "target": "insurgence:battle_tower/default/template/difficulty_marker/6"
+              "target": "insurgence:battle_tower/default/common/difficulty_marker/6"
             },
             {
               "type": "minecraft:direct",
               "alias": "insurgence:tower_spine",
-              "target": "insurgence:battle_tower/default/template/spine/6_floors"
+              "target": "insurgence:battle_tower/default/common/spine/6_floors"
             },
             {
               "type": "minecraft:direct",
@@ -192,12 +222,12 @@
             {
               "type": "minecraft:direct",
               "alias": "insurgence:difficulty_marker",
-              "target": "insurgence:battle_tower/default/template/difficulty_marker/7"
+              "target": "insurgence:battle_tower/default/common/difficulty_marker/7"
             },
             {
               "type": "minecraft:direct",
               "alias": "insurgence:tower_spine",
-              "target": "insurgence:battle_tower/default/template/spine/7_floors"
+              "target": "insurgence:battle_tower/default/common/spine/7_floors"
             },
             {
               "type": "minecraft:direct",
@@ -217,12 +247,12 @@
             {
               "type": "minecraft:direct",
               "alias": "insurgence:difficulty_marker",
-              "target": "insurgence:battle_tower/default/template/difficulty_marker/8"
+              "target": "insurgence:battle_tower/default/common/difficulty_marker/8"
             },
             {
               "type": "minecraft:direct",
               "alias": "insurgence:tower_spine",
-              "target": "insurgence:battle_tower/default/template/spine/7_floors"
+              "target": "insurgence:battle_tower/default/common/spine/7_floors"
             },
             {
               "type": "minecraft:direct",
@@ -242,12 +272,12 @@
             {
               "type": "minecraft:direct",
               "alias": "insurgence:difficulty_marker",
-              "target": "insurgence:battle_tower/default/template/difficulty_marker/9"
+              "target": "insurgence:battle_tower/default/common/difficulty_marker/9"
             },
             {
               "type": "minecraft:direct",
               "alias": "insurgence:tower_spine",
-              "target": "insurgence:battle_tower/default/template/spine/8_floors"
+              "target": "insurgence:battle_tower/default/common/spine/8_floors"
             },
             {
               "type": "minecraft:direct",
@@ -267,12 +297,12 @@
             {
               "type": "minecraft:direct",
               "alias": "insurgence:difficulty_marker",
-              "target": "insurgence:battle_tower/default/template/difficulty_marker/10"
+              "target": "insurgence:battle_tower/default/common/difficulty_marker/10"
             },
             {
               "type": "minecraft:direct",
               "alias": "insurgence:tower_spine",
-              "target": "insurgence:battle_tower/default/template/spine/8_floors"
+              "target": "insurgence:battle_tower/default/common/spine/8_floors"
             },
             {
               "type": "minecraft:direct",

@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:potted_poppy"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:potted_blue_orchid"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:potted_allium"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "quark:potted_rose"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "upgrade_aquatic:potted_pickerelweed"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "upgrade_aquatic:potted_white_searocket"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "upgrade_aquatic:potted_pink_searocket"
+          }
+        }
+      ]
+    }
+  }
+}
