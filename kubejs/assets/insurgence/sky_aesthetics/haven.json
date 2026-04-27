@@ -15,7 +15,7 @@
   "stars": {
     "vanilla": false,
     "moving_stars": false,
-    "count": 1000,
+    "count": 10000,
     "all_days_visible": true,
     "scale": 0.05,
     "color": [255, 255, 255]
@@ -25,6 +25,11 @@
     "texture": "minecraft:textures/environment/moon_phases.png",
     "height": 75.0,
     "size": 75.0
+  },
+  "sun": {
+    "texture": "minecraft:textures/environment/sun.png",
+    "height": 450.0,
+    "size": 135.0
   },
   "sky_objects": []
 }

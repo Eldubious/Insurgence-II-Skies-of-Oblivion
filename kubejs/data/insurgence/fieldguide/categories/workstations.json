@@ -1,0 +1,14 @@
+{
+  "sort_index": 8,
+  "icon": "insurgence:textures/gui/field_guide/category/workstations.png",
+  "contents": [
+    {
+      "type": "auto_populate",
+      "strategy": "tag:insurgence:field_guide/workstation",
+      "unlock": {
+        "unlocked_by_default": false,
+        "triggers": ["scan", "obtain"]
+      }
+    }
+  ]
+}

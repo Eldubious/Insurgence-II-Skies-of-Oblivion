@@ -1,0 +1,104 @@
+{
+  "entries": [
+    {
+      "source": "minecraft:deepslate_coal_ore",
+      "target": "minecraft:coal_ore"
+    },
+    {
+      "source": "minecraft:deepslate_iron_ore",
+      "target": "minecraft:iron_ore"
+    },
+    {
+      "source": "minecraft:deepslate_copper_ore",
+      "target": "minecraft:copper_ore"
+    },
+    {
+      "source": "minecraft:deepslate_gold_ore",
+      "target": "minecraft:gold_ore"
+    },
+    {
+      "source": "minecraft:nether_gold_ore",
+      "target": "minecraft:gold_ore"
+    },
+    {
+      "source": "minecraft:deepslate_diamond_ore",
+      "target": "minecraft:diamond_ore"
+    },
+    {
+      "source": "minecraft:deepslate_emerald_ore",
+      "target": "minecraft:emerald_ore"
+    },
+    {
+      "source": "minecraft:deepslate_lapis_ore",
+      "target": "minecraft:lapis_ore"
+    },
+    {
+      "source": "minecraft:deepslate_redstone_ore",
+      "target": "minecraft:redstone_ore"
+    },
+    {
+      "source": "minecraft:small_amethyst_bud",
+      "target": "minecraft:budding_amethyst"
+    },
+    {
+      "source": "minecraft:medium_amethyst_bud",
+      "target": "minecraft:budding_amethyst"
+    },
+    {
+      "source": "minecraft:large_amethyst_bud",
+      "target": "minecraft:budding_amethyst"
+    },
+    {
+      "source": "minecraft:amethyst_cluster",
+      "target": "minecraft:budding_amethyst"
+    },
+    {
+      "source": "galosphere:glinted_amethyst_cluster",
+      "target": "minecraft:budding_amethyst"
+    },
+    {
+      "source": "iss_magicfromtheeast:deepslate_jade_ore",
+      "target": "iss_magicfromtheeast:jade_ore"
+    },
+    {
+      "source": "irons_spellbooks:deepslate_mithril_ore",
+      "target": "irons_spellbooks:mithril_ore"
+    },
+    {
+      "source": "enderscape:mirestone_shadoline_ore",
+      "target": "enderscape:shadoline_ore"
+    },
+    {
+      "source": "enderscape:mirestone_nebulite_ore",
+      "target": "enderscape:nebulite_ore"
+    },
+    {
+      "source": "enderscape:mirestone_shadoline_ore",
+      "target": "enderscape:shadoline_ore"
+    },
+    {
+      "source": "oreganized:deepslate_lead_ore",
+      "target": "oreganized:lead_ore"
+    },
+    {
+      "source": "oreganized:deepslate_silver_ore",
+      "target": "oreganized:silver_ore"
+    },
+    {
+      "source": "eternal_starlight:grimstone_redstone_ore",
+      "target": "minecraft:redstone_ore"
+    },
+    {
+      "source": "eternal_starlight:voidstone_redstone_ore",
+      "target": "minecraft:redstone_ore"
+    },
+    {
+      "source": "eternal_starlight:eternal_ice_redstone_ore",
+      "target": "minecraft:redstone_ore"
+    },
+    {
+      "source": "eternal_starlight:haze_ice_redstone_ore",
+      "target": "minecraft:redstone_ore"
+    }
+  ]
+}

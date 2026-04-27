@@ -1,0 +1,289 @@
+{
+  "values": [
+    {
+      "id": "minecraft:coal_ore",
+      "display_id": "minecraft:coal_ore",
+      "components": [
+        "minecraft:coal_ore"
+      ],
+      "render": [
+        "minecraft:stone",
+        "minecraft:coal_ore",
+        "minecraft:stone",
+        "0,0,1|minecraft:deepslate",
+        "0,1,1|minecraft:deepslate_coal_ore",
+        "0,2,1|minecraft:deepslate"
+      ]
+    },
+    {
+      "id": "minecraft:iron_ore",
+      "display_id": "minecraft:iron_ore",
+      "components": [
+        "minecraft:iron_ore"
+      ],
+      "render": [
+        "minecraft:stone",
+        "minecraft:iron_ore",
+        "minecraft:stone",
+        "0,0,1|minecraft:deepslate",
+        "0,1,1|minecraft:deepslate_iron_ore",
+        "0,2,1|minecraft:deepslate"
+      ]
+    },
+    {
+      "id": "minecraft:copper_ore",
+      "display_id": "minecraft:copper_ore",
+      "components": [
+        "minecraft:copper_ore"
+      ],
+      "render": [
+        "minecraft:stone",
+        "minecraft:copper_ore",
+        "minecraft:stone",
+        "0,0,1|minecraft:deepslate",
+        "0,1,1|minecraft:deepslate_copper_ore",
+        "0,2,1|minecraft:deepslate"
+      ]
+    },
+    {
+      "id": "minecraft:gold_ore",
+      "display_id": "minecraft:gold_ore",
+      "components": [
+        "minecraft:gold_ore"
+      ],
+      "render": [
+        "minecraft:stone",
+        "minecraft:gold_ore",
+        "minecraft:stone",
+        "0,0,1|minecraft:deepslate",
+        "0,1,1|minecraft:deepslate_gold_ore",
+        "0,2,1|minecraft:deepslate",
+        "0,0,2|minecraft:netherrack",
+        "0,1,2|minecraft:nether_gold_ore",
+        "0,2,2|minecraft:netherrack"
+      ]
+    },
+    {
+      "id": "minecraft:emerald_ore",
+      "display_id": "minecraft:emerald_ore",
+      "components": [
+        "minecraft:emerald_ore"
+      ],
+      "render": [
+        "minecraft:stone",
+        "minecraft:emerald_ore",
+        "minecraft:stone",
+        "0,0,1|minecraft:deepslate",
+        "0,1,1|minecraft:deepslate_emerald_ore",
+        "0,2,1|minecraft:deepslate"
+      ]
+    },
+    {
+      "id": "minecraft:lapis_ore",
+      "display_id": "minecraft:lapis_ore",
+      "components": [
+        "minecraft:lapis_ore"
+      ],
+      "render": [
+        "minecraft:stone",
+        "minecraft:lapis_ore",
+        "minecraft:stone",
+        "0,0,1|minecraft:deepslate",
+        "0,1,1|minecraft:deepslate_lapis_ore",
+        "0,2,1|minecraft:deepslate"
+      ]
+    },
+    {
+      "id": "minecraft:redstone_ore",
+      "display_id": "minecraft:redstone_ore",
+      "components": [
+        "minecraft:redstone_ore"
+      ],
+      "render": [
+        "minecraft:stone",
+        "minecraft:redstone_ore",
+        "minecraft:stone",
+        "0,0,1|minecraft:deepslate",
+        "0,1,1|minecraft:deepslate_redstone_ore",
+        "0,2,1|minecraft:deepslate",
+        "-1,0,0|eternal_starlight:grimstone",
+        "-1,1,0|eternal_starlight:grimstone_redstone_ore",
+        "-1,2,0|eternal_starlight:grimstone",
+        "-2,0,0|eternal_starlight:voidstone",
+        "-2,1,0|eternal_starlight:voidstone_redstone_ore",
+        "-2,2,0|eternal_starlight:voidstone",
+        "-3,0,0|eternal_starlight:eternal_ice",
+        "-3,1,0|eternal_starlight:eternal_ice_redstone_ore",
+        "-3,2,0|eternal_starlight:eternal_ice",
+        "-4,0,0|eternal_starlight:haze_ice",
+        "-4,1,0|eternal_starlight:haze_ice_redstone_ore",
+        "-4,2,0|eternal_starlight:haze_ice"
+      ]
+    },
+    {
+      "id": "minecraft:diamond_ore",
+      "display_id": "minecraft:diamond_ore",
+      "components": [
+        "minecraft:diamond_ore"
+      ],
+      "render": [
+        "minecraft:stone",
+        "minecraft:diamond_ore",
+        "minecraft:stone",
+        "0,0,1|minecraft:deepslate",
+        "0,1,1|minecraft:deepslate_diamond_ore",
+        "0,2,1|minecraft:deepslate"
+      ]
+    },
+    {
+      "id": "minecraft:glowstone",
+      "display_id": "minecraft:glowstone",
+      "components": [
+        "minecraft:glowstone"
+      ],
+      "render": [
+        "minecraft:glowstone",
+        "minecraft:glowstone",
+        "minecraft:glowstone",
+        "0,0,-1|minecraft:glowstone",
+        "1,1,0|minecraft:glowstone",
+        "-1,2,0|minecraft:glowstone"
+      ]
+    },
+    {
+      "id": "minecraft:nether_quartz_ore",
+      "display_id": "malum:natural_quartz_ore",
+      "components": [
+        "minecraft:nether_quartz_ore"
+      ],
+      "render": [
+        "minecraft:netherrack",
+        "minecraft:nether_quartz_ore",
+        "minecraft:netherrack"
+      ]
+    },
+    {
+      "id": "minecraft:ancient_debris",
+      "display_id": "minecraft:ancient_debris",
+      "components": [
+        "minecraft:ancient_debris"
+      ],
+      "render": [
+        "minecraft:netherrack",
+        "minecraft:ancient_debris",
+        "minecraft:netherrack"
+      ]
+    },
+    {
+      "id": "minecraft:budding_amethyst",
+      "display_id": "minecraft:amethyst_cluster",
+      "components": [
+        "minecraft:amethyst_cluster"
+      ],
+      "render": [
+        "minecraft:amethyst_block",
+        "minecraft:budding_amethyst",
+        "minecraft:amethyst_block",
+        "0,0,1|minecraft:calcite",
+        "0,1,1|minecraft:calcite",
+        "0,2,1|minecraft:calcite",
+        "0,0,2|minecraft:smooth_basalt",
+        "0,1,2|minecraft:smooth_basalt",
+        "0,2,2|minecraft:smooth_basalt",
+        "0,1,-1|minecraft:amethyst_cluster|facing=north",
+        "1,1,0|minecraft:small_amethyst_bud|facing=east",
+        "-1,1,0|minecraft:large_amethyst_bud|facing=west"
+      ]
+    },
+    {
+      "id": "irons_spellbooks:mithril_ore",
+      "display_id": "irons_spellbooks:mithril_ore",
+      "components": [
+        "irons_spellbooks:mithril_ore"
+      ],
+      "render": [
+        "minecraft:stone",
+        "irons_spellbooks:mithril_ore",
+        "minecraft:stone",
+        "0,0,1|minecraft:deepslate",
+        "0,1,1|irons_spellbooks:deepslate_mithril_ore",
+        "0,2,1|minecraft:deepslate"
+      ]
+    },
+    {
+      "id": "iss_magicfromtheeast:jade_ore",
+      "display_id": "iss_magicfromtheeast:jade_ore",
+      "components": [
+        "iss_magicfromtheeast:jade_ore"
+      ],
+      "render": [
+        "minecraft:stone",
+        "iss_magicfromtheeast:jade_ore",
+        "minecraft:stone",
+        "0,0,1|minecraft:deepslate",
+        "0,1,1|iss_magicfromtheeast:deepslate_jade_ore",
+        "0,2,1|minecraft:deepslate"
+      ]
+    },
+    {
+      "id": "oreganized:silver_ore",
+      "display_id": "oreganized:silver_ore",
+      "components": [
+        "oreganized:silver_ore"
+      ],
+      "render": [
+        "minecraft:stone",
+        "oreganized:silver_ore",
+        "minecraft:stone",
+        "0,0,1|minecraft:deepslate",
+        "0,1,1|oreganized:deepslate_silver_ore",
+        "0,2,1|minecraft:deepslate"
+      ]
+    },
+    {
+      "id": "oreganized:lead_ore",
+      "display_id": "oreganized:lead_ore",
+      "components": [
+        "oreganized:lead_ore"
+      ],
+      "render": [
+        "minecraft:stone",
+        "oreganized:lead_ore",
+        "minecraft:stone",
+        "0,0,1|minecraft:deepslate",
+        "0,1,1|oreganized:deepslate_lead_ore",
+        "0,2,1|minecraft:deepslate"
+      ]
+    },
+    {
+      "id": "enderscape:nebulite_ore",
+      "display_id": "enderscape:nebulite_ore",
+      "components": [
+        "enderscape:nebulite_ore"
+      ],
+      "render": [
+        "minecraft:end_stone",
+        "enderscape:nebulite_ore",
+        "minecraft:end_stone",
+        "0,0,1|enderscape:mirestone",
+        "0,1,1|enderscape:mirestone_nebulite_ore",
+        "0,2,1|enderscape:mirestone"
+      ]
+    },
+    {
+      "id": "enderscape:shadoline_ore",
+      "display_id": "enderscape:shadoline_ore",
+      "components": [
+        "enderscape:shadoline_ore"
+      ],
+      "render": [
+        "minecraft:end_stone",
+        "enderscape:shadoline_ore",
+        "minecraft:end_stone",
+        "0,0,1|enderscape:mirestone",
+        "0,1,1|enderscape:mirestone_shadoline_ore",
+        "0,2,1|enderscape:mirestone"
+      ]
+    }
+  ]
+}

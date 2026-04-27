@@ -1,10 +1,10 @@
 {
   "sort_index": 7,
-  "icon": "fieldguide:textures/gui/icons/pufferfish.png",
+  "icon": "insurgence:textures/gui/field_guide/category/food.png",
   "contents": [
     {
       "type": "auto_populate",
-      "strategy": "tag:insurgence:food"
+      "strategy": "tag:insurgence:field_guide/food"
     }
   ]
 }

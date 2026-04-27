@@ -1,10 +1,10 @@
 {
   "sort_index": 6,
-  "icon": "fieldguide:textures/gui/icons/wolf.png",
+  "icon": "insurgence:textures/gui/field_guide/category/ores.png",
   "contents": [
     {
       "type": "auto_populate",
-      "strategy": "tag:insurgence:ores"
+      "strategy": "tag:insurgence:field_guide/ore"
     }
   ]
 }

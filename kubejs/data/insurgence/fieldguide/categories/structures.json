@@ -1,6 +1,6 @@
 {
   "sort_index": 10,
-  "icon": "fieldguide:textures/gui/icons/villager.png",
+  "icon": "insurgence:textures/gui/field_guide/category/structures.png",
   "contents": [
     {
       "type": "auto_populate",

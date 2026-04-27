@@ -291,7 +291,7 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
         currIdx += 1
         if (event.shift) {
           let jewelryPartCount = getJewelryPartCount(jewelryPattern)
-          for (let i = parseInt(jewelryHeaderIdx) + 1; i < event.lines.length && i < (parseInt(jewelryHeaderIdx) + (parseInt(jewelryPartCount) * 2)); i++) {
+          for (let i = parseInt(jewelryHeaderIdx) + 1; i < event.lines.length && i < (parseInt(jewelryHeaderIdx) + (parseInt(jewelryPartCount) * 2) + 1); i++) {
             event.lines.set(currIdx, linesCopy[i])
             currIdx += 1
           }

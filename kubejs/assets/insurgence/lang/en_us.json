@@ -891,5 +891,15 @@
     "questbook.hovertext.action_effect_bonus": "Action Bonus:",
     "questbook.hovertext.apply_effect_self": " ♢ Applies Effect To Self:",
     "questbook.hovertext.apply_effect_enemy": " ♢ Applies Effect To Target:",
-    "questbook.hovertext.wind_burst": "  ♢ Wind Burst"
+    "questbook.hovertext.wind_burst": "  ♢ Wind Burst",
+
+    "category.insurgence.fieldguide.ores": "Ores",
+    "category.insurgence.fieldguide.workstations": "Workstations",
+    "category.insurgence.fieldguide.food": "Food",
+    "category.insurgence.fieldguide.structures": "Structures",
+    "category.insurgence.fieldguide.spells": "Spells",
+
+    "fieldguide.minecraft.gold_ore": "Gold",
+    "fieldguide.minecraft.gold_ore.hint": "An ore that is found in both the Nether and Overworld. Obtain the material or scan the ore to learn more...",
+    "fieldguide.minecraft.gold_ore.description": "Gold can be found in both the Overworld and the Nether. In the Overworld, it generates between..."
 }
