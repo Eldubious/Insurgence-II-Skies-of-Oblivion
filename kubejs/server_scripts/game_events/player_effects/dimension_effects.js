@@ -1,3 +1,5 @@
+const netherFlavorTextCount = 12  // 1-indexed
+
 // Apply dimension effects to players
 function updateDimensionEffect(server, player, playerId, pData, dimension) {
   let amps = getDimensionEffectLevels(pData)
@@ -67,8 +69,24 @@ function applyDimensionEffect(server, player, playerId, effectId, duration, ampl
     let effectCmd = `effect give ${playerId} ${effectId} ${duration} ${amplifier} true`
     server.runCommandSilent(effectCmd)
 
-    // Special flag to mark if the nether effect has already been applied to the player
-    if (effectId == "insurgence:nether_curse") pData.putBoolean("applied_nether_curse", true)
+    // Special case for applying nether effect
+    if (effectId == "insurgence:nether_curse") {
+      // Special flag to mark if the nether effect has already been applied to the player
+      pData.putBoolean("applied_nether_curse", true)
+
+      // Tell the player special flavor text when the effect is applied
+      if (pData.contains("entered_nether_previously")) {
+        let n = Math.round(Math.random() * 11) + 1
+        server.runCommandSilent(`tellraw ${playerId} {"translate":"chat_message.insurgence.nether.flavor.enter_${n}"}`)
+      }
+      else {  // Player has never entered the nether before
+        pData.putBoolean("entered_nether_previously", true)
+
+        server.runCommandSilent(`tellraw ${playerId} {"translate":"chat_message.insurgence.nether.flavor.first_enter.line_1"}`)
+        server.runCommandSilent(`tellraw ${playerId} {"translate":"chat_message.insurgence.nether.flavor.first_enter.line_2"}`)
+      }
+      server.runCommandSilent(`tellraw ${playerId} {"translate":"chat_message.insurgence.nether.time.first_enter"}`)
+    }
   }
 }
 

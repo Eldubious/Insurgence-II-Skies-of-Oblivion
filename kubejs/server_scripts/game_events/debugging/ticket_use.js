@@ -15,6 +15,10 @@ ItemEvents.firstRightClicked("insurgence:debug_ticket", event => {
         else ticket_error("no_data")
 
         switch (funcType) {
+            case "send_to_secret_world":
+                event.server.runCommandSilent(`execute as ${event.player.uuid} run function insurgence:dev/send_to_secret_world`)
+                break
+
             case "world_tier":
                 let tier = item.customData.get('tier')
                 if (tier != null) tier = tier.getAsString().toString()
@@ -24,6 +28,7 @@ ItemEvents.firstRightClicked("insurgence:debug_ticket", event => {
                     event.server.runCommandSilent(`execute as ${event.player.uuid} run function insurgence:advancement/set_world_tier/${tier}`)
                 }
                 break
+                
             case "place_effect":
                 let effectType = item.customData.get('effect')
                 if (effectType != null) effectType = effectType.getAsString().toString()

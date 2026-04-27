@@ -416,7 +416,10 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
     let type = event.item.customData.get('type')
     if (type != null) type = type.getAsString()
       
-    if (type == 'world_tier') {
+    if (type == 'send_to_secret_world') {
+      event.lines.set(1, Component.translate("tooltip.insurgence.debug_ticket.send_to_secret_world").gold().italic())
+    }
+    else if (type == 'world_tier') {
       let tier = event.item.customData.get('tier')
       if (tier != null) tier = tier.getAsString().toString()
         

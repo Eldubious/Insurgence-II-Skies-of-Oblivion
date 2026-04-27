@@ -1,0 +1,45 @@
+{
+  "parent": "insurgence:fg_structs/root",
+  "display": {
+    "title": {
+      "translate": "advancements.insurgence.fg_structs.battle_tower_swords.title"
+    },
+    "description": {
+      "translate": "advancements.insurgence.fg_structs.battle_tower_swords.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_sword"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false
+  },
+  "criteria": {
+    "in_structure": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "insurgence:battle_tower/default/swords"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "requirements": [
+      [
+        "in_structure"
+      ]
+    ]
+  },
+  "rewards": {
+    "function": "insurgence/advancement/unlock_field_guide_entry/battle_tower_swords"
+  }
+}

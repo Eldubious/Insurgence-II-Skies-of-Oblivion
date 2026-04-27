@@ -13,12 +13,353 @@
     },
     {
       "tags": [
+        "insurgence:unique_item/pickaxe"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_pickaxe",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/axe"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_axe",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/shovel"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_shovel",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/hoe"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_hoe",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/trident"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_trident",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/shield"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_shield",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/helmet"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_helmet",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/chestplate"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_chestplate",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/leggings"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_leggings",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/boots"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_boots",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/mace"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_mace",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/polearm"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_polearm",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/staff"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_staff",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/wand"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_wand",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/knife"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_knife",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/curio"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_curio",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/necklace"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_necklace",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/ring"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_ring",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/scythe"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_scythe",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/club"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_club",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/bow"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_bow",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/crossbow"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_crossbow",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/elytra"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_elytra",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/shears"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_shears",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/belt"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_belt",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
         "insurgence:crafted_item/knife"
       ],
       "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
       "effect": "rim_light",
       "iconAppearAnimation": "zoom_snap",
       "itemRating": "key.tooltipoverhaul.insurgence.crafted_knife",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/fishing_rod"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_fishing_rod",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/slingshot"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_slingshot",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/curio"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_curio",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/ring"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_ring",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/necklace"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_necklace",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/scythe"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_scythe",
       "colorItemRating": "#55FFFF",
       "showRating": true
     },
