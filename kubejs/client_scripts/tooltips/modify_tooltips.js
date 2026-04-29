@@ -40,9 +40,9 @@ ItemEvents.modifyTooltips(event => {
   
   // Where to find armor trims
   event.modify('#minecraft:trim_templates', tooltip => {
-    tooltip.insert(1, Component.translate("formatting.insurgence.spacer"))
-    tooltip.insert(2, Component.translate("formatting.insurgence.spacer"))
-    tooltip.insert(3, Component.translate("formatting.insurgence.spacer"))
+    tooltip.insert(1, Component.empty())
+    tooltip.insert(2, Component.empty())
+    tooltip.insert(3, Component.empty())
     
     tooltip.dynamic('trim_template_information')
   })
@@ -61,6 +61,6 @@ ItemEvents.modifyTooltips(event => {
   Apply basic formatting changes to the tooltips of some items.
   */
   event.modify('#insurgence:tarot_cards', tooltip => {
-    tooltip.insert(2, Component.translate("formatting.insurgence.spacer"))
+    tooltip.insert(2, Component.empty())
   })
 })
