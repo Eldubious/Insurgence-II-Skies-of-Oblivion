@@ -359,7 +359,7 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
     else {          // Show these categories when pressing alt
       // Armor Trim
       if (materialIdx > -1 && patternIdx > -1) {
-        event.lines.set(currIdx, Component.translate("tooltip.insurgence.format.armor_trim"))
+        event.lines.set(currIdx, Component.translate("tooltip.insurgence.format.armor_trim").color("#AAAAAA"))
         currIdx += 1
 
         let patternName = linesCopy[patternIdx].getSiblings()[0].getContents().key
@@ -378,6 +378,7 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
 
       // Runic Etching
       if (runicEtchIdx > -1) {
+        event.lines.set(currIdx, Component.translate("tooltip.insurgence.format.quark_enchant_glint").color("#AAAAAA"))
         let runeName = linesCopy[runicEtchIdx].getSiblings()[0].getContents().key
         let runeColor = linesCopy[runicEtchIdx].getSiblings()[0].getStyle().color
         event.lines.set(currIdx, Component.translate(runeName).color(runeColor))

@@ -1,5 +1,8 @@
 // A list of the gateways to create.
 const gateways = [
+  /*
+    Gateways for Waystone Shrines
+  */
   {   // Undead Monsters
     type: "shrine_encounter",
     waveCount: 2,
@@ -84,5 +87,17 @@ const gateways = [
         scaleFactor: 2
       }
     ]
+  },
+  /*
+    Tower protectors for Tower of Staves
+  */
+  { // Skeletons
+    type: "staves_tower",
+    name: "skeletons",
+    size: "medium",
+    entity: {
+      id: "minecraft:skeleton",
+      count: 14 
+    }
   }
 ]
