@@ -6,7 +6,6 @@
     "mod_resources",
     "enderzoology:dynamically_copied_textures",
     "moonlight:merged_pack",
-    "mod/wilderflowers:resourcepacks/wildflowers",
     "file/Dye Depot Plus",
     "file/Icons v.1.13.3.zip",
     "file/Consistent Metalworks",
@@ -33,10 +32,6 @@
       "hidden": true
     },
     "moonlight:merged_pack": {
-      "fixed_position": true,
-      "hidden": true
-    },
-    "mod/wilderflowers:resourcepacks/wildflowers": {
       "fixed_position": true,
       "hidden": true
     },

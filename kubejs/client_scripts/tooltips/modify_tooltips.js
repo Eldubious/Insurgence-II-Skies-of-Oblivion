@@ -1,10 +1,10 @@
 // Add the 'Unique' & rarity text to the tooltips of items
 ItemEvents.modifyTooltips(event => {
   
-  let uniqueItemTypes = ['sword', 'scythe', 'trident', 'mace', 'harp', 'knife', 'axe',
+  let uniqueItemTypes = ['sword', 'scythe', 'trident', 'mace', 'boomerang', 'knife', 'axe',
     'pickaxe', 'shovel', 'hoe', 'bow', 'crossbow', 'staff', 'wand', 'helmet', 'chestplate',
     'leggings', 'boots', 'elytra', 'ring', 'belt', 'necklace', 'curio', 'shield', 'club',
-    'polearm', 'fishing_rod', 'shears', 'slingshot', 'bat'
+    'polearm', 'fishing_rod', 'shears', 'slingshot', 'bat', 'animal_armor'
   ]
   
   for (let i in uniqueItemTypes) {
@@ -20,7 +20,7 @@ ItemEvents.modifyTooltips(event => {
   let craftedItemTypes = ['sword', 'scythe', 'trident', 'mace', 'hammer', 'knife', 'axe',
     'pickaxe', 'shovel', 'hoe', 'bow', 'crossbow', 'helmet', 'chestplate', 'leggings',
     'boots', 'elytra', 'ring', 'necklace', 'curio', 'shield', 'polearm', 'fishing_rod',
-    'shears', 'slingshot', 'paxel', 'bracelet'
+    'shears', 'slingshot', 'paxel', 'bracelet', 'animal_armor', 'staff'
   ]
   
   for (let i in craftedItemTypes) {

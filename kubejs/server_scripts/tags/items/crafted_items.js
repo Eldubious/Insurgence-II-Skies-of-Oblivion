@@ -7,7 +7,7 @@ ServerEvents.tags('item', event => {
     }
 
 
-    let craftedSwords = []
+    let craftedSwords = ['minecraft:wooden_sword', 'psi:psimetal_sword', 'create:cardboard_sword']
     for (let i in craftedSwords) {
         craftedItemTags('sword', craftedSwords[i])
     }
@@ -37,12 +37,12 @@ ServerEvents.tags('item', event => {
         craftedItemTags('knife', craftedKnives[i])
     }
 
-    let craftedAxes = []
+    let craftedAxes = ['minecraft:wooden_axe', 'psi:psimetal_axe']
     for (let i in craftedAxes) {
         craftedItemTags('axe', craftedAxes[i])
     }
 
-    let craftedPickaxes = ['occultism:infused_pickaxe']
+    let craftedPickaxes = ['minecraft:wooden_pickaxe', 'psi:psimetal_pickaxe']
     for (let i in craftedPickaxes) {
         craftedItemTags('pickaxe', craftedPickaxes[i])
     }
@@ -57,12 +57,12 @@ ServerEvents.tags('item', event => {
         craftedItemTags('paxel', craftedPaxels[i])
     }
 
-    let craftedShovels = []
+    let craftedShovels = ['minecraft:wooden_shovel', 'psi:psimetal_shovel']
     for (let i in craftedShovels) {
         craftedItemTags('shovel', craftedShovels[i])
     }
 
-    let craftedHoes = []
+    let craftedHoes = ['minecraft:wooden_hoe']
     for (let i in craftedHoes) {
         craftedItemTags('hoe', craftedHoes[i])
     }
@@ -77,27 +77,39 @@ ServerEvents.tags('item', event => {
         craftedItemTags('crossbow', craftedCrossbows[i])
     }
 
-    let craftedSlingshots = ['supplementaries:slingshot']
+    let craftedSlingshots = ['supplementaries:slingshot', 'usefulslime:slime_sling']
     for (let i in craftedSlingshots) {
         craftedItemTags('slingshot', craftedSlingshots[i])
     }
 
-    let craftedHelmets = []
+    let craftedHelmets = [
+      'usefulslime:slime_helmet', 'create:cardboard_helmet', 'create:copper_diving_helmet',
+      'create:netherite_diving_helmet', 'psi:psimetal_exosuit_helmet'
+    ]
     for (let i in craftedHelmets) {
         craftedItemTags('helmet', craftedHelmets[i])
     }
 
-    let craftedChestplates = []
+    let craftedChestplates = [
+      'autumnity:snail_shell_chestplate', 'usefulslime:slime_chestplate', 'create:cardboard_chestplate',
+      'create:copper_backtank', 'create:netherite_backtank', 'create_jetpack:jetpack', 'create_jetpack:netherite_jetpack',
+      'psi:psimetal_exosuit_chestplate'
+    ]
     for (let i in craftedChestplates) {
         craftedItemTags('chestplate', craftedChestplates[i])
     }
 
-    let craftedLeggings = []
+    let craftedLeggings = [
+      'usefulslime:slime_leggings', 'create:cardboard_leggings', 'psi:psimetal_exosuit_leggings'
+    ]
     for (let i in craftedLeggings) {
         craftedItemTags('leggings', craftedLeggings[i])
     }
 
-    let craftedBoots = []
+    let craftedBoots = [
+      'usefulslime:slime_boots', 'create:cardboard_boots', 'create:copper_diving_boots',
+      'create:netherite_diving_boots', 'psi:psimetal_exosuit_boots'
+    ]
     for (let i in craftedBoots) {
         craftedItemTags('boots', craftedBoots[i])
     }
@@ -141,5 +153,17 @@ ServerEvents.tags('item', event => {
     let craftedShears = []
     for (let i in craftedShears) {
         craftedItemTags('shears', craftedShears[i])
+    }
+
+    let craftedAnimalArmor = ['minecraft:leather_horse_armor', 'minecraft:wolf_armor']
+    for (let i in craftedAnimalArmor) {
+        craftedItemTags('animal_armor', craftedAnimalArmor[i])
+    }
+
+    let craftedStaves = [
+      'camping:walking_stick'
+    ]
+    for (let i in craftedStaves) {
+        craftedItemTags('staff', craftedStaves[i])
     }
 })

@@ -142,6 +142,11 @@ function getRarityComponent(item) {
       rarityName = 'legendary'
       rarityColor = '#FFAA00'
       break
+
+      case 'iss_magicfromtheeast_rarity_jadelight':
+      rarityName = 'legendary'
+      rarityColor = '#FFAA00'
+      break
       
       case 'epic':
       rarityColor = 'light_purple'

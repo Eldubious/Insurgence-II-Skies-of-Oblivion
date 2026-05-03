@@ -266,6 +266,17 @@
     },
     {
       "tags": [
+        "insurgence:unique_item/animal_armor"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_animal_armor",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
         "insurgence:unique_item/shears"
       ],
       "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
@@ -283,6 +294,17 @@
       "effect": "rim_light",
       "iconAppearAnimation": "zoom_snap",
       "itemRating": "key.tooltipoverhaul.insurgence.unique_belt",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/boomerang"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_boomerang",
       "colorItemRating": "0xFF5555",
       "showRating": true
     },
@@ -360,6 +382,127 @@
       "effect": "rim_light",
       "iconAppearAnimation": "zoom_snap",
       "itemRating": "key.tooltipoverhaul.insurgence.crafted_scythe",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/animal_armor"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_animal_armor",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/helmet"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_helmet",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/chestplate"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_chestplate",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/leggings"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_leggings",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/boots"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_boots",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/sword"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_sword",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/pickaxe"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_pickaxe",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/axe"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_axe",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/shovel"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_shovel",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/hoe"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_hoe",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/staff"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_staff",
       "colorItemRating": "#55FFFF",
       "showRating": true
     },

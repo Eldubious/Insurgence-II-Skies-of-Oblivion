@@ -566,11 +566,3 @@ waystones:end_stone_waystone
 waystones:mossy_waystone
 waystones:sandy_waystone
 waystones:waystone
-wilderflowers:cheery_wildflowers
-wilderflowers:cheery_wildflowers_dense
-wilderflowers:clovers
-wilderflowers:clovers_dense
-wilderflowers:clovers_medium
-wilderflowers:hopeful_wildflowers
-wilderflowers:moody_wildflowers
-wilderflowers:moody_wildflowers_dense
