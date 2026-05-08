@@ -26,6 +26,30 @@
           "output_state": {
             "Name": "dye_depot:forest_wool"
           }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "interiors:white_cushion"
+          },
+          "output_state": {
+            "Name": "interiors:lime_cushion"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "create:white_seat"
+          },
+          "output_state": {
+            "Name": "create:lime_seat"
+          }
         }
       ]
     }

@@ -9,6 +9,10 @@
         {
             "structure": "insurgence:battle_tower/default/swords",
             "weight": 1
+        },
+        {
+            "structure": "insurgence:battle_tower/default/staves",
+            "weight": 1
         }
     ]
 }

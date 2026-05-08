@@ -4,7 +4,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "insurgence:battle_tower/default/staves/2_digit",
+        "location": "insurgence:battle_tower/default/staves/vault_lock/green_blue",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },

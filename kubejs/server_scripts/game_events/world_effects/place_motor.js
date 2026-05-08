@@ -4,6 +4,7 @@ const validMotorConnectors = ["create:rotation_speed_controller"];
 function place_motor(server, marker) {
     let dim = marker.level.dimension.toString();
     if (dim == "minecraft:the_nether") {    // Don't execute anything if marker is in vanilla nether
+        server.runCommandSilent(`execute in ${dim} run particle minecraft:angry_villager ${marker.pos.x()} ${marker.pos.y()} ${marker.pos.z()}`);
         return;
     }
     let data = marker.nbt.data;
@@ -12,13 +13,15 @@ function place_motor(server, marker) {
     let level = server.getLevel(dim);
     let direction = findConnector(server, level, marker, uuid, pos);
     if (direction != null) {
-        server.runCommandSilent(`execute in ${dim} run setblock ${parseInt(pos.x())} ${parseInt(pos.y())} ${parseInt(pos.z())} create:creative_motor[facing=${direction}]`);
+        server.runCommandSilent(`execute in ${dim} run setblock ${Math.floor(pos.x())} ${Math.floor(pos.y())} ${Math.floor(pos.z())} create:creative_motor[facing=${direction}]`);
     }
     marker.kill();
 }
 
 function findConnector(server, level, marker, uuid, pos) {
-    let x = parseInt(pos.x()); let y = parseInt(pos.y()); let z = parseInt(pos.z());
+    let x = Math.floor(pos.x());
+    let y = Math.floor(pos.y());
+    let z = Math.floor(pos.z());
     let direction = "";
     if (validMotorConnectors.indexOf(level.getBlock([x + 1, y, z])) != -1) {
         direction = "east";

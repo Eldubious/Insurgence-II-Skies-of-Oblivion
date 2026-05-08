@@ -83,6 +83,26 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_2",
                             "target": "insurgence:battle_tower/default/staves/vault_locks/none"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:feature_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/colorless_4"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:blue_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/blue_3"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/green_2"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:elevator",
+                            "target": "insurgence:battle_tower/default/staves/elevators/lime"
                         }
                     ]
                 },
@@ -108,6 +128,26 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_2",
                             "target": "insurgence:battle_tower/default/staves/vault_locks/none"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:feature_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/colorless_4"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:blue_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/blue_3"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/green_2"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:elevator",
+                            "target": "insurgence:battle_tower/default/staves/elevators/lime"
                         }
                     ]
                 },
@@ -133,6 +173,31 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_2",
                             "target": "insurgence:battle_tower/default/staves/vault_locks/none"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:feature_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/colorless_4"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:blue_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/blue_5"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/green_3"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:red_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/red_2"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:elevator",
+                            "target": "insurgence:battle_tower/default/staves/elevators/yellow"
                         }
                     ]
                 },
@@ -158,6 +223,31 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_2",
                             "target": "insurgence:battle_tower/default/staves/vault_locks/none"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:feature_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/colorless_4"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:blue_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/blue_5"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/green_3"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:red_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/red_2"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:elevator",
+                            "target": "insurgence:battle_tower/default/staves/elevators/yellow"
                         }
                     ]
                 },
@@ -177,12 +267,42 @@
                         {
                             "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_1",
-                            "target": "insurgence:battle_tower/default/staves/vault_locks/red_green_blue"
+                            "target": "insurgence:battle_tower/default/staves/vault_locks/green_blue"
                         },
                         {
                             "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_2",
-                            "target": "insurgence:battle_tower/default/staves/vault_locks/none"
+                            "target": "insurgence:battle_tower/default/staves/vault_locks/red_yellow"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:feature_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/colorless_5"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:blue_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/blue_3"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/green_6"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:red_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/red_4"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/yellow_2"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:elevator",
+                            "target": "insurgence:battle_tower/default/staves/elevators/orange"
                         }
                     ]
                 },
@@ -202,12 +322,42 @@
                         {
                             "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_1",
-                            "target": "insurgence:battle_tower/default/staves/vault_locks/red_green_blue"
+                            "target": "insurgence:battle_tower/default/staves/vault_locks/green_blue"
                         },
                         {
                             "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_2",
-                            "target": "insurgence:battle_tower/default/staves/vault_locks/none"
+                            "target": "insurgence:battle_tower/default/staves/vault_locks/red_yellow"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:feature_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/colorless_5"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:blue_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/blue_3"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/green_6"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:red_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/red_4"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/yellow_2"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:elevator",
+                            "target": "insurgence:battle_tower/default/staves/elevators/orange"
                         }
                     ]
                 },
@@ -232,7 +382,42 @@
                         {
                             "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_2",
-                            "target": "insurgence:battle_tower/default/staves/vault_locks/none"
+                            "target": "insurgence:battle_tower/default/staves/vault_locks/yellow_pink"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:feature_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/colorless_6"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:blue_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/blue_4"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/green_2"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:red_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/red_7"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/yellow_3"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/pink_5"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:elevator",
+                            "target": "insurgence:battle_tower/default/staves/elevators/coral"
                         }
                     ]
                 },
@@ -257,7 +442,42 @@
                         {
                             "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_2",
-                            "target": "insurgence:battle_tower/default/staves/vault_locks/none"
+                            "target": "insurgence:battle_tower/default/staves/vault_locks/yellow_pink"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:feature_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/colorless_6"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:blue_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/blue_4"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/green_2"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:red_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/red_7"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/yellow_3"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/pink_5"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:elevator",
+                            "target": "insurgence:battle_tower/default/staves/elevators/coral"
                         }
                     ]
                 },
@@ -282,7 +502,47 @@
                         {
                             "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_2",
-                            "target": "insurgence:battle_tower/default/staves/vault_locks/none"
+                            "target": "insurgence:battle_tower/default/staves/vault_locks/yellow_pink_purple"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:feature_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/colorless_7"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:blue_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/blue_8"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/green_3"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:red_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/red_4"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/yellow_5"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/pink_2"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/purple_6"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:elevator",
+                            "target": "insurgence:battle_tower/default/staves/elevators/red"
                         }
                     ]
                 },
@@ -307,7 +567,47 @@
                         {
                             "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_2",
-                            "target": "insurgence:battle_tower/default/staves/vault_locks/none"
+                            "target": "insurgence:battle_tower/default/staves/vault_locks/yellow_pink_purple"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:feature_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/colorless_7"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:blue_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/blue_8"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/green_3"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:red_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/red_4"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/yellow_5"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/pink_2"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_contact",
+                            "target": "insurgence:battle_tower/default/common/elevator_contact/purple_6"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:elevator",
+                            "target": "insurgence:battle_tower/default/staves/elevators/red"
                         }
                     ]
                 }
@@ -742,6 +1042,441 @@
                         {
                             "type": "minecraft:direct",
                             "alias": "insurgence:red_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "minecraft:random_group",
+            "groups": [
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/1"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/2"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/3"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/4"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/5"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/6"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/7"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/8"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/9"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/10"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/11"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/12"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/13"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:yellow_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "minecraft:random_group",
+            "groups": [
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/1"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/2"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/3"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/4"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/5"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/6"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/7"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/8"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/9"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/10"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/11"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/12"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/13"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:purple_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "minecraft:random_group",
+            "groups": [
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/1"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/2"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/3"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/4"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/5"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/6"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/7"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/8"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/9"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/10"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/11"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/12"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
+                            "target": "insurgence:battle_tower/default/staves/passkey_digit/13"
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:pink_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/14"
                         }
                     ]

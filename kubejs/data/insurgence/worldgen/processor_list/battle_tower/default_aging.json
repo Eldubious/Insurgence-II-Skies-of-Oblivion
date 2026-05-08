@@ -1,221 +1,239 @@
 {
-  "processors": [
-    {
-      "processor_type": "minecraft:rule",
-      "rules": [
+    "processors": [
         {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "architects_palette:olivestone_tiles",
-            "probability": 0.15
-          },
-          "output_state": {
-            "Name": "architects_palette:cracked_olivestone_tiles"
-          }
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "architects_palette:olivestone_tiles",
+                        "probability": 0.15
+                    },
+                    "output_state": {
+                        "Name": "architects_palette:cracked_olivestone_tiles"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "quark:iron_plate",
+                        "probability": 0.33
+                    },
+                    "output_state": {
+                        "Name": "quark:rusty_iron_plate"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "quark:iron_plate_slab",
+                            "Properties": {
+                                "type": "bottom"
+                            }
+                        },
+                        "probability": 0.33
+                    },
+                    "output_state": {
+                        "Name": "quark:rusty_iron_plate_slab",
+                        "Properties": {
+                            "type": "bottom"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "quark:iron_plate_slab",
+                            "Properties": {
+                                "type": "top"
+                            }
+                        },
+                        "probability": 0.33
+                    },
+                    "output_state": {
+                        "Name": "quark:rusty_iron_plate_slab",
+                        "Properties": {
+                            "type": "top"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "create:cut_tuff_bricks",
+                        "probability": 0.1
+                    },
+                    "output_state": {
+                        "Name": "create:polished_cut_tuff"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "create:cut_tuff_bricks",
+                        "probability": 0.2
+                    },
+                    "output_state": {
+                        "Name": "architects_palette:tuff_bricks"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "create:cut_tuff_bricks",
+                        "probability": 0.33
+                    },
+                    "output_state": {
+                        "Name": "create:cut_tuff"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "create:cut_tuff_brick_slab",
+                            "Properties": {
+                                "type": "bottom"
+                            }
+                        },
+                        "probability": 0.1
+                    },
+                    "output_state": {
+                        "Name": "create:polished_cut_tuff_slab",
+                        "Properties": {
+                            "type": "bottom"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "create:cut_tuff_brick_slab",
+                            "Properties": {
+                                "type": "bottom"
+                            }
+                        },
+                        "probability": 0.33
+                    },
+                    "output_state": {
+                        "Name": "create:cut_tuff_slab",
+                        "Properties": {
+                            "type": "bottom"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:terracotta",
+                        "probability": 0.4
+                    },
+                    "output_state": {
+                        "Name": "quark:shingles"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "create:cut_limestone",
+                        "probability": 0.25
+                    },
+                    "output_state": {
+                        "Name": "create:cut_limestone_bricks"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "create:cut_limestone",
+                        "probability": 0.1
+                    },
+                    "output_state": {
+                        "Name": "create:polished_cut_limestone"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "quark:limestone_bricks",
+                        "probability": 0.33
+                    },
+                    "output_state": {
+                        "Name": "quark:polished_limestone"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "minecraft:protected_blocks",
+            "value": "#minecraft:features_cannot_replace"
         }
-      ]
-    },
-    {
-      "processor_type": "minecraft:rule",
-      "rules": [
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "quark:iron_plate",
-            "probability": 0.33
-          },
-          "output_state": {
-            "Name": "quark:rusty_iron_plate"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_blockstate_match",
-            "block_state": {
-              "Name": "quark:iron_plate_slab",
-              "Properties": {
-                "type": "bottom"
-              }
-            },
-            "probability": 0.33
-          },
-          "output_state": {
-            "Name": "quark:rusty_iron_plate_slab",
-            "Properties": {
-              "type": "bottom"
-            }
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_blockstate_match",
-            "block_state": {
-              "Name": "quark:iron_plate_slab",
-              "Properties": {
-                "type": "top"
-              }
-            },
-            "probability": 0.33
-          },
-          "output_state": {
-            "Name": "quark:rusty_iron_plate_slab",
-            "Properties": {
-              "type": "top"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "processor_type": "minecraft:rule",
-      "rules": [
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "create:cut_tuff_bricks",
-            "probability": 0.1
-          },
-          "output_state": {
-            "Name": "create:polished_cut_tuff"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "create:cut_tuff_bricks",
-            "probability": 0.2
-          },
-          "output_state": {
-            "Name": "architects_palette:tuff_bricks"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "create:cut_tuff_bricks",
-            "probability": 0.33
-          },
-          "output_state": {
-            "Name": "create:cut_tuff"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_blockstate_match",
-            "block_state": {
-              "Name": "create:cut_tuff_brick_slab",
-              "Properties": {
-                "type": "bottom"
-              }
-            },
-            "probability": 0.1
-          },
-          "output_state": {
-            "Name": "create:polished_cut_tuff_slab",
-            "Properties": {
-              "type": "bottom"
-            }
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_blockstate_match",
-            "block_state": {
-              "Name": "create:cut_tuff_brick_slab",
-              "Properties": {
-                "type": "bottom"
-              }
-            },
-            "probability": 0.33
-          },
-          "output_state": {
-            "Name": "create:cut_tuff_slab",
-            "Properties": {
-              "type": "bottom"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "processor_type": "minecraft:rule",
-      "rules": [
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:terracotta",
-            "probability": 0.4
-          },
-          "output_state": {
-            "Name": "quark:shingles"
-          }
-        }
-      ]
-    },
-    {
-      "processor_type": "minecraft:rule",
-      "rules": [
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "create:cut_limestone",
-            "probability": 0.25
-          },
-          "output_state": {
-            "Name": "create:cut_limestone_bricks"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "create:cut_limestone",
-            "probability": 0.1
-          },
-          "output_state": {
-            "Name": "create:polished_cut_limestone"
-          }
-        }
-      ]
-    },
-    {
-      "processor_type": "minecraft:protected_blocks",
-      "value": "#minecraft:features_cannot_replace"
-    }
-  ]
+    ]
 }
