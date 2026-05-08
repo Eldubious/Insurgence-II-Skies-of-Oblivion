@@ -503,8 +503,6 @@ nova_structures:polished_andesite_base
 nova_structures:polished_tuff_base
 nova_structures:stone_bricks_citadel_base
 nova_structures:stone_bricks_toxic_base
-opalescence:opal
-opalescence:opal_upper
 oreganized:datura
 oreganized:lead_ore
 oreganized:lead_ore_extra

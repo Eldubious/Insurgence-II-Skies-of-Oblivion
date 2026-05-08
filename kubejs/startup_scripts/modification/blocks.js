@@ -41,4 +41,10 @@ BlockEvents.modification(event => {
   event.modify("create:creative_motor", block => {
     block.destroySpeed = -1
   })
+  event.modify("supplementaries:gold_door", block => {
+    block.destroySpeed = -1
+  })
+  event.modify("supplementaries:gold_trapdoor", block => {
+    block.destroySpeed = -1
+  })
 })

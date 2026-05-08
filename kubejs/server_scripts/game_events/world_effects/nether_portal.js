@@ -6,24 +6,23 @@ const netherPortalClosingParticle = "amendments:fireball_explosion"
 function createNetherPortal(server, svrData, marker) {
     let uuid = marker.uuid.toString()   // Also used as the id of the portal event
     let tpId = `teleporting_to_nether+${uuid}`
-
+    
     // Mark the event as active if not already marked
     if (!svrData.contains("active_events")) svrData.put("active_events", [])
-    let activeEvents = svrData.get("active_events")
+        let activeEvents = svrData.get("active_events")
     if (activeEvents.toArray().indexOf(tpId) == -1) activeEvents.push(tpId)
-
+        
     let pos = marker.pos
     let dim = marker.level.dimension.toString()
     let data = marker.nbt.data
     let timer = data.timer
     if (timer == undefined) {   // Initialize the effect timer
         server.runCommandSilent(`data modify entity ${uuid} data.timer set value 0`)
-
         server.runCommandSilent(`execute in ${dim} run playsound minecraft:block.portal.trigger block @a ${pos.x()} ${pos.y()} ${pos.z()} 100 0.7`)
     }
     else {    // The effect has already started
         timer = parseInt(timer.getAsString())
-
+        
         if (timer < 80) {   // Start by highlighting the activation area
             createBox(server, dim, pos, timer)
         }
@@ -37,15 +36,15 @@ function createNetherPortal(server, svrData, marker) {
             server.runCommandSilent(`execute in ${dim} run particle ${netherPortalClosingParticle} ${pos.x()} ${pos.y()} ${pos.z()}`)
             server.runCommandSilent(`execute in ${dim} run playsound minecraft:entity.player.teleport block @a ${pos.x()} ${pos.y()} ${pos.z()} 100 0.7`)
             server.runCommandSilent(`execute in ${dim} run playsound minecraft:ambient.nether_wastes.mood block @a ${pos.x()} ${pos.y()} ${pos.z()} 50`)
-
+            
             teleportEntities(server, tpId, dim, pos, uuid)
             marker.kill()
-
+            
             let tpTagIdx = activeEvents.toArray().indexOf(`${tpId}`)
             if (tpTagIdx != -1) activeEvents.remove(tpTagIdx)
-            return
+                return
         }
-        server.runCommandSilent(`data modify entity ${uuid} data.timer set value ${timer + 1}`)
+        server.runCommandSilent(`data modify entity ${uuid} data.timer set value ${parseInt(timer) + 1}`)
     }
     
 }
@@ -56,17 +55,17 @@ function createBox(server, dim, pos, timer) {
     server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() + 5} ${pos.y() - 0.4} ${pos.z()} 0 0 2 0 2 normal`)
     server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x()} ${pos.y() - 0.4} ${pos.z() - 5} 2 0 0 0 2 normal`)
     server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x()} ${pos.y() - 0.4} ${pos.z() + 5} 2 0 0 0 2 normal`)
-
+    
     server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() - 5} ${pos.y() + 4.4} ${pos.z()} 0 0 2 0 2 normal`)
     server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() + 5} ${pos.y() + 4.4} ${pos.z()} 0 0 2 0 2 normal`)
     server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x()} ${pos.y() + 4.4} ${pos.z() - 5} 2 0 0 0 2 normal`)
     server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x()} ${pos.y() + 4.4} ${pos.z() + 5} 2 0 0 0 2 normal`)
-
+    
     server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() - 5} ${pos.y() + 2} ${pos.z() - 5} 0 0.9 0 0 1 normal`)
     server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() + 5} ${pos.y() + 2} ${pos.z() + 5} 0 0.9 0 0 1 normal`)
     server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() + 5} ${pos.y() + 2} ${pos.z() - 5} 0 0.9 0 0 1 normal`)
     server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() - 5} ${pos.y() + 2} ${pos.z() + 5} 0 0.9 0 0 1 normal`)
-
+    
     if (timer % 2 == 0) {
         server.runCommandSilent(`execute in ${dim} run particle ${netherPortalAmbientParticle} ${pos.x()} ${pos.y() + 1.25} ${pos.z()} 2 0.9 2 0 1 normal`)
     }
@@ -75,25 +74,25 @@ function createBox(server, dim, pos, timer) {
 // Spawn the particles that indicate that the portal is closing
 function closeBox(server, dim, pos, timer, startPos) {
     let interval = 1
-
+    
     for (let i = startPos; i <= 5.5; i += interval) {
         let speed = getRandomSpeed()
-
+        
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() - 5} ${pos.y() - 0.4} ${pos.z() + i} 5 0.4 ${-i} ${speed} 0 normal`)
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() - 5} ${pos.y() - 0.4} ${pos.z() - i} 5 0.4 ${i} ${speed} 0 normal`)
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() + 5} ${pos.y() - 0.4} ${pos.z() + i} -5 0.4 ${-i} ${speed} 0 normal`)
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() + 5} ${pos.y() - 0.4} ${pos.z() - i} -5 0.4 ${i} ${speed} 0 normal`)
-
+        
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() - i} ${pos.y() - 0.4} ${pos.z() + 5} ${i} 0.4 -5 ${speed} 0 normal`)
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() - i} ${pos.y() - 0.4} ${pos.z() - 5} ${i} 0.4 5 ${speed} 0 normal`)
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() + i} ${pos.y() - 0.4} ${pos.z() + 5} ${-i} 0.4 -5 ${speed} 0 normal`)
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() + i} ${pos.y() - 0.4} ${pos.z() - 5} ${-i} 0.4 5 ${speed} 0 normal`)
-
+        
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() - 5} ${pos.y() + 4.4} ${pos.z() + i} 5 -4.4 ${-i} ${speed} 0 normal`)
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() - 5} ${pos.y() + 4.4} ${pos.z() - i} 5 -4.4 ${i} ${speed} 0 normal`)
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() + 5} ${pos.y() + 4.4} ${pos.z() + i} -5 -4.4 ${-i} ${speed} 0 normal`)
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() + 5} ${pos.y() + 4.4} ${pos.z() - i} -5 -4.4 ${i} ${speed} 0 normal`)
-
+        
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() - i} ${pos.y() + 4.4} ${pos.z() + 5} ${i} -4.4 -5 ${speed} 0 normal`)
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() - i} ${pos.y() + 4.4} ${pos.z() - 5} ${i} -4.4 5 ${speed} 0 normal`)
         server.runCommandSilent(`execute in ${dim} run particle ${getRandomParticle()} ${pos.x() + i} ${pos.y() + 4.4} ${pos.z() + 5} ${-i} -4.4 -5 ${speed} 0 normal`)
@@ -104,7 +103,7 @@ function closeBox(server, dim, pos, timer, startPos) {
 function teleportEntities(server, tpId, dim, pos, uuid) {
     server.runCommandSilent(`execute in ${dim} positioned as ${uuid} run tag @e[x=${pos.x() - 5},dx=9.5,y=${pos.y() - 0.5},dy=4.5,z=${pos.z() - 5},dz=9.5,
         predicate=insurgence:can_travel_to_nether] add ${tpId}`)
-
+    
     let teleportedEntities = server.getEntities().filter(e => e.tags.contains(tpId))
     for (let i in teleportedEntities) {
         let e = teleportedEntities[i]
@@ -112,7 +111,7 @@ function teleportEntities(server, tpId, dim, pos, uuid) {
         spawnTeleportParticles(server, dim, posTmp.x, posTmp.y, posTmp.z)
         attachPlayersToAnchor(e, pos, dim)
     }
-
+    
     server.runCommandSilent(`execute in insurgence:the_nether run spreadplayers ${pos.x() - 0.5} ${pos.z() - 0.5} 0 200 under 100 true @e[tag=${tpId}]`)
 }
 
