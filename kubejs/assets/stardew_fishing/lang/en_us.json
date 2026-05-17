@@ -1,0 +1,12 @@
+{
+    "attribute.name.stardew_fishing.bar_size": "Bar Size",
+    "attribute.name.stardew_fishing.bar_size.desc": "DESC",
+    "attribute.name.stardew_fishing.exp_multiplier": "Fishing Experience Multiplier",
+    "attribute.name.stardew_fishing.exp_multiplier.desc": "DESC",
+    "attribute.name.stardew_fishing.golden_chest_bonus": "Golden Chest Bonus",
+    "attribute.name.stardew_fishing.golden_chest_bonus.desc": "DESC",
+    "attribute.name.stardew_fishing.line_strength": "Line Strength",
+    "attribute.name.stardew_fishing.line_strength.desc": "DESC",
+    "attribute.name.stardew_fishing.treasure_chance_bonus": "Treasure Chance Bonus",
+    "attribute.name.stardew_fishing.treasure_chance_bonus.desc": "DESC"
+}

@@ -1,5 +1,7 @@
 *.DS_Store
+
 # Folders to ignore
+.github
 .mixin.out
 .vscode
 cache
@@ -32,6 +34,8 @@ schematics
 screenshots
 shaderpacks
 skyblockbuilder/*
+vista_ffmpeg_bin
+vista_web_content_cache
 xaero
 XaeroWaypoints*
 
@@ -58,6 +62,7 @@ usercache.json
 usernamecache.json
 .probe
 .qmenu_opened.marker
+vista_ffmpeg_sources.json
 win_event*
 
 # Config files to include
