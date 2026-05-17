@@ -1,7 +1,5 @@
 // Register Vault Keys and the Token of Renewal
-const keyTypes = ['battle_tower', 'ominous_battle_tower', 'mansion', 'ominous_mansion', 'forge', 'heavy_forge',
-        'pyromancer', 'cryomancer', 'archevoker', 'priest', 'apothecarist', 'common_invader', 'uncommon_invader', 'rare_invader',
-        'epic_invader', 'mythic_invader']
+const keyTypes = ['pillager', 'ominous_pillager', 'swords_tower_zero']
 StartupEvents.registry('item', event => {
 
     event.create('insurgence:token_of_renewal')

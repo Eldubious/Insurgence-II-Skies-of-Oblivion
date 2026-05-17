@@ -211,6 +211,50 @@
     },
     {
       "tags": [
+        "insurgence:unique_item/shoe"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_shoes",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/mask"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_mask",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/cloak"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_cloak",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/relic"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_relic",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
         "insurgence:unique_item/scythe"
       ],
       "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
@@ -305,6 +349,61 @@
       "effect": "rim_light",
       "iconAppearAnimation": "zoom_snap",
       "itemRating": "key.tooltipoverhaul.insurgence.unique_boomerang",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/fishing_rod"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_fishing_rod",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/instrument"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_instrument",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/accessory"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_accessory",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/flay"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_flay",
+      "colorItemRating": "0xFF5555",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:unique_item/firearm"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.unique_firearm",
       "colorItemRating": "0xFF5555",
       "showRating": true
     },
@@ -503,6 +602,72 @@
       "effect": "rim_light",
       "iconAppearAnimation": "zoom_snap",
       "itemRating": "key.tooltipoverhaul.insurgence.crafted_staff",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/brush"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_brush",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/polearm"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_polearm",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/flay"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_flay",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/mace"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_mace",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/boomerang"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_boomerang",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
+      "tags": [
+        "insurgence:crafted_item/firearm"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_firearm",
       "colorItemRating": "#55FFFF",
       "showRating": true
     },
