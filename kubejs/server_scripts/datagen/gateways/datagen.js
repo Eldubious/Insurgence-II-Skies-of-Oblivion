@@ -96,7 +96,7 @@ ServerEvents.generateData("last", event => {
               }
             ]
           })
-          console.log(json)
+          //console.log(json)
           //event.json(`insurgence:gateways/staves_tower/${gateway.name}/${color}_${i}`, json)
           //event.getGenerated(`insurgence:gateways/staves_tower/${gateway.name}/${color}_${i}`)
         }

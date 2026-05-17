@@ -67,7 +67,7 @@ ServerEvents.generateData("last", event => {
             number: currIndex
           }
           
-          console.log(json)
+          //console.log(json)
           event.json(`${card.namespace}:album/cards/${rarity}_${card.id}`, json)
           event.getGenerated(`${card.namespace}:album/cards/${rarity}_${card.id}`)
         }
