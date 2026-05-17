@@ -351,12 +351,6 @@
         "id": "enchant.all_attributes.psi.regen"
       },
       {
-        "attribute": "galosphere:illager_resistance",
-        "amount": 1,
-        "operation": "add_value",
-        "id": "enchant.all_attributes.illager_resistance"
-      },
-      {
         "attribute": "apothic_attributes:armor_pierce",
         "amount": 1,
         "operation": "add_value",
@@ -769,6 +763,66 @@
         "amount": 1,
         "operation": "add_value",
         "id": "enchant.all_attributes.kinetic_damage"
+      },
+      {
+        "attribute": "minecraft:bounciness",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "enchant.all_attributes.bounciness"
+      },
+      {
+        "attribute": "minecraft:air_drag_modifier",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "enchant.all_attributes.air_drag_modifier"
+      },
+      {
+        "attribute": "minecraft:friction_modifier",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "enchant.all_attributes.friction_modifier"
+      },
+      {
+        "attribute": "tunes_n_tomes:melody_spell_power",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "enchant.all_attributes.tunes_n_tomes.melody_spell_power"
+      },
+      {
+        "attribute": "tunes_n_tomes:melody_magic_resist",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "enchant.all_attributes.tunes_n_tomes.melody_magic_resist"
+      },
+      {
+        "attribute": "stardew_fishing:bar_size",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "enchant.all_attributes.stardew_fishing.bar_size"
+      },
+      {
+        "attribute": "stardew_fishing:exp_multiplier",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "enchant.all_attributes.stardew_fishing.exp_multiplier"
+      },
+      {
+        "attribute": "stardew_fishing:line_strength",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "enchant.all_attributes.stardew_fishing.line_strength"
+      },
+      {
+        "attribute": "stardew_fishing:golden_chest_bonus",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "enchant.all_attributes.stardew_fishing.golden_chest_bonus"
+      },
+      {
+        "attribute": "stardew_fishing:treasure_chance_bonus",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "enchant.all_attributes.stardew_fishing.treasure_chance_bonus"
       }
     ]
   }

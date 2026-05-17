@@ -54,7 +54,8 @@ command_history.txt
 emi.json
 imgui.ini
 minecraftinstance.json
-options.txt
+options.*
+!config/fancymenu/options.txt
 patchouli_data.json
 ponders_watched.json
 user-prefs.json
@@ -74,6 +75,7 @@ win_event*
 !config/skyblockbuilder/spawn.json5
 !config/skyblockbuilder/templates.json5
 !config/skyblockbuilder/world.json5
+!config/fancymenu/
 !config/defaultworldtype/client-config.toml
 !config/questlog/
 !config/emi.css
@@ -83,15 +85,25 @@ win_event*
 !config/lootr-common.toml
 !config/irons_rpg_tweaks-server.toml
 !config/reliable_remover
+!config/antiportals-common.toml
+!config/bcc-common.toml
+!config/keepinventory-common.toml
 
 # Content mod configs
 !config/relics.yaml
 !config/relics/
 !config/apotheosis/*
+!config/apothic_spawners.cfg
 !config/collectorsalbum.yaml
 !config/quark-common.toml
 !config/farmersdelight-client.toml
 !config/irons_spellbooks-server.toml
+!config/aileron.json
+!config/betterendisland-neoforge-1_21.toml
+!config/creeperoverhaul.jsonc
+!config/endermanoverhaul.jsonc
+!config/enchantinginfuser-server.toml
+!config/oreganized-common.toml
 
 # Cosmetic mod configs
 !config/tooltipoverhaul/
@@ -109,6 +121,7 @@ win_event*
 !config/jade/plugins.json
 !config/recreative/
 !config/immersiveoverlays.json
+!config/architects_palette-common.toml
 
 # Mod loader and option configs
 !config/fml.toml

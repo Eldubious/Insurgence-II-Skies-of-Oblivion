@@ -82,8 +82,7 @@
   "compat_jade": true,
   "compat_waila_items": [
     "minecraft:spyglass",
-    "create:goggles",
-    "aeronautics:aviators_goggles"
+    "create:goggles"
   ],
   "compat_map_atlases": false,
   "compat_serene_seasons": true,
