@@ -1,0 +1,122 @@
+[
+    {
+        "action": "modify_tab",
+        "tabs": ["insurgence:vaults_and_keys"],
+        "add_items": [
+            "minecraft:vault",
+            "enderscape:end_vault",
+            "insurgence:token_of_renewal",
+            "minecraft:trial_key",
+            "minecraft:ominous_trial_key",
+            "enderscape:end_city_key",
+            "insurgence:pillager_key",
+            "insurgence:ominous_pillager_key",
+            "insurgence:swords_tower_zero_key",
+            {
+                "item": "minecraft:trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 711,
+                    "minecraft:item_name": "{'translate':'item.dnt.shrine_key', 'fallback':'Shrine Key'}"
+                }
+            },
+            {
+                "item": "minecraft:ominous_trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 711,
+                    "minecraft:item_name": "{'translate':'item.dnt.ominous_shrine_key', 'fallback':'Ominous Shrine Key'}"
+                }
+            },
+            {
+                "item": "minecraft:trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 715,
+                    "minecraft:item_name": "{'translate':'item.dnt.trident_trial_key', 'fallback':'Trident Trial Key'}"
+                }
+            },
+            {
+                "item": "minecraft:ominous_trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 716,
+                    "minecraft:item_name": "{'translate':'item.dnt.trident_trial_boss_key', 'fallback':'Trident Trial Boss Key'}"
+                }
+            },
+            {
+                "item": "minecraft:trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 722,
+                    "minecraft:item_name": "{'translate':'item.dnt.toxic_key', 'fallback':'Toxic Key'}"
+                }
+            },
+            {
+                "item": "minecraft:ominous_trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 712,
+                    "minecraft:item_name": "{'translate':'item.dnt.ominous_toxic_key', 'fallback':'Ominous Toxic Key'}"
+                }
+            },
+            {
+                "item": "minecraft:ominous_trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 723,
+                    "minecraft:item_name": "{'translate':'item.dnt.toxic_boss_key', 'fallback':'Toxic Boss Key'}"
+                }
+            },
+            {
+                "item": "minecraft:trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 713,
+                    "minecraft:item_name": "{'translate':'item.dnt.citadel_key', 'fallback':'Citadel Key'}"
+                }
+            },
+            {
+                "item": "minecraft:ominous_trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 714,
+                    "minecraft:item_name": "{'translate':'item.dnt.citadel_boss_key', 'fallback':'Citadel Boss Key'}"
+                }
+            },
+            {
+                "item": "minecraft:trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 712,
+                    "minecraft:item_name": "{'translate':'item.dnt.creeper_key', 'fallback':'Creeping Key'}"
+                }
+            },
+            {
+                "item": "minecraft:trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 719,
+                    "minecraft:item_name": "{'translate':'item.dnt.nether_keep_key', 'fallback':'Nether Keep Key'}"
+                }
+            },
+            {
+                "item": "minecraft:trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 717,
+                    "minecraft:item_name": "{'translate':'item.dnt.piglin_donjon_key', 'fallback':'Piglin Donjon Key'}"
+                }
+            },
+            {
+                "item": "minecraft:trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 718,
+                    "minecraft:item_name": "{'translate':'item.dnt.piglin_outstation_key', 'fallback':'Piglin Outstation Key'}"
+                }
+            },
+            {
+                "item": "minecraft:trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 721,
+                    "minecraft:item_name": "{'translate':'item.dnt.end_castle_key', 'fallback':'End Castle Key'}"
+                }
+            },
+            {
+                "item": "minecraft:ominous_trial_key",
+                "components": {
+                    "minecraft:custom_model_data": 720,
+                    "minecraft:item_name": "{'translate':'item.dnt.end_ship_key', 'fallback':'End Ship Key'}"
+                }
+            }
+        ]
+    }
+]

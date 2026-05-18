@@ -1,0 +1,9 @@
+{
+  "values": {
+    "minecraft:lava": {
+      "consumption": 0.2,
+      "speed": 0.5,
+      "temperature": 1500
+    }
+  }
+}
