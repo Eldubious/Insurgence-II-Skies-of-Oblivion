@@ -98,16 +98,3 @@ StartupEvents.modifyCreativeTab("insurgence:collectors_cards", event => {
         }
     }
 })
-
-if (true) { // If the game should register developer tabs
-    StartupEvents.modifyCreativeTab("insurgence:debug_tickets", event => {
-        event.add("insurgence:debug_ticket")
-        event.add("insurgence:debug_ticket[custom_data={type:\"send_to_secret_world\"}]")
-        event.add("insurgence:debug_ticket[custom_data={type:\"world_tier\",tier:\"haven\"}]")
-        event.add("insurgence:debug_ticket[custom_data={type:\"world_tier\",tier:\"frontier\"}]")
-        event.add("insurgence:debug_ticket[custom_data={type:\"world_tier\",tier:\"ascent\"}]")
-        event.add("insurgence:debug_ticket[custom_data={type:\"world_tier\",tier:\"summit\"}]")
-        event.add("insurgence:debug_ticket[custom_data={type:\"world_tier\",tier:\"pinnacle\"}]")
-        event.add("insurgence:debug_ticket[custom_data={type:\"place_effect\",effect:\"nether_portal_area\"}]")
-    })
-}

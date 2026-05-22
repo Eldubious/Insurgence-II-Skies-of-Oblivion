@@ -11,7 +11,10 @@
             "enderscape:end_city_key",
             "insurgence:pillager_key",
             "insurgence:ominous_pillager_key",
-            "insurgence:swords_tower_zero_key",
+            "insurgence:sword_tower_key",
+            "insurgence:staff_tower_key",
+            "insurgence:cup_tower_key",
+            "insurgence:ring_tower_key",
             {
                 "item": "minecraft:trial_key",
                 "components": {

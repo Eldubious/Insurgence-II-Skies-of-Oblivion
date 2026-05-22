@@ -525,14 +525,16 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
     */
     ItemEvents.dynamicTooltips('debug_tickets', event => {
         let type = event.item.customData.get('type');
-        if (type != null) type = type.getAsString();
+        if (type != null)
+            type = type.getAsString();
         
         if (type == 'send_to_secret_world') {
             event.lines.set(1, Component.translate("tooltip.insurgence.debug_ticket.send_to_secret_world").gold().italic());
         }
         else if (type == 'world_tier') {
             let tier = event.item.customData.get('tier');
-            if (tier != null) tier = tier.getAsString().toString();
+            if (tier != null)
+                tier = tier.getAsString().toString();
             
             if (tier == 'haven' || tier == 'frontier' || tier == 'ascent' || tier == 'summit' || tier == 'pinnacle') {
                 event.lines.set(1, Component.translate(`tooltip.insurgence.debug_ticket.world_tier_${tier}`).gold().italic());
@@ -540,9 +542,17 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
         }
         else if (type == 'place_effect') {
             let effectType = event.item.customData.get('effect');
-            if (effectType != null) effectType = effectType.getAsString().toString();
+            if (effectType != null)
+                effectType = effectType.getAsString().toString();
             
             event.lines.set(1, Component.translate(`tooltip.insurgence.debug_ticket.place_effect_${effectType}`).gold().italic());
+        }
+        else if (type == 'toggle_flag') {
+            let flag = event.item.customData.get('flag');
+            if (flag != null)
+                flag = flag.getAsString().toString();
+
+            event.lines.set(1, Component.translate(`tooltip.insurgence.debug_ticket.toggle_flag_${flag}`).gold().italic());
         }
     })
     

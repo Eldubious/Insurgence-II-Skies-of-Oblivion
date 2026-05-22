@@ -1,53 +1,91 @@
+const particleEffectTypes = ["nether_portal_area"];
+
 // Handles all uses of debug tickets
 ItemEvents.firstRightClicked("insurgence:debug_ticket", event => {
-    let item = event.getItem()
+    let server = event.server;
+    let player = event.player;
+    let uuid = player.uuid.toString();
+    let item = event.getItem();
 
-    function ticket_error(errorType) {
-        event.player.tell(Component.translate(`chat_message.insurgence.debug_ticket_${errorType}`).gray().italic())
-    }
-
-    if (event.getHand() == "OFF_HAND") {
-        ticket_error("wrong_hand")
-    }
+    if (event.getHand() == "OFF_HAND")
+        ticket_error(player, "wrong_hand");
     else {
-        let funcType = item.customData.get("type")
-        if (funcType != null) funcType = funcType.getAsString().toString()
-        else ticket_error("no_data")
+        let funcType = item.customData.get("type");
+        if (funcType != null)
+            funcType = funcType.getAsString().toString();
+        else
+            ticket_error(player, "no_data");
 
         switch (funcType) {
             case "send_to_secret_world":
-                event.server.runCommandSilent(`execute as ${event.player.uuid} run function insurgence:dev/send_to_secret_world`)
-                break
+                server.runCommandSilent(`execute as ${uuid} run function insurgence:dev/send_to_secret_world`);
+                break;
 
             case "world_tier":
-                let tier = item.customData.get('tier')
-                if (tier != null) tier = tier.getAsString().toString()
-                else ticket_error("no_data")
+                let tier = item.customData.get('tier');
+                if (tier != null)
+                    tier = tier.getAsString().toString();
+                else
+                    ticket_error(player, "no_data");
 
-                if (tier == 'haven' || tier == 'frontier' || tier == 'ascent' || tier == 'summit' || tier == 'pinnacle') {
-                    event.server.runCommandSilent(`execute as ${event.player.uuid} run function insurgence:advancement/set_world_tier/${tier}`)
-                }
-                break
+                if (tier == 'haven' || tier == 'frontier' || tier == 'ascent' || tier == 'summit' || tier == 'pinnacle')
+                    event.server.runCommandSilent(`execute as ${uuid} run function insurgence:advancement/set_world_tier/${tier}`);
+                break;
                 
             case "place_effect":
-                let effectType = item.customData.get('effect')
-                if (effectType != null) effectType = effectType.getAsString().toString()
-                else ticket_error("no_data")
+                let effectType = item.customData.get("effect");
+                if (effectType != null)
+                    effectType = effectType.getAsString().toString();
+                else
+                    ticket_error(player, "no_data");
 
-                let effects = ['nether_portal_area']
-                if (effects.indexOf(effectType) != -1) {
-                    let pos = event.player.pos
-                    let playerId = event.player.uuid.toString()
-                    let dimId = event.player.level.dimension.toString()
+                if (particleEffectTypes.indexOf(effectType) != -1) {
+                    let pos = player.pos;
+                    let dimId = player.level.dimension.toString();
 
-                    let cmd = `execute positioned ${pos.x()} ${pos.y()} ${pos.z()} in ${dimId} as ${playerId} run summon minecraft:marker ~ ~ ~ 
-                        {data:{type:"place_effect",effect:"${effectType}"}}`
-                    event.server.runCommandSilent(cmd)
-                    event.player.tell(Component.translate(`chat_message.insurgence.place_effect_${effectType}`).gray().italic())
+                    let cmd = `execute positioned ${pos.x()} ${pos.y()} ${pos.z()} in ${dimId} as ${uuid} run summon minecraft:marker ~ ~ ~ ` +
+                        `{data:{type:"place_effect",effect:"${effectType}"}}`;
+                    server.runCommandSilent(cmd);
+                    player.tell(Component.translate(`chat_message.insurgence.place_effect_${effectType}`).gray().italic());
                 }
-                else ticket_error("no_data")
+                else
+                    ticket_error(player, "no_data");
+                break;
 
-                break
+            case "toggle_flag":
+                let flag = item.customData.get("flag");
+                if (flag != null)
+                    flag = flag.getAsString().toString();
+                else
+                    ticket_error(player, "no_data");
+
+
         }
     }
-})
+});
+
+// Messages the player that there was an error with using the debug ticket.
+function ticket_error(player, errorType) {
+    player.tell(Component.translate(`chat_message.insurgence.debug_ticket_${errorType}`).gray().italic());
+}
+
+// Toggles a flag in the player's persistent data
+function toggleFlag(player, flag) {
+    let pData = player.getPersistentData();
+    if (!pData.contains("flags"))
+        pData.put("flags", []);
+    else {
+        let flags = pData.get("flags");
+
+        if (flags.toArray().indexOf(flag) == -1) {  // Flag is false
+            flags.push(flag);
+            player.tell(Component.literal(`Toggled ${flag} to TRUE`));
+        }
+        else {  // Flag is true
+            let fIdx = flags.toArray().indexOf(flag);
+            if (fIdx != -1) 
+                flags.remove(fIdx);
+            player.tell(Component.literal(`Toggled ${flag} to FALSE`));
+        }
+    }
+}

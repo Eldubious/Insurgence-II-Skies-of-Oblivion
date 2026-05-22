@@ -1,0 +1,80 @@
+[
+    {
+        "action": "modify_tab",
+        "tabs": ["insurgence:debug_tickets"],
+        "add_items": [
+            "insurgence:debug_ticket",
+            {
+                "item": "insurgence:debug_ticket",
+                "components": {
+                    "minecraft:custom_data": {
+                        "type": "send_to_secret_world"
+                    }
+                }
+            },
+            {
+                "item": "insurgence:debug_ticket",
+                "components": {
+                    "minecraft:custom_data": {
+                        "type": "world_tier",
+                        "tier": "haven"
+                    }
+                }
+            },
+            {
+                "item": "insurgence:debug_ticket",
+                "components": {
+                    "minecraft:custom_data": {
+                        "type": "world_tier",
+                        "tier": "frontier"
+                    }
+                }
+            },
+            {
+                "item": "insurgence:debug_ticket",
+                "components": {
+                    "minecraft:custom_data": {
+                        "type": "world_tier",
+                        "tier": "ascent"
+                    }
+                }
+            },
+            {
+                "item": "insurgence:debug_ticket",
+                "components": {
+                    "minecraft:custom_data": {
+                        "type": "world_tier",
+                        "tier": "summit"
+                    }
+                }
+            },
+            {
+                "item": "insurgence:debug_ticket",
+                "components": {
+                    "minecraft:custom_data": {
+                        "type": "world_tier",
+                        "tier": "pinnacle"
+                    }
+                }
+            },
+            {
+                "item": "insurgence:debug_ticket",
+                "components": {
+                    "minecraft:custom_data": {
+                        "type": "place_effect",
+                        "effect": "nether_portal_area"
+                    }
+                }
+            },
+            {
+                "item": "insurgence:debug_ticket",
+                "components": {
+                    "minecraft:custom_data": {
+                        "type": "toggle_flag",
+                        "flag": "completed_tutorial"
+                    }
+                }
+            }
+        ]
+    }
+]
