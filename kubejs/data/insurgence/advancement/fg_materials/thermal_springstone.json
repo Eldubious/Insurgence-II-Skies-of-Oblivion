@@ -1,0 +1,42 @@
+{
+    "parent": "insurgence:fg_materials/aethersent",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.thermal_springstone.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.thermal_springstone.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "eternal_starlight:thermal_springstone_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "eternal_starlight:thermal_springstone_ingot",
+                            "eternal_starlight:thermal_springstone"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/thermal_springstone"
+    }
+}

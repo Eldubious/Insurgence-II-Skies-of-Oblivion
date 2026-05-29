@@ -11,20 +11,6 @@ ServerEvents.tags('item', event => {
         event.add('c:music_discs', musicDiscs[i])
     }
 
-    // Add opals to the opal tag
-    let opalGems = ['opalescence:opal_crystal', 'opalescence:moonlit_opal_crystal', 'opalescence:unpleasant_opal_crystal']
-    for (let i in opalGems) {
-        event.add('c:gems/opal', opalGems[i])
-        event.add('c:gems', opalGems[i])
-    }
-
-    // Add gems which can be stored in the gem bag
-    let silentGemBagItems = ['iss_magicfromtheeast:jade', 'opalescence:opal_crystal', 'opalescence:moonlit_opal_crystal',
-        'opalescence:unpleasant_opal_crystal']
-    for (let i in silentGemBagItems) {
-        event.add('silentgems:gem_bag_can_store', silentGemBagItems[i])
-    }
-
     // Add trim templates from the More Armor Trims mod to the template tag
     let trimPatterns = ['storm', 'ram', 'myth', 'greed', 'beast', 'fever', 'wraith', 'nihility', 'horizon', 'origin']
     for (let i in trimPatterns) {

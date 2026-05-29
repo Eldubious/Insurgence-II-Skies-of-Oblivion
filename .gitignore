@@ -48,6 +48,7 @@ kubejs/server_scripts/jsconfig.json
 kubejs/server_scripts/main.js
 kubejs/startup_scripts/jsconfig.json
 kubejs/startup_scripts/main.js
+kubejs/package.json
 kubejs/README.txt
 .curseclient
 command_history.txt

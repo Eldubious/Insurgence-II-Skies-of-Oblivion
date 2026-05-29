@@ -1,0 +1,1 @@
+fieldguide grant @s only block:architects_palette/entwine_block

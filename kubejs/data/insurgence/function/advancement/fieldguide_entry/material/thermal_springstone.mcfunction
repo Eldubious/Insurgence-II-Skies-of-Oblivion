@@ -1,0 +1,1 @@
+fieldguide grant @s only block:eternal_starlight/thermal_springstone

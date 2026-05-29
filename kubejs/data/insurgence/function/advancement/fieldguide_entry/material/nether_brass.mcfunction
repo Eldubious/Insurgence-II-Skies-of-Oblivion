@@ -1,0 +1,1 @@
+fieldguide grant @s only block:architects_palette/nether_brass_block

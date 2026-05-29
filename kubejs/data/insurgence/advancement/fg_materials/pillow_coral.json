@@ -1,0 +1,46 @@
+{
+    "parent": "insurgence:fg_materials/rock_coral",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.pillow_coral.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.pillow_coral.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "upgrade_aquatic:pillow_coral"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "upgrade_aquatic:pillow_coral_block",
+                            "upgrade_aquatic:pillow_coral",
+                            "upgrade_aquatic:pillow_coral_fan",
+                            "upgrade_aquatic:dead_pillow_coral_block",
+                            "upgrade_aquatic:dead_pillow_coral",
+                            "upgrade_aquatic:dead_pillow_coral_fan"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/pillow_coral"
+    }
+}

@@ -1,0 +1,1 @@
+fieldguide grant @s only block:upgrade_aquatic/star_coral_block

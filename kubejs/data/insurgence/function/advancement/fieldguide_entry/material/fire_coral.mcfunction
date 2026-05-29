@@ -1,0 +1,1 @@
+fieldguide grant @s only block:minecraft/fire_coral_block

@@ -1,0 +1,42 @@
+{
+    "parent": "insurgence:fg_materials/sculk",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.flint.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.flint.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:flint"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:flint",
+                            "supplementaries:flint_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/flint"
+    }
+}

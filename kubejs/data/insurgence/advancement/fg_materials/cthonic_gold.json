@@ -1,0 +1,44 @@
+{
+    "parent": "insurgence:fg_materials/brilliance",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.cthonic_gold.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.cthonic_gold.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "malum:cthonic_gold"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "malum:cthonic_gold",
+                            "malum:cthonic_gold_fragment",
+                            "malum:block_of_cthonic_gold",
+                            "malum:cthonic_gold_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/cthonic_gold"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "parent": "insurgence:fg_materials/iron",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.gold.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.gold.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:gold_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gold_ingot",
+                            "minecraft:gold_nugget",
+                            "create:golden_sheet",
+                            "minecraft:raw_gold",
+                            "create:crushed_raw_gold",
+                            "minecraft:gold_block",
+                            "minecraft:gold_ore",
+                            "minecraft:deepslate_gold_ore",
+                            "minecraft:raw_gold_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/gold"
+    }
+}

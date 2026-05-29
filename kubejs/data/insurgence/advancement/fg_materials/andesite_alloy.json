@@ -1,0 +1,42 @@
+{
+    "parent": "insurgence:fg_materials/root",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.andesite_alloy.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.andesite_alloy.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "create:andesite_alloy"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "create:andesite_alloy",
+                            "create:andesite_alloy_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/andesite_alloy"
+    }
+}

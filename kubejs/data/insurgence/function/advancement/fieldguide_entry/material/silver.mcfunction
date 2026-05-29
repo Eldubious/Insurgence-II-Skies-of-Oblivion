@@ -1,0 +1,1 @@
+fieldguide grant @s only block:oreganized/silver_block

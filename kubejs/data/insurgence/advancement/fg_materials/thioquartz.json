@@ -1,0 +1,44 @@
+{
+    "parent": "insurgence:fg_materials/saltpeter",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.thioquartz.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.thioquartz.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "eternal_starlight:thioquartz_shard"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "eternal_starlight:thioquartz_shard",
+                            "eternal_starlight:thioquartz_block",
+                            "eternal_starlight:budding_thioquartz",
+                            "eternal_starlight:thioquartz_cluster"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/thioquartz"
+    }
+}

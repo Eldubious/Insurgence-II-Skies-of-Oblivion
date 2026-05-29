@@ -1,0 +1,48 @@
+{
+    "parent": "insurgence:fg_materials/root",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.lead.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.lead.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "oreganized:lead_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "oreganized:lead_ingot",
+                            "oreganized:lead_nugget",
+                            "oreganized:raw_lead",
+                            "create:crushed_raw_lead",
+                            "oreganized:lead_block",
+                            "oreganized:lead_ore",
+                            "oreganized:deepslate_lead_ore",
+                            "oreganized:raw_lead_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/lead"
+    }
+}

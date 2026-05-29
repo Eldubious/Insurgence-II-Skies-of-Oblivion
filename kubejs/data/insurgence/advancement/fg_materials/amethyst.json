@@ -1,0 +1,47 @@
+{
+    "parent": "insurgence:fg_materials/resin",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.amethyst.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.amethyst.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:amethyst_shard"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:amethyst_shard",
+                            "minecraft:amethyst_block",
+                            "minecraft:budding_amethyst",
+                            "minecraft:amethyst_cluster",
+                            "minecraft:large_amethyst_bud",
+                            "minecraft:medium_amethyst_bud",
+                            "minecraft:small_amethyst_bud"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/amethyst"
+    }
+}

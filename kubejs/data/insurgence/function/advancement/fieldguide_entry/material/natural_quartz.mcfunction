@@ -1,0 +1,1 @@
+fieldguide grant @s only block:malum/natural_quartz_ore

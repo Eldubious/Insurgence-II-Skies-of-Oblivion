@@ -1,0 +1,844 @@
+{
+    "entries": [
+        {
+            "source": "minecraft:coal_ore",
+            "target": "minecraft:coal_block"
+        },
+        {
+            "source": "minecraft:deepslate_coal_ore",
+            "target": "minecraft:coal_block"
+        },
+        {
+            "source": "minecraft:iron_ore",
+            "target": "minecraft:iron_block"
+        },
+        {
+            "source": "minecraft:deepslate_iron_ore",
+            "target": "minecraft:iron_block"
+        },
+        {
+            "source": "minecraft:raw_iron_block",
+            "target": "minecraft:iron_block"
+        },
+        {
+            "source": "minecraft:copper_ore",
+            "target": "minecraft:copper_block"
+        },
+        {
+            "source": "minecraft:deepslate_copper_ore",
+            "target": "minecraft:copper_block"
+        },
+        {
+            "source": "minecraft:exposed_copper",
+            "target": "minecraft:copper_block"
+        },
+        {
+            "source": "minecraft:weathered_copper",
+            "target": "minecraft:copper_block"
+        },
+        {
+            "source": "minecraft:oxidized_copper",
+            "target": "minecraft:copper_block"
+        },
+        {
+            "source": "minecraft:raw_copper_block",
+            "target": "minecraft:copper_block"
+        },
+        {
+            "source": "minecraft:gold_ore",
+            "target": "minecraft:gold_block"
+        },
+        {
+            "source": "minecraft:deepslate_gold_ore",
+            "target": "minecraft:gold_block"
+        },
+        {
+            "source": "minecraft:nether_gold_ore",
+            "target": "minecraft:gold_block"
+        },
+        {
+            "source": "minecraft:raw_gold_block",
+            "target": "minecraft:gold_block"
+        },
+        {
+            "source": "minecraft:diamond_ore",
+            "target": "minecraft:diamond_block"
+        },
+        {
+            "source": "minecraft:deepslate_diamond_ore",
+            "target": "minecraft:diamond_block"
+        },
+        {
+            "source": "minecraft:emerald_ore",
+            "target": "minecraft:emerald_block"
+        },
+        {
+            "source": "minecraft:deepslate_emerald_ore",
+            "target": "minecraft:emerald_block"
+        },
+        {
+            "source": "minecraft:lapis_ore",
+            "target": "minecraft:lapis_block"
+        },
+        {
+            "source": "minecraft:deepslate_lapis_ore",
+            "target": "minecraft:lapis_block"
+        },
+        {
+            "source": "minecraft:redstone_ore",
+            "target": "minecraft:redstone_block"
+        },
+        {
+            "source": "minecraft:deepslate_redstone_ore",
+            "target": "minecraft:redstone_block"
+        },
+        {
+            "source": "minecraft:budding_amethyst",
+            "target": "minecraft:amethyst_block"
+        },
+        {
+            "source": "minecraft:amethyst_cluster",
+            "target": "minecraft:amethyst_block"
+        },
+        {
+            "source": "minecraft:small_amethyst_bud",
+            "target": "minecraft:amethyst_block"
+        },
+        {
+            "source": "minecraft:medium_amethyst_bud",
+            "target": "minecraft:amethyst_block"
+        },
+        {
+            "source": "minecraft:large_amethyst_bud",
+            "target": "minecraft:amethyst_block"
+        },
+        {
+            "source": "minecraft:nether_quartz_ore",
+            "target": "minecraft:quartz_block"
+        },
+        {
+            "source": "minecraft:ancient_debris",
+            "target": "minecraft:netherite_block"
+        },
+        {
+            "source": "oreganized:lead_ore",
+            "target": "oreganized:lead_block"
+        },
+        {
+            "source": "oreganized:deepslate_lead_ore",
+            "target": "oreganized:lead_block"
+        },
+        {
+            "source": "oreganized:raw_lead_block",
+            "target": "oreganized:lead_block"
+        },
+        {
+            "source": "oreganized:silver_ore",
+            "target": "oreganized:silver_block"
+        },
+        {
+            "source": "oreganized:deepslate_silver_ore",
+            "target": "oreganized:silver_block"
+        },
+        {
+            "source": "oreganized:raw_silver_block",
+            "target": "oreganized:silver_block"
+        },
+        {
+            "source": "pigsteel:pigsteel_chunk_block",
+            "target": "pigsteel:porkslag"
+        },
+        {
+            "source": "enderscape:shadoline_ore",
+            "target": "enderscape:shadoline_block"
+        },
+        {
+            "source": "enderscape:mirestone_shadoline_ore",
+            "target": "enderscape:shadoline_block"
+        },
+        {
+            "source": "enderscape:raw_shadoline_block",
+            "target": "enderscape:shadoline_block"
+        },
+        {
+            "source": "enderscape:nebulite_ore",
+            "target": "enderscape:nebulite_block"
+        },
+        {
+            "source": "enderscape:mirestone_nebulite_ore",
+            "target": "enderscape:nebulite_block"
+        },
+        {
+            "source": "create:zinc_ore",
+            "target": "create:zinc_block"
+        },
+        {
+            "source": "create:deepslate_zinc_ore",
+            "target": "create:zinc_block"
+        },
+        {
+            "source": "create:raw_zinc_block",
+            "target": "create:zinc_block"
+        },
+        {
+            "source": "irons_spellbooks:deepslate_mithril_ore",
+            "target": "irons_spellbooks:mithril_ore"
+        },
+        {
+            "source": "iss_magicfromtheeast:jade_ore",
+            "target": "iss_magicfromtheeast:jade_block"
+        },
+        {
+            "source": "iss_magicfromtheeast:deepslate_jade_ore",
+            "target": "iss_magicfromtheeast:jade_block"
+        },
+        {
+            "source": "malum:soulstone_ore",
+            "target": "malum:block_of_soulstone"
+        },
+        {
+            "source": "malum:deepslate_soulstone_ore",
+            "target": "malum:block_of_soulstone"
+        },
+        {
+            "source": "malum:block_of_raw_soulstone",
+            "target": "malum:block_of_soulstone"
+        },
+        {
+            "source": "minecraft:sculk_catalyst",
+            "target": "minecraft:sculk"
+        },
+        {
+            "source": "minecraft:sculk_vein",
+            "target": "minecraft:sculk"
+        },
+        {
+            "source": "minecraft:resin_clump",
+            "target": "minecraft:resin_block"
+        },
+        {
+            "source": "malum:brilliant_stone",
+            "target": "malum:block_of_brilliance"
+        },
+        {
+            "source": "malum:brilliant_deepslate",
+            "target": "malum:block_of_brilliance"
+        },
+        {
+            "source": "malum:blazing_quartz_ore",
+            "target": "malum:block_of_blazing_quartz"
+        },
+        {
+            "source": "malum:deepslate_quartz_ore",
+            "target": "malum:natural_quartz_ore"
+        },
+        {
+            "source": "malum:cthonic_gold_ore",
+            "target": "malum:block_of_cthonic_gold"
+        },
+        {
+            "source": "eternal_starlight:grimstone_starcore_ore",
+            "target": "eternal_starlight:starcore_block"
+        },
+        {
+            "source": "eternal_starlight:voidstone_starcore_ore",
+            "target": "eternal_starlight:starcore_block"
+        },
+        {
+            "source": "eternal_starlight:eternal_ice_starcore_ore",
+            "target": "eternal_starlight:starcore_block"
+        },
+        {
+            "source": "eternal_starlight:haze_ice_starcore_ore",
+            "target": "eternal_starlight:starcore_block"
+        },
+        {
+            "source": "eternal_starlight:red_starlight_crystal_cluster",
+            "target": "eternal_starlight:red_starlight_crystal_block"
+        },
+        {
+            "source": "eternal_starlight:blooming_red_starlight_crystal_cluster",
+            "target": "eternal_starlight:red_starlight_crystal_block"
+        },
+        {
+            "source": "eternal_starlight:blue_starlight_crystal_cluster",
+            "target": "eternal_starlight:blue_starlight_crystal_block"
+        },
+        {
+            "source": "eternal_starlight:blooming_blue_starlight_crystal_cluster",
+            "target": "eternal_starlight:blue_starlight_crystal_block"
+        },
+        {
+            "source": "eternal_starlight:raw_aethersent_block",
+            "target": "eternal_starlight:aethersent_block"
+        },
+        {
+            "source": "eternal_starlight:grimstone_redstone_ore",
+            "target": "minecraft:redstone_block"
+        },
+        {
+            "source": "eternal_starlight:voidstone_redstone_ore",
+            "target": "minecraft:redstone_block"
+        },
+        {
+            "source": "eternal_starlight:eternal_ice_redstone_ore",
+            "target": "minecraft:redstone_block"
+        },
+        {
+            "source": "eternal_starlight:haze_ice_redstone_ore",
+            "target": "minecraft:redstone_block"
+        },
+        {
+            "source": "eternal_starlight:glacite",
+            "target": "eternal_starlight:glacite_block"
+        },
+        {
+            "source": "eternal_starlight:grimstone_starlit_diamond_ore",
+            "target": "eternal_starlight:starlit_diamond_block"
+        },
+        {
+            "source": "eternal_starlight:voidstone_starlit_diamond_ore",
+            "target": "eternal_starlight:starlit_diamond_block"
+        },
+        {
+            "source": "eternal_starlight:eternal_ice_starlit_diamond_ore",
+            "target": "eternal_starlight:starlit_diamond_block"
+        },
+        {
+            "source": "eternal_starlight:haze_ice_starlit_diamond_ore",
+            "target": "eternal_starlight:starlit_diamond_block"
+        },
+        {
+            "source": "eternal_starlight:raw_deepsilver_block",
+            "target": "eternal_starlight:deepsilver_block"
+        },
+        {
+            "source": "eternal_starlight:grimstone_deepsilver_ore",
+            "target": "eternal_starlight:deepsilver_block"
+        },
+        {
+            "source": "eternal_starlight:voidstone_deepsilver_ore",
+            "target": "eternal_starlight:deepsilver_block"
+        },
+        {
+            "source": "eternal_starlight:eternal_ice_deepsilver_ore",
+            "target": "eternal_starlight:deepsilver_block"
+        },
+        {
+            "source": "eternal_starlight:haze_ice_deepsilver_ore",
+            "target": "eternal_starlight:deepsilver_block"
+        },
+        {
+            "source": "eternal_starlight:nightfall_mud_deepsilver_ore",
+            "target": "eternal_starlight:deepsilver_block"
+        },
+        {
+            "source": "eternal_starlight:packed_nightfall_mud_deepsilver_ore",
+            "target": "eternal_starlight:deepsilver_block"
+        },
+        {
+            "source": "eternal_starlight:budding_thioquartz",
+            "target": "eternal_starlight:thioquartz_block"
+        },
+        {
+            "source": "eternal_starlight:thioquartz_cluster",
+            "target": "eternal_starlight:thioquartz_block"
+        },
+        {
+            "source": "eternal_starlight:raw_flowglaze",
+            "target": "eternal_starlight:flowglaze"
+        },
+        {
+            "source": "eternal_starlight:grimstone_saltpeter_ore",
+            "target": "eternal_starlight:saltpeter_block"
+        },
+        {
+            "source": "eternal_starlight:voidstone_saltpeter_ore",
+            "target": "eternal_starlight:saltpeter_block"
+        },
+        {
+            "source": "eternal_starlight:eternal_ice_saltpeter_ore",
+            "target": "eternal_starlight:saltpeter_block"
+        },
+        {
+            "source": "eternal_starlight:haze_ice_saltpeter_ore",
+            "target": "eternal_starlight:saltpeter_block"
+        },
+        {
+            "source": "eternal_starlight:grimstone_malarite_ore",
+            "target": "eternal_starlight:malarite_block"
+        },
+        {
+            "source": "eternal_starlight:voidstone_malarite_ore",
+            "target": "eternal_starlight:malarite_block"
+        },
+        {
+            "source": "eternal_starlight:nightfall_mud_malarite_ore",
+            "target": "eternal_starlight:malarite_block"
+        },
+        {
+            "source": "eternal_starlight:packed_nightfall_mud_malarite_ore",
+            "target": "eternal_starlight:malarite_block"
+        },
+        {
+            "source": "eternal_starlight:oxidized_golem_steel_block",
+            "target": "eternal_starlight:golem_steel_block"
+        },
+        {
+            "source": "architects_palette:entrails",
+            "target": "productivemetalworks:meat_block"
+        },
+        {
+            "source": "minecraft:tube_coral",
+            "target": "minecraft:tube_coral_block"
+        },
+        {
+            "source": "minecraft:tube_coral_fan",
+            "target": "minecraft:tube_coral_block"
+        },
+        {
+            "source": "minecraft:tube_coral_wall_fan",
+            "target": "minecraft:tube_coral_block"
+        },
+        {
+            "source": "minecraft:dead_tube_coral_block",
+            "target": "minecraft:tube_coral_block"
+        },
+        {
+            "source": "minecraft:dead_tube_coral",
+            "target": "minecraft:tube_coral_block"
+        },
+        {
+            "source": "minecraft:dead_tube_coral_fan",
+            "target": "minecraft:tube_coral_block"
+        },
+        {
+            "source": "minecraft:dead_tube_coral_wall_fan",
+            "target": "minecraft:tube_coral_block"
+        },
+        {
+            "source": "minecraft:brain_coral",
+            "target": "minecraft:brain_coral_block"
+        },
+        {
+            "source": "minecraft:brain_coral_fan",
+            "target": "minecraft:brain_coral_block"
+        },
+        {
+            "source": "minecraft:brain_coral_wall_fan",
+            "target": "minecraft:brain_coral_block"
+        },
+        {
+            "source": "minecraft:dead_brain_coral_block",
+            "target": "minecraft:brain_coral_block"
+        },
+        {
+            "source": "minecraft:dead_brain_coral",
+            "target": "minecraft:brain_coral_block"
+        },
+        {
+            "source": "minecraft:dead_brain_coral_fan",
+            "target": "minecraft:brain_coral_block"
+        },
+        {
+            "source": "minecraft:dead_brain_coral_wall_fan",
+            "target": "minecraft:brain_coral_block"
+        },
+        {
+            "source": "minecraft:bubble_coral",
+            "target": "minecraft:bubble_coral_block"
+        },
+        {
+            "source": "minecraft:bubble_coral_fan",
+            "target": "minecraft:bubble_coral_block"
+        },
+        {
+            "source": "minecraft:bubble_coral_wall_fan",
+            "target": "minecraft:bubble_coral_block"
+        },
+        {
+            "source": "minecraft:dead_bubble_coral_block",
+            "target": "minecraft:bubble_coral_block"
+        },
+        {
+            "source": "minecraft:dead_bubble_coral",
+            "target": "minecraft:bubble_coral_block"
+        },
+        {
+            "source": "minecraft:dead_bubble_coral_fan",
+            "target": "minecraft:bubble_coral_block"
+        },
+        {
+            "source": "minecraft:dead_bubble_coral_wall_fan",
+            "target": "minecraft:bubble_coral_block"
+        },
+        {
+            "source": "minecraft:fire_coral",
+            "target": "minecraft:fire_coral_block"
+        },
+        {
+            "source": "minecraft:fire_coral_fan",
+            "target": "minecraft:fire_coral_block"
+        },
+        {
+            "source": "minecraft:fire_coral_wall_fan",
+            "target": "minecraft:fire_coral_block"
+        },
+        {
+            "source": "minecraft:dead_fire_coral_block",
+            "target": "minecraft:fire_coral_block"
+        },
+        {
+            "source": "minecraft:dead_fire_coral",
+            "target": "minecraft:fire_coral_block"
+        },
+        {
+            "source": "minecraft:dead_fire_coral_fan",
+            "target": "minecraft:fire_coral_block"
+        },
+        {
+            "source": "minecraft:dead_fire_coral_wall_fan",
+            "target": "minecraft:fire_coral_block"
+        },
+        {
+            "source": "minecraft:horn_coral",
+            "target": "minecraft:horn_coral_block"
+        },
+        {
+            "source": "minecraft:horn_coral_fan",
+            "target": "minecraft:horn_coral_block"
+        },
+        {
+            "source": "minecraft:horn_coral_wall_fan",
+            "target": "minecraft:horn_coral_block"
+        },
+        {
+            "source": "minecraft:dead_horn_coral_block",
+            "target": "minecraft:horn_coral_block"
+        },
+        {
+            "source": "minecraft:dead_horn_coral",
+            "target": "minecraft:horn_coral_block"
+        },
+        {
+            "source": "minecraft:dead_horn_coral_fan",
+            "target": "minecraft:horn_coral_block"
+        },
+        {
+            "source": "minecraft:dead_horn_coral_wall_fan",
+            "target": "minecraft:horn_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:acan_coral",
+            "target": "upgrade_aquatic:acan_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:acan_coral_fan",
+            "target": "upgrade_aquatic:acan_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:acan_coral_wall_fan",
+            "target": "upgrade_aquatic:acan_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_acan_coral_block",
+            "target": "upgrade_aquatic:acan_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_acan_coral",
+            "target": "upgrade_aquatic:acan_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_acan_coral_fan",
+            "target": "upgrade_aquatic:acan_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_acan_coral_wall_fan",
+            "target": "upgrade_aquatic:acan_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:finger_coral",
+            "target": "upgrade_aquatic:finger_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:finger_coral_fan",
+            "target": "upgrade_aquatic:finger_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:finger_coral_wall_fan",
+            "target": "upgrade_aquatic:finger_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_finger_coral_block",
+            "target": "upgrade_aquatic:finger_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_finger_coral",
+            "target": "upgrade_aquatic:finger_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_finger_coral_fan",
+            "target": "upgrade_aquatic:finger_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_finger_coral_wall_fan",
+            "target": "upgrade_aquatic:finger_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:star_coral",
+            "target": "upgrade_aquatic:star_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:star_coral_fan",
+            "target": "upgrade_aquatic:star_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:star_coral_wall_fan",
+            "target": "upgrade_aquatic:star_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_star_coral_block",
+            "target": "upgrade_aquatic:star_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_star_coral",
+            "target": "upgrade_aquatic:star_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_star_coral_fan",
+            "target": "upgrade_aquatic:star_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_star_coral_wall_fan",
+            "target": "upgrade_aquatic:star_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:moss_coral",
+            "target": "upgrade_aquatic:moss_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:moss_coral_fan",
+            "target": "upgrade_aquatic:moss_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:moss_coral_wall_fan",
+            "target": "upgrade_aquatic:moss_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_moss_coral_block",
+            "target": "upgrade_aquatic:moss_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_moss_coral",
+            "target": "upgrade_aquatic:moss_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_moss_coral_fan",
+            "target": "upgrade_aquatic:moss_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_moss_coral_wall_fan",
+            "target": "upgrade_aquatic:moss_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:petal_coral",
+            "target": "upgrade_aquatic:petal_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:petal_coral_fan",
+            "target": "upgrade_aquatic:petal_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:petal_coral_wall_fan",
+            "target": "upgrade_aquatic:petal_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_petal_coral_block",
+            "target": "upgrade_aquatic:petal_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_petal_coral",
+            "target": "upgrade_aquatic:petal_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_petal_coral_fan",
+            "target": "upgrade_aquatic:petal_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_petal_coral_wall_fan",
+            "target": "upgrade_aquatic:petal_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:branch_coral",
+            "target": "upgrade_aquatic:branch_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:branch_coral_fan",
+            "target": "upgrade_aquatic:branch_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:branch_coral_wall_fan",
+            "target": "upgrade_aquatic:branch_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_branch_coral_block",
+            "target": "upgrade_aquatic:branch_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_branch_coral",
+            "target": "upgrade_aquatic:branch_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_branch_coral_fan",
+            "target": "upgrade_aquatic:branch_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_branch_coral_wall_fan",
+            "target": "upgrade_aquatic:branch_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:rock_coral",
+            "target": "upgrade_aquatic:rock_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:rock_coral_fan",
+            "target": "upgrade_aquatic:rock_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:rock_coral_wall_fan",
+            "target": "upgrade_aquatic:rock_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_rock_coral_block",
+            "target": "upgrade_aquatic:rock_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_rock_coral",
+            "target": "upgrade_aquatic:rock_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_rock_coral_fan",
+            "target": "upgrade_aquatic:rock_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_rock_coral_wall_fan",
+            "target": "upgrade_aquatic:rock_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:pillow_coral",
+            "target": "upgrade_aquatic:pillow_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:pillow_coral_fan",
+            "target": "upgrade_aquatic:pillow_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:pillow_coral_wall_fan",
+            "target": "upgrade_aquatic:pillow_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_pillow_coral_block",
+            "target": "upgrade_aquatic:pillow_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_pillow_coral",
+            "target": "upgrade_aquatic:pillow_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_pillow_coral_fan",
+            "target": "upgrade_aquatic:pillow_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_pillow_coral_wall_fan",
+            "target": "upgrade_aquatic:pillow_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:silk_coral",
+            "target": "upgrade_aquatic:silk_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:silk_coral_fan",
+            "target": "upgrade_aquatic:silk_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:silk_coral_wall_fan",
+            "target": "upgrade_aquatic:silk_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_silk_coral_block",
+            "target": "upgrade_aquatic:silk_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_silk_coral",
+            "target": "upgrade_aquatic:silk_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_silk_coral_fan",
+            "target": "upgrade_aquatic:silk_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_silk_coral_wall_fan",
+            "target": "upgrade_aquatic:silk_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:chrome_coral",
+            "target": "upgrade_aquatic:chrome_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:chrome_coral_fan",
+            "target": "upgrade_aquatic:chrome_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:chrome_coral_wall_fan",
+            "target": "upgrade_aquatic:chrome_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_chrome_coral_block",
+            "target": "upgrade_aquatic:chrome_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_chrome_coral",
+            "target": "upgrade_aquatic:chrome_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_chrome_coral_fan",
+            "target": "upgrade_aquatic:chrome_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:dead_chrome_coral_wall_fan",
+            "target": "upgrade_aquatic:chrome_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:prismarine_coral",
+            "target": "upgrade_aquatic:prismarine_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:prismarine_coral_fan",
+            "target": "upgrade_aquatic:prismarine_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:prismarine_coral_wall_fan",
+            "target": "upgrade_aquatic:prismarine_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:prismarine_coral_shower",
+            "target": "upgrade_aquatic:prismarine_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:elder_prismarine_coral",
+            "target": "upgrade_aquatic:elder_prismarine_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:elder_prismarine_coral_fan",
+            "target": "upgrade_aquatic:elder_prismarine_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:elder_prismarine_coral_wall_fan",
+            "target": "upgrade_aquatic:elder_prismarine_coral_block"
+        },
+        {
+            "source": "upgrade_aquatic:elder_prismarine_coral_shower",
+            "target": "upgrade_aquatic:elder_prismarine_coral_block"
+        }
+    ]
+}

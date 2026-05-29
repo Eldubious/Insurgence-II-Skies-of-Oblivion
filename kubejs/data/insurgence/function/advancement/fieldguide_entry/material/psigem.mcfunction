@@ -1,0 +1,1 @@
+fieldguide grant @s only block:psi/psigem_block

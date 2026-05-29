@@ -1,0 +1,1 @@
+fieldguide grant @s only block:productivemetalworks/meat_block

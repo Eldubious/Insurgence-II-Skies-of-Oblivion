@@ -1,0 +1,49 @@
+{
+    "parent": "insurgence:fg_materials/copper",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.iron.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.iron.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_ingot",
+                            "minecraft:iron_nugget",
+                            "create:iron_sheet",
+                            "minecraft:raw_iron",
+                            "create:crushed_raw_iron",
+                            "minecraft:iron_block",
+                            "minecraft:iron_ore",
+                            "minecraft:deepslate_iron_ore",
+                            "minecraft:raw_iron_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/iron"
+    }
+}

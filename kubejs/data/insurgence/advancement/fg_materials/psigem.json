@@ -1,0 +1,42 @@
+{
+    "parent": "insurgence:fg_materials/psimetal",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.psigem.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.psigem.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "psi:psigem"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "psi:psigem",
+                            "psi:psigem_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/psigem"
+    }
+}

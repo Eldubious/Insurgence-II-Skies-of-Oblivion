@@ -791,6 +791,150 @@
       "borderType": "gradient",
       "gradientType": "custom",
       "gradientColors": ["#FF5555", "#A84545", "#733737"]
+    },
+    {
+        "tags": [
+            "insurgence:category/unused"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.unused",
+        "colorItemRating": "0xFF5555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/creative_mode"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.creative_mode",
+        "colorItemRating": "0x5555FF",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/guide_book"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.guide_book",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/collectable"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.collectable",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/material"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.material",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/tool"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.tool",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/ammo"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.ammo",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/plant"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.plant",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/crop"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.crop",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/consumable"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.consumable",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/cosmetic"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.cosmetic",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/decorative_block"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.decorative_block",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/material_block"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.material_block",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/functional_block"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.functional_block",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/redstone_block"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.redstone_block",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/crafting_station"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.crafting_station",
+        "colorItemRating": "0x555555",
+        "showRating": true
     }
   ]
 }

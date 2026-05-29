@@ -1,0 +1,46 @@
+{
+    "parent": "insurgence:fg_materials/flowglaze",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.saltpeter.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.saltpeter.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "eternal_starlight:saltpeter_powder"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "eternal_starlight:saltpeter_powder",
+                            "eternal_starlight:saltpeter_block",
+                            "eternal_starlight:grimstone_saltpeter_ore",
+                            "eternal_starlight:voidstone_saltpeter_ore",
+                            "eternal_starlight:eternal_ice_saltpeter_ore",
+                            "eternal_starlight:haze_ice_saltpeter_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/saltpeter"
+    }
+}

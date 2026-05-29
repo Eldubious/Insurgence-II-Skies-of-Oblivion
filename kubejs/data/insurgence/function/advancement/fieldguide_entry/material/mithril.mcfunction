@@ -1,0 +1,1 @@
+fieldguide grant @s only block:irons_spellbooks/mithril_ore

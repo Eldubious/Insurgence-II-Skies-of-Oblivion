@@ -4,9 +4,11 @@ function dimensionTp(server, entity) {
     let pos = entity.pos;
     let currDim = entity.level.dimension.toString();
     let destDim = getDestination(currDim, pos.y());
-    if (destDim == null) return;
-    let targetY = getTargetY(currDim, destDim);
-    if (targetY == -1) return;
+    if (destDim == null)
+        return;
+    let targetY = getTargetY(currDim, destDim, pos.y());
+    if (targetY == -1)
+        return;
 
     let targetPos = [pos.x(), targetY, pos.z()];
     let uuid = entity.uuid.toString();
@@ -19,8 +21,10 @@ function dimensionTp(server, entity) {
             let flags = pData.get("flags");
 
             // Player has not completed tutorial
-            if (currDim == "insurgence:skies" && flags.toArray().indexOf("completed_tutorial") == -1)
+            if (currDim == "insurgence:skies" && flags.toArray().indexOf("completed_tutorial") == -1) {
+                server.runCommandSilent(`damage ${uuid} 1000000000 minecraft:bad_respawn_point`);
                 return;
+            }
         }
 
         // Teleport any entities the player is mounted on first
@@ -28,6 +32,7 @@ function dimensionTp(server, entity) {
     }
 
     let tpCmd = `execute in ${destDim} run tp ${uuid} ${targetPos[0]} ${targetPos[1]} ${targetPos[2]}`;
+    console.log(tpCmd);
     server.runCommandSilent(tpCmd);    
 }
 
@@ -54,19 +59,21 @@ function getDestination(currDim, y) {
 }
 
 // Returns the y value to be used when teleporting the entity
-function getTargetY(currDim, targetDim) {
+function getTargetY(currDim, targetDim, y) {
     switch (targetDim) {
         case "minecraft:overworld":
-            return 400;
+            if (currDim == "insurgence:skies" && y < 0)
+                return 390;
         
         case "minecraft:the_end":
-            return 0;
+            if (currDim == "insurgence:skies" && y > 300)
+                return 10;
 
         case "insurgence:skies":
-            if (currDim == "minecraft:overworld")
-                return 0;
-            else if (currDim == "minecraft:the_end")
-                return 300;
+            if (currDim == "minecraft:overworld" && y > 400)
+                return 10;
+            else if (currDim == "minecraft:the_end" && y < 0)
+                return 290;
         
         default:
             return -1;

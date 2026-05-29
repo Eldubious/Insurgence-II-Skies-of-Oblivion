@@ -1,0 +1,43 @@
+{
+    "parent": "insurgence:fg_materials/thermal_springstone",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.glacite.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.glacite.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "eternal_starlight:glacite_shard"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "eternal_starlight:glacite_shard",
+                            "eternal_starlight:glacite_block",
+                            "eternal_starlight:glacite"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/glacite"
+    }
+}

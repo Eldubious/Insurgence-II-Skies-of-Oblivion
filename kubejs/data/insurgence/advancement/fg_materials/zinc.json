@@ -1,0 +1,48 @@
+{
+    "parent": "insurgence:fg_materials/andesite_alloy",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.zinc.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.zinc.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "create:zinc_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "create:zinc_ingot",
+                            "create:zinc_nugget",
+                            "create:raw_zinc",
+                            "create:crushed_raw_zinc",
+                            "create:zinc_block",
+                            "create:zinc_ore",
+                            "create:deepslate_zinc_ore",
+                            "create:raw_zinc_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/zinc"
+    }
+}

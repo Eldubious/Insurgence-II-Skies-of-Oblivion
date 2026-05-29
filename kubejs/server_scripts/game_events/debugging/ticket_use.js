@@ -58,8 +58,8 @@ ItemEvents.firstRightClicked("insurgence:debug_ticket", event => {
                     flag = flag.getAsString().toString();
                 else
                     ticket_error(player, "no_data");
-
-
+                toggleFlag(player, flag);
+                break;
         }
     }
 });
@@ -79,13 +79,13 @@ function toggleFlag(player, flag) {
 
         if (flags.toArray().indexOf(flag) == -1) {  // Flag is false
             flags.push(flag);
-            player.tell(Component.literal(`Toggled ${flag} to TRUE`));
+            player.tell(Component.literal(`Toggled flag "${flag}" to `).append(Component.literal("TRUE").green()));
         }
         else {  // Flag is true
             let fIdx = flags.toArray().indexOf(flag);
             if (fIdx != -1) 
                 flags.remove(fIdx);
-            player.tell(Component.literal(`Toggled ${flag} to FALSE`));
+            player.tell(Component.literal(`Toggled flag "${flag}" to `).append(Component.literal("FALSE").red()));
         }
     }
 }

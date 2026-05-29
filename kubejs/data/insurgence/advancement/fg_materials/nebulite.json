@@ -1,0 +1,45 @@
+{
+    "parent": "insurgence:fg_materials/root",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.nebulite.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.nebulite.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "enderscape:nebulite"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "enderscape:nebulite",
+                            "enderscape:nebulite_shards",
+                            "enderscape:nebulite_block",
+                            "enderscape:nebulite_ore",
+                            "enderscape:mirestone_nebulite_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/nebulite"
+    }
+}

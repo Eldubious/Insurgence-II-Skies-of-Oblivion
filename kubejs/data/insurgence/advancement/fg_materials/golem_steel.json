@@ -1,0 +1,46 @@
+{
+    "parent": "insurgence:fg_materials/thioquartz",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.golem_steel.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.golem_steel.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "eternal_starlight:golem_steel_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "eternal_starlight:golem_steel_ingot",
+                            "eternal_starlight:oxidized_golem_steel_ingot",
+                            "eternal_starlight:golem_steel_nugget",
+                            "eternal_starlight:oxidized_golem_steel_nugget",
+                            "eternal_starlight:golem_steel_block",
+                            "eternal_starlight:oxidized_golem_steel_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/golem_steel"
+    }
+}

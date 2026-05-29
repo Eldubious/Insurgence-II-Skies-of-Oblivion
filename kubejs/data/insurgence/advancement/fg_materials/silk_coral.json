@@ -1,0 +1,46 @@
+{
+    "parent": "insurgence:fg_materials/pillow_coral",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.silk_coral.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.silk_coral.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "upgrade_aquatic:silk_coral"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "upgrade_aquatic:silk_coral_block",
+                            "upgrade_aquatic:silk_coral",
+                            "upgrade_aquatic:silk_coral_fan",
+                            "upgrade_aquatic:dead_silk_coral_block",
+                            "upgrade_aquatic:dead_silk_coral",
+                            "upgrade_aquatic:dead_silk_coral_fan"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/silk_coral"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "parent": "insurgence:fg_materials/prismarine_coral",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.elder_prismarine_coral.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.elder_prismarine_coral.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "upgrade_aquatic:elder_prismarine_coral"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "upgrade_aquatic:elder_prismarine_coral_block",
+                            "upgrade_aquatic:elder_prismarine_coral",
+                            "upgrade_aquatic:elder_prismarine_coral_fan",
+                            "upgrade_aquatic:elder_prismarine_shower"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/elder_prismarine_coral"
+    }
+}

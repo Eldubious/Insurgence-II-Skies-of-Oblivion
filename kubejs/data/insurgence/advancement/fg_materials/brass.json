@@ -1,0 +1,44 @@
+{
+    "parent": "insurgence:fg_materials/zinc",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.brass.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.brass.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "create:brass_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "create:brass_ingot",
+                            "create:brass_nugget",
+                            "create:brass_sheet",
+                            "create:brass_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/brass"
+    }
+}

@@ -1,0 +1,1 @@
+fieldguide grant @s only block:upgrade_aquatic/petal_coral_block

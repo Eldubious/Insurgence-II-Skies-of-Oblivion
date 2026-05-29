@@ -1,0 +1,44 @@
+{
+    "parent": "insurgence:fg_materials/diamond",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.emerald.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.emerald.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:emerald"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:emerald",
+                            "minecraft:emerald_block",
+                            "minecraft:emerald_ore",
+                            "minecraft:deepslate_emerald_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/emerald"
+    }
+}

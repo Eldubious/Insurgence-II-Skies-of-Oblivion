@@ -1,0 +1,42 @@
+{
+    "parent": "insurgence:fg_materials/nether_brass",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.oracle.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.oracle.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "architects_palette:oracle_jelly"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "architects_palette:oracle_jelly",
+                            "architects_palette:oracle_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/oracle"
+    }
+}

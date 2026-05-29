@@ -1,0 +1,43 @@
+{
+    "parent": "insurgence:fg_materials/psigem",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.ebony_psimetal.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.ebony_psimetal.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "psi:ebony_psimetal"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "psi:ebony_psimetal",
+                            "psi:ebony_substance",
+                            "psi:ebony_psimetal_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/ebony_psimetal"
+    }
+}

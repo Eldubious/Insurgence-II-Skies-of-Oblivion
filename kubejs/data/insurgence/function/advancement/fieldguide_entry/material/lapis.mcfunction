@@ -1,0 +1,1 @@
+fieldguide grant @s only block:minecraft/lapis_block

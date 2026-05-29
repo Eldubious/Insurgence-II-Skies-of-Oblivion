@@ -1,0 +1,42 @@
+{
+    "parent": "insurgence:fg_materials/jade",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.refined_jade.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.refined_jade.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "iss_magicfromtheeast:refined_jade_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "iss_magicfromtheeast:refined_jade_ingot",
+                            "iss_magicfromtheeast:refined_jade_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/refined_jade"
+    }
+}

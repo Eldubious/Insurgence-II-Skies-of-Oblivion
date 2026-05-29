@@ -1,0 +1,43 @@
+{
+    "parent": "insurgence:fg_materials/root",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.nether_quartz.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.nether_quartz.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:quartz"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:quartz",
+                            "minecraft:quartz_block",
+                            "minecraft:nether_quartz_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/nether_quartz"
+    }
+}

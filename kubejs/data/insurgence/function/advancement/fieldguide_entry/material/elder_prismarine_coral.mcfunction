@@ -1,0 +1,1 @@
+fieldguide grant @s only block:upgrade_aquatic/elder_prismarine_coral_block

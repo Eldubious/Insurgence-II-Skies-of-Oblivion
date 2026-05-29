@@ -1,0 +1,43 @@
+{
+    "parent": "insurgence:fg_materials/redstone",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.resin.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.resin.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:resin_clump"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:resin_brick",
+                            "minecraft:resin_clump",
+                            "minecraft:resin_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/resin"
+    }
+}

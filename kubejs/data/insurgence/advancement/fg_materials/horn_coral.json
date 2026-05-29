@@ -1,0 +1,46 @@
+{
+    "parent": "insurgence:fg_materials/fire_coral",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.horn_coral.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.horn_coral.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:horn_coral"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:horn_coral_block",
+                            "minecraft:horn_coral",
+                            "minecraft:horn_coral_fan",
+                            "minecraft:dead_horn_coral_block",
+                            "minecraft:dead_horn_coral",
+                            "minecraft:dead_horn_coral_fan"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/horn_coral"
+    }
+}

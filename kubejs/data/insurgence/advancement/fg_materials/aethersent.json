@@ -1,0 +1,45 @@
+{
+    "parent": "insurgence:fg_materials/blue_starlight_crystal",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.aethersent.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.aethersent.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "eternal_starlight:aethersent_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "eternal_starlight:aethersent_ingot",
+                            "eternal_starlight:aethersent_nugget",
+                            "eternal_starlight:raw_aethersent",
+                            "eternal_starlight:aethersent_block",
+                            "eternal_starlight:raw_aethersent_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/aethersent"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "parent": "insurgence:fg_materials/chrome_coral",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.prismarine_coral.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.prismarine_coral.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "upgrade_aquatic:prismarine_coral"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "upgrade_aquatic:prismarine_coral_block",
+                            "upgrade_aquatic:prismarine_coral",
+                            "upgrade_aquatic:prismarine_coral_fan",
+                            "upgrade_aquatic:prismarine_coral_shower"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/prismarine_coral"
+    }
+}

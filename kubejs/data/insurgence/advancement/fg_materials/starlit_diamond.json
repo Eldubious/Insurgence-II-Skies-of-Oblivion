@@ -1,0 +1,46 @@
+{
+    "parent": "insurgence:fg_materials/glacite",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.starlit_diamond.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.starlit_diamond.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "eternal_starlight:starlit_diamond"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "eternal_starlight:starlit_diamond",
+                            "eternal_starlight:starlit_diamond_block",
+                            "eternal_starlight:grimstone_starlit_diamond_ore",
+                            "eternal_starlight:voidstone_starlit_diamond_ore",
+                            "eternal_starlight:eternal_ice_starlit_diamond_ore",
+                            "eternal_starlight:haze_ice_starlit_diamond_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/starlit_diamond"
+    }
+}

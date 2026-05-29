@@ -1,0 +1,45 @@
+{
+    "parent": "insurgence:fg_materials/root",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.coal.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.coal.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:coal"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:coal",
+                            "malum:coal_fragment",
+                            "minecraft:coal_block",
+                            "minecraft:coal_ore",
+                            "minecraft:deepslate_coal_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/coal"
+    }
+}

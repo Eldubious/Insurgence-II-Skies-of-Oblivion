@@ -1,0 +1,42 @@
+{
+    "parent": "insurgence:fg_materials/cerebral",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.entwine.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.entwine.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "architects_palette:entwine_rod"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "architects_palette:entwine_rod",
+                            "architects_palette:entwine_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/entwine"
+    }
+}

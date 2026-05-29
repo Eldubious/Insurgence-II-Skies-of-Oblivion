@@ -1,0 +1,46 @@
+{
+    "parent": "insurgence:fg_materials/tube_coral",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.brain_coral.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.brain_coral.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:brain_coral"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:brain_coral_block",
+                            "minecraft:brain_coral",
+                            "minecraft:brain_coral_fan",
+                            "minecraft:dead_brain_coral_block",
+                            "minecraft:dead_brain_coral",
+                            "minecraft:dead_brain_coral_fan"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/brain_coral"
+    }
+}

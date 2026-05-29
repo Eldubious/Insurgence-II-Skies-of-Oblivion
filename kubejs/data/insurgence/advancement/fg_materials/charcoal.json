@@ -1,0 +1,43 @@
+{
+    "parent": "insurgence:fg_materials/coal",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.charcoal.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.charcoal.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:charcoal"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:charcoal",
+                            "malum:charcoal_fragment",
+                            "architects_palette:charcoal_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/charcoal"
+    }
+}

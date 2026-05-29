@@ -1,0 +1,29 @@
+{
+    "sort_index": 6,
+    "icon": "insurgence:textures/gui/field_guide/category/ores.png",
+    "replace": true,
+    "group_by": [
+        "@minecraft",
+        "@upgrade_aquatic",
+        "@oreganized",
+        "@supplementaries",
+        "@pigsteel",
+        "@irons_jewelry",
+        "@productivemetalworks",
+        "@refinedstorage",
+        "@architects_palette",
+        "@create",
+        "@irons_spellbooks",
+        "@iss_magicfromtheeast",
+        "@malum",
+        "@eternal_starlight",
+        "@psi",
+        "@enderscape"
+    ],
+    "contents": [
+        {
+            "type": "auto_populate",
+            "strategy": "tag:insurgence:fieldguide/material"
+        }
+    ]
+}

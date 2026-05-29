@@ -1,0 +1,47 @@
+{
+    "parent": "insurgence:fg_materials/arcane_charcoal",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.soulstone.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.soulstone.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "malum:refined_soulstone"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "malum:refined_soulstone",
+                            "malum:raw_soulstone",
+                            "malum:crushed_soulstone",
+                            "malum:block_of_soulstone",
+                            "malum:soulstone_ore",
+                            "malum:deepslate_soulstone_ore",
+                            "malum:block_of_raw_soulstone"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/soulstone"
+    }
+}

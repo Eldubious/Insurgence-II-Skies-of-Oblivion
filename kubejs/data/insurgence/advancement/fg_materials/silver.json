@@ -1,0 +1,47 @@
+{
+    "parent": "insurgence:fg_materials/lead",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.silver.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.silver.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "oreganized:silver_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "oreganized:silver_ingot",
+                            "oreganized:silver_nugget",
+                            "oreganized:raw_silver",
+                            "oreganized:silver_block",
+                            "oreganized:silver_ore",
+                            "oreganized:deepslate_silver_ore",
+                            "oreganized:raw_silver_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/silver"
+    }
+}

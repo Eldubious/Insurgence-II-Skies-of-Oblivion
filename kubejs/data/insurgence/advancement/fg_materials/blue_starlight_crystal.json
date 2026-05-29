@@ -1,0 +1,44 @@
+{
+    "parent": "insurgence:fg_materials/red_starlight_crystal",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.blue_starlight_crystal.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.blue_starlight_crystal.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "eternal_starlight:blue_starlight_crystal_shard"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "eternal_starlight:blue_starlight_crystal_shard",
+                            "eternal_starlight:blue_starlight_crystal_block",
+                            "eternal_starlight:blue_starlight_crystal_cluster",
+                            "eternal_starlight:blooming_blue_starlight_crystal_cluster"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/blue_starlight_crystal"
+    }
+}

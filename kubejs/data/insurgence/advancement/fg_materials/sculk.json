@@ -1,0 +1,44 @@
+{
+    "parent": "insurgence:fg_materials/amethyst",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.sculk.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.sculk.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:echo_shard"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:echo_shard",
+                            "minecraft:sculk",
+                            "minecraft:sculk_vein",
+                            "minecraft:sculk_catalyst"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/gold"
+    }
+}

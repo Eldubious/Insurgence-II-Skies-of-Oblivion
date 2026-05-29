@@ -1,0 +1,43 @@
+{
+    "parent": "insurgence:fg_materials/glowstone",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.pigsteel.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.pigsteel.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "pigsteel:pigsteel_chunk"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "pigsteel:pigsteel_chunk",
+                            "pigsteel:porkslag",
+                            "pigsteel:pigsteel_chunk_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/pigsteel"
+    }
+}

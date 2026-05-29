@@ -1,0 +1,46 @@
+{
+    "parent": "insurgence:fg_materials/silk_coral",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.chrome_coral.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.chrome_coral.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "upgrade_aquatic:chrome_coral"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "upgrade_aquatic:chrome_coral_block",
+                            "upgrade_aquatic:chrome_coral",
+                            "upgrade_aquatic:chrome_coral_fan",
+                            "upgrade_aquatic:dead_chrome_coral_block",
+                            "upgrade_aquatic:dead_chrome_coral",
+                            "upgrade_aquatic:dead_chrome_coral_fan"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/chrome_coral"
+    }
+}

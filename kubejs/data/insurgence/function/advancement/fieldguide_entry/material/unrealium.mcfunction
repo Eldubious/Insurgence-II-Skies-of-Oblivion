@@ -1,0 +1,1 @@
+fieldguide grant @s only block:eternal_starlight/unrealium_block

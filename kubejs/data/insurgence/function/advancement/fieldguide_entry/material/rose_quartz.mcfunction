@@ -1,0 +1,1 @@
+fieldguide grant @s only block:create/rose_quartz_block

@@ -1,0 +1,1 @@
+fieldguide grant @s only block:create/andesite_alloy_block

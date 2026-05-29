@@ -1,0 +1,1 @@
+fieldguide grant @s only block:iss_magicfromtheeast/jade_block

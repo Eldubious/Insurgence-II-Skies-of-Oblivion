@@ -1,0 +1,46 @@
+{
+    "parent": "insurgence:fg_materials/nebulite",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.shadoline.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.shadoline.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "enderscape:shadoline_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "enderscape:shadoline_ingot",
+                            "enderscape:raw_shadoline",
+                            "enderscape:shadoline_block",
+                            "enderscape:shadoline_ore",
+                            "enderscape:mirestone_shadoline_ore",
+                            "enderscape:raw_shadoline_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/shadoline"
+    }
+}

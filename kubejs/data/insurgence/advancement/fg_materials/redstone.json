@@ -1,0 +1,48 @@
+{
+    "parent": "insurgence:fg_materials/lapis",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.redstone.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.redstone.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:redstone"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:redstone",
+                            "minecraft:redstone_block",
+                            "minecraft:redstone_ore",
+                            "minecraft:deepslate_redstone_ore",
+                            "eternal_starlight:grimstone_redstone_ore",
+                            "eternal_starlight:voidstone_redstone_ore",
+                            "eternal_starlight:eternal_ice_redstone_ore",
+                            "eternal_starlight:haze_ice_redstone_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/redstone"
+    }
+}

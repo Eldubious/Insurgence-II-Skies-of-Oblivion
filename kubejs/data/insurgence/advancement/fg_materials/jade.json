@@ -1,0 +1,44 @@
+{
+    "parent": "insurgence:fg_materials/mithril",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.jade.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.jade.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "iss_magicfromtheeast:jade"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "iss_magicfromtheeast:jade",
+                            "iss_magicfromtheeast:jade_block",
+                            "iss_magicfromtheeast:jade_ore",
+                            "iss_magicfromtheeast:deepslate_jade_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/jade"
+    }
+}

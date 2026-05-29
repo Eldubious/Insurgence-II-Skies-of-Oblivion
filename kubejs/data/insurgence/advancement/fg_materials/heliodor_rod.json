@@ -1,0 +1,41 @@
+{
+    "parent": "insurgence:fg_materials/unobtanium",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.heliodor_rod.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.heliodor_rod.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "architects_palette:heliodor_rod"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "architects_palette:heliodor_rod"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/heliodor_rod"
+    }
+}

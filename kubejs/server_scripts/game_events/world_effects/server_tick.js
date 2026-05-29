@@ -11,6 +11,16 @@ ServerEvents.tick(event => {
         let marker = markerList[i];
         markerHandler(server, svrData, marker);
     }
+
+    // Iterate through all entities every 10t/0.5s
+    if (time % 10 == 0) {
+        for (let i in entityList) {
+            let entity = entityList[i];
+    
+            // Teleport between dimensions
+            dimensionTp(server, entity);
+        }
+    }
     
     // Only cleanup entity tags every 20 ticks/1 second
     if (time % 20 == 0) {

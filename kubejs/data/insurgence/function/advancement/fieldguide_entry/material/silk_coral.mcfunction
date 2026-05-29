@@ -1,0 +1,1 @@
+fieldguide grant @s only block:upgrade_aquatic/silk_coral_block

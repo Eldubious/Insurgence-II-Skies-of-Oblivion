@@ -1,0 +1,43 @@
+{
+    "parent": "insurgence:fg_materials/soulstone",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.natural_quartz.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.natural_quartz.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "malum:natural_quartz"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "malum:natural_quartz",
+                            "malum:natural_quartz_ore",
+                            "malum:deepslate_quartz_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/natural_quartz"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "parent": "insurgence:fg_materials/entwine",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.unobtanium.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.unobtanium.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "architects_palette:unobtanium"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "architects_palette:unobtanium",
+                            "architects_palette:unobtanium_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/unobtanium"
+    }
+}

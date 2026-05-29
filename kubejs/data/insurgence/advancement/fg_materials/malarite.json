@@ -1,0 +1,46 @@
+{
+    "parent": "insurgence:fg_materials/unrealium",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.malarite.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.malarite.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "eternal_starlight:malarite"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "eternal_starlight:malarite",
+                            "eternal_starlight:malarite_block",
+                            "eternal_starlight:grimstone_malarite_ore",
+                            "eternal_starlight:voidstone_malarite_ore",
+                            "eternal_starlight:nightfall_mud_malarite_ore",
+                            "eternal_starlight:packed_nightfall_mud_malarite_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/malarite"
+    }
+}

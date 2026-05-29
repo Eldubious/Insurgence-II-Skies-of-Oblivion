@@ -74,6 +74,15 @@
                         "flag": "completed_tutorial"
                     }
                 }
+            },
+            {
+                "item": "insurgence:debug_ticket",
+                "components": {
+                    "minecraft:custom_data": {
+                        "type": "toggle_flag",
+                        "flag": "completed_ender_eye_ritual"
+                    }
+                }
             }
         ]
     }

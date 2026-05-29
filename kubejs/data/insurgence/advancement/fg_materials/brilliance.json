@@ -1,0 +1,46 @@
+{
+    "parent": "insurgence:fg_materials/blazing_quartz",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.brilliance.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.brilliance.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "malum:refined_brilliance"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "malum:refined_brilliance",
+                            "malum:raw_brilliance",
+                            "malum:crushed_brilliance",
+                            "malum:block_of_brilliance",
+                            "malum:brilliant_stone",
+                            "malum:brilliant_deepslate"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/arcane_charcoal"
+    }
+}

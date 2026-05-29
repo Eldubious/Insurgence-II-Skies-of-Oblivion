@@ -1,0 +1,1 @@
+fieldguide grant @s only block:minecraft/gold_block

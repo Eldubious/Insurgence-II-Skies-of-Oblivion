@@ -1,0 +1,46 @@
+{
+    "parent": "insurgence:fg_materials/root",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.starcore.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.starcore.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "eternal_starlight:starcore"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "eternal_starlight:starcore",
+                            "eternal_starlight:starcore_block",
+                            "eternal_starlight:grimstone_starcore_ore",
+                            "eternal_starlight:voidstone_starcore_ore",
+                            "eternal_starlight:eternal_ice_starcore_ore",
+                            "eternal_starlight:haze_ice_starcore_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/starcore"
+    }
+}

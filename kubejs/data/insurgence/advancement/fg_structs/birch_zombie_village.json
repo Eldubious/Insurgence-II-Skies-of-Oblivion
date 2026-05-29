@@ -1,0 +1,47 @@
+{
+    "parent": "insurgence:fg_structs/plains_zombie_village",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_structs.birch_zombie_village.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_structs.birch_zombie_village.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:stripped_birch_log"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "in_structure": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": [
+                                    "nova_structures:village_birch"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+        "requirements": [
+            [
+                "in_structure"
+            ]
+        ]
+    },
+    "rewards": {
+        "function": "insurgence/advancement/unlock_field_guide_entry/birch_zombie_village"
+    }
+}

@@ -1,0 +1,1 @@
+fieldguide grant @s only block:eternal_starlight/raw_amaramber_block

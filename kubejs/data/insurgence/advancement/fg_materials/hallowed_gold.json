@@ -1,0 +1,43 @@
+{
+    "parent": "insurgence:fg_materials/soul_stained_steel",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.hallowed_gold.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.hallowed_gold.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "malum:hallowed_gold_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "malum:hallowed_gold_ingot",
+                            "malum:hallowed_gold_nugget",
+                            "malum:block_of_hallowed_gold"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/hallowed_gold"
+    }
+}

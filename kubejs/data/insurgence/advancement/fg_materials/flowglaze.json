@@ -1,0 +1,42 @@
+{
+    "parent": "insurgence:fg_materials/amaramber",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.flowglaze.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.flowglaze.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "eternal_starlight:flowglaze"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "eternal_starlight:flowglaze",
+                            "eternal_starlight:raw_flowglaze"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/flowglaze"
+    }
+}

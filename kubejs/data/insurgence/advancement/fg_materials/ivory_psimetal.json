@@ -1,0 +1,43 @@
+{
+    "parent": "insurgence:fg_materials/ebony_psimetal",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.ivory_psimetal.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.ivory_psimetal.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "psi:ivory_psimetal"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "psi:ivory_psimetal",
+                            "psi:ivory_substance",
+                            "psi:ivory_psimetal_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/ivory_psimetal"
+    }
+}

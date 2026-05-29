@@ -1,0 +1,52 @@
+{
+    "parent": "insurgence:fg_materials/charcoal",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.copper.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.copper.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:copper_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:copper_ingot",
+                            "create:copper_nugget",
+                            "create:copper_sheet",
+                            "minecraft:raw_copper",
+                            "create:crushed_raw_copper",
+                            "minecraft:copper_block",
+                            "minecraft:exposed_copper",
+                            "minecraft:weathered_copper",
+                            "minecraft:oxidized_copper",
+                            "minecraft:copper_ore",
+                            "minecraft:deepslate_copper_ore",
+                            "minecraft:raw_copper_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/copper"
+    }
+}

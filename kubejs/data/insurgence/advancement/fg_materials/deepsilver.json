@@ -1,0 +1,51 @@
+{
+    "parent": "insurgence:fg_materials/starlit_diamond",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.deepsilver.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.deepsilver.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "eternal_starlight:deepsilver_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "eternal_starlight:deepsilver_ingot",
+                            "eternal_starlight:deepsilver_nugget",
+                            "eternal_starlight:raw_deepsilver",
+                            "eternal_starlight:deepsilver_block",
+                            "eternal_starlight:raw_deepsilver_block",
+                            "eternal_starlight:grimstone_deepsilver_ore",
+                            "eternal_starlight:voidstone_deepsilver_ore",
+                            "eternal_starlight:eternal_ice_deepsilver_ore",
+                            "eternal_starlight:haze_ice_deepsilver_ore",
+                            "eternal_starlight:nightfall_mud_deepsilver_ore",
+                            "eternal_starlight:packed_nightfall_mud_deepsilver_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/deepsilver"
+    }
+}

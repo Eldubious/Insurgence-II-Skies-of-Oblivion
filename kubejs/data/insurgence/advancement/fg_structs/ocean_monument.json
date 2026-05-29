@@ -1,0 +1,47 @@
+{
+    "parent": "insurgence:fg_structs/shipwreck",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_structs.ocean_monument.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_structs.ocean_monument.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:sea_lantern"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "in_structure": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": [
+                                    "minecraft:monument"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+        "requirements": [
+            [
+                "in_structure"
+            ]
+        ]
+    },
+    "rewards": {
+        "function": "insurgence/advancement/unlock_field_guide_entry/ocean_monument"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "parent": "insurgence:fg_materials/root",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.sunmetal.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.sunmetal.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "architects_palette:sunmetal_brick"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "architects_palette:sunmetal_brick",
+                            "architects_palette:sunmetal_blend",
+                            "architects_palette:sunmetal_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/sunmetal"
+    }
+}

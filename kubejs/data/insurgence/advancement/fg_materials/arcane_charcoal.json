@@ -1,0 +1,43 @@
+{
+    "parent": "insurgence:fg_materials/root",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.arcane_charcoal.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.arcane_charcoal.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "malum:arcane_charcoal"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "malum:arcane_charcoal",
+                            "malum:arcane_charcoal_fragment",
+                            "malum:block_of_arcane_charcoal"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/arcane_charcoal"
+    }
+}

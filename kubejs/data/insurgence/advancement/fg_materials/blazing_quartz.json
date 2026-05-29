@@ -1,0 +1,44 @@
+{
+    "parent": "insurgence:fg_materials/natural_quartz",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.blazing_quartz.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.blazing_quartz.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "malum:blazing_quartz"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "malum:blazing_quartz",
+                            "malum:blazing_quartz_fragment",
+                            "malum:block_of_blazing_quartz",
+                            "malum:blazing_quartz_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/blazing_quartz"
+    }
+}

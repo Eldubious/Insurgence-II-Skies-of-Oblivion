@@ -1,0 +1,1514 @@
+{
+    "values": [
+        {
+            "id": "minecraft:coal_block",
+            "display_id": "minecraft:coal_block",
+            "components": [
+                "minecraft:coal_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "minecraft:coal_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|minecraft:deepslate_coal_ore",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "minecraft:iron_block",
+            "display_id": "minecraft:iron_block",
+            "components": [
+                "minecraft:iron_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "minecraft:iron_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|minecraft:deepslate_iron_ore",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "minecraft:copper_block",
+            "components": [
+                "minecraft:copper_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "minecraft:copper_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|minecraft:deepslate_copper_ore",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "minecraft:gold_block",
+            "display_id": "minecraft:gold_ore",
+            "components": [
+                "minecraft:gold_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "minecraft:gold_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|minecraft:deepslate_gold_ore",
+                "0,2,1|minecraft:deepslate",
+                "0,0,2|minecraft:netherrack",
+                "0,1,2|minecraft:nether_gold_ore",
+                "0,2,2|minecraft:netherrack"
+            ]
+        },
+        {
+            "id": "minecraft:emerald_block",
+            "display_id": "minecraft:emerald_ore",
+            "components": [
+                "minecraft:emerald_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "minecraft:emerald_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|minecraft:deepslate_emerald_ore",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "minecraft:lapis_block",
+            "display_id": "minecraft:lapis_ore",
+            "components": [
+                "minecraft:lapis_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "minecraft:lapis_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|minecraft:deepslate_lapis_ore",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "minecraft:redstone_block",
+            "display_id": "minecraft:redstone_block",
+            "components": [
+                "minecraft:redstone_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "minecraft:redstone_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|minecraft:deepslate_redstone_ore",
+                "0,2,1|minecraft:deepslate",
+                "-1,0,0|eternal_starlight:grimstone",
+                "-1,1,0|eternal_starlight:grimstone_redstone_ore",
+                "-1,2,0|eternal_starlight:grimstone",
+                "-2,0,0|eternal_starlight:voidstone",
+                "-2,1,0|eternal_starlight:voidstone_redstone_ore",
+                "-2,2,0|eternal_starlight:voidstone",
+                "-3,0,0|eternal_starlight:eternal_ice",
+                "-3,1,0|eternal_starlight:eternal_ice_redstone_ore",
+                "-3,2,0|eternal_starlight:eternal_ice",
+                "-4,0,0|eternal_starlight:haze_ice",
+                "-4,1,0|eternal_starlight:haze_ice_redstone_ore",
+                "-4,2,0|eternal_starlight:haze_ice"
+            ]
+        },
+        {
+            "id": "minecraft:diamond_block",
+            "display_id": "minecraft:diamond_block",
+            "components": [
+                "minecraft:diamond_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "minecraft:diamond_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|minecraft:deepslate_diamond_ore",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "minecraft:glowstone",
+            "display_id": "minecraft:glowstone",
+            "components": [
+                "minecraft:glowstone"
+            ],
+            "render": [
+                "minecraft:glowstone",
+                "minecraft:glowstone",
+                "minecraft:glowstone",
+                "0,0,-1|minecraft:glowstone",
+                "1,1,0|minecraft:glowstone",
+                "-1,2,0|minecraft:glowstone"
+            ]
+        },
+        {
+            "id": "minecraft:quartz_block",
+            "display_id": "minecraft:quartz_block",
+            "components": [
+                "minecraft:nether_quartz_ore"
+            ],
+            "render": [
+                "minecraft:netherrack",
+                "minecraft:nether_quartz_ore",
+                "minecraft:netherrack"
+            ]
+        },
+        {
+            "id": "minecraft:netherite_block",
+            "display_id": "minecraft:netherite_block",
+            "components": [
+                "minecraft:ancient_debris"
+            ],
+            "render": [
+                "minecraft:netherrack",
+                "minecraft:ancient_debris",
+                "minecraft:netherrack"
+            ]
+        },
+        {
+            "id": "pigsteel:porkslag",
+            "display_id": "pigsteel:porkslag",
+            "components": [
+                "pigsteel:porkslag"
+            ],
+            "render": [
+                "minecraft:netherrack",
+                "pigsteel:porkslag",
+                "minecraft:netherrack"
+            ]
+        },
+        {
+            "id": "minecraft:amethyst_block",
+            "display_id": "minecraft:amethyst_block",
+            "components": [
+                "minecraft:amethyst_cluster"
+            ],
+            "render": [
+                "minecraft:amethyst_block",
+                "minecraft:budding_amethyst",
+                "minecraft:amethyst_block",
+                "0,0,1|minecraft:calcite",
+                "0,1,1|minecraft:calcite",
+                "0,2,1|minecraft:calcite",
+                "0,0,2|minecraft:smooth_basalt",
+                "0,1,2|minecraft:smooth_basalt",
+                "0,2,2|minecraft:smooth_basalt",
+                "0,1,-1|minecraft:amethyst_cluster|facing=north",
+                "1,1,0|minecraft:small_amethyst_bud|facing=east",
+                "-1,1,0|minecraft:large_amethyst_bud|facing=west"
+            ]
+        },
+        {
+            "id": "minecraft:resin_block",
+            "display_id": "minecraft:resin_block",
+            "components": [
+                "minecraft:resin_clump"
+            ],
+            "render": [
+                "minecraft:pale_oak_log",
+                "minecraft:creaking_heart|creaking_heart_state=awake",
+                "minecraft:pale_oak_log",
+                "-1,0,1|minecraft:resin_block",
+                "1,0,0|minecraft:resin_block",
+                "0,0,1|minecraft:resin_block",
+                "-1,0,0|minecraft:resin_block",
+                "0,0,-1|minecraft:resin_clump|south=true",
+                "1,2,0|minecraft:resin_clump|west=true"
+            ]
+        },
+        {
+            "id": "minecraft:sculk",
+            "display_id": "minecraft:sculk",
+            "components": [
+                "minecraft:sculk"
+            ],
+            "render": [
+                "minecraft:sculk",
+                "minecraft:sculk_catalyst",
+                "-1,0,0|minecraft:sculk",
+                "-1,1,0|minecraft:sculk",
+                "-1,0,1|minecraft:sculk",
+                "-1,1,1|minecraft:sculk",
+                "-1,2,1|minecraft:sculk_sensor",
+                "0,0,1|minecraft:sculk",
+                "1,0,1|minecraft:sculk",
+                "-1,0,-1|minecraft:sculk",
+                "1,0,0|minecraft:sculk_sensor",
+                "0,0,-1|minecraft:sculk_vein|down=true"
+            ]
+        },
+        {
+            "id": "minecraft:tube_coral_block",
+            "display_id": "minecraft:tube_coral_block",
+            "components": [
+                "minecraft:tube_coral_block"
+            ],
+            "render": [
+                "minecraft:tube_coral_block",
+                "minecraft:tube_coral_block",
+                "minecraft:tube_coral_block",
+                "minecraft:tube_coral",
+                "1,0,0|minecraft:tube_coral_block",
+                "1,1,0|minecraft:tube_coral",
+                "-1,1,0|minecraft:tube_coral_block",
+                "-1,2,0|minecraft:tube_coral_fan",
+                "-1,1,-1|minecraft:tube_coral_wall_fan|facing=north",
+                "1,0,-1|minecraft:tube_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "minecraft:brain_coral_block",
+            "display_id": "minecraft:brain_coral_block",
+            "components": [
+                "minecraft:brain_coral_block"
+            ],
+            "render": [
+                "minecraft:brain_coral_block",
+                "minecraft:brain_coral_block",
+                "minecraft:brain_coral_block",
+                "minecraft:brain_coral",
+                "1,0,0|minecraft:brain_coral_block",
+                "1,1,0|minecraft:brain_coral",
+                "-1,1,0|minecraft:brain_coral_block",
+                "-1,2,0|minecraft:brain_coral_fan",
+                "-1,1,-1|minecraft:brain_coral_wall_fan|facing=north",
+                "1,0,-1|minecraft:brain_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "minecraft:bubble_coral_block",
+            "display_id": "minecraft:bubble_coral_block",
+            "components": [
+                "minecraft:bubble_coral_block"
+            ],
+            "render": [
+                "minecraft:bubble_coral_block",
+                "minecraft:bubble_coral_block",
+                "minecraft:bubble_coral_block",
+                "minecraft:bubble_coral",
+                "1,0,0|minecraft:bubble_coral_block",
+                "1,1,0|minecraft:bubble_coral",
+                "-1,1,0|minecraft:bubble_coral_block",
+                "-1,2,0|minecraft:bubble_coral_fan",
+                "-1,1,-1|minecraft:bubble_coral_wall_fan|facing=north",
+                "1,0,-1|minecraft:bubble_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "minecraft:fire_coral_block",
+            "display_id": "minecraft:fire_coral_block",
+            "components": [
+                "minecraft:fire_coral_block"
+            ],
+            "render": [
+                "minecraft:fire_coral_block",
+                "minecraft:fire_coral_block",
+                "minecraft:fire_coral_block",
+                "minecraft:fire_coral",
+                "1,0,0|minecraft:fire_coral_block",
+                "1,1,0|minecraft:fire_coral",
+                "-1,1,0|minecraft:fire_coral_block",
+                "-1,2,0|minecraft:fire_coral_fan",
+                "-1,1,-1|minecraft:fire_coral_wall_fan|facing=north",
+                "1,0,-1|minecraft:fire_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "minecraft:horn_coral_block",
+            "display_id": "minecraft:horn_coral_block",
+            "components": [
+                "minecraft:horn_coral_block"
+            ],
+            "render": [
+                "minecraft:horn_coral_block",
+                "minecraft:horn_coral_block",
+                "minecraft:horn_coral_block",
+                "minecraft:horn_coral",
+                "1,0,0|minecraft:horn_coral_block",
+                "1,1,0|minecraft:horn_coral",
+                "-1,1,0|minecraft:horn_coral_block",
+                "-1,2,0|minecraft:horn_coral_fan",
+                "-1,1,-1|minecraft:horn_coral_wall_fan|facing=north",
+                "1,0,-1|minecraft:horn_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "upgrade_aquatic:acan_coral_block",
+            "display_id": "upgrade_aquatic:acan_coral_block",
+            "components": [
+                "upgrade_aquatic:acan_coral_block"
+            ],
+            "render": [
+                "upgrade_aquatic:acan_coral_block",
+                "upgrade_aquatic:acan_coral_block",
+                "upgrade_aquatic:acan_coral_block",
+                "upgrade_aquatic:acan_coral",
+                "1,0,0|upgrade_aquatic:acan_coral_block",
+                "1,1,0|upgrade_aquatic:acan_coral",
+                "-1,1,0|upgrade_aquatic:acan_coral_block",
+                "-1,2,0|upgrade_aquatic:acan_coral_fan",
+                "-1,1,-1|upgrade_aquatic:acan_coral_wall_fan|facing=north",
+                "1,0,-1|upgrade_aquatic:acan_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "upgrade_aquatic:finger_coral_block",
+            "display_id": "upgrade_aquatic:finger_coral_block",
+            "components": [
+                "upgrade_aquatic:finger_coral_block"
+            ],
+            "render": [
+                "upgrade_aquatic:finger_coral_block",
+                "upgrade_aquatic:finger_coral_block",
+                "upgrade_aquatic:finger_coral_block",
+                "upgrade_aquatic:finger_coral",
+                "1,0,0|upgrade_aquatic:finger_coral_block",
+                "1,1,0|upgrade_aquatic:finger_coral",
+                "-1,1,0|upgrade_aquatic:finger_coral_block",
+                "-1,2,0|upgrade_aquatic:finger_coral_fan",
+                "-1,1,-1|upgrade_aquatic:finger_coral_wall_fan|facing=north",
+                "1,0,-1|upgrade_aquatic:finger_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "upgrade_aquatic:star_coral_block",
+            "display_id": "upgrade_aquatic:star_coral_block",
+            "components": [
+                "upgrade_aquatic:star_coral_block"
+            ],
+            "render": [
+                "upgrade_aquatic:star_coral_block",
+                "upgrade_aquatic:star_coral_block",
+                "upgrade_aquatic:star_coral_block",
+                "upgrade_aquatic:star_coral",
+                "1,0,0|upgrade_aquatic:star_coral_block",
+                "1,1,0|upgrade_aquatic:star_coral",
+                "-1,1,0|upgrade_aquatic:star_coral_block",
+                "-1,2,0|upgrade_aquatic:star_coral_fan",
+                "-1,1,-1|upgrade_aquatic:star_coral_wall_fan|facing=north",
+                "1,0,-1|upgrade_aquatic:star_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "upgrade_aquatic:moss_coral_block",
+            "display_id": "upgrade_aquatic:moss_coral_block",
+            "components": [
+                "upgrade_aquatic:moss_coral_block"
+            ],
+            "render": [
+                "upgrade_aquatic:moss_coral_block",
+                "upgrade_aquatic:moss_coral_block",
+                "upgrade_aquatic:moss_coral_block",
+                "upgrade_aquatic:moss_coral",
+                "1,0,0|upgrade_aquatic:moss_coral_block",
+                "1,1,0|upgrade_aquatic:moss_coral",
+                "-1,1,0|upgrade_aquatic:moss_coral_block",
+                "-1,2,0|upgrade_aquatic:moss_coral_fan",
+                "-1,1,-1|upgrade_aquatic:moss_coral_wall_fan|facing=north",
+                "1,0,-1|upgrade_aquatic:moss_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "upgrade_aquatic:petal_coral_block",
+            "display_id": "upgrade_aquatic:petal_coral_block",
+            "components": [
+                "upgrade_aquatic:petal_coral_block"
+            ],
+            "render": [
+                "upgrade_aquatic:petal_coral_block",
+                "upgrade_aquatic:petal_coral_block",
+                "upgrade_aquatic:petal_coral_block",
+                "upgrade_aquatic:petal_coral",
+                "1,0,0|upgrade_aquatic:petal_coral_block",
+                "1,1,0|upgrade_aquatic:petal_coral",
+                "-1,1,0|upgrade_aquatic:petal_coral_block",
+                "-1,2,0|upgrade_aquatic:petal_coral_fan",
+                "-1,1,-1|upgrade_aquatic:petal_coral_wall_fan|facing=north",
+                "1,0,-1|upgrade_aquatic:petal_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "upgrade_aquatic:branch_coral_block",
+            "display_id": "upgrade_aquatic:branch_coral_block",
+            "components": [
+                "upgrade_aquatic:branch_coral_block"
+            ],
+            "render": [
+                "upgrade_aquatic:branch_coral_block",
+                "upgrade_aquatic:branch_coral_block",
+                "upgrade_aquatic:branch_coral_block",
+                "upgrade_aquatic:branch_coral",
+                "1,0,0|upgrade_aquatic:branch_coral_block",
+                "1,1,0|upgrade_aquatic:branch_coral",
+                "-1,1,0|upgrade_aquatic:branch_coral_block",
+                "-1,2,0|upgrade_aquatic:branch_coral_fan",
+                "-1,1,-1|upgrade_aquatic:branch_coral_wall_fan|facing=north",
+                "1,0,-1|upgrade_aquatic:branch_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "upgrade_aquatic:rock_coral_block",
+            "display_id": "upgrade_aquatic:rock_coral_block",
+            "components": [
+                "upgrade_aquatic:rock_coral_block"
+            ],
+            "render": [
+                "upgrade_aquatic:rock_coral_block",
+                "upgrade_aquatic:rock_coral_block",
+                "upgrade_aquatic:rock_coral_block",
+                "upgrade_aquatic:rock_coral",
+                "1,0,0|upgrade_aquatic:rock_coral_block",
+                "1,1,0|upgrade_aquatic:rock_coral",
+                "-1,1,0|upgrade_aquatic:rock_coral_block",
+                "-1,2,0|upgrade_aquatic:rock_coral_fan",
+                "-1,1,-1|upgrade_aquatic:rock_coral_wall_fan|facing=north",
+                "1,0,-1|upgrade_aquatic:rock_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "upgrade_aquatic:pillow_coral_block",
+            "display_id": "upgrade_aquatic:pillow_coral_block",
+            "components": [
+                "upgrade_aquatic:pillow_coral_block"
+            ],
+            "render": [
+                "upgrade_aquatic:pillow_coral_block",
+                "upgrade_aquatic:pillow_coral_block",
+                "upgrade_aquatic:pillow_coral_block",
+                "upgrade_aquatic:pillow_coral",
+                "1,0,0|upgrade_aquatic:pillow_coral_block",
+                "1,1,0|upgrade_aquatic:pillow_coral",
+                "-1,1,0|upgrade_aquatic:pillow_coral_block",
+                "-1,2,0|upgrade_aquatic:pillow_coral_fan",
+                "-1,1,-1|upgrade_aquatic:pillow_coral_wall_fan|facing=north",
+                "1,0,-1|upgrade_aquatic:pillow_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "upgrade_aquatic:silk_coral_block",
+            "display_id": "upgrade_aquatic:silk_coral_block",
+            "components": [
+                "upgrade_aquatic:silk_coral_block"
+            ],
+            "render": [
+                "upgrade_aquatic:silk_coral_block",
+                "upgrade_aquatic:silk_coral_block",
+                "upgrade_aquatic:silk_coral_block",
+                "upgrade_aquatic:silk_coral",
+                "1,0,0|upgrade_aquatic:silk_coral_block",
+                "1,1,0|upgrade_aquatic:silk_coral",
+                "-1,1,0|upgrade_aquatic:silk_coral_block",
+                "-1,2,0|upgrade_aquatic:silk_coral_fan",
+                "-1,1,-1|upgrade_aquatic:silk_coral_wall_fan|facing=north",
+                "1,0,-1|upgrade_aquatic:silk_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "upgrade_aquatic:chrome_coral_block",
+            "display_id": "upgrade_aquatic:chrome_coral_block",
+            "components": [
+                "upgrade_aquatic:chrome_coral_block"
+            ],
+            "render": [
+                "upgrade_aquatic:chrome_coral_block",
+                "upgrade_aquatic:chrome_coral_block",
+                "upgrade_aquatic:chrome_coral_block",
+                "upgrade_aquatic:chrome_coral",
+                "1,0,0|upgrade_aquatic:chrome_coral_block",
+                "1,1,0|upgrade_aquatic:chrome_coral",
+                "-1,1,0|upgrade_aquatic:chrome_coral_block",
+                "-1,2,0|upgrade_aquatic:chrome_coral_fan",
+                "-1,1,-1|upgrade_aquatic:chrome_coral_wall_fan|facing=north",
+                "1,0,-1|upgrade_aquatic:chrome_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "upgrade_aquatic:prismarine_coral_block",
+            "display_id": "upgrade_aquatic:prismarine_coral_block",
+            "components": [
+                "upgrade_aquatic:prismarine_coral_block"
+            ],
+            "render": [
+                "upgrade_aquatic:prismarine_coral_block",
+                "upgrade_aquatic:prismarine_coral_block",
+                "upgrade_aquatic:prismarine_coral_block",
+                "upgrade_aquatic:prismarine_coral",
+                "1,0,0|upgrade_aquatic:prismarine_coral_block",
+                "1,1,0|upgrade_aquatic:prismarine_coral",
+                "-1,1,0|upgrade_aquatic:prismarine_coral_block",
+                "-1,2,0|upgrade_aquatic:prismarine_coral_fan",
+                "-1,1,-1|upgrade_aquatic:prismarine_coral_wall_fan|facing=north",
+                "1,0,-1|upgrade_aquatic:prismarine_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "upgrade_aquatic:elder_prismarine_coral_block",
+            "display_id": "upgrade_aquatic:elder_prismarine_coral_block",
+            "components": [
+                "upgrade_aquatic:elder_prismarine_coral_block"
+            ],
+            "render": [
+                "upgrade_aquatic:elder_prismarine_coral_block",
+                "upgrade_aquatic:elder_prismarine_coral_block",
+                "upgrade_aquatic:elder_prismarine_coral_block",
+                "upgrade_aquatic:elder_prismarine_coral",
+                "1,0,0|upgrade_aquatic:elder_prismarine_coral_block",
+                "1,1,0|upgrade_aquatic:elder_prismarine_coral",
+                "-1,1,0|upgrade_aquatic:elder_prismarine_coral_block",
+                "-1,2,0|upgrade_aquatic:elder_prismarine_coral_fan",
+                "-1,1,-1|upgrade_aquatic:elder_prismarine_coral_wall_fan|facing=north",
+                "1,0,-1|upgrade_aquatic:elder_prismarine_coral_wall_fan|facing=north"
+            ]
+        },
+        {
+            "id": "supplementaries:flint_block",
+            "display_id": "supplementaries:flint_block",
+            "components": [
+                "supplementaries:flint_block"
+            ],
+            "render": [
+                "supplementaries:flint_block",
+                "supplementaries:flint_block",
+                "1,0,0|supplementaries:flint_block",
+                "-1,0,0|supplementaries:flint_block",
+                "-1,1,0|supplementaries:flint_block",
+                "0,0,-1|supplementaries:flint_block",
+                "-1,0,-1|supplementaries:flint_block",
+                "-1,1,-1|supplementaries:flint_block"
+            ]
+        },
+        {
+            "id": "minecraft:prismarine",
+            "display_id": "minecraft:prismarine",
+            "components": [
+                "minecraft:prismarine"
+            ],
+            "render": [
+                "minecraft:prismarine",
+                "minecraft:prismarine",
+                "1,0,0|minecraft:prismarine",
+                "-1,0,0|minecraft:prismarine",
+                "-1,1,0|minecraft:prismarine",
+                "0,0,-1|minecraft:prismarine",
+                "-1,0,-1|minecraft:prismarine",
+                "-1,1,-1|minecraft:prismarine"
+            ]
+        },
+        {
+            "id": "irons_spellbooks:mithril_ore",
+            "display_id": "irons_spellbooks:mithril_ore",
+            "components": [
+                "irons_spellbooks:mithril_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "irons_spellbooks:mithril_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|irons_spellbooks:deepslate_mithril_ore",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "architects_palette:heliodor_rod",
+            "display_id": "architects_palette:heliodor_rod",
+            "components": [
+                "architects_palette:heliodor_rod"
+            ],
+            "render": [
+                "architects_palette:heliodor_rod",
+                "architects_palette:heliodor_rod",
+                "architects_palette:heliodor_rod",
+                "1,0,0|architects_palette:heliodor_rod",
+                "1,0,1|architects_palette:heliodor_rod",
+                "1,1,1|architects_palette:heliodor_rod",
+                "0,0,-1|architects_palette:heliodor_rod",
+                "-1,0,0|architects_palette:heliodor_rod",
+                "-1,1,0|architects_palette:heliodor_rod",
+                "-1,0,1|architects_palette:heliodor_rod",
+                "-1,1,1|architects_palette:heliodor_rod",
+                "-1,2,1|architects_palette:heliodor_rod"
+            ]
+        },
+        {
+            "id": "architects_palette:ekanite_rod",
+            "display_id": "architects_palette:ekanite_rod",
+            "components": [
+                "architects_palette:ekanite_rod"
+            ],
+            "render": [
+                "architects_palette:ekanite_rod",
+                "architects_palette:ekanite_rod",
+                "architects_palette:ekanite_rod",
+                "1,0,0|architects_palette:ekanite_rod",
+                "1,0,1|architects_palette:ekanite_rod",
+                "1,1,1|architects_palette:ekanite_rod",
+                "0,0,-1|architects_palette:ekanite_rod",
+                "-1,0,0|architects_palette:ekanite_rod",
+                "-1,1,0|architects_palette:ekanite_rod",
+                "-1,0,1|architects_palette:ekanite_rod",
+                "-1,1,1|architects_palette:ekanite_rod",
+                "-1,2,1|architects_palette:ekanite_rod"
+            ]
+        },
+        {
+            "id": "architects_palette:monazite_rod",
+            "display_id": "architects_palette:monazite_rod",
+            "components": [
+                "architects_palette:monazite_rod"
+            ],
+            "render": [
+                "architects_palette:monazite_rod",
+                "architects_palette:monazite_rod",
+                "architects_palette:monazite_rod",
+                "1,0,0|architects_palette:monazite_rod",
+                "1,0,1|architects_palette:monazite_rod",
+                "1,1,1|architects_palette:monazite_rod",
+                "0,0,-1|architects_palette:monazite_rod",
+                "-1,0,0|architects_palette:monazite_rod",
+                "-1,1,0|architects_palette:monazite_rod",
+                "-1,0,1|architects_palette:monazite_rod",
+                "-1,1,1|architects_palette:monazite_rod",
+                "-1,2,1|architects_palette:monazite_rod"
+            ]
+        },
+        {
+            "id": "architects_palette:nether_brass_block",
+            "display_id": "architects_palette:nether_brass_block",
+            "components": [
+                "architects_palette:nether_brass_block"
+            ],
+            "render": [
+                "architects_palette:nether_brass_block",
+                "-1,0,0|architects_palette:nether_brass_block",
+                "1,0,0|architects_palette:nether_brass_block",
+                "-1,0,1|architects_palette:nether_brass_block",
+                "0,0,1|architects_palette:nether_brass_block",
+                "1,0,1|architects_palette:nether_brass_block",
+                "-1,0,-1|architects_palette:nether_brass_block",
+                "0,0,-1|architects_palette:nether_brass_block",
+                "1,0,-1|architects_palette:nether_brass_block"
+            ]
+        },
+        {
+            "id": "architects_palette:sunmetal_block",
+            "display_id": "architects_palette:sunmetal_block",
+            "components": [
+                "architects_palette:sunmetal_block"
+            ],
+            "render": [
+                "architects_palette:sunmetal_block",
+                "-1,0,0|architects_palette:sunmetal_block",
+                "1,0,0|architects_palette:sunmetal_block",
+                "-1,0,1|architects_palette:sunmetal_block",
+                "0,0,1|architects_palette:sunmetal_block",
+                "1,0,1|architects_palette:sunmetal_block",
+                "-1,0,-1|architects_palette:sunmetal_block",
+                "0,0,-1|architects_palette:sunmetal_block",
+                "1,0,-1|architects_palette:sunmetal_block"
+            ]
+        },
+        {
+            "id": "architects_palette:cerebral_block",
+            "display_id": "architects_palette:cerebral_block",
+            "components": [
+                "architects_palette:cerebral_block"
+            ],
+            "render": [
+                "architects_palette:cerebral_block",
+                "-1,0,0|architects_palette:cerebral_block",
+                "1,0,0|architects_palette:cerebral_block",
+                "-1,0,1|architects_palette:cerebral_block",
+                "0,0,1|architects_palette:cerebral_block",
+                "1,0,1|architects_palette:cerebral_block",
+                "-1,0,-1|architects_palette:cerebral_block",
+                "0,0,-1|architects_palette:cerebral_block",
+                "1,0,-1|architects_palette:cerebral_block"
+            ]
+        },
+        {
+            "id": "architects_palette:oracle_block",
+            "display_id": "architects_palette:oracle_block",
+            "components": [
+                "architects_palette:oracle_block"
+            ],
+            "render": [
+                "architects_palette:oracle_block",
+                "-1,0,0|architects_palette:oracle_block",
+                "1,0,0|architects_palette:oracle_block",
+                "-1,0,1|architects_palette:oracle_block",
+                "0,0,1|architects_palette:oracle_block",
+                "1,0,1|architects_palette:oracle_block",
+                "-1,0,-1|architects_palette:oracle_block",
+                "0,0,-1|architects_palette:oracle_block",
+                "1,0,-1|architects_palette:oracle_block"
+            ]
+        },
+        {
+            "id": "architects_palette:unobtanium_block",
+            "display_id": "architects_palette:unobtanium_block",
+            "components": [
+                "architects_palette:unobtanium_block"
+            ],
+            "render": [
+                "architects_palette:unobtanium_block",
+                "-1,0,0|architects_palette:unobtanium_block",
+                "1,0,0|architects_palette:unobtanium_block",
+                "-1,0,1|architects_palette:unobtanium_block",
+                "0,0,1|architects_palette:unobtanium_block",
+                "1,0,1|architects_palette:unobtanium_block",
+                "-1,0,-1|architects_palette:unobtanium_block",
+                "0,0,-1|architects_palette:unobtanium_block",
+                "1,0,-1|architects_palette:unobtanium_block"
+            ]
+        },
+        {
+            "id": "architects_palette:entwine_block",
+            "display_id": "architects_palette:entwine_block",
+            "components": [
+                "architects_palette:entwine_block"
+            ],
+            "render": [
+                "architects_palette:entwine_block",
+                "architects_palette:entwine_block",
+                "1,0,0|architects_palette:entwine_block",
+                "-1,0,0|architects_palette:entwine_block",
+                "-1,1,0|architects_palette:entwine_block",
+                "0,0,-1|architects_palette:entwine_block",
+                "-1,0,-1|architects_palette:entwine_block",
+                "-1,1,-1|architects_palette:entwine_block"
+            ]
+        },
+        {
+            "id": "architects_palette:charcoal_block",
+            "display_id": "architects_palette:charcoal_block",
+            "components": [
+                "architects_palette:charcoal_block"
+            ],
+            "render": [
+                "architects_palette:charcoal_block|axis=x",
+                "1,0,0|architects_palette:charcoal_block|axis=x",
+                "-1,0,0|architects_palette:charcoal_block|axis=x",
+                "0,0,-1|architects_palette:charcoal_block|axis=x",
+                "-1,0,-1|architects_palette:charcoal_block|axis=x"
+            ]
+        },
+        {
+            "id": "productivemetalworks:meat_block",
+            "display_id": "productivemetalworks:meat_block",
+            "components": [
+                "productivemetalworks:meat_block"
+            ],
+            "render": [
+                "productivemetalworks:meat_block|axis=x",
+                "1,0,0|productivemetalworks:meat_block|axis=x",
+                "-1,0,0|productivemetalworks:meat_block|axis=x",
+                "0,0,-1|productivemetalworks:meat_block|axis=x",
+                "-1,0,-1|productivemetalworks:meat_block|axis=x"
+            ]
+        },
+        {
+            "id": "iss_magicfromtheeast:jade_block",
+            "display_id": "iss_magicfromtheeast:jade_ore",
+            "components": [
+                "iss_magicfromtheeast:jade_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "iss_magicfromtheeast:jade_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|iss_magicfromtheeast:deepslate_jade_ore",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "iss_magicfromtheeast:refined_jade_block",
+            "display_id": "iss_magicfromtheeast:refined_jade_block",
+            "components": [
+                "iss_magicfromtheeast:refined_jade_block"
+            ],
+            "render": [
+                "iss_magicfromtheeast:refined_jade_block",
+                "-1,0,0|iss_magicfromtheeast:refined_jade_block",
+                "1,0,0|iss_magicfromtheeast:refined_jade_block",
+                "-1,0,1|iss_magicfromtheeast:refined_jade_block",
+                "0,0,1|iss_magicfromtheeast:refined_jade_block",
+                "1,0,1|iss_magicfromtheeast:refined_jade_block",
+                "-1,0,-1|iss_magicfromtheeast:refined_jade_block",
+                "0,0,-1|iss_magicfromtheeast:refined_jade_block",
+                "1,0,-1|iss_magicfromtheeast:refined_jade_block"
+            ]
+        },
+        {
+            "id": "oreganized:silver_block",
+            "display_id": "oreganized:silver_ore",
+            "components": [
+                "oreganized:silver_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "oreganized:silver_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|oreganized:deepslate_silver_ore",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "oreganized:lead_block",
+            "display_id": "oreganized:lead_ore",
+            "components": [
+                "oreganized:lead_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "oreganized:lead_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|oreganized:deepslate_lead_ore",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "oreganized:electrum_block",
+            "display_id": "oreganized:electrum_block",
+            "components": [
+                "oreganized:electrum_block"
+            ],
+            "render": [
+                "oreganized:electrum_block",
+                "-1,0,0|oreganized:electrum_block",
+                "1,0,0|oreganized:electrum_block",
+                "-1,0,1|oreganized:electrum_block",
+                "0,0,1|oreganized:electrum_block",
+                "1,0,1|oreganized:electrum_block",
+                "-1,0,-1|oreganized:electrum_block",
+                "0,0,-1|oreganized:electrum_block",
+                "1,0,-1|oreganized:electrum_block"
+            ]
+        },
+        {
+            "id": "create:zinc_block",
+            "display_id": "create:zinc_block",
+            "components": [
+                "create:zinc_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "create:zinc_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|create:deepslate_zinc_ore",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "create:brass_block",
+            "display_id": "create:brass_block",
+            "components": [
+                "create:brass_block"
+            ],
+            "render": [
+                "create:brass_block",
+                "-1,0,0|create:brass_block",
+                "1,0,0|create:brass_block",
+                "-1,0,1|create:brass_block",
+                "0,0,1|create:brass_block",
+                "1,0,1|create:brass_block",
+                "-1,0,-1|create:brass_block",
+                "0,0,-1|create:brass_block",
+                "1,0,-1|create:brass_block"
+            ]
+        },
+        {
+            "id": "create:andesite_alloy_block",
+            "display_id": "create:andesite_alloy_block",
+            "components": [
+                "create:andesite_alloy_block"
+            ],
+            "render": [
+                "create:andesite_alloy_block",
+                "-1,0,0|create:andesite_alloy_block",
+                "1,0,0|create:andesite_alloy_block",
+                "-1,0,1|create:andesite_alloy_block",
+                "0,0,1|create:andesite_alloy_block",
+                "1,0,1|create:andesite_alloy_block",
+                "-1,0,-1|create:andesite_alloy_block",
+                "0,0,-1|create:andesite_alloy_block",
+                "1,0,-1|create:andesite_alloy_block"
+            ]
+        },
+        {
+            "id": "create:experience_block",
+            "display_id": "create:experience_block",
+            "components": [
+                "create:experience_block"
+            ],
+            "render": [
+                "create:experience_block",
+                "create:experience_block",
+                "1,0,0|create:experience_block",
+                "-1,0,0|create:experience_block",
+                "-1,1,0|create:experience_block",
+                "0,0,-1|create:experience_block",
+                "-1,0,-1|create:experience_block",
+                "-1,1,-1|create:experience_block"
+            ]
+        },
+        {
+            "id": "create:rose_quartz_block",
+            "display_id": "create:rose_quartz_block",
+            "components": [
+                "create:rose_quartz_block"
+            ],
+            "render": [
+                "create:rose_quartz_block",
+                "create:rose_quartz_block",
+                "create:rose_quartz_block",
+                "1,0,0|create:rose_quartz_block",
+                "1,0,1|create:rose_quartz_block",
+                "1,1,1|create:rose_quartz_block",
+                "0,0,-1|create:rose_quartz_block",
+                "-1,0,0|create:rose_quartz_block",
+                "-1,1,0|create:rose_quartz_block",
+                "-1,0,1|create:rose_quartz_block",
+                "-1,1,1|create:rose_quartz_block",
+                "-1,2,1|create:rose_quartz_block"
+            ]
+        },
+        {
+            "id": "psi:psidust_block",
+            "display_id": "psi:psidust_block",
+            "components": [
+                "psi:psidust_block"
+            ],
+            "render": [
+                "psi:psidust_block",
+                "psi:psidust_block",
+                "1,0,0|psi:psidust_block",
+                "-1,0,0|psi:psidust_block",
+                "-1,1,0|psi:psidust_block",
+                "0,0,-1|psi:psidust_block",
+                "-1,0,-1|psi:psidust_block",
+                "-1,1,-1|psi:psidust_block"
+            ]
+        },
+        {
+            "id": "psi:psimetal_block",
+            "display_id": "psi:psimetal_block",
+            "components": [
+                "psi:psimetal_block"
+            ],
+            "render": [
+                "psi:psimetal_block",
+                "-1,0,0|psi:psimetal_block",
+                "1,0,0|psi:psimetal_block",
+                "-1,0,1|psi:psimetal_block",
+                "0,0,1|psi:psimetal_block",
+                "1,0,1|psi:psimetal_block",
+                "-1,0,-1|psi:psimetal_block",
+                "0,0,-1|psi:psimetal_block",
+                "1,0,-1|psi:psimetal_block"
+            ]
+        },
+        {
+            "id": "psi:psigem_block",
+            "display_id": "psi:psigem_block",
+            "components": [
+                "psi:psigem_block"
+            ],
+            "render": [
+                "psi:psigem_block",
+                "-1,0,0|psi:psigem_block",
+                "1,0,0|psi:psigem_block",
+                "-1,0,1|psi:psigem_block",
+                "0,0,1|psi:psigem_block",
+                "1,0,1|psi:psigem_block",
+                "-1,0,-1|psi:psigem_block",
+                "0,0,-1|psi:psigem_block",
+                "1,0,-1|psi:psigem_block"
+            ]
+        },
+        {
+            "id": "psi:ebony_psimetal_block",
+            "display_id": "psi:ebony_psimetal_block",
+            "components": [
+                "psi:ebony_psimetal_block"
+            ],
+            "render": [
+                "psi:ebony_psimetal_block",
+                "-1,0,0|psi:ebony_psimetal_block",
+                "1,0,0|psi:ebony_psimetal_block",
+                "-1,0,1|psi:ebony_psimetal_block",
+                "0,0,1|psi:ebony_psimetal_block",
+                "1,0,1|psi:ebony_psimetal_block",
+                "-1,0,-1|psi:ebony_psimetal_block",
+                "0,0,-1|psi:ebony_psimetal_block",
+                "1,0,-1|psi:ebony_psimetal_block"
+            ]
+        },
+        {
+            "id": "psi:ivory_psimetal_block",
+            "display_id": "psi:ivory_psimetal_block",
+            "components": [
+                "psi:ivory_psimetal_block"
+            ],
+            "render": [
+                "psi:ivory_psimetal_block",
+                "-1,0,0|psi:ivory_psimetal_block",
+                "1,0,0|psi:ivory_psimetal_block",
+                "-1,0,1|psi:ivory_psimetal_block",
+                "0,0,1|psi:ivory_psimetal_block",
+                "1,0,1|psi:ivory_psimetal_block",
+                "-1,0,-1|psi:ivory_psimetal_block",
+                "0,0,-1|psi:ivory_psimetal_block",
+                "1,0,-1|psi:ivory_psimetal_block"
+            ]
+        },
+        {
+            "id": "enderscape:nebulite_block",
+            "display_id": "enderscape:nebulite_ore",
+            "components": [
+                "enderscape:nebulite_ore"
+            ],
+            "render": [
+                "minecraft:end_stone",
+                "enderscape:nebulite_ore",
+                "minecraft:end_stone",
+                "0,0,1|enderscape:mirestone",
+                "0,1,1|enderscape:mirestone_nebulite_ore",
+                "0,2,1|enderscape:mirestone"
+            ]
+        },
+        {
+            "id": "enderscape:shadoline_block",
+            "display_id": "enderscape:shadoline_ore",
+            "components": [
+                "enderscape:shadoline_ore"
+            ],
+            "render": [
+                "minecraft:end_stone",
+                "enderscape:shadoline_ore",
+                "minecraft:end_stone",
+                "0,0,1|enderscape:mirestone",
+                "0,1,1|enderscape:mirestone_shadoline_ore",
+                "0,2,1|enderscape:mirestone"
+            ]
+        },
+        {
+            "id": "malum:block_of_arcane_charcoal",
+            "display_id": "malum:block_of_arcane_charcoal",
+            "components": [
+                "malum:block_of_arcane_charcoal"
+            ],
+            "render": [
+                "malum:block_of_arcane_charcoal",
+                "malum:block_of_arcane_charcoal",
+                "1,0,0|malum:block_of_arcane_charcoal",
+                "-1,0,0|malum:block_of_arcane_charcoal",
+                "-1,1,0|malum:block_of_arcane_charcoal",
+                "0,0,-1|malum:block_of_arcane_charcoal",
+                "-1,0,-1|malum:block_of_arcane_charcoal",
+                "-1,1,-1|malum:block_of_arcane_charcoal"
+            ]
+        },
+        {
+            "id": "malum:block_of_soulstone",
+            "display_id": "malum:block_of_soulstone",
+            "components": [
+                "malum:soulstone_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "malum:soulstone_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|malum:deepslate_soulstone_ore",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "malum:block_of_brilliance",
+            "display_id": "malum:block_of_brilliance",
+            "components": [
+                "malum:brilliant_stone"
+            ],
+            "render": [
+                "minecraft:stone",
+                "malum:brilliant_stone",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|malum:brilliant_deepslate",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "malum:natural_quartz_ore",
+            "display_id": "malum:natural_quartz_ore",
+            "components": [
+                "malum:natural_quartz_ore"
+            ],
+            "render": [
+                "minecraft:stone",
+                "malum:natural_quartz_ore",
+                "minecraft:stone",
+                "0,0,1|minecraft:deepslate",
+                "0,1,1|malum:deepslate_quartz_ore",
+                "0,2,1|minecraft:deepslate"
+            ]
+        },
+        {
+            "id": "malum:block_of_blazing_quartz",
+            "display_id": "malum:block_of_blazing_quartz",
+            "components": [
+                "malum:blazing_quartz_ore"
+            ],
+            "render": [
+                "minecraft:netherrack",
+                "malum:blazing_quartz_ore",
+                "minecraft:netherrack"
+            ]
+        },
+        {
+            "id": "malum:block_of_hallowed_gold",
+            "display_id": "malum:block_of_hallowed_gold",
+            "components": [
+                "malum:block_of_hallowed_gold"
+            ],
+            "render": [
+                "malum:block_of_hallowed_gold",
+                "-1,0,0|malum:block_of_hallowed_gold",
+                "1,0,0|malum:block_of_hallowed_gold",
+                "-1,0,1|malum:block_of_hallowed_gold",
+                "0,0,1|malum:block_of_hallowed_gold",
+                "1,0,1|malum:block_of_hallowed_gold",
+                "-1,0,-1|malum:block_of_hallowed_gold",
+                "0,0,-1|malum:block_of_hallowed_gold",
+                "1,0,-1|malum:block_of_hallowed_gold"
+            ]
+        },
+        {
+            "id": "malum:block_of_soul_stained_steel",
+            "display_id": "malum:block_of_soul_stained_steel",
+            "components": [
+                "malum:block_of_soul_stained_steel"
+            ],
+            "render": [
+                "malum:block_of_soul_stained_steel",
+                "-1,0,0|malum:block_of_soul_stained_steel",
+                "1,0,0|malum:block_of_soul_stained_steel",
+                "-1,0,1|malum:block_of_soul_stained_steel",
+                "0,0,1|malum:block_of_soul_stained_steel",
+                "1,0,1|malum:block_of_soul_stained_steel",
+                "-1,0,-1|malum:block_of_soul_stained_steel",
+                "0,0,-1|malum:block_of_soul_stained_steel",
+                "1,0,-1|malum:block_of_soul_stained_steel"
+            ]
+        },
+        {
+            "id": "eternal_starlight:starcore_block",
+            "display_id": "eternal_starlight:grimstone_starcore_ore",
+            "components": [
+                "eternal_starlight:grimstone_starcore_ore"
+            ],
+            "render": [
+                "eternal_starlight:grimstone",
+                "eternal_starlight:grimstone_starcore_ore",
+                "eternal_starlight:grimstone",
+                "0,0,1|eternal_starlight:voidstone",
+                "0,1,1|eternal_starlight:voidstone_starcore_ore",
+                "0,2,1|eternal_starlight:voidstone",
+                "-1,0,0|eternal_starlight:eternal_ice",
+                "-1,1,0|eternal_starlight:eternal_ice_starcore_ore",
+                "-1,2,0|eternal_starlight:eternal_ice",
+                "-2,0,0|eternal_starlight:haze_ice",
+                "-2,1,0|eternal_starlight:haze_ice_starcore_ore",
+                "-2,2,0|eternal_starlight:haze_ice"
+            ]
+        },
+        {
+            "id": "eternal_starlight:red_starlight_crystal_block",
+            "display_id": "eternal_starlight:red_starlight_crystal_block",
+            "components": [
+                "eternal_starlight:red_starlight_crystal_block"
+            ],
+            "render": [
+                "eternal_starlight:red_starlight_crystal_block",
+                "eternal_starlight:red_starlight_crystal_block",
+                "eternal_starlight:red_starlight_crystal_cluster",
+                "1,0,0|eternal_starlight:red_starlight_crystal_block",
+                "1,0,1|eternal_starlight:red_starlight_crystal_block",
+                "1,1,1|eternal_starlight:red_starlight_crystal_cluster",
+                "0,0,-1|eternal_starlight:red_starlight_crystal_block",
+                "-1,0,0|eternal_starlight:red_starlight_crystal_block",
+                "-1,1,0|eternal_starlight:red_starlight_crystal_cluster",
+                "-1,0,1|eternal_starlight:red_starlight_crystal_block",
+                "-1,1,1|eternal_starlight:red_starlight_crystal_block",
+                "-1,2,1|eternal_starlight:red_starlight_crystal_cluster"
+            ]
+        },
+        {
+            "id": "eternal_starlight:blue_starlight_crystal_block",
+            "display_id": "eternal_starlight:blue_starlight_crystal_block",
+            "components": [
+                "eternal_starlight:blue_starlight_crystal_block"
+            ],
+            "render": [
+                "eternal_starlight:blue_starlight_crystal_block",
+                "eternal_starlight:blue_starlight_crystal_block",
+                "eternal_starlight:blue_starlight_crystal_cluster",
+                "1,0,0|eternal_starlight:blue_starlight_crystal_block",
+                "1,0,1|eternal_starlight:blue_starlight_crystal_block",
+                "1,1,1|eternal_starlight:blue_starlight_crystal_cluster",
+                "0,0,-1|eternal_starlight:blue_starlight_crystal_block",
+                "-1,0,0|eternal_starlight:blue_starlight_crystal_block",
+                "-1,1,0|eternal_starlight:blue_starlight_crystal_cluster",
+                "-1,0,1|eternal_starlight:blue_starlight_crystal_block",
+                "-1,1,1|eternal_starlight:blue_starlight_crystal_block",
+                "-1,2,1|eternal_starlight:blue_starlight_crystal_cluster"
+            ]
+        },
+        {
+            "id": "eternal_starlight:aethersent_block",
+            "display_id": "eternal_starlight:aethersent_block",
+            "components": [
+                "eternal_starlight:aethersent_block"
+            ],
+            "render": [
+                "eternal_starlight:aethersent_block",
+                "-1,0,0|eternal_starlight:aethersent_block",
+                "1,0,0|eternal_starlight:aethersent_block",
+                "-1,0,1|eternal_starlight:aethersent_block",
+                "0,0,1|eternal_starlight:aethersent_block",
+                "1,0,1|eternal_starlight:aethersent_block",
+                "-1,0,-1|eternal_starlight:aethersent_block",
+                "0,0,-1|eternal_starlight:aethersent_block",
+                "1,0,-1|eternal_starlight:aethersent_block"
+            ]
+        },
+        {
+            "id": "eternal_starlight:thermal_springstone",
+            "display_id": "eternal_starlight:thermal_springstone",
+            "components": [
+                "eternal_starlight:thermal_springstone"
+            ],
+            "render": [
+                "eternal_starlight:thermal_springstone",
+                "-1,0,0|eternal_starlight:thermal_springstone",
+                "1,0,0|eternal_starlight:thermal_springstone",
+                "-1,0,1|eternal_starlight:thermal_springstone",
+                "0,0,1|eternal_starlight:thermal_springstone",
+                "1,0,1|eternal_starlight:thermal_springstone",
+                "-1,0,-1|eternal_starlight:thermal_springstone",
+                "0,0,-1|eternal_starlight:thermal_springstone",
+                "1,0,-1|eternal_starlight:thermal_springstone"
+            ]
+        },
+        {
+            "id": "eternal_starlight:unrealium_block",
+            "display_id": "eternal_starlight:unrealium_block",
+            "components": [
+                "eternal_starlight:unrealium_block"
+            ],
+            "render": [
+                "eternal_starlight:unrealium_block",
+                "-1,0,0|eternal_starlight:unrealium_block",
+                "1,0,0|eternal_starlight:unrealium_block",
+                "-1,0,1|eternal_starlight:unrealium_block",
+                "0,0,1|eternal_starlight:unrealium_block",
+                "1,0,1|eternal_starlight:unrealium_block",
+                "-1,0,-1|eternal_starlight:unrealium_block",
+                "0,0,-1|eternal_starlight:unrealium_block",
+                "1,0,-1|eternal_starlight:unrealium_block"
+            ]
+        },
+        {
+            "id": "eternal_starlight:starlit_diamond_block",
+            "display_id": "eternal_starlight:grimstone_starlit_diamond_ore",
+            "components": [
+                "eternal_starlight:grimstone_starlit_diamond_ore"
+            ],
+            "render": [
+                "eternal_starlight:grimstone",
+                "eternal_starlight:grimstone_starlit_diamond_ore",
+                "eternal_starlight:grimstone",
+                "0,0,1|eternal_starlight:voidstone",
+                "0,1,1|eternal_starlight:voidstone_starlit_diamond_ore",
+                "0,2,1|eternal_starlight:voidstone",
+                "-1,0,0|eternal_starlight:eternal_ice",
+                "-1,1,0|eternal_starlight:eternal_ice_starlit_diamond_ore",
+                "-1,2,0|eternal_starlight:eternal_ice",
+                "-2,0,0|eternal_starlight:haze_ice",
+                "-2,1,0|eternal_starlight:haze_ice_starlit_diamond_ore",
+                "-2,2,0|eternal_starlight:haze_ice"
+            ]
+        },
+        {
+            "id": "eternal_starlight:deepsilver_block",
+            "display_id": "eternal_starlight:grimstone_deepsilver_ore",
+            "components": [
+                "eternal_starlight:grimstone_deepsilver_ore"
+            ],
+            "render": [
+                "eternal_starlight:grimstone",
+                "eternal_starlight:grimstone_deepsilver_ore",
+                "eternal_starlight:grimstone",
+                "0,0,1|eternal_starlight:voidstone",
+                "0,1,1|eternal_starlight:voidstone_deepsilver_ore",
+                "0,2,1|eternal_starlight:voidstone",
+                "-1,0,0|eternal_starlight:eternal_ice",
+                "-1,1,0|eternal_starlight:eternal_ice_deepsilver_ore",
+                "-1,2,0|eternal_starlight:eternal_ice",
+                "-2,0,0|eternal_starlight:haze_ice",
+                "-2,1,0|eternal_starlight:haze_ice_deepsilver_ore",
+                "-2,2,0|eternal_starlight:haze_ice",
+                "-3,0,0|eternal_starlight:nightfall_mud",
+                "-3,1,0|eternal_starlight:nightfall_mud_deepsilver_ore",
+                "-3,2,0|eternal_starlight:nightfall_mud",
+                "-4,0,0|eternal_starlight:packed_nightfall_mud",
+                "-4,1,0|eternal_starlight:packed_nightfall_mud_deepsilver_ore",
+                "-4,2,0|eternal_starlight:packed_nightfall_mud"
+            ]
+        },
+        {
+            "id": "eternal_starlight:saltpeter_block",
+            "display_id": "eternal_starlight:grimstone_saltpeter_ore",
+            "components": [
+                "eternal_starlight:grimstone_saltpeter_ore"
+            ],
+            "render": [
+                "eternal_starlight:grimstone",
+                "eternal_starlight:grimstone_saltpeter_ore",
+                "eternal_starlight:grimstone",
+                "0,0,1|eternal_starlight:voidstone",
+                "0,1,1|eternal_starlight:voidstone_saltpeter_ore",
+                "0,2,1|eternal_starlight:voidstone",
+                "-1,0,0|eternal_starlight:eternal_ice",
+                "-1,1,0|eternal_starlight:eternal_ice_saltpeter_ore",
+                "-1,2,0|eternal_starlight:eternal_ice",
+                "-2,0,0|eternal_starlight:haze_ice",
+                "-2,1,0|eternal_starlight:haze_ice_saltpeter_ore",
+                "-2,2,0|eternal_starlight:haze_ice"
+            ]
+        },
+        {
+            "id": "eternal_starlight:thioquartz_block",
+            "display_id": "eternal_starlight:thioquartz_block",
+            "components": [
+                "eternal_starlight:thioquartz_block"
+            ],
+            "render": [
+                "eternal_starlight:thioquartz_block",
+                "eternal_starlight:thioquartz_block",
+                "eternal_starlight:thioquartz_cluster",
+                "1,0,0|eternal_starlight:thioquartz_block",
+                "1,0,1|eternal_starlight:thioquartz_block",
+                "1,1,1|eternal_starlight:thioquartz_cluster",
+                "0,0,-1|eternal_starlight:thioquartz_block",
+                "-1,0,0|eternal_starlight:thioquartz_block",
+                "-1,1,0|eternal_starlight:thioquartz_cluster",
+                "-1,0,1|eternal_starlight:thioquartz_block",
+                "-1,1,1|eternal_starlight:thioquartz_block",
+                "-1,2,1|eternal_starlight:thioquartz_cluster"
+            ]
+        },
+        {
+            "id": "eternal_starlight:glacite_block",
+            "display_id": "eternal_starlight:glacite",
+            "components": [
+                "eternal_starlight:glacite"
+            ],
+            "render": [
+                "eternal_starlight:glacite",
+                "eternal_starlight:glacite",
+                "eternal_starlight:glacite",
+                "0,0,-1|eternal_starlight:glacite",
+                "1,0,0|eternal_starlight:glacite",
+                "1,1,0|eternal_starlight:glacite"
+            ]
+        },
+        {
+            "id": "eternal_starlight:malarite_block",
+            "display_id": "eternal_starlight:grimstone_malarite_ore",
+            "components": [
+                "eternal_starlight:grimstone_malarite_ore"
+            ],
+            "render": [
+                "eternal_starlight:grimstone",
+                "eternal_starlight:grimstone_malarite_ore",
+                "eternal_starlight:grimstone",
+                "0,0,1|eternal_starlight:voidstone",
+                "0,1,1|eternal_starlight:voidstone_malarite_ore",
+                "0,2,1|eternal_starlight:voidstone",
+                "-1,0,0|eternal_starlight:nightfall_mud",
+                "-1,1,0|eternal_starlight:nightfall_mud_malarite_ore",
+                "-1,2,0|eternal_starlight:nightfall_mud",
+                "-2,0,0|eternal_starlight:packed_nightfall_mud",
+                "-2,1,0|eternal_starlight:packed_nightfall_mud_malarite_ore",
+                "-2,2,0|eternal_starlight:packed_nightfall_mud"
+            ]
+        },
+        {
+            "id": "eternal_starlight:raw_amaramber_block",
+            "display_id": "eternal_starlight:raw_amaramber_block",
+            "components": [
+                "eternal_starlight:raw_amaramber_block"
+            ],
+            "render": [
+                "eternal_starlight:raw_amaramber_block|top=false",
+                "eternal_starlight:raw_amaramber_block|top=true",
+                "1,0,0|eternal_starlight:raw_amaramber_block|top=true",
+                "-1,0,0|eternal_starlight:raw_amaramber_block|top=false",
+                "-1,1,0|eternal_starlight:raw_amaramber_block|top=true",
+                "0,0,-1|eternal_starlight:raw_amaramber_block|top=true",
+                "-1,0,-1|eternal_starlight:raw_amaramber_block|top=false",
+                "-1,1,-1|eternal_starlight:raw_amaramber_block|top=true"
+            ]
+        },
+        {
+            "id": "eternal_starlight:flowglaze",
+            "display_id": "eternal_starlight:flowglaze",
+            "components": [
+                "eternal_starlight:flowglaze"
+            ],
+            "render": [
+                "eternal_starlight:flowglaze",
+                "-1,0,0|eternal_starlight:flowglaze",
+                "1,0,0|eternal_starlight:flowglaze",
+                "-1,0,1|eternal_starlight:flowglaze",
+                "0,0,1|eternal_starlight:flowglaze",
+                "1,0,1|eternal_starlight:flowglaze",
+                "-1,0,-1|eternal_starlight:flowglaze",
+                "0,0,-1|eternal_starlight:flowglaze",
+                "1,0,-1|eternal_starlight:flowglaze"
+            ]
+        },
+        {
+            "id": "eternal_starlight:golem_steel_block",
+            "display_id": "eternal_starlight:golem_steel_block",
+            "components": [
+                "eternal_starlight:golem_steel_block"
+            ],
+            "render": [
+                "eternal_starlight:golem_steel_block",
+                "-1,0,0|eternal_starlight:golem_steel_block",
+                "1,0,0|eternal_starlight:golem_steel_block",
+                "-1,0,1|eternal_starlight:golem_steel_block",
+                "0,0,1|eternal_starlight:golem_steel_block",
+                "1,0,1|eternal_starlight:golem_steel_block",
+                "-1,0,-1|eternal_starlight:golem_steel_block",
+                "0,0,-1|eternal_starlight:golem_steel_block",
+                "1,0,-1|eternal_starlight:golem_steel_block"
+            ]
+        }
+    ]
+}

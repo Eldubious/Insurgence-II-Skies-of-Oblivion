@@ -1,0 +1,42 @@
+{
+    "parent": "insurgence:fg_materials/oracle",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.cerebral.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.cerebral.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "architects_palette:cerebral_plate"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "architects_palette:cerebral_plate",
+                            "architects_palette:cerebral_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/cerebral"
+    }
+}

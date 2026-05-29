@@ -1,0 +1,44 @@
+{
+    "parent": "insurgence:fg_materials/emerald",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.lapis.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.lapis.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:lapis_lazuli"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:lapis_lazuli",
+                            "minecraft:lapis_block",
+                            "minecraft:lapis_ore",
+                            "minecraft:deepslate_lapis_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/lapis"
+    }
+}

@@ -1,0 +1,1 @@
+fieldguide grant @s only block:eternal_starlight/blue_starlight_crystal_block

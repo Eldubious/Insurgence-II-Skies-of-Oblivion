@@ -1,0 +1,46 @@
+{
+    "parent": "insurgence:fg_materials/finger_coral",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.star_coral.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.star_coral.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "upgrade_aquatic:star_coral"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "upgrade_aquatic:star_coral_block",
+                            "upgrade_aquatic:star_coral",
+                            "upgrade_aquatic:star_coral_fan",
+                            "upgrade_aquatic:star_acan_coral_block",
+                            "upgrade_aquatic:star_acan_coral",
+                            "upgrade_aquatic:star_acan_coral_fan"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/star_coral"
+    }
+}

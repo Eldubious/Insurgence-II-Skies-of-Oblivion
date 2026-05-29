@@ -1,0 +1,44 @@
+{
+    "parent": "insurgence:fg_materials/cthonic_gold",
+    "display": {
+        "title": {
+            "translate": "advancements.insurgence.fg_materials.soul_stained_steel.title"
+        },
+        "description": {
+            "translate": "advancements.insurgence.fg_materials.soul_stained_steel.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "malum:soul_stained_steel_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtain_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "malum:soul_stained_steel_ingot",
+                            "malum:soul_stained_steel_nugget",
+                            "malum:soul_stained_steel_plating",
+                            "malum:block_of_soul_stained_steel"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_item"
+        ]
+    ],
+    "rewards": {
+        "function": "insurgence:advancement/fieldguide_entry/material/soul_stained_steel"
+    }
+}

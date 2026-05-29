@@ -1,0 +1,1 @@
+fieldguide grant @s only block:malum/block_of_cthonic_gold

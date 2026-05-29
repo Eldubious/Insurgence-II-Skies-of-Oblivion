@@ -1,0 +1,1 @@
+fieldguide grant @s only block:enderscape/shadoline_block

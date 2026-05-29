@@ -1,0 +1,1 @@
+fieldguide grant @s only block:psi/ivory_psimetal_block
