@@ -3,14 +3,14 @@
 function dimensionTp(server, entity) {
     let pos = entity.pos;
     let currDim = entity.level.dimension.toString();
-    let destDim = getDestination(currDim, pos.y());
+    let destDim = getDestination(currDim, pos.y);
     if (destDim == null)
         return;
-    let targetY = getTargetY(currDim, destDim, pos.y());
+    let targetY = getTargetY(currDim, destDim, pos.y);
     if (targetY == -1)
         return;
 
-    let targetPos = [pos.x(), targetY, pos.z()];
+    let targetPos = [pos.x, targetY, pos.z];
     let uuid = entity.uuid.toString();
 
     // Special actions to perform if the teleporting entity is a player

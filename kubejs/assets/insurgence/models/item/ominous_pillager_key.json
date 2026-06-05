@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-	  "layer0": "insurgence:item/ominous_pillager_key"
+	  "layer0": "insurgence:item/vault_keys/ominous_pillager_key"
 	},
 	"display": {
 	  "thirdperson_righthand": {

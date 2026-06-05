@@ -1,6 +1,11 @@
 // Allow the player to completely refresh the loot of any vault using the refresh item
 const refreshItem = "insurgence:token_of_renewal";
 const refreshEffectSound = "minecraft:block.trial_spawner.ambient_ominous";
+const vaultKeyItems = [
+    "minecraft:trial_key", "minecraft:ominous_trial_key", "enderscape:end_city_key",
+    "insurgence:pillager_key", "insurgence:ominous_pillager_key", "insurgence:sword_tower_key",
+    "insurgence:staff_tower_key", "insurgence:cup_tower_key", "insurgence:ring_tower_key"
+];
 
 BlockEvents.rightClicked("minecraft:vault", event => {
     vaultRightClicked(event);
@@ -11,32 +16,44 @@ BlockEvents.rightClicked("enderscape:end_vault", event => {
 
 // Handle the right clicked event when clicking a vault
 function vaultRightClicked(event) {
-    if (!event.level.isClientSide() &&
-        ((event.player.mainHandItem.id.toString() == refreshItem && event.hand == 'MAIN_HAND') ||
-        (event.player.offHandItem.id.toString() == refreshItem && event.hand == 'OFF_HAND'))) {
+    if (!event.level.isClientSide()) {
 
-        // Only refresh loot if vault is currently inactive
-        if (event.block.properties.get('vault_state') == 'inactive') {
-            refreshVault(event.server, event.block, event.player, event.hand);
-            refreshVaultEffects(event.server, event.block);
-            tellRefreshSuccess(event.server, event.player);
+        if (isHoldingRefreshItem(event.player, event.hand)) {
+            // Only refresh loot if vault is currently inactive
+            if (event.block.properties.get('vault_state') == 'inactive') {
+                refreshVault(event.server, event.block, event.player, event.hand);
+                refreshVaultEffects(event.server, event.block);
+                tellRefreshSuccess(event.player);
+            }
+            else {
+                tellRefreshError(event.player);
+            }
         }
-        else {
-            tellRefreshError(event.server, event.player);
+        else if (isHoldingKey(event.player, event.hand) && event.block.properties.get('vault_state') == 'active') {
+            let targetKey = event.block.getEntityData().get("config").get("key_item").get("id");
+            let keyComponents = event.block.getEntityData().get("config").get("key_item").get("components");
+            let keyName = parseKeyComponents(targetKey, keyComponents);
+
+            if (!isHoldingCorrectKey(event.player, event.hand, targetKey, keyComponents)) {
+                let msg = Component.translate("chat_message.insurgence.vault.wrong_key").gray().append(keyName.green());
+                event.player.tell(msg);
+            }
         }
     }
 }
 
 // Tell the player the vault successfully refreshed
-function tellRefreshSuccess(server, player) {
-    let cmdActionBar = `execute as ${player.uuid.toString()} run title @s actionbar {"translate":"actionbar.insurgence.token_of_renewal.success"}`;
-    server.runCommandSilent(cmdActionBar);
+function tellRefreshSuccess(player) {
+    let successMsg = Component.translate("chat_message.insurgence.token_of_renewal.success");
+    player.tell(successMsg);
 }
 
 // Tell the player the vault couldn't be refreshed
-function tellRefreshError(server, player) {
-    let cmdActionBar = `execute as ${player.uuid.toString()} run title @s actionbar [{"text":"W.","font":"kubejs:icons"},{"translate":"actionbar.insurgence.token_of_renewal.error","font":"minecraft:default"}]`;
-    server.runCommandSilent(cmdActionBar);
+function tellRefreshError(player) {
+    let errorMsg = Component.literal("W.").font("kubejs:icons").append(
+        Component.translate("chat_message.insurgence.token_of_renewal.error").font("minecraft:default")
+    );
+    player.tell(errorMsg);
 }
 
 // Run the commands responsible to reset a vault's memory
@@ -76,4 +93,150 @@ function refreshVaultEffects(server, block) {
 
     let cmdAmbientSound = `execute positioned ${x} ${y} ${z} in ${dim} run playsound ${refreshEffectSound} block @a[distance=..25] ${x} ${y} ${z} 100`;
     server.runCommandSilent(cmdAmbientSound);
+}
+
+// Returns boolean for if the player is holding the refresh item
+function isHoldingRefreshItem(player, hand) {
+    if (player.mainHandItem.id.toString() == refreshItem && hand == "MAIN_HAND") {
+        return true;
+    }
+    else if (player.offHandItem.id.toString() == refreshItem && hand == "OFF_HAND") {
+        return true;
+    }
+    return false;
+}
+
+// Retuns boolean for if the player is holding any kind of key
+function isHoldingKey(player, hand) {
+    if (vaultKeyItems.includes(player.mainHandItem.id.toString()) && hand == "MAIN_HAND") {
+        return true;
+    }
+    else if (vaultKeyItems.includes(player.offHandItem.id.toString()) && hand == "OFF_HAND") {
+        return true;
+    }
+    return false;
+}
+
+// Returns a component with the translated name of the required key
+function parseKeyComponents(id, components) {
+    let modelData = 0;
+    switch (id) {
+        case "minecraft:trial_key":
+            if (components == undefined) {
+                return Component.translate("item.minecraft.trial_key");
+            }
+            modelData = components.getInt("minecraft:custom_model_data");
+            switch (modelData) {
+                case 711:
+                    return Component.translate("item.dnt.shrine_key");
+
+                case 712:
+                    return Component.translate("item.dnt.creeper_key");
+
+                case 713:
+                    return Component.translate("item.dnt.citadel_key");
+
+                case 715:
+                    return Component.translate("item.dnt.trident_trial_key");
+
+                case 717:
+                    return Component.translate("item.dnt.piglin_donjon_key");
+
+                case 718:
+                    return Component.translate("item.dnt.piglin_outstation_key");
+
+                case 719:
+                    return Component.translate("item.dnt.nether_keep_key");
+
+                case 721:
+                    return Component.translate("item.dnt.end_castle_key");
+
+                case 722:
+                    return Component.translate("item.dnt.toxic_key");
+
+                default:
+                    return Component.empty();
+            }
+            
+        case "minecraft:ominous_trial_key":
+            if (components == undefined) {
+                return Component.translate("item.minecraft.ominous_trial_key");
+            }
+            modelData = components.getInt("minecraft:custom_model_data");
+            console.log(modelData)
+            switch (modelData) {
+                case 711:
+                    return Component.translate("item.dnt.ominous_shrine_key");
+
+                case 712:
+                    return Component.translate("item.dnt.ominous_toxic_key");
+
+                case 714:
+                    return Component.translate("item.dnt.citadel_boss_key");
+
+                case 716:
+                    return Component.translate("item.dnt.trident_trial_boss_key");
+
+                case 720:
+                    return Component.translate("item.dnt.end_ship_key");
+
+                case 723:
+                    return Component.translate("item.dnt.toxic_boss_key");
+                    
+                default:
+                    return Component.empty();
+            }
+
+        case "enderscape:end_city_key":
+            return Component.translate("item.enderscape.end_city_key");
+
+        case "insurgence:pillager_key":
+            return Component.translate("item.insurgence.pillager_key");
+
+        case "insurgence:ominous_pillager_key":
+            return Component.translate("item.insurgence.ominous_pillager_key");
+
+        case "insurgence:sword_tower_key":
+            if (components == undefined) {
+                return Component.empty();
+            }
+            return Component.empty();
+
+    }
+}
+
+// Checks if the player is holding the correct key type with the correct components
+function isHoldingCorrectKey(player, hand, targetKeyId, targetKeyComponents) {
+    let playerKeyItem = player.mainHandItem;
+    if (hand == "OFF_HAND")
+        playerKeyItem = player.offHandItem;
+
+    switch (playerKeyItem.id) {
+        case "minecraft:trial_key":
+            return false;
+
+        case "minecraft:ominous_trial_key":
+            return false;
+
+        case "enderscape:end_city_key":
+            if (targetKeyId == "enderscape:end_city_key")
+                return true;
+            else
+                return false;
+
+        case "insurgence:pillager_key":
+            if (targetKeyId == "insurgence:pillager_key")
+                return true;
+            else
+                return false;
+
+        case "insurgence:ominous_pillager_key":
+            if (targetKeyId == "insurgence:ominous_pillager_key")
+                return true;
+            else
+                return false;
+        
+        default:
+            return false;
+    }
 }

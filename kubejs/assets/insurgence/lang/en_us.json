@@ -685,11 +685,13 @@
     "gateway_reward.insurgence.place_waystone.desc": "Create a Waystone",
     "gateway_failure.insurgence.failed_gateway_shrine.desc": "Interact with the shrine to try again",
 
-    "actionbar.insurgence.token_of_renewal.success": "Refreshed the content of this vault for all players.",
-    "actionbar.insurgence.token_of_renewal.error": "Can only use this item on an inactive Vault.",
+    
     "actionbar.insurgence.nether_portal.incorrect_dim": "Portal can only activate in the Haven.",
     "actionbar.insurgence.nether_portal.activation": "Opening Nether portal...",
 
+    "chat_message.insurgence.token_of_renewal.success": "Refreshed the content of this vault for all players.",
+    "chat_message.insurgence.token_of_renewal.error": "Can only use this item on an inactive Vault.",
+    "chat_message.insurgence.vault.wrong_key": "This Vault can only be unlocked by a(n) ",
     "chat_message.insurgence.nether.flavor.first_enter.line_1": "The dark magic you used to get here is only temporary.",
     "chat_message.insurgence.nether.flavor.first_enter.line_2": "Your body and soul will eventually be pulled out of this place.",
     "chat_message.insurgence.nether.flavor.enter_1": "You feel your soul burning...",

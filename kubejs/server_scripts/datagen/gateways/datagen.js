@@ -67,6 +67,7 @@ ServerEvents.generateData("last", event => {
           json.waves.push(waveJson)
         }
 
+        console.log(json)
         event.json(`insurgence:gateways/shrine/${gateway.name}_${worldTier}`, json)
         event.getGenerated(`insurgence:gateways/shrine/${gateway.name}_${worldTier}`)
       }

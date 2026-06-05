@@ -109,7 +109,7 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
                     currentlyReadingAttributes = false;
                 }
             }
-            else if (currentlyReadingUpgrades && tKey == undefined) {
+            else if (currentlyReadingUpgrades && tKey == undefined && siblings[0] != undefined) {
                 let sKey = siblings[0].getContents().key;
                 let splitSKey = String(sKey).split(".");
                 if (splitSKey.length >= 2) {

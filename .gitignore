@@ -89,6 +89,7 @@ win_event*
 !config/antiportals-common.toml
 !config/bcc-common.toml
 !config/keepinventory-common.toml
+!config/waystones-common.toml
 
 # Content mod configs
 !config/relics.yaml
@@ -105,6 +106,8 @@ win_event*
 !config/endermanoverhaul.jsonc
 !config/enchantinginfuser-server.toml
 !config/oreganized-common.toml
+!config/dungeonsdelight-client-config.toml
+!config/dungeonsdelight-config.toml
 
 # Cosmetic mod configs
 !config/tooltipoverhaul/
