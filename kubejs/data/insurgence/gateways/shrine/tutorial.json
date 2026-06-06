@@ -1,62 +1,70 @@
 {
-  "size": "small",
-  "color": "#80C4C4",
-  "waves": [
-    {
-      "entities": [
+    "size": "small",
+    "color": "#80C4C4",
+    "waves": [
         {
-          "entity": "minecraft:zombie",
-          "desc": "custom_enemy_name.insurgence.weak_zombie",
-          "count": 1,
-          "finalize_spawn": false,
-          "modifiers": [
-            {
-              "type": "gateways:gear_set",
-              "gear_set": "insurgence:golden_helmet_and_bone"
-            }
-          ],
-          "nbt": {}
-        }
-      ],
-      "modifiers": [],
-      "rewards": [],
-      "max_wave_time": 1200,
-      "setup_time": 100
-    },
-    {
-      "entities": [
+            "entities": [
+                {
+                    "entity": "minecraft:zombie",
+                    "desc": "entity_name.insurgence.weak_zombie",
+                    "count": 1,
+                    "finalize_spawn": false,
+                    "modifiers": [
+                        {
+                            "type": "gateways:gear_set",
+                            "gear_set": "insurgence:golden_helmet_and_bone"
+                        },
+                        {
+                            "type": "gateways:loot_table",
+                            "loot_table": "minecraft:empty"
+                        }
+                    ],
+                    "nbt": {}
+                }
+            ],
+            "modifiers": [],
+            "rewards": [],
+            "max_wave_time": 1200,
+            "setup_time": 100
+        },
         {
-          "entity": "minecraft:zombie",
-          "desc": "custom_enemy_name.insurgence.weak_zombie",
-          "count": 2,
-          "finalize_spawn": false,
-          "modifiers": [
-            {
-              "type": "gateways:gear_set",
-              "gear_set": "insurgence:golden_helmet_and_bone"
-            }
-          ],
-          "nbt": {}
+            "entities": [
+                {
+                    "entity": "minecraft:zombie",
+                    "desc": "entity_name.insurgence.weak_zombie",
+                    "count": 2,
+                    "finalize_spawn": false,
+                    "modifiers": [
+                        {
+                            "type": "gateways:gear_set",
+                            "gear_set": "insurgence:golden_helmet_and_bone"
+                        },
+                        {
+                            "type": "gateways:loot_table",
+                            "loot_table": "minecraft:empty"
+                        }
+                    ],
+                    "nbt": {}
+                }
+            ],
+            "modifiers": [],
+            "rewards": [],
+            "max_wave_time": 1200,
+            "setup_time": 60
         }
-      ],
-      "modifiers": [],
-      "rewards": [],
-      "max_wave_time": 1200,
-      "setup_time": 60
-    }
-  ],
-  "rewards": [
-    {
-      "type": "gateways:command",
-      "command": "function insurgence:gameplay/gateway_shrine_reward",
-      "desc": "gateway_reward.insurgence.place_waystone.desc"
-    }
-  ],
-  "failures": [
-    {
-      "type": "gateways:command",
-      "command": "function insurgence:gameplay/failed_gateway_shrine",
-      "desc": "gateway_failure.insurgence.failed_gateway_shrine.desc"
-    }
-  ]
+    ],
+    "rewards": [
+        {
+            "type": "gateways:command",
+            "command": "function insurgence:gameplay/gateway_shrine_reward",
+            "desc": "gateway_reward.insurgence.place_waystone.desc"
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:command",
+            "command": "function insurgence:gameplay/failed_gateway_shrine",
+            "desc": "gateway_failure.insurgence.failed_gateway_shrine.desc"
+        }
+    ]
 }

@@ -678,13 +678,14 @@
     "insurgence.staves_tower/skeletons/blue_9": "Tower Protectors",
     "insurgence.staves_tower/skeletons/blue_10": "Tower Protectors",
 
-    "custom_enemy_name.insurgence.weak_zombie": "Zombie Weakling",
-    "custom_enemy_name.insurgence.camel_jockey": "Camel Jockey",
-    "custom_enemy_name.insurgence.armadillo_jockey": "Armadillo Jockey",
+    "entity_name.insurgence.weak_zombie": "Zombie Weakling",
+    "entity_name.insurgence.hoglin_rider": "Hoglin Rider",
+    "entity_name.insurgence.baby_hoglin": "Baby Hoglin",
+    "entity_name.insurgence.camel_jockey": "Camel Jockey",
+    "entity_name.insurgence.armadillo_jockey": "Armadillo Jockey",
 
     "gateway_reward.insurgence.place_waystone.desc": "Create a Waystone",
     "gateway_failure.insurgence.failed_gateway_shrine.desc": "Interact with the shrine to try again",
-
     
     "actionbar.insurgence.nether_portal.incorrect_dim": "Portal can only activate in the Haven.",
     "actionbar.insurgence.nether_portal.activation": "Opening Nether portal...",

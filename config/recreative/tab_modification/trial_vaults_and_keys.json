@@ -5,6 +5,8 @@
         "add_items": [
             "minecraft:vault",
             "enderscape:end_vault",
+            "irons_spellbooks:bone_vault",
+            "irons_spellbooks:cinderous_vault",
             "insurgence:token_of_renewal",
             "minecraft:trial_key",
             "minecraft:ominous_trial_key",
@@ -119,7 +121,9 @@
                     "minecraft:custom_model_data": 720,
                     "minecraft:item_name": "{'translate':'item.dnt.end_ship_key', 'fallback':'End Ship Key'}"
                 }
-            }
+            },
+            "irons_spellbooks:bone_key",
+            "irons_spellbooks:decrepit_key"
         ]
     }
 ]

@@ -3,16 +3,23 @@ const refreshItem = "insurgence:token_of_renewal";
 const refreshEffectSound = "minecraft:block.trial_spawner.ambient_ominous";
 const vaultKeyItems = [
     "minecraft:trial_key", "minecraft:ominous_trial_key", "enderscape:end_city_key",
+    "irons_spellbooks:bone_key", "irons_spellbooks:decrepit_key",
     "insurgence:pillager_key", "insurgence:ominous_pillager_key", "insurgence:sword_tower_key",
     "insurgence:staff_tower_key", "insurgence:cup_tower_key", "insurgence:ring_tower_key"
 ];
 
 BlockEvents.rightClicked("minecraft:vault", event => {
     vaultRightClicked(event);
-})
+});
 BlockEvents.rightClicked("enderscape:end_vault", event => {
     vaultRightClicked(event);
-})
+});
+BlockEvents.rightClicked("irons_spellbooks:bone_vault", event => {
+    vaultRightClicked(event);
+});
+BlockEvents.rightClicked("irons_spellbooks:cinderous_vault", event => {
+    vaultRightClicked(event);
+});
 
 // Handle the right clicked event when clicking a vault
 function vaultRightClicked(event) {
@@ -190,6 +197,12 @@ function parseKeyComponents(id, components) {
         case "enderscape:end_city_key":
             return Component.translate("item.enderscape.end_city_key");
 
+        case "irons_spellbooks:bone_key":
+            return Component.translate("item.irons_spellbooks.bone_key");
+
+        case "irons_spellbooks:decrepit_key":
+            return Component.translate("item.irons_spellbooks.decrepit_key");
+
         case "insurgence:pillager_key":
             return Component.translate("item.insurgence.pillager_key");
 
@@ -220,6 +233,18 @@ function isHoldingCorrectKey(player, hand, targetKeyId, targetKeyComponents) {
 
         case "enderscape:end_city_key":
             if (targetKeyId == "enderscape:end_city_key")
+                return true;
+            else
+                return false;
+
+        case "irons_spellbooks:bone_key":
+            if (targetKeyId == "irons_spellbooks:bone_key")
+                return true;
+            else
+                return false;
+
+        case "irons_spellbooks:decrepit_key":
+            if (targetKeyId == "irons_spellbooks:decrepit_key")
                 return true;
             else
                 return false;
