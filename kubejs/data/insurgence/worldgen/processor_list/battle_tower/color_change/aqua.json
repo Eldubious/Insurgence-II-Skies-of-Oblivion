@@ -1,57 +1,57 @@
 {
-  "processors": [
-    {
-      "processor_type": "minecraft:rule",
-      "rules": [
+    "processors": [
         {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:white_wool"
-          },
-          "output_state": {
-            "Name": "dye_depot:aqua_wool"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:block_match",
-            "block": "minecraft:light_gray_wool"
-          },
-          "output_state": {
-            "Name": "minecraft:light_blue_wool"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:block_match",
-            "block": "interiors:white_cushion"
-          },
-          "output_state": {
-            "Name": "interiors:aqua_cushion"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:block_match",
-            "block": "create:white_seat"
-          },
-          "output_state": {
-            "Name": "create:aqua_seat"
-          }
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:white_wool"
+                    },
+                    "output_state": {
+                        "Name": "dye_depot:aqua_wool"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:light_gray_wool"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:light_blue_wool"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "interiors:white_cushion"
+                    },
+                    "output_state": {
+                        "Name": "interiors:aqua_cushion"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "create:white_seat"
+                    },
+                    "output_state": {
+                        "Name": "create:aqua_seat"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

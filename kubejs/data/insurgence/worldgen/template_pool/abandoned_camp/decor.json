@@ -1,0 +1,329 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_1",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_2",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_3",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_1",
+                "processors": "insurgence:abandoned_camp/tomatoes",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_2",
+                "processors": "insurgence:abandoned_camp/tomatoes",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_3",
+                "processors": "insurgence:abandoned_camp/tomatoes",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_1",
+                "processors": "insurgence:abandoned_camp/carrots",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_2",
+                "processors": "insurgence:abandoned_camp/carrots",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_3",
+                "processors": "insurgence:abandoned_camp/carrots",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_1",
+                "processors": "insurgence:abandoned_camp/beetroots",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_2",
+                "processors": "insurgence:abandoned_camp/beetroots",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_3",
+                "processors": "insurgence:abandoned_camp/beetroots",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_1",
+                "processors": "insurgence:abandoned_camp/cabbages",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_2",
+                "processors": "insurgence:abandoned_camp/cabbages",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_3",
+                "processors": "insurgence:abandoned_camp/cabbages",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_1",
+                "processors": "insurgence:abandoned_camp/onions",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_2",
+                "processors": "insurgence:abandoned_camp/onions",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_3",
+                "processors": "insurgence:abandoned_camp/onions",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_1",
+                "processors": "insurgence:abandoned_camp/green_bell_peppers",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_2",
+                "processors": "insurgence:abandoned_camp/green_bell_peppers",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_3",
+                "processors": "insurgence:abandoned_camp/green_bell_peppers",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_1",
+                "processors": "insurgence:abandoned_camp/yellow_bell_peppers",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_2",
+                "processors": "insurgence:abandoned_camp/yellow_bell_peppers",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_3",
+                "processors": "insurgence:abandoned_camp/yellow_bell_peppers",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_1",
+                "processors": "insurgence:abandoned_camp/red_bell_peppers",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_2",
+                "processors": "insurgence:abandoned_camp/red_bell_peppers",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_3",
+                "processors": "insurgence:abandoned_camp/red_bell_peppers",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_1",
+                "processors": "insurgence:abandoned_camp/avocadoes",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_2",
+                "processors": "insurgence:abandoned_camp/avocadoes",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_3",
+                "processors": "insurgence:abandoned_camp/avocadoes",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_1",
+                "processors": "insurgence:abandoned_camp/cucumbers",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_2",
+                "processors": "insurgence:abandoned_camp/cucumbers",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_3",
+                "processors": "insurgence:abandoned_camp/cucumbers",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_1",
+                "processors": "insurgence:abandoned_camp/corn",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_2",
+                "processors": "insurgence:abandoned_camp/corn",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/decor/crates_3",
+                "processors": "insurgence:abandoned_camp/corn",
+                "projection": "rigid"
+            },
+            "weight": 1
+        }
+    ]
+}

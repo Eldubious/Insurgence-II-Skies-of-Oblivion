@@ -1,6 +1,17 @@
 // Control which biomes have which structures
 ServerEvents.tags('worldgen/biome', event => {
 
+    // Abandoned Camp
+    let abandonedCampBiomes = [
+        "autumnity:maple_forest", "autumnity:pumpkin_fields", "minecraft:birch_forest", "minecraft:dark_forest", "minecraft:forest",
+        "minecraft:grove", "minecraft:old_growth_birch_forest", "minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga",
+        "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:snowy_taiga", "minecraft:taiga", "minecraft:windswept_forest"
+    ];
+    for (let i in abandonedCampBiomes) {
+        event.add("insurgence:has_structure/abandoned_camp", abandonedCampBiomes[i]);
+    }
+
+    /*      Battle Tower        */
     // Default style
     let defaultStyleBiomes = ['minecraft:plains', 'minecraft:forest', 'minecraft:birch_forest']
     for (let i in defaultStyleBiomes) {

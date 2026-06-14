@@ -1,0 +1,68 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/tent/blue",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/tent/ginger",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/tent/green",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/tent/indigo",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/tent/maroon",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/tent/teal",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/tent/yellow",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 1
+        }
+    ]
+}

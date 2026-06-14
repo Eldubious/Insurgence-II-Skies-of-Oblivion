@@ -821,6 +821,15 @@
     },
     {
         "tags": [
+            "insurgence:category/unlock_item"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.unlock_item",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
             "insurgence:category/collectable"
         ],
         "iconAppearAnimation": "zoom_snap",
@@ -888,6 +897,15 @@
         ],
         "iconAppearAnimation": "zoom_snap",
         "itemRating": "key.tooltipoverhaul.insurgence.cosmetic",
+        "colorItemRating": "0x555555",
+        "showRating": true
+    },
+    {
+        "tags": [
+            "insurgence:category/natural_block"
+        ],
+        "iconAppearAnimation": "zoom_snap",
+        "itemRating": "key.tooltipoverhaul.insurgence.natural_block",
         "colorItemRating": "0x555555",
         "showRating": true
     },

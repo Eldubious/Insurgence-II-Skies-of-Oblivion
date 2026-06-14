@@ -7,16 +7,25 @@
 const categoryItemTags = [
     "insurgence:category/unused",
     "insurgence:category/creative_mode",
+    "insurgence:category/guide_book",
+    "insurgence:category/unlock_item",
     "insurgence:category/collectable",
     "insurgence:category/material",
+    "insurgence:category/tool",
+    "insurgence:category/ammo",
+    "insurgence:category/plant",
+    "insurgence:category/crop",
     "insurgence:category/consumable",
     "insurgence:category/cosmetic",
+    "insurgence:category/natural_block",
     "insurgence:category/decorative_block",
+    "insurgence:category/material_block",
     "insurgence:category/functional_block",
     "insurgence:category/redstone_block",
     "insurgence:category/crafting_station",
     "insurgence:unique_item",
-    "insurgence:crafted_item"
+    "insurgence:crafted_item",
+    "insurgence:tarot_cards"
 ];
 
 // Will never print out the items in this list
@@ -25,7 +34,7 @@ const itemsToSkip = [
 ];
 
 // The number of item ids to print per line
-const idsPerLine = 5;
+const idsPerLine = 4;
 
 // If the script should run or not
 const active = true;
@@ -80,6 +89,7 @@ ServerEvents.loaded(event => {
             lineCount++;
         }
         else {
+            line += `"${id}", `;
             console.log(line);
             line = "";
             lineCount = 0;

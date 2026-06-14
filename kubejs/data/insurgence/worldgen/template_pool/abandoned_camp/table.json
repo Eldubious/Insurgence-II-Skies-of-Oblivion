@@ -1,0 +1,50 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/table/books",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 10
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/table/cutting_board",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 10
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/table/firefly_jar",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 5
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/table/chest",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 5
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "insurgence:abandoned_camp/table/trader_llama_plushie",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 1
+        }
+    ]
+}

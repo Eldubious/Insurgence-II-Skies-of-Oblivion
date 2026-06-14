@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "#insurgence:has_structure/abandoned_camp",
+    "start_pool": "insurgence:abandoned_camp/campfire",
+    "step": "surface_structures",
+    "terrain_adaptation": "beard_thin",
+    "max_distance_from_center": 30,
+    "size": 3,
+    "project_start_to_heightmap": "WORLD_SURFACE",
+    "start_height": {
+        "absolute": 0
+    },
+    "liquid_settings": "ignore_waterlogging",
+    "use_expansion_hack": false,
+    "spawn_overrides": {
+        "monster": {
+            "bounding_box": "piece",
+            "spawns": []
+        },
+        "creature": {
+            "bounding_box": "piece",
+            "spawns": []
+        },
+        "ambient": {
+            "bounding_box": "piece",
+            "spawns": []
+        },
+        "axolotls": {
+            "bounding_box": "piece",
+            "spawns": []
+        },
+        "underground_water_creature": {
+            "bounding_box": "piece",
+            "spawns": []
+        },
+        "water_creature": {
+            "bounding_box": "piece",
+            "spawns": []
+        },
+        "water_ambient": {
+            "bounding_box": "piece",
+            "spawns": []
+        },
+        "misc": {
+            "bounding_box": "piece",
+            "spawns": []
+        }
+    }
+}
