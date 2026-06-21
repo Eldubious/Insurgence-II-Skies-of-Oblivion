@@ -430,6 +430,8 @@
 
     "enchantment.insurgence.debug.all_attributes": "Zenith",
     "enchantment.insurgence.debug.all_attributes.desc": "An enchantment which grants +1 in every attribute. Used for debugging purposes.",
+    "enchantment.insurgence.feathery_paws": "Feathery Paws",
+    "enchantment.insurgence.feathery_paws.desc": "Increases the safe fall distance and reduces the fall damage taken for the animal.",
 
     "material.insurgence.sunmetal": "Sunmetal",
     "material.insurgence.candy": "Candy",
@@ -544,6 +546,7 @@
     "key.tooltipoverhaul.insurgence.crafted_mace": "§oCrafted §r§7§oMace",
     "key.tooltipoverhaul.insurgence.crafted_boomerang": "§oCrafted §r§7§oBoomerang",
     "key.tooltipoverhaul.insurgence.crafted_firearm": "§oCrafted §r§7§oFirearm",
+    "key.tooltipoverhaul.insurgence.crafted_wand": "§oCrafted §r§7§oWand",
 
     "tooltip.insurgence.rarity.common": "COMMON",
     "tooltip.insurgence.rarity.uncommon": "UNCOMMON",

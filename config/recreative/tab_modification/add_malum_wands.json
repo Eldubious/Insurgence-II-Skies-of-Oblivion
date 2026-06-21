@@ -1,0 +1,11 @@
+[
+    {
+        "action": "modify_tab",
+        "tabs": ["malum:malum_content"],
+        "add_items": [
+            "malum:mnemonic_hex_staff",
+            "malum:unwilding_chaos",
+            "malum:erosion_scepter"
+        ]
+    }
+]

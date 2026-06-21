@@ -1,0 +1,41 @@
+{
+    "description": {
+        "translate": "enchantment.insurgence.feathery_paws"
+    },
+    "exclusive_set": "#insurgence:exclusive_set/stat_bonuses",
+    "supported_items": "#insurgence:enchantable/animal_armor",
+    "weight": 1,
+    "max_level": 10,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 1
+    },
+    "max_cost": {
+        "base": 5,
+        "per_level_above_first": 1
+    },
+    "anvil_cost": 5,
+    "slots": [
+        "body"
+    ],
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:generic.safe_fall_distance",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.5,
+                    "per_level_above_first": 0.5
+                },
+                "operation": "add_value",
+                "id": "enchant.insurgence.feathery_paws.safe_fall_distance"
+            },
+            {
+                "attribute": "minecraft:generic.fall_damage_multiplier",
+                "amount": -0.2,
+                "operation": "add_value",
+                "id": "enchant.insurgence.feathery_paws.fall_damage_multiplier"
+            }
+        ]
+    }
+}

@@ -21,7 +21,7 @@ ItemEvents.modifyTooltips(event => {
   let craftedItemTypes = [
     'sword', 'scythe', 'knife', 'axe', 'pickaxe', 'shovel', 'hoe', 'helmet', 'chestplate', 'leggings',
     'boots', 'ring', 'necklace', 'curio', 'fishing_rod', 'slingshot', 'animal_armor', 'staff', 'brush',
-    'mace', 'polearm', 'boomerang', 'flay', 'firearm'
+    'mace', 'polearm', 'boomerang', 'flay', 'firearm', 'wand', 'saddle'
   ];
   for (let i in craftedItemTypes) {
     event.modify(`#insurgence:crafted_item/${craftedItemTypes[i]}`, tooltip => {

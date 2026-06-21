@@ -672,6 +672,17 @@
       "showRating": true
     },
     {
+      "tags": [
+        "insurgence:crafted_item/wand"
+      ],
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "effect": "rim_light",
+      "iconAppearAnimation": "zoom_snap",
+      "itemRating": "key.tooltipoverhaul.insurgence.crafted_wand",
+      "colorItemRating": "#55FFFF",
+      "showRating": true
+    },
+    {
       "items": [
         "collectorsalbum:common_card_pack",
         "collectorsalbum:common_repacked_card_pack",

@@ -1,0 +1,23 @@
+{
+    "replace": true,
+    "values": [
+        "#insurgence:exclusive_set/curses",
+        "minecraft:soul_speed",
+        "minecraft:wind_burst",
+        "nova_structures:wither_coated",
+        "nova_structures:wax_wings",
+        "nova_structures:outreach",
+        "nova_structures:ghasted",
+        "nova_structures:photosynthesis",
+        "nova_structures:gravity",
+        "nova_structures:antidote",
+        "eternal_starlight:poisoning",
+        "eternal_starlight:fearless",
+        "eternal_starlight:soul_snatcher",
+        "enderscape:transdimensional",
+        "aileron:smokestack",
+        "apothic_enchanting:endless_quiver",
+        "dungeonsdelight:ricochet",
+        "insurgence:feathery_paws"
+    ]
+}

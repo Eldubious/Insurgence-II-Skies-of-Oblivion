@@ -1,0 +1,73 @@
+{
+    "values": [
+        "insurgence:all_attributes",
+
+        "minecraft:aqua_affinity",
+        "minecraft:respiration",
+        "combat_roll:multi_roll",
+
+        "combat_roll:acrobat",
+        "nova_structures:outreach",
+
+        "minecraft:swift_sneak",
+        "nova_structures:traveler",
+
+        "minecraft:depth_strider",
+        "minecraft:feather_falling",
+        "apothic_enchanting:stable_footing",
+        "combat_roll:longfooted",
+
+        "minecraft:blast_protection",
+        "minecraft:fire_protection",
+        "minecraft:projectile_protection",
+
+        "create:capacity",
+
+        "aileron:cloudskipper",
+        "nova_structures:wax_wings",
+
+        "insurgence:feathery_paws",
+
+        "minecraft:breach",
+        "minecraft:density",
+
+        "farmersdelight:backstabbing",
+
+        "iss_magicfromtheeast:inner_impact",
+
+        "minecraft:knockback",
+        "minecraft:sweeping_edge",
+        "nova_structures:illagers_bane",
+
+        "minecraft:piercing",
+        "minecraft:punch",
+        "minecraft:quick_charge",
+        "nova_structures:piercing",
+        "iss_magicfromtheeast:expanding",
+        
+        "iss_magicfromtheeast:spiritual_focus",
+        "iss_magicfromtheeast:wisely_will",
+
+        "malum:animated",
+        "malum:capacitor",
+        "malum:haunted",
+
+        "malum:weavers_haste",
+
+        "eternal_starlight:precision",
+
+        "eternal_starlight:soul_snatcher",
+        
+        "eternal_starlight:swift_lash",
+
+        "minecraft:efficiency",
+        "apothic_enchanting:miners_fervor",
+
+        "minecraft:luck_of_the_sea",
+        "minecraft:lure",
+
+        "enderscape:lightspeed",
+
+        "minecraft:unbreaking"
+    ]
+}

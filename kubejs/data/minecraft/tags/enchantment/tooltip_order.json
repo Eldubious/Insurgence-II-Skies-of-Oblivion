@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "values": [
+        "#insurgence:exclusive_set/curses",
+        "#insurgence:exclusive_set/abilities",
+        "#insurgence:exclusive_set/stat_bonuses"
+    ]
+}

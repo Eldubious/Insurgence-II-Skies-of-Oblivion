@@ -70,7 +70,7 @@ apotheosis_integration = true
 	maximum_bookshelves = 50
 	#Allow enchantments that can normally not be obtained from an enchanting table, but can be put on the item in an anvil (e.g. sharpness on an axe).
 	#Default Value: false
-	allow_anvil_enchantments = false
+	allow_anvil_enchantments = true
 	#Working an item in an infuser increases the prior work penalty stat used by anvils for that item, meaning future anvil repairs will become more expensive, possibly even too expensive.
 	#Default Value: false
 	increase_anvil_repair_cost = true
