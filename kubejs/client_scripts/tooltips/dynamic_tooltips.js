@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 let lastLoggedItem = ""; // DEBUG make sure to only log tooltip if new item is hovered over
 
 const item_modifier_tooltips = [Component.translate('item.modifiers.any').getString(), Component.translate('item.modifiers.armor').getString(),

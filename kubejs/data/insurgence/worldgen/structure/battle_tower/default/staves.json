@@ -76,6 +76,11 @@
                         },
                         {
                             "type": "minecraft:direct",
+                            "alias": "insurgence:large_banner",
+                            "target": "insurgence:battle_tower/default/swords/large_banner/lime"
+                        },
+                        {
+                            "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_1",
                             "target": "insurgence:battle_tower/default/staves/vault_locks/green_blue"
                         },
@@ -121,6 +126,11 @@
                         },
                         {
                             "type": "minecraft:direct",
+                            "alias": "insurgence:large_banner",
+                            "target": "insurgence:battle_tower/default/swords/large_banner/lime"
+                        },
+                        {
+                            "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_1",
                             "target": "insurgence:battle_tower/default/staves/vault_locks/green_blue"
                         },
@@ -163,6 +173,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:tower_spine",
                             "target": "insurgence:battle_tower/default/common/spine/5_floors"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:large_banner",
+                            "target": "insurgence:battle_tower/default/swords/large_banner/yellow"
                         },
                         {
                             "type": "minecraft:direct",
@@ -216,6 +231,11 @@
                         },
                         {
                             "type": "minecraft:direct",
+                            "alias": "insurgence:large_banner",
+                            "target": "insurgence:battle_tower/default/swords/large_banner/yellow"
+                        },
+                        {
+                            "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_1",
                             "target": "insurgence:battle_tower/default/staves/vault_locks/red_green_blue"
                         },
@@ -263,6 +283,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:tower_spine",
                             "target": "insurgence:battle_tower/default/common/spine/6_floors"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:large_banner",
+                            "target": "insurgence:battle_tower/default/swords/large_banner/orange"
                         },
                         {
                             "type": "minecraft:direct",
@@ -321,6 +346,11 @@
                         },
                         {
                             "type": "minecraft:direct",
+                            "alias": "insurgence:large_banner",
+                            "target": "insurgence:battle_tower/default/swords/large_banner/orange"
+                        },
+                        {
+                            "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_1",
                             "target": "insurgence:battle_tower/default/staves/vault_locks/green_blue"
                         },
@@ -373,6 +403,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:tower_spine",
                             "target": "insurgence:battle_tower/default/common/spine/7_floors"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:large_banner",
+                            "target": "insurgence:battle_tower/default/swords/large_banner/coral"
                         },
                         {
                             "type": "minecraft:direct",
@@ -436,6 +471,11 @@
                         },
                         {
                             "type": "minecraft:direct",
+                            "alias": "insurgence:large_banner",
+                            "target": "insurgence:battle_tower/default/swords/large_banner/coral"
+                        },
+                        {
+                            "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_1",
                             "target": "insurgence:battle_tower/default/staves/vault_locks/red_green_blue"
                         },
@@ -493,6 +533,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:tower_spine",
                             "target": "insurgence:battle_tower/default/common/spine/8_floors"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:large_banner",
+                            "target": "insurgence:battle_tower/default/swords/large_banner/red"
                         },
                         {
                             "type": "minecraft:direct",
@@ -561,6 +606,11 @@
                         },
                         {
                             "type": "minecraft:direct",
+                            "alias": "insurgence:large_banner",
+                            "target": "insurgence:battle_tower/default/swords/large_banner/red"
+                        },
+                        {
+                            "type": "minecraft:direct",
                             "alias": "insurgence:vault_lock_1",
                             "target": "insurgence:battle_tower/default/staves/vault_locks/red_green_blue"
                         },
@@ -623,6 +673,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/1"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/1"
                         }
                     ]
                 },
@@ -633,6 +688,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/2"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/2"
                         }
                     ]
                 },
@@ -643,6 +703,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/3"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/3"
                         }
                     ]
                 },
@@ -653,6 +718,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/4"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/4"
                         }
                     ]
                 },
@@ -663,6 +733,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/5"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/5"
                         }
                     ]
                 },
@@ -673,6 +748,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/6"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/6"
                         }
                     ]
                 },
@@ -683,6 +763,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/7"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/7"
                         }
                     ]
                 },
@@ -693,6 +778,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/8"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/8"
                         }
                     ]
                 },
@@ -703,6 +793,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/9"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/9"
                         }
                     ]
                 },
@@ -713,6 +808,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/10"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/10"
                         }
                     ]
                 },
@@ -723,6 +823,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/11"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/11"
                         }
                     ]
                 },
@@ -733,6 +838,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/12"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/12"
                         }
                     ]
                 },
@@ -743,6 +853,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/13"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/13"
                         }
                     ]
                 },
@@ -753,6 +868,11 @@
                             "type": "minecraft:direct",
                             "alias": "insurgence:green_digit",
                             "target": "insurgence:battle_tower/default/staves/passkey_digit/14"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "insurgence:green_library_banners",
+                            "target": "insurgence:battle_tower/default/staves/library_banners/14"
                         }
                     ]
                 }

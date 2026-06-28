@@ -76,6 +76,7 @@ win_event*
 !config/skyblockbuilder/spawn.json5
 !config/skyblockbuilder/templates.json5
 !config/skyblockbuilder/world.json5
+!config/jade/plugins.json
 !config/fancymenu/
 !config/defaultworldtype/client-config.toml
 !config/questlog/

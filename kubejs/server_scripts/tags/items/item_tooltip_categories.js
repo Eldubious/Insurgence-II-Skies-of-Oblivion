@@ -63,7 +63,7 @@ let categoryMaterial = [
     "architects_palette:algal_blend", "architects_palette:algal_brick", "architects_palette:entwine_rod",
     "architects_palette:nether_brass_ingot", "architects_palette:oracle_jelly", "architects_palette:sunmetal_brick",
     "architects_palette:sunmetal_blend", "architects_palette:unobtanium", "architects_palette:wardstone_blend",
-    "architects_palette:withered_bone",
+    "architects_palette:withered_bone", "architects_palette:cerebral_plate",
 
     "autumnity:sap_bottle", "autumnity:snail_shell_piece", "autumnity:turkey_egg", "autumnity:syrup_bottle",
     
@@ -327,7 +327,7 @@ let categoryDecorativeBlock = [
     "architects_palette:craterstone_slab", "architects_palette:craterstone_stairs",
     "architects_palette:craterstone_vertical_slab", "architects_palette:craterstone_wall",
 
-    "architects_palette:cerebral_block", "architects_palette:cerebral_pillar", "architects_palette:cerebral_plate",
+    "architects_palette:cerebral_block", "architects_palette:cerebral_pillar",
     "architects_palette:cerebral_slab", "architects_palette:cerebral_tile_slab", "architects_palette:cerebral_tile_stairs",
     "architects_palette:cerebral_tile_vertical_slab", "architects_palette:cerebral_tile_wall",
     "architects_palette:cerebral_tiles", "architects_palette:cerebral_wall",

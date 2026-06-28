@@ -801,6 +801,16 @@
 
     "gui.insurgence.custom_machine.activate_portal": "Activate Portal",
 
+    "book.title.translating_runes": "On Translating Runes",
+    "book.author.translating_runes": "The Librarian",
+    "book.content.translating_runes.page_title": "On Translating Runes:",
+    "book.content.translating_runes.body_1": "In this library, there are books which translate ancient runes into modern symbols.",
+    "book.content.translating_runes.body_2": "Use them to your advantage.",
+    "book.title.rune_translation": "Rune Translation: %s",
+    "book.author.rune_translation": "The Librarian",
+    "book.content.rune_translation.body_1": "Below lies a snippet of the Complete Guide to Rune Translation, by yours truly. This individual rune translation is key to understanding the greater picture...",
+    "book.content.rune_translation.body_2": "%s = %s",
+
     "questlog.chapter.insurgence.main": "Introduction",
     "questlog.chapter.insurgence.world_tiers": "World Tiers",
     "questlog.chapter.insurgence.skies": "The Haven",
