@@ -2,24 +2,24 @@
 [27May2026 00:31:09.917] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] List of all entries for registry minecraft:worldgen/structure:
 [27May2026 00:31:09.922] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] 
 [27May2026 00:31:10.075] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - wan_ancient_beasts:abandoned_village
-[27May2026 00:31:10.078] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - irons_spellbooks:ancient_battleground
-[27May2026 00:31:10.079] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:ancient_city
+irons_spellbooks:ancient_battleground
+minecraft:ancient_city
 [27May2026 00:31:10.080] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - wan_ancient_beasts:ancient_nest
 [27May2026 00:31:10.081] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:badlands_miner_outpost
-[27May2026 00:31:10.082] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:bastion_remnant
+minecraft:bastion_remnant
 insurgence:battle_tower/default/staves
 insurgence:battle_tower/default/swords
 [27May2026 00:31:10.085] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - oreganized:boulder
 [27May2026 00:31:10.086] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:bunker
 [27May2026 00:31:10.087] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:buried_treasure
-[27May2026 00:31:10.088] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - irons_spellbooks:catacombs
+irons_spellbooks:catacombs
 [27May2026 00:31:10.091] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - enderscape:center_gateway
 [27May2026 00:31:10.093] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - friendsandfoes:citadel
 [27May2026 00:31:10.093] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - irons_spellbooks:citadel
 [27May2026 00:31:10.097] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - delighto_flight:cloud_island
 [27May2026 00:31:10.098] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:conduit_ruin
 [27May2026 00:31:10.101] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:creeping_crypt
-[27May2026 00:31:10.102] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - eternal_starlight:cursed_garden
+eternal_starlight:cursed_garden
 [27May2026 00:31:10.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - wan_ancient_beasts:dead_coral
 [27May2026 00:31:10.104] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:deepslate_camp
 [27May2026 00:31:10.104] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:desert_pyramid
@@ -58,7 +58,7 @@ insurgence:battle_tower/default/swords
 [27May2026 00:31:10.120] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:end_city
 [27May2026 00:31:10.121] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:end_lighthouse
 [27May2026 00:31:10.121] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:end_ship
-[27May2026 00:31:10.122] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - irons_spellbooks:evoker_fort
+irons_spellbooks:evoker_fort
 [27May2026 00:31:10.123] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:firewatch_tower_birch
 [27May2026 00:31:10.123] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:firewatch_tower_cherry
 [27May2026 00:31:10.124] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:firewatch_tower_dark_oak
@@ -68,60 +68,60 @@ insurgence:battle_tower/default/swords
 [27May2026 00:31:10.135] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:firewatch_tower_savanna
 [27May2026 00:31:10.136] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:firewatch_tower_swamp
 [27May2026 00:31:10.137] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:firewatch_tower_taiga
-[27May2026 00:31:10.137] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - betterfortresses:fortress
-[27May2026 00:31:10.137] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:fortress
+betterfortresses:fortress
+minecraft:fortress
 [27May2026 00:31:10.138] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - mowziesmobs:frostmaw_spawn
 [27May2026 00:31:10.138] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - supplementaries:galleon
-[27May2026 00:31:10.139] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - eternal_starlight:golem_forge
+eternal_starlight:golem_forge
 [27May2026 00:31:10.139] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:hamlet
-[27May2026 00:31:10.139] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - irons_spellbooks:ice_spider_den
-[27May2026 00:31:10.140] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - wan_ancient_beasts:ice_spike_castle
+irons_spellbooks:ice_spider_den
+wan_ancient_beasts:ice_spike_castle
 [27May2026 00:31:10.140] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - friendsandfoes:iceologer_cabin
-[27May2026 00:31:10.141] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:igloo
+minecraft:igloo
 [27May2026 00:31:10.141] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:illager_camp
 [27May2026 00:31:10.141] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:illager_hideout
-[27May2026 00:31:10.142] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:illager_manor
+nova_structures:illager_manor
 [27May2026 00:31:10.142] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - friendsandfoes:illusioner_shack
 [27May2026 00:31:10.143] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - friendsandfoes:illusioner_training_grounds
-[27May2026 00:31:10.143] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - irons_spellbooks:impaled_icebreaker
+irons_spellbooks:impaled_icebreaker
 [27May2026 00:31:10.144] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:jungle_pyramid
 [27May2026 00:31:10.144] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:jungle_ruins
 [27May2026 00:31:10.144] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - enderscape:large_center_gateway
 [27May2026 00:31:10.145] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:lone_citadel
-[27May2026 00:31:10.145] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - irons_spellbooks:mangrove_hut
+irons_spellbooks:mangrove_hut
 [27May2026 00:31:10.146] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:mangrove_witch_hut
-[27May2026 00:31:10.146] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:mansion
+minecraft:mansion
 [27May2026 00:31:10.146] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - autumnity:maple_hut
 [27May2026 00:31:10.146] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - wan_ancient_beasts:mesa_temple
 [27May2026 00:31:10.147] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - wan_ancient_beasts:mesa_temple_small
-[27May2026 00:31:10.147] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:mineshaft
-[27May2026 00:31:10.147] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:mineshaft_mesa
+minecraft:mineshaft
+minecraft:mineshaft_mesa
 [27May2026 00:31:10.148] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - enderscape:mirestone_ruins
 [27May2026 00:31:10.148] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - mowziesmobs:monastery
 minecraft:monument
-[27May2026 00:31:10.149] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - irons_spellbooks:mountain_tower
+irons_spellbooks:mountain_tower
 [27May2026 00:31:10.150] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:nether_fossil
 [27May2026 00:31:10.150] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:nether_keep
 [27May2026 00:31:10.150] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:nether_port
-[27May2026 00:31:10.151] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:nether_skeleton_tower_crimson
-[27May2026 00:31:10.153] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:nether_skeleton_tower_soul
-[27May2026 00:31:10.153] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:nether_skeleton_tower_warped
-[27May2026 00:31:10.154] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:nether_skeleton_tower_waste
-[27May2026 00:31:10.154] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - hellish_trials:nether_trial
+nova_structures:nether_skeleton_tower_crimson
+nova_structures:nether_skeleton_tower_soul
+nova_structures:nether_skeleton_tower_warped
+nova_structures:nether_skeleton_tower_waste
+hellish_trials:nether_trial
 minecraft:ocean_ruin_cold
 minecraft:ocean_ruin_warm
 [27May2026 00:31:10.155] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - iss_magicfromtheeast:onmyoji_shrine
 [27May2026 00:31:10.156] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:piglin_camp
 [27May2026 00:31:10.156] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:piglin_donjon
 [27May2026 00:31:10.156] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:piglin_outstation
-[27May2026 00:31:10.157] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - pigsteel:pigsteel_mine
-[27May2026 00:31:10.157] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:pillager_outpost
-[27May2026 00:31:10.158] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - eternal_starlight:portal_ruins_cold
-[27May2026 00:31:10.160] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - eternal_starlight:portal_ruins_common
-[27May2026 00:31:10.160] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - eternal_starlight:portal_ruins_desert
-[27May2026 00:31:10.161] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - eternal_starlight:portal_ruins_forest
-[27May2026 00:31:10.161] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - eternal_starlight:portal_ruins_jungle
-[27May2026 00:31:10.162] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - irons_spellbooks:pyromancer_tower
+pigsteel:pigsteel_mine
+minecraft:pillager_outpost
+eternal_starlight:portal_ruins_cold
+eternal_starlight:portal_ruins_common
+eternal_starlight:portal_ruins_desert
+eternal_starlight:portal_ruins_forest
+eternal_starlight:portal_ruins_jungle
+irons_spellbooks:pyromancer_tower
 [27May2026 00:31:10.164] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:remnant_bee_keeper
 [27May2026 00:31:10.166] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:remnant_big_remnant
 [27May2026 00:31:10.167] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:remnant_big_remnant_2
@@ -146,16 +146,16 @@ minecraft:ocean_ruin_warm
 [27May2026 00:31:10.173] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:remnant_taiga_castle
 [27May2026 00:31:10.174] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:remnant_woodland_hud
 [27May2026 00:31:10.174] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:remnant_zombie_horse_ranch
-[27May2026 00:31:10.174] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - ribbits:ribbit_village
+ribbits:ribbit_village
 [27May2026 00:31:10.175] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - supplementaries:road_sign
 [27May2026 00:31:10.175] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:ruin_town
-[27May2026 00:31:10.175] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:ruined_portal
-[27May2026 00:31:10.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:ruined_portal_desert
-[27May2026 00:31:10.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:ruined_portal_jungle
-[27May2026 00:31:10.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:ruined_portal_mountain
-[27May2026 00:31:10.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:ruined_portal_nether
-[27May2026 00:31:10.177] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:ruined_portal_ocean
-[27May2026 00:31:10.177] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:ruined_portal_swamp
+minecraft:ruined_portal
+minecraft:ruined_portal_desert
+minecraft:ruined_portal_jungle
+minecraft:ruined_portal_mountain
+minecraft:ruined_portal_nether
+minecraft:ruined_portal_ocean
+minecraft:ruined_portal_swamp
 minecraft:shipwreck
 minecraft:shipwreck_beached
 [27May2026 00:31:10.178] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:shrine_combat_tier_1
@@ -164,13 +164,13 @@ minecraft:shipwreck_beached
 [27May2026 00:31:10.179] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:shrine_combat_tier_4
 [27May2026 00:31:10.179] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:shrine_combat_tier_5
 [27May2026 00:31:10.179] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:shrine_tower
-[27May2026 00:31:10.180] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:skeleton_camp_crimson
-[27May2026 00:31:10.180] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:skeleton_camp_soul
-[27May2026 00:31:10.181] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:skeleton_camp_warped
-[27May2026 00:31:10.181] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:skeleton_camp_waste
-[27May2026 00:31:10.182] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - eternal_starlight:stranghoul_den
-[27May2026 00:31:10.182] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:stray_fort
-[27May2026 00:31:10.182] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:stronghold
+nova_structures:skeleton_camp_crimson
+nova_structures:skeleton_camp_soul
+nova_structures:skeleton_camp_warped
+nova_structures:skeleton_camp_waste
+eternal_starlight:stranghoul_den
+nova_structures:stray_fort
+minecraft:stronghold
 [27May2026 00:31:10.183] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:swamp_hut
 [27May2026 00:31:10.183] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - iss_magicfromtheeast:taoist_house
 [27May2026 00:31:10.184] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:tavern_acacia
@@ -188,10 +188,10 @@ minecraft:shipwreck_beached
 [27May2026 00:31:10.187] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - apotheosis:tower_main
 [27May2026 00:31:10.188] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - apotheosis:tower_sand
 [27May2026 00:31:10.188] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - apotheosis:tower_spruce
-[27May2026 00:31:10.188] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:toxic_lair
-[27May2026 00:31:10.189] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:trail_ruins
-[27May2026 00:31:10.189] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - minecraft:trial_chambers
-[27May2026 00:31:10.189] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:trident_trial_monument
+nova_structures:toxic_lair
+minecraft:trail_ruins
+minecraft:trial_chambers
+nova_structures:trident_trial_monument
 [27May2026 00:31:10.190] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - mowziesmobs:umvuthana_grove
 [27May2026 00:31:10.190] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:undead_crypt
 [27May2026 00:31:10.190] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:underground_house
@@ -212,6 +212,4 @@ minecraft:village_taiga
 [27May2026 00:31:10.198] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:well_spruce
 [27May2026 00:31:10.198] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:wild_ruin
 [27May2026 00:31:10.199] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - nova_structures:witch_villa
-[27May2026 00:31:10.199] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] - mowziesmobs:wrought_chamber
-[27May2026 00:31:10.199] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] 
-[27May2026 00:31:10.199] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Total: 212 entries
+mowziesmobs:wrought_chamber

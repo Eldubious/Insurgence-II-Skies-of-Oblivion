@@ -1,15 +1,15 @@
 {
-    "parent": "insurgence:fg_structs/shipwreck",
+    "parent": "insurgence:fg_structs/ruined_nether_portal",
     "display": {
         "title": {
-            "translate": "advancements.insurgence.fg_structs.ocean_monument.title"
+            "translate": "advancements.insurgence.fg_structs.skeleton_camp.title"
         },
         "description": {
-            "translate": "advancements.insurgence.fg_structs.ocean_monument.desc"
+            "translate": "advancements.insurgence.fg_structs.skeleton_camp.desc"
         },
         "icon": {
             "count": 1,
-            "id": "minecraft:sea_lantern"
+            "id": "minecraft:skeleton_skull"
         },
         "frame": "task",
         "announce_to_chat": false,
@@ -26,8 +26,10 @@
                         "predicate": {
                             "location": {
                                 "structures": [
-                                    "minecraft:monument",
-                                    "nova_structures:trident_trial_monument"
+                                    "nova_structures:skeleton_camp_soul",
+                                    "nova_structures:skeleton_camp_crimson",
+                                    "nova_structures:skeleton_camp_waste",
+                                    "nova_structures:skeleton_camp_warped"
                                 ]
                             }
                         }
@@ -43,6 +45,6 @@
         ]
     },
     "rewards": {
-        "function": "insurgence/advancement/unlock_field_guide_entry/ocean_monument"
+        "function": "insurgence/advancement/unlock_field_guide_entry/skeleton_camp"
     }
 }

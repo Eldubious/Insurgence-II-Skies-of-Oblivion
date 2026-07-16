@@ -1,15 +1,15 @@
 {
-    "parent": "insurgence:fg_structs/shipwreck",
+    "parent": "insurgence:fg_structs/root",
     "display": {
         "title": {
-            "translate": "advancements.insurgence.fg_structs.ocean_monument.title"
+            "translate": "advancements.insurgence.fg_structs.nether_skeleton_tower.title"
         },
         "description": {
-            "translate": "advancements.insurgence.fg_structs.ocean_monument.desc"
+            "translate": "advancements.insurgence.fg_structs.nether_skeleton_tower.desc"
         },
         "icon": {
             "count": 1,
-            "id": "minecraft:sea_lantern"
+            "id": "minecraft:skeleton_skull"
         },
         "frame": "task",
         "announce_to_chat": false,
@@ -26,8 +26,10 @@
                         "predicate": {
                             "location": {
                                 "structures": [
-                                    "minecraft:monument",
-                                    "nova_structures:trident_trial_monument"
+                                    "nova_structures:nether_skeleton_tower_crimson",
+                                    "nova_structures:nether_skeleton_tower_soul",
+                                    "nova_structures:nether_skeleton_tower_warped",
+                                    "nova_structures:nether_skeleton_tower_waste"
                                 ]
                             }
                         }
@@ -43,6 +45,6 @@
         ]
     },
     "rewards": {
-        "function": "insurgence/advancement/unlock_field_guide_entry/ocean_monument"
+        "function": "insurgence/advancement/unlock_field_guide_entry/nether_skeleton_tower"
     }
 }

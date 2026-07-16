@@ -1,15 +1,15 @@
 {
-    "parent": "insurgence:fg_structs/shipwreck",
+    "parent": "insurgence:fg_structs/starlight_portal_ruins",
     "display": {
         "title": {
-            "translate": "advancements.insurgence.fg_structs.ocean_monument.title"
+            "translate": "advancements.insurgence.fg_structs.golem_forge.title"
         },
         "description": {
-            "translate": "advancements.insurgence.fg_structs.ocean_monument.desc"
+            "translate": "advancements.insurgence.fg_structs.golem_forge.desc"
         },
         "icon": {
             "count": 1,
-            "id": "minecraft:sea_lantern"
+            "id": "eternal_starlight:chiseled_golem_steel_block"
         },
         "frame": "task",
         "announce_to_chat": false,
@@ -26,8 +26,7 @@
                         "predicate": {
                             "location": {
                                 "structures": [
-                                    "minecraft:monument",
-                                    "nova_structures:trident_trial_monument"
+                                    "eternal_starlight:golem_forge"
                                 ]
                             }
                         }
@@ -43,6 +42,6 @@
         ]
     },
     "rewards": {
-        "function": "insurgence/advancement/unlock_field_guide_entry/ocean_monument"
+        "function": "insurgence/advancement/unlock_field_guide_entry/golem_forge"
     }
 }

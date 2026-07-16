@@ -1,15 +1,15 @@
 {
-    "parent": "insurgence:fg_structs/shipwreck",
+    "parent": "insurgence:fg_structs/root",
     "display": {
         "title": {
-            "translate": "advancements.insurgence.fg_structs.ocean_monument.title"
+            "translate": "advancements.insurgence.fg_structs.pillager_outpost.title"
         },
         "description": {
-            "translate": "advancements.insurgence.fg_structs.ocean_monument.desc"
+            "translate": "advancements.insurgence.fg_structs.pillager_outpost.desc"
         },
         "icon": {
             "count": 1,
-            "id": "minecraft:sea_lantern"
+            "id": "minecraft:dark_oak_fence"
         },
         "frame": "task",
         "announce_to_chat": false,
@@ -26,8 +26,7 @@
                         "predicate": {
                             "location": {
                                 "structures": [
-                                    "minecraft:monument",
-                                    "nova_structures:trident_trial_monument"
+                                    "minecraft:pillager_outpost"
                                 ]
                             }
                         }
@@ -43,6 +42,6 @@
         ]
     },
     "rewards": {
-        "function": "insurgence/advancement/unlock_field_guide_entry/ocean_monument"
+        "function": "insurgence/advancement/unlock_field_guide_entry/pillager_outpost"
     }
 }

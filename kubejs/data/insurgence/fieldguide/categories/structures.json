@@ -3,8 +3,292 @@
   "icon": "insurgence:textures/gui/field_guide/category/structures.png",
   "contents": [
     {
-      "type": "auto_populate",
-      "strategy": "tag:insurgence:structures"
+      "type": "virtual_entry",
+      "id": "insurgence:zombie_village_plains",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:zombie_village_birch_forest",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:zombie_village_taiga",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:zombie_village_snowy",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:zombie_village_savanna",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:zombie_village_desert",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:zombie_village_swamp",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:zombie_village_jungle",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:battle_tower_swords",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:battle_tower_staves",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:battle_tower_cups",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:battle_tower_rings",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:shipwreck",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:cold_ocean_ruins",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:warm_ocean_ruins",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:ocean_monument",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:pillager_outpost",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:pillager_mansion",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:nether_fortress",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:bastion_remnant",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:nether_trial_chambers",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:starlight_portal_ruins",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:pyromancer_tower",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:evoker_fort",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:mountain_tower",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:mangrove_hut",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:golem_forge",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:cursed_garden",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:stranghoul_den",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:nether_skeleton_tower",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:skeleton_camp",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:ribbit_village",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:igloo",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:pigsteel_mine",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:ruined_nether_portal",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:wrought_chamber",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:trial_chambers",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:toxic_lair",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:stronghold",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:catacombs",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:impaled_icebreaker",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:mineshaft",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:trail_ruins",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:ancient_city",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:stray_fort",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:ancient_battleground",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:ice_spike_castle",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
+    },
+    {
+      "type": "virtual_entry",
+      "id": "insurgence:ice_spider_den",
+      "virtual_type": "tutorial",
+      "icon": "fieldguide:textures/gui/scanning.png"
     }
   ]
 }
