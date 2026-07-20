@@ -6,24 +6,24 @@ Recipe To-Do:
   Make create parts obtained through gacha machine uncraftable normally
 
 Field Guide To-Do:
-  Create categories for structures, machines, ores, spells, and food
+  ** Create categories for structures, machines, ores, spells, and food
   Remove plant category
   Populate all categories by tags instead of automatically
   Show structure loot in structure category
   Build micro-structures for display
 
 Script To-Do:
-  Fix gateway datagen
+  ** Fix gateway datagen
   Create method for upgrading spells in imbued items
-  Create method for upgrading enchantments on items (smithing table?)
-  Hide unused emi recipe categories
+  XX Create method for upgrading enchantments on items (smithing table?)
+  ** Hide unused emi recipe categories
   Make apoth items spawn with a random curse
   Add functionality to permanent buff food items
   Add method to reach secret world
   Add functionality to return player from nether to respawn if they have no return point
 
 Texture To-Do:
-  Create textures for all untextured dye depot items
+  ** Create textures for all untextured dye depot items
   Create textures for nether portal UI
   Create textures for tower keys
   Create textures for dimension effects
@@ -41,7 +41,7 @@ Datapack To-Do:
   Create trial spawner configurations for battle towers
   Create trial spawner equipment loot tables
   Create custom curse enchantments for apoth items
-  Remove most enchants from available pool
+  ** Remove most enchants from available pool
   Make secret world generate structure at 0,0 always
   Give secret world more custom effects
   Create gacha machine loot table for create parts
@@ -59,7 +59,7 @@ Gameplay To-Do:
     Curse that obfuscates stats in the tooltip (attributes, durability, etc)
 
 Cosmetic To-Do:
-  Assign icons to every attribute
+  ** Assign icons to every attribute
   Remove EMI addons eventually; have special drop info available in fieldguide
   Assign more categories to emi items
   Customize skybox of haven and secret world with sky aesthetics

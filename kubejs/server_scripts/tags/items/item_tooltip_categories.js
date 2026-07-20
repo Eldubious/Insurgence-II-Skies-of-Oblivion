@@ -8,6 +8,164 @@ let categoryUnused = [
     "apothic_enchanting:fishing_tome", "apothic_enchanting:helmet_tome", "apothic_enchanting:improved_scrap_tome",
     "apothic_enchanting:leggings_tome", "apothic_enchanting:other_tome", "apothic_enchanting:pickaxe_tome",
     "apothic_enchanting:weapon_tome",
+    
+    "camping:enderbag", "camping:enderpack", "camping:goodybag", "camping:large_backpack",
+    "camping:sheepbag", "camping:small_backpack", "camping:wanderer_backpack", "camping:wanderer_bag",
+
+    "collectorsalbum:common_acacia_sapling_card", "collectorsalbum:common_allium_card", "collectorsalbum:common_amethyst_shard_card", "collectorsalbum:common_apple_card", "collectorsalbum:common_azure_bluet_card",
+    "collectorsalbum:common_bat_card", "collectorsalbum:common_beacon_card", "collectorsalbum:common_bee_card", "collectorsalbum:common_beetroot_card", "collectorsalbum:common_bell_card",
+    "collectorsalbum:common_blaze_card", "collectorsalbum:common_blaze_powder_card", "collectorsalbum:common_blue_orchid_card", "collectorsalbum:common_brewing_stand_card", "collectorsalbum:common_brown_mushroom_card",
+    "collectorsalbum:common_card_pack", "collectorsalbum:common_carrot_card", "collectorsalbum:common_cat_card", "collectorsalbum:common_chainmail_boots_card", "collectorsalbum:common_chainmail_chestplate_card",
+    "collectorsalbum:common_chainmail_leggings_card", "collectorsalbum:common_chicken_card", "collectorsalbum:common_clock_card", "collectorsalbum:common_coal_card", "collectorsalbum:common_compass_card",
+    "collectorsalbum:common_cow_card", "collectorsalbum:common_creeper_card", "collectorsalbum:common_custom_card_pack", "collectorsalbum:common_dandelion_card", "collectorsalbum:common_dark_oak_sapling_card",
+    "collectorsalbum:common_diamond_axe_card", "collectorsalbum:common_diamond_boots_card", "collectorsalbum:common_diamond_card", "collectorsalbum:common_diamond_chestplate_card", "collectorsalbum:common_diamond_helmet_card",
+    "collectorsalbum:common_diamond_horse_armor_card", "collectorsalbum:common_diamond_leggings_card", "collectorsalbum:common_diamond_pickaxe_card", "collectorsalbum:common_diamond_shovel_card", "collectorsalbum:common_diamond_sword_card",
+    "collectorsalbum:common_enchantment_table_card", "collectorsalbum:common_ender_dragon_card", "collectorsalbum:common_ender_eye_card", "collectorsalbum:common_ender_pearl_card", "collectorsalbum:common_enderman_card",
+    "collectorsalbum:common_firework_rocket_card", "collectorsalbum:common_fox_card", "collectorsalbum:common_ghast_card", "collectorsalbum:common_glow_berries_card", "collectorsalbum:common_glowstone_dust_card",
+    "collectorsalbum:common_golden_apple_card", "collectorsalbum:common_golden_axe_card", "collectorsalbum:common_golden_boots_card", "collectorsalbum:common_golden_carrot_card", "collectorsalbum:common_golden_chestplate_card",
+    "collectorsalbum:common_golden_hoe_card", "collectorsalbum:common_golden_horse_armor_card", "collectorsalbum:common_golden_leggings_card", "collectorsalbum:common_golden_pickaxe_card", "collectorsalbum:common_golden_shovel_card",
+    "collectorsalbum:common_heart_of_the_sea_card", "collectorsalbum:common_honeycomb_card", "collectorsalbum:common_horse_card", "collectorsalbum:common_iron_axe_card", "collectorsalbum:common_iron_boots_card",
+    "collectorsalbum:common_iron_helmet_card", "collectorsalbum:common_iron_hoe_card", "collectorsalbum:common_iron_horse_armor_card", "collectorsalbum:common_iron_ingot_card", "collectorsalbum:common_iron_leggings_card",
+    "collectorsalbum:common_iron_shovel_card", "collectorsalbum:common_iron_sword_card", "collectorsalbum:common_jungle_sapling_card", "collectorsalbum:common_kelp_card", "collectorsalbum:common_lantern_card",
+    "collectorsalbum:common_leather_boots_card", "collectorsalbum:common_leather_chestplate_card", "collectorsalbum:common_leather_helmet_card", "collectorsalbum:common_leather_horse_armor_card", "collectorsalbum:common_leather_leggings_card",
+    "collectorsalbum:common_melon_slice_card", "collectorsalbum:common_music_disc_card", "collectorsalbum:common_nautilus_shell_card", "collectorsalbum:common_nether_star_card", "collectorsalbum:common_nether_wart_card",
+    "collectorsalbum:common_netherite_boots_card", "collectorsalbum:common_netherite_chestplate_card", "collectorsalbum:common_netherite_helmet_card", "collectorsalbum:common_netherite_hoe_card", "collectorsalbum:common_netherite_ingot_card",
+    "collectorsalbum:common_netherite_pickaxe_card", "collectorsalbum:common_netherite_shovel_card", "collectorsalbum:common_netherite_sword_card", "collectorsalbum:common_oak_sapling_card", "collectorsalbum:common_oxeye_daisy_card",
+    "collectorsalbum:common_parrot_card", "collectorsalbum:common_pig_card", "collectorsalbum:common_piglin_brute_card", "collectorsalbum:common_pillager_card", "collectorsalbum:common_polar_bear_card",
+    "collectorsalbum:common_potato_card", "collectorsalbum:common_red_mushroom_card", "collectorsalbum:common_red_tulip_card", "collectorsalbum:common_redstone_card", "collectorsalbum:common_repacked_card_pack",
+    "collectorsalbum:common_shield_card", "collectorsalbum:common_skeleton_card", "collectorsalbum:common_slime_card", "collectorsalbum:common_spider_card", "collectorsalbum:common_spruce_sapling_card",
+    "collectorsalbum:common_squid_card", "collectorsalbum:common_stone_axe_card", "collectorsalbum:common_stone_hoe_card", "collectorsalbum:common_stone_pickaxe_card", "collectorsalbum:common_stone_shovel_card",
+    "collectorsalbum:common_sugar_cane_card", "collectorsalbum:common_sweet_berries_card", "collectorsalbum:common_turtle_helmet_card", "collectorsalbum:common_villager_card", "collectorsalbum:common_wheat_card",
+    "collectorsalbum:common_wither_card", "collectorsalbum:common_wither_skeleton_card", "collectorsalbum:common_wolf_card", "collectorsalbum:common_wooden_axe_card", "collectorsalbum:common_wooden_hoe_card",
+    "collectorsalbum:common_wooden_shovel_card", "collectorsalbum:common_wooden_sword_card", "collectorsalbum:common_zombie_card", "collectorsalbum:epic_acacia_sapling_card", "collectorsalbum:epic_allium_card",
+    "collectorsalbum:epic_apple_card", "collectorsalbum:epic_azure_bluet_card", "collectorsalbum:epic_bamboo_card", "collectorsalbum:epic_bat_card", "collectorsalbum:epic_beacon_card",
+    "collectorsalbum:epic_beetroot_card", "collectorsalbum:epic_bell_card", "collectorsalbum:epic_birch_sapling_card", "collectorsalbum:epic_blaze_card", "collectorsalbum:epic_blaze_powder_card",
+    "collectorsalbum:epic_brewing_stand_card", "collectorsalbum:epic_brown_mushroom_card", "collectorsalbum:epic_campfire_card", "collectorsalbum:epic_card_pack", "collectorsalbum:epic_carrot_card",
+    "collectorsalbum:epic_chainmail_boots_card", "collectorsalbum:epic_chainmail_chestplate_card", "collectorsalbum:epic_chainmail_helmet_card", "collectorsalbum:epic_chainmail_leggings_card", "collectorsalbum:epic_chicken_card",
+    "collectorsalbum:epic_coal_card", "collectorsalbum:epic_compass_card", "collectorsalbum:epic_cookie_card", "collectorsalbum:epic_cow_card", "collectorsalbum:epic_creeper_card",
+    "collectorsalbum:epic_dandelion_card", "collectorsalbum:epic_dark_oak_sapling_card", "collectorsalbum:epic_dead_bush_card", "collectorsalbum:epic_diamond_axe_card", "collectorsalbum:epic_diamond_boots_card",
+    "collectorsalbum:epic_diamond_chestplate_card", "collectorsalbum:epic_diamond_helmet_card", "collectorsalbum:epic_diamond_hoe_card", "collectorsalbum:epic_diamond_horse_armor_card", "collectorsalbum:epic_diamond_leggings_card",
+    "collectorsalbum:epic_diamond_shovel_card", "collectorsalbum:epic_diamond_sword_card", "collectorsalbum:epic_emerald_card", "collectorsalbum:epic_enchantment_table_card", "collectorsalbum:epic_ender_dragon_card",
+    "collectorsalbum:epic_ender_pearl_card", "collectorsalbum:epic_enderman_card", "collectorsalbum:epic_feather_card", "collectorsalbum:epic_firework_rocket_card", "collectorsalbum:epic_fox_card",
+    "collectorsalbum:epic_glow_berries_card", "collectorsalbum:epic_glowstone_dust_card", "collectorsalbum:epic_gold_ingot_card", "collectorsalbum:epic_golden_apple_card", "collectorsalbum:epic_golden_axe_card",
+    "collectorsalbum:epic_golden_carrot_card", "collectorsalbum:epic_golden_chestplate_card", "collectorsalbum:epic_golden_helmet_card", "collectorsalbum:epic_golden_hoe_card", "collectorsalbum:epic_golden_horse_armor_card",
+    "collectorsalbum:epic_golden_pickaxe_card", "collectorsalbum:epic_golden_shovel_card", "collectorsalbum:epic_golden_sword_card", "collectorsalbum:epic_heart_of_the_sea_card", "collectorsalbum:epic_honeycomb_card",
+    "collectorsalbum:epic_iron_axe_card", "collectorsalbum:epic_iron_boots_card", "collectorsalbum:epic_iron_chestplate_card", "collectorsalbum:epic_iron_helmet_card", "collectorsalbum:epic_iron_hoe_card",
+    "collectorsalbum:epic_iron_ingot_card", "collectorsalbum:epic_iron_leggings_card", "collectorsalbum:epic_iron_pickaxe_card", "collectorsalbum:epic_iron_shovel_card", "collectorsalbum:epic_iron_sword_card",
+    "collectorsalbum:epic_kelp_card", "collectorsalbum:epic_lantern_card", "collectorsalbum:epic_lapis_lazuli_card", "collectorsalbum:epic_leather_boots_card", "collectorsalbum:epic_leather_chestplate_card",
+    "collectorsalbum:epic_leather_horse_armor_card", "collectorsalbum:epic_leather_leggings_card", "collectorsalbum:epic_magma_cube_card", "collectorsalbum:epic_melon_slice_card", "collectorsalbum:epic_music_disc_card",
+    "collectorsalbum:epic_nether_star_card", "collectorsalbum:epic_nether_wart_card", "collectorsalbum:epic_netherite_axe_card", "collectorsalbum:epic_netherite_boots_card", "collectorsalbum:epic_netherite_chestplate_card",
+    "collectorsalbum:epic_netherite_hoe_card", "collectorsalbum:epic_netherite_ingot_card", "collectorsalbum:epic_netherite_leggings_card", "collectorsalbum:epic_netherite_pickaxe_card", "collectorsalbum:epic_netherite_shovel_card",
+    "collectorsalbum:epic_oak_sapling_card", "collectorsalbum:epic_oxeye_daisy_card", "collectorsalbum:epic_panda_card", "collectorsalbum:epic_parrot_card", "collectorsalbum:epic_pig_card",
+    "collectorsalbum:epic_pillager_card", "collectorsalbum:epic_polar_bear_card", "collectorsalbum:epic_poppy_card", "collectorsalbum:epic_potato_card", "collectorsalbum:epic_red_mushroom_card",
+    "collectorsalbum:epic_redstone_card", "collectorsalbum:epic_repacked_card_pack", "collectorsalbum:epic_sheep_card", "collectorsalbum:epic_shield_card", "collectorsalbum:epic_skeleton_card",
+    "collectorsalbum:epic_spider_card", "collectorsalbum:epic_spruce_sapling_card", "collectorsalbum:epic_spyglass_card", "collectorsalbum:epic_squid_card", "collectorsalbum:epic_stone_axe_card",
+    "collectorsalbum:epic_stone_pickaxe_card", "collectorsalbum:epic_stone_shovel_card", "collectorsalbum:epic_stone_sword_card", "collectorsalbum:epic_sugar_cane_card", "collectorsalbum:epic_sweet_berries_card",
+    "collectorsalbum:epic_villager_card", "collectorsalbum:epic_wheat_card", "collectorsalbum:epic_witch_card", "collectorsalbum:epic_wither_card", "collectorsalbum:epic_wither_skeleton_card",
+    "collectorsalbum:epic_wooden_axe_card", "collectorsalbum:epic_wooden_hoe_card", "collectorsalbum:epic_wooden_pickaxe_card", "collectorsalbum:epic_wooden_shovel_card", "collectorsalbum:epic_wooden_sword_card",
+    "collectorsalbum:legendary_acacia_sapling_card", "collectorsalbum:legendary_allium_card", "collectorsalbum:legendary_amethyst_shard_card", "collectorsalbum:legendary_apple_card", "collectorsalbum:legendary_azure_bluet_card",
+    "collectorsalbum:legendary_bat_card", "collectorsalbum:legendary_beacon_card", "collectorsalbum:legendary_bee_card", "collectorsalbum:legendary_beetroot_card", "collectorsalbum:legendary_bell_card",
+    "collectorsalbum:legendary_blaze_card", "collectorsalbum:legendary_blaze_powder_card", "collectorsalbum:legendary_blue_orchid_card", "collectorsalbum:legendary_brewing_stand_card", "collectorsalbum:legendary_brown_mushroom_card",
+    "collectorsalbum:legendary_card_pack", "collectorsalbum:legendary_carrot_card", "collectorsalbum:legendary_cat_card", "collectorsalbum:legendary_chainmail_boots_card", "collectorsalbum:legendary_chainmail_chestplate_card",
+    "collectorsalbum:legendary_chainmail_leggings_card", "collectorsalbum:legendary_chicken_card", "collectorsalbum:legendary_clock_card", "collectorsalbum:legendary_coal_card", "collectorsalbum:legendary_compass_card",
+    "collectorsalbum:legendary_cow_card", "collectorsalbum:legendary_creeper_card", "collectorsalbum:legendary_custom_card_pack", "collectorsalbum:legendary_dandelion_card", "collectorsalbum:legendary_dark_oak_sapling_card",
+    "collectorsalbum:legendary_diamond_axe_card", "collectorsalbum:legendary_diamond_boots_card", "collectorsalbum:legendary_diamond_card", "collectorsalbum:legendary_diamond_chestplate_card", "collectorsalbum:legendary_diamond_helmet_card",
+    "collectorsalbum:legendary_diamond_horse_armor_card", "collectorsalbum:legendary_diamond_leggings_card", "collectorsalbum:legendary_diamond_pickaxe_card", "collectorsalbum:legendary_diamond_shovel_card", "collectorsalbum:legendary_diamond_sword_card",
+    "collectorsalbum:legendary_enchantment_table_card", "collectorsalbum:legendary_ender_dragon_card", "collectorsalbum:legendary_ender_eye_card", "collectorsalbum:legendary_ender_pearl_card", "collectorsalbum:legendary_enderman_card",
+    "collectorsalbum:legendary_firework_rocket_card", "collectorsalbum:legendary_fox_card", "collectorsalbum:legendary_ghast_card", "collectorsalbum:legendary_glow_berries_card", "collectorsalbum:legendary_glowstone_dust_card",
+    "collectorsalbum:legendary_golden_apple_card", "collectorsalbum:legendary_golden_axe_card", "collectorsalbum:legendary_golden_boots_card", "collectorsalbum:legendary_golden_carrot_card", "collectorsalbum:legendary_golden_chestplate_card",
+    "collectorsalbum:legendary_golden_hoe_card", "collectorsalbum:legendary_golden_horse_armor_card", "collectorsalbum:legendary_golden_leggings_card", "collectorsalbum:legendary_golden_pickaxe_card", "collectorsalbum:legendary_golden_shovel_card",
+    "collectorsalbum:legendary_heart_of_the_sea_card", "collectorsalbum:legendary_honeycomb_card", "collectorsalbum:legendary_horse_card", "collectorsalbum:legendary_iron_axe_card", "collectorsalbum:legendary_iron_boots_card",
+    "collectorsalbum:legendary_iron_helmet_card", "collectorsalbum:legendary_iron_hoe_card", "collectorsalbum:legendary_iron_horse_armor_card", "collectorsalbum:legendary_iron_ingot_card", "collectorsalbum:legendary_iron_leggings_card",
+    "collectorsalbum:legendary_iron_shovel_card", "collectorsalbum:legendary_iron_sword_card", "collectorsalbum:legendary_jungle_sapling_card", "collectorsalbum:legendary_kelp_card", "collectorsalbum:legendary_lantern_card",
+    "collectorsalbum:legendary_leather_boots_card", "collectorsalbum:legendary_leather_chestplate_card", "collectorsalbum:legendary_leather_helmet_card", "collectorsalbum:legendary_leather_horse_armor_card", "collectorsalbum:legendary_leather_leggings_card",
+    "collectorsalbum:legendary_melon_slice_card", "collectorsalbum:legendary_music_disc_card", "collectorsalbum:legendary_nautilus_shell_card", "collectorsalbum:legendary_nether_star_card", "collectorsalbum:legendary_nether_wart_card",
+    "collectorsalbum:legendary_netherite_boots_card", "collectorsalbum:legendary_netherite_chestplate_card", "collectorsalbum:legendary_netherite_helmet_card", "collectorsalbum:legendary_netherite_hoe_card", "collectorsalbum:legendary_netherite_ingot_card",
+    "collectorsalbum:legendary_netherite_pickaxe_card", "collectorsalbum:legendary_netherite_shovel_card", "collectorsalbum:legendary_netherite_sword_card", "collectorsalbum:legendary_oak_sapling_card", "collectorsalbum:legendary_oxeye_daisy_card",
+    "collectorsalbum:legendary_parrot_card", "collectorsalbum:legendary_pig_card", "collectorsalbum:legendary_piglin_brute_card", "collectorsalbum:legendary_pillager_card", "collectorsalbum:legendary_polar_bear_card",
+    "collectorsalbum:legendary_potato_card", "collectorsalbum:legendary_red_mushroom_card", "collectorsalbum:legendary_red_tulip_card", "collectorsalbum:legendary_redstone_card", "collectorsalbum:legendary_repacked_card_pack",
+    "collectorsalbum:legendary_shield_card", "collectorsalbum:legendary_skeleton_card", "collectorsalbum:legendary_slime_card", "collectorsalbum:legendary_spider_card", "collectorsalbum:legendary_spruce_sapling_card",
+    "collectorsalbum:legendary_squid_card", "collectorsalbum:legendary_stone_axe_card", "collectorsalbum:legendary_stone_hoe_card", "collectorsalbum:legendary_stone_pickaxe_card", "collectorsalbum:legendary_stone_shovel_card",
+    "collectorsalbum:legendary_sugar_cane_card", "collectorsalbum:legendary_sweet_berries_card", "collectorsalbum:legendary_turtle_helmet_card", "collectorsalbum:legendary_villager_card", "collectorsalbum:legendary_wheat_card",
+    "collectorsalbum:legendary_wither_card", "collectorsalbum:legendary_wither_skeleton_card", "collectorsalbum:legendary_wolf_card", "collectorsalbum:legendary_wooden_axe_card", "collectorsalbum:legendary_wooden_hoe_card",
+    "collectorsalbum:legendary_wooden_shovel_card", "collectorsalbum:legendary_wooden_sword_card", "collectorsalbum:legendary_zombie_card", "collectorsalbum:mythical_acacia_sapling_card", "collectorsalbum:mythical_allium_card",
+    "collectorsalbum:mythical_apple_card", "collectorsalbum:mythical_azure_bluet_card", "collectorsalbum:mythical_bamboo_card", "collectorsalbum:mythical_bat_card", "collectorsalbum:mythical_beacon_card",
+    "collectorsalbum:mythical_beetroot_card", "collectorsalbum:mythical_bell_card", "collectorsalbum:mythical_birch_sapling_card", "collectorsalbum:mythical_blaze_card", "collectorsalbum:mythical_blaze_powder_card",
+    "collectorsalbum:mythical_brewing_stand_card", "collectorsalbum:mythical_brown_mushroom_card", "collectorsalbum:mythical_campfire_card", "collectorsalbum:mythical_card_pack", "collectorsalbum:mythical_carrot_card",
+    "collectorsalbum:mythical_chainmail_boots_card", "collectorsalbum:mythical_chainmail_chestplate_card", "collectorsalbum:mythical_chainmail_helmet_card", "collectorsalbum:mythical_chainmail_leggings_card", "collectorsalbum:mythical_chicken_card",
+    "collectorsalbum:mythical_coal_card", "collectorsalbum:mythical_compass_card", "collectorsalbum:mythical_cookie_card", "collectorsalbum:mythical_cow_card", "collectorsalbum:mythical_creeper_card",
+    "collectorsalbum:mythical_dandelion_card", "collectorsalbum:mythical_dark_oak_sapling_card", "collectorsalbum:mythical_dead_bush_card", "collectorsalbum:mythical_diamond_axe_card", "collectorsalbum:mythical_diamond_boots_card",
+    "collectorsalbum:mythical_diamond_chestplate_card", "collectorsalbum:mythical_diamond_helmet_card", "collectorsalbum:mythical_diamond_hoe_card", "collectorsalbum:mythical_diamond_horse_armor_card", "collectorsalbum:mythical_diamond_leggings_card",
+    "collectorsalbum:mythical_diamond_shovel_card", "collectorsalbum:mythical_diamond_sword_card", "collectorsalbum:mythical_emerald_card", "collectorsalbum:mythical_enchantment_table_card", "collectorsalbum:mythical_ender_dragon_card",
+    "collectorsalbum:mythical_ender_pearl_card", "collectorsalbum:mythical_enderman_card", "collectorsalbum:mythical_feather_card", "collectorsalbum:mythical_firework_rocket_card", "collectorsalbum:mythical_fox_card",
+    "collectorsalbum:mythical_glow_berries_card", "collectorsalbum:mythical_glowstone_dust_card", "collectorsalbum:mythical_gold_ingot_card", "collectorsalbum:mythical_golden_apple_card", "collectorsalbum:mythical_golden_axe_card",
+    "collectorsalbum:mythical_golden_carrot_card", "collectorsalbum:mythical_golden_chestplate_card", "collectorsalbum:mythical_golden_helmet_card", "collectorsalbum:mythical_golden_hoe_card", "collectorsalbum:mythical_golden_horse_armor_card",
+    "collectorsalbum:mythical_golden_pickaxe_card", "collectorsalbum:mythical_golden_shovel_card", "collectorsalbum:mythical_golden_sword_card", "collectorsalbum:mythical_heart_of_the_sea_card", "collectorsalbum:mythical_honeycomb_card",
+    "collectorsalbum:mythical_iron_axe_card", "collectorsalbum:mythical_iron_boots_card", "collectorsalbum:mythical_iron_chestplate_card", "collectorsalbum:mythical_iron_helmet_card", "collectorsalbum:mythical_iron_hoe_card",
+    "collectorsalbum:mythical_iron_ingot_card", "collectorsalbum:mythical_iron_leggings_card", "collectorsalbum:mythical_iron_pickaxe_card", "collectorsalbum:mythical_iron_shovel_card", "collectorsalbum:mythical_iron_sword_card",
+    "collectorsalbum:mythical_kelp_card", "collectorsalbum:mythical_lantern_card", "collectorsalbum:mythical_lapis_lazuli_card", "collectorsalbum:mythical_leather_boots_card", "collectorsalbum:mythical_leather_chestplate_card",
+    "collectorsalbum:mythical_leather_horse_armor_card", "collectorsalbum:mythical_leather_leggings_card", "collectorsalbum:mythical_magma_cube_card", "collectorsalbum:mythical_melon_slice_card", "collectorsalbum:mythical_music_disc_card",
+    "collectorsalbum:mythical_nether_star_card", "collectorsalbum:mythical_nether_wart_card", "collectorsalbum:mythical_netherite_axe_card", "collectorsalbum:mythical_netherite_boots_card", "collectorsalbum:mythical_netherite_chestplate_card",
+    "collectorsalbum:mythical_netherite_hoe_card", "collectorsalbum:mythical_netherite_ingot_card", "collectorsalbum:mythical_netherite_leggings_card", "collectorsalbum:mythical_netherite_pickaxe_card", "collectorsalbum:mythical_netherite_shovel_card",
+    "collectorsalbum:mythical_oak_sapling_card", "collectorsalbum:mythical_oxeye_daisy_card", "collectorsalbum:mythical_panda_card", "collectorsalbum:mythical_parrot_card", "collectorsalbum:mythical_pig_card",
+    "collectorsalbum:mythical_pillager_card", "collectorsalbum:mythical_polar_bear_card", "collectorsalbum:mythical_poppy_card", "collectorsalbum:mythical_potato_card", "collectorsalbum:mythical_red_mushroom_card",
+    "collectorsalbum:mythical_redstone_card", "collectorsalbum:mythical_repacked_card_pack", "collectorsalbum:mythical_sheep_card", "collectorsalbum:mythical_shield_card", "collectorsalbum:mythical_skeleton_card",
+    "collectorsalbum:mythical_spider_card", "collectorsalbum:mythical_spruce_sapling_card", "collectorsalbum:mythical_spyglass_card", "collectorsalbum:mythical_squid_card", "collectorsalbum:mythical_stone_axe_card",
+    "collectorsalbum:mythical_stone_pickaxe_card", "collectorsalbum:mythical_stone_shovel_card", "collectorsalbum:mythical_stone_sword_card", "collectorsalbum:mythical_sugar_cane_card", "collectorsalbum:mythical_sweet_berries_card",
+    "collectorsalbum:mythical_villager_card", "collectorsalbum:mythical_wheat_card", "collectorsalbum:mythical_witch_card", "collectorsalbum:mythical_wither_card", "collectorsalbum:mythical_wither_skeleton_card",
+    "collectorsalbum:mythical_wooden_axe_card", "collectorsalbum:mythical_wooden_hoe_card", "collectorsalbum:mythical_wooden_pickaxe_card", "collectorsalbum:mythical_wooden_shovel_card", "collectorsalbum:mythical_wooden_sword_card",
+    "collectorsalbum:rare_acacia_sapling_card", "collectorsalbum:rare_allium_card", "collectorsalbum:rare_amethyst_shard_card", "collectorsalbum:rare_apple_card", "collectorsalbum:rare_azure_bluet_card",
+    "collectorsalbum:rare_bat_card", "collectorsalbum:rare_beacon_card", "collectorsalbum:rare_bee_card", "collectorsalbum:rare_beetroot_card", "collectorsalbum:rare_bell_card",
+    "collectorsalbum:rare_blaze_card", "collectorsalbum:rare_blaze_powder_card", "collectorsalbum:rare_blue_orchid_card", "collectorsalbum:rare_brewing_stand_card", "collectorsalbum:rare_brown_mushroom_card",
+    "collectorsalbum:rare_card_pack", "collectorsalbum:rare_carrot_card", "collectorsalbum:rare_cat_card", "collectorsalbum:rare_chainmail_boots_card", "collectorsalbum:rare_chainmail_chestplate_card",
+    "collectorsalbum:rare_chainmail_leggings_card", "collectorsalbum:rare_chicken_card", "collectorsalbum:rare_clock_card", "collectorsalbum:rare_coal_card", "collectorsalbum:rare_compass_card",
+    "collectorsalbum:rare_cow_card", "collectorsalbum:rare_creeper_card", "collectorsalbum:rare_custom_card_pack", "collectorsalbum:rare_dandelion_card", "collectorsalbum:rare_dark_oak_sapling_card",
+    "collectorsalbum:rare_diamond_axe_card", "collectorsalbum:rare_diamond_boots_card", "collectorsalbum:rare_diamond_card", "collectorsalbum:rare_diamond_chestplate_card", "collectorsalbum:rare_diamond_helmet_card",
+    "collectorsalbum:rare_diamond_horse_armor_card", "collectorsalbum:rare_diamond_leggings_card", "collectorsalbum:rare_diamond_pickaxe_card", "collectorsalbum:rare_diamond_shovel_card", "collectorsalbum:rare_diamond_sword_card",
+    "collectorsalbum:rare_enchantment_table_card", "collectorsalbum:rare_ender_dragon_card", "collectorsalbum:rare_ender_eye_card", "collectorsalbum:rare_ender_pearl_card", "collectorsalbum:rare_enderman_card",
+    "collectorsalbum:rare_firework_rocket_card", "collectorsalbum:rare_fox_card", "collectorsalbum:rare_ghast_card", "collectorsalbum:rare_glow_berries_card", "collectorsalbum:rare_glowstone_dust_card",
+    "collectorsalbum:rare_golden_apple_card", "collectorsalbum:rare_golden_axe_card", "collectorsalbum:rare_golden_boots_card", "collectorsalbum:rare_golden_carrot_card", "collectorsalbum:rare_golden_chestplate_card",
+    "collectorsalbum:rare_golden_hoe_card", "collectorsalbum:rare_golden_horse_armor_card", "collectorsalbum:rare_golden_leggings_card", "collectorsalbum:rare_golden_pickaxe_card", "collectorsalbum:rare_golden_shovel_card",
+    "collectorsalbum:rare_heart_of_the_sea_card", "collectorsalbum:rare_honeycomb_card", "collectorsalbum:rare_horse_card", "collectorsalbum:rare_iron_axe_card", "collectorsalbum:rare_iron_boots_card",
+    "collectorsalbum:rare_iron_helmet_card", "collectorsalbum:rare_iron_hoe_card", "collectorsalbum:rare_iron_horse_armor_card", "collectorsalbum:rare_iron_ingot_card", "collectorsalbum:rare_iron_leggings_card",
+    "collectorsalbum:rare_iron_shovel_card", "collectorsalbum:rare_iron_sword_card", "collectorsalbum:rare_jungle_sapling_card", "collectorsalbum:rare_kelp_card", "collectorsalbum:rare_lantern_card",
+    "collectorsalbum:rare_leather_boots_card", "collectorsalbum:rare_leather_chestplate_card", "collectorsalbum:rare_leather_helmet_card", "collectorsalbum:rare_leather_horse_armor_card", "collectorsalbum:rare_leather_leggings_card",
+    "collectorsalbum:rare_melon_slice_card", "collectorsalbum:rare_music_disc_card", "collectorsalbum:rare_nautilus_shell_card", "collectorsalbum:rare_nether_star_card", "collectorsalbum:rare_nether_wart_card",
+    "collectorsalbum:rare_netherite_boots_card", "collectorsalbum:rare_netherite_chestplate_card", "collectorsalbum:rare_netherite_helmet_card", "collectorsalbum:rare_netherite_hoe_card", "collectorsalbum:rare_netherite_ingot_card",
+    "collectorsalbum:rare_netherite_pickaxe_card", "collectorsalbum:rare_netherite_shovel_card", "collectorsalbum:rare_netherite_sword_card", "collectorsalbum:rare_oak_sapling_card", "collectorsalbum:rare_oxeye_daisy_card",
+    "collectorsalbum:rare_parrot_card", "collectorsalbum:rare_pig_card", "collectorsalbum:rare_piglin_brute_card", "collectorsalbum:rare_pillager_card", "collectorsalbum:rare_polar_bear_card",
+    "collectorsalbum:rare_potato_card", "collectorsalbum:rare_red_mushroom_card", "collectorsalbum:rare_red_tulip_card", "collectorsalbum:rare_redstone_card", "collectorsalbum:rare_repacked_card_pack",
+    "collectorsalbum:rare_shield_card", "collectorsalbum:rare_skeleton_card", "collectorsalbum:rare_slime_card", "collectorsalbum:rare_spider_card", "collectorsalbum:rare_spruce_sapling_card",
+    "collectorsalbum:rare_squid_card", "collectorsalbum:rare_stone_axe_card", "collectorsalbum:rare_stone_hoe_card", "collectorsalbum:rare_stone_pickaxe_card", "collectorsalbum:rare_stone_shovel_card",
+    "collectorsalbum:rare_sugar_cane_card", "collectorsalbum:rare_sweet_berries_card", "collectorsalbum:rare_turtle_helmet_card", "collectorsalbum:rare_villager_card", "collectorsalbum:rare_wheat_card",
+    "collectorsalbum:rare_wither_card", "collectorsalbum:rare_wither_skeleton_card", "collectorsalbum:rare_wolf_card", "collectorsalbum:rare_wooden_axe_card", "collectorsalbum:rare_wooden_hoe_card",
+    "collectorsalbum:rare_wooden_shovel_card", "collectorsalbum:rare_wooden_sword_card", "collectorsalbum:rare_zombie_card", "collectorsalbum:uncommon_acacia_sapling_card", "collectorsalbum:uncommon_allium_card",
+    "collectorsalbum:uncommon_apple_card", "collectorsalbum:uncommon_azure_bluet_card", "collectorsalbum:uncommon_bamboo_card", "collectorsalbum:uncommon_bat_card", "collectorsalbum:uncommon_beacon_card",
+    "collectorsalbum:uncommon_beetroot_card", "collectorsalbum:uncommon_bell_card", "collectorsalbum:uncommon_birch_sapling_card", "collectorsalbum:uncommon_blaze_card", "collectorsalbum:uncommon_blaze_powder_card",
+    "collectorsalbum:uncommon_brewing_stand_card", "collectorsalbum:uncommon_brown_mushroom_card", "collectorsalbum:uncommon_campfire_card", "collectorsalbum:uncommon_card_pack", "collectorsalbum:uncommon_carrot_card",
+    "collectorsalbum:uncommon_chainmail_boots_card", "collectorsalbum:uncommon_chainmail_chestplate_card", "collectorsalbum:uncommon_chainmail_helmet_card", "collectorsalbum:uncommon_chainmail_leggings_card", "collectorsalbum:uncommon_chicken_card",
+    "collectorsalbum:uncommon_coal_card", "collectorsalbum:uncommon_compass_card", "collectorsalbum:uncommon_cookie_card", "collectorsalbum:uncommon_cow_card", "collectorsalbum:uncommon_creeper_card",
+    "collectorsalbum:uncommon_dandelion_card", "collectorsalbum:uncommon_dark_oak_sapling_card", "collectorsalbum:uncommon_dead_bush_card", "collectorsalbum:uncommon_diamond_axe_card", "collectorsalbum:uncommon_diamond_boots_card",
+    "collectorsalbum:uncommon_diamond_chestplate_card", "collectorsalbum:uncommon_diamond_helmet_card", "collectorsalbum:uncommon_diamond_hoe_card", "collectorsalbum:uncommon_diamond_horse_armor_card", "collectorsalbum:uncommon_diamond_leggings_card",
+    "collectorsalbum:uncommon_diamond_shovel_card", "collectorsalbum:uncommon_diamond_sword_card", "collectorsalbum:uncommon_emerald_card", "collectorsalbum:uncommon_enchantment_table_card", "collectorsalbum:uncommon_ender_dragon_card",
+    "collectorsalbum:uncommon_ender_pearl_card", "collectorsalbum:uncommon_enderman_card", "collectorsalbum:uncommon_feather_card", "collectorsalbum:uncommon_firework_rocket_card", "collectorsalbum:uncommon_fox_card",
+    "collectorsalbum:uncommon_glow_berries_card", "collectorsalbum:uncommon_glowstone_dust_card", "collectorsalbum:uncommon_gold_ingot_card", "collectorsalbum:uncommon_golden_apple_card", "collectorsalbum:uncommon_golden_axe_card",
+    "collectorsalbum:uncommon_golden_carrot_card", "collectorsalbum:uncommon_golden_chestplate_card", "collectorsalbum:uncommon_golden_helmet_card", "collectorsalbum:uncommon_golden_hoe_card", "collectorsalbum:uncommon_golden_horse_armor_card",
+    "collectorsalbum:uncommon_golden_pickaxe_card", "collectorsalbum:uncommon_golden_shovel_card", "collectorsalbum:uncommon_golden_sword_card", "collectorsalbum:uncommon_heart_of_the_sea_card", "collectorsalbum:uncommon_honeycomb_card",
+    "collectorsalbum:uncommon_iron_axe_card", "collectorsalbum:uncommon_iron_boots_card", "collectorsalbum:uncommon_iron_chestplate_card", "collectorsalbum:uncommon_iron_helmet_card", "collectorsalbum:uncommon_iron_hoe_card",
+    "collectorsalbum:uncommon_iron_ingot_card", "collectorsalbum:uncommon_iron_leggings_card", "collectorsalbum:uncommon_iron_pickaxe_card", "collectorsalbum:uncommon_iron_shovel_card", "collectorsalbum:uncommon_iron_sword_card",
+    "collectorsalbum:uncommon_kelp_card", "collectorsalbum:uncommon_lantern_card", "collectorsalbum:uncommon_lapis_lazuli_card", "collectorsalbum:uncommon_leather_boots_card", "collectorsalbum:uncommon_leather_chestplate_card",
+    "collectorsalbum:uncommon_leather_horse_armor_card", "collectorsalbum:uncommon_leather_leggings_card", "collectorsalbum:uncommon_magma_cube_card", "collectorsalbum:uncommon_melon_slice_card", "collectorsalbum:uncommon_music_disc_card",
+    "collectorsalbum:uncommon_nether_star_card", "collectorsalbum:uncommon_nether_wart_card", "collectorsalbum:uncommon_netherite_axe_card", "collectorsalbum:uncommon_netherite_boots_card", "collectorsalbum:uncommon_netherite_chestplate_card",
+    "collectorsalbum:uncommon_netherite_hoe_card", "collectorsalbum:uncommon_netherite_ingot_card", "collectorsalbum:uncommon_netherite_leggings_card", "collectorsalbum:uncommon_netherite_pickaxe_card", "collectorsalbum:uncommon_netherite_shovel_card",
+    "collectorsalbum:uncommon_oak_sapling_card", "collectorsalbum:uncommon_oxeye_daisy_card", "collectorsalbum:uncommon_panda_card", "collectorsalbum:uncommon_parrot_card", "collectorsalbum:uncommon_pig_card",
+    "collectorsalbum:uncommon_pillager_card", "collectorsalbum:uncommon_polar_bear_card", "collectorsalbum:uncommon_poppy_card", "collectorsalbum:uncommon_potato_card", "collectorsalbum:uncommon_red_mushroom_card",
+    "collectorsalbum:uncommon_redstone_card", "collectorsalbum:uncommon_repacked_card_pack", "collectorsalbum:uncommon_sheep_card", "collectorsalbum:uncommon_shield_card", "collectorsalbum:uncommon_skeleton_card",
+    "collectorsalbum:uncommon_spider_card", "collectorsalbum:uncommon_spruce_sapling_card", "collectorsalbum:uncommon_spyglass_card", "collectorsalbum:uncommon_squid_card", "collectorsalbum:uncommon_stone_axe_card",
+    "collectorsalbum:uncommon_stone_pickaxe_card", "collectorsalbum:uncommon_stone_shovel_card", "collectorsalbum:uncommon_stone_sword_card", "collectorsalbum:uncommon_sugar_cane_card", "collectorsalbum:uncommon_sweet_berries_card",
+    "collectorsalbum:uncommon_villager_card", "collectorsalbum:uncommon_wheat_card", "collectorsalbum:uncommon_witch_card", "collectorsalbum:uncommon_wither_card", "collectorsalbum:uncommon_wither_skeleton_card",
+    "collectorsalbum:uncommon_wooden_axe_card", "collectorsalbum:uncommon_wooden_hoe_card", "collectorsalbum:uncommon_wooden_pickaxe_card", "collectorsalbum:uncommon_wooden_shovel_card", "collectorsalbum:uncommon_wooden_sword_card", 
+
 ];
 
 // Items which are exclusive to Creative Mode
@@ -25,11 +183,20 @@ let categoryGuideBook = [
     "irons_jewelry:jewelcrafting_guide"
 ];
 
-// Items which are used as unlocks for content (loot, recipes, etc.)
+// Items which are used as unlocks for content or upgrades for items (loot, recipes, etc.)
 let categoryUnlockItem = [
+    "apotheosis:diamond_upgrade_smithing_template", "apotheosis:gold_upgrade_smithing_template",
+    "apotheosis:iron_upgrade_smithing_template", "apotheosis:sigil_of_malice", "apotheosis:sigil_of_rebirth",
+    "apotheosis:sigil_of_socketing", "apotheosis:sigil_of_supremacy", "apotheosis:sigil_of_unnaming",
+
+    "apothic_enchanting:prismatic_web",
+
     "backpacked:unlock_token",
 
     "bountiful:decree",
+
+    "constructionstick:template_angel", "constructionstick:template_battery", "constructionstick:template_destruction",
+    "constructionstick:template_replacement",
 ];
 
 // Items which are purely collectables
@@ -51,14 +218,14 @@ let categoryCollectable = [
 
 // Items which are crafting materials or resuls
 let categoryMaterial = [
-    "apotheosis:diamond_upgrade_smithing_template", "apotheosis:gold_upgrade_smithing_template",
-    "apotheosis:iron_upgrade_smithing_template", "apotheosis:sigil_of_malice", "apotheosis:sigil_of_rebirth",
-    "apotheosis:sigil_of_socketing", "apotheosis:sigil_of_supremacy", "apotheosis:sigil_of_unnaming",
-    "apothic_enchanting:prismatic_web",
-    
+    "amendments:dye_bottle", "amendments:dragon_charge",
+
     "apotheosis:epic_material", "apotheosis:gem", "apotheosis:gem_dust", "apotheosis:gem_fused_slate",
     "apotheosis:mythic_material", "apotheosis:rare_material", "apotheosis:uncommon_material",
+
     "apothic_enchanting:inert_trident", "apothic_enchanting:infused_breath", "apothic_enchanting:warden_tendril",
+
+    "ancientreforging:ancient_material",
 
     "architects_palette:algal_blend", "architects_palette:algal_brick", "architects_palette:entwine_rod",
     "architects_palette:nether_brass_ingot", "architects_palette:oracle_jelly", "architects_palette:sunmetal_brick",
@@ -95,6 +262,11 @@ let categoryTool = [
 
     "buzzier_bees:bee_bottle", "buzzier_bees:endermite_bottle",
 
+    "camping:multitool",
+
+    "constructionstick:copper_stick", "constructionstick:diamond_stick", "constructionstick:netherite_stick",
+    "constructionstick:wooden_stick",
+
     "gamediscs:gaming_console",
 
     "exposure:camera", "exposure:camera_stand", "exposure:album", "exposure_polaroid:instant_camera",
@@ -128,10 +300,14 @@ let categoryConsumable = [
 
     "buzzier_bees:honey_apple", "buzzier_bees:honey_bread",
 
+    "camping:marshmallow_on_a_stick", "camping:roasted_marshmallow",
+
     "exposure:black_and_white_film", "exposure:color_film", "exposure:high_sensitivity_black_and_white_film",
     "exposure:high_sensitivity_color_film", "exposure_polaroid:instant_black_and_white_slide",
     "exposure_polaroid:instant_color_slide", "exposure_polaroid:high_sensitivity_instant_black_and_white_slide",
-    "exposure_polaroid:high_sensitivity_instant_color_slide"
+    "exposure_polaroid:high_sensitivity_instant_color_slide",
+
+    
 ];
 
 // Items which are used for cosmetic upgrades
@@ -159,7 +335,7 @@ let categoryDecorativeBlock = [
     "another_furniture:acacia_shutter", "another_furniture:bamboo_shutter", "another_furniture:cherry_shutter",
     "another_furniture:crimson_shutter", "another_furniture:dark_oak_shutter", "another_furniture:jungle_shutter",
     "another_furniture:mangrove_shutter", "another_furniture:oak_shutter", "another_furniture:spruce_shutter",
-    "another_furniture:warped_shutter", "another_furniture:birch_shutter",
+    "another_furniture:warped_shutter", "another_furniture:birch_shutter", 
     
     "another_furniture:acacia_table", "another_furniture:birch_table", "another_furniture:cherry_table", "another_furniture:mangrove_table",
     "another_furniture:oak_table", "another_furniture:spruce_table", "another_furniture:warped_table", "another_furniture:bamboo_table",
@@ -167,7 +343,7 @@ let categoryDecorativeBlock = [
     
     "another_furniture:bamboo_chair", "another_furniture:birch_chair", "another_furniture:crimson_chair", "another_furniture:dark_oak_chair",
     "another_furniture:jungle_chair", "another_furniture:mangrove_chair", "another_furniture:oak_chair", "another_furniture:spruce_chair",
-    "another_furniture:warped_chair",
+    "another_furniture:warped_chair", 
 
     "another_furniture:birch_bench", "another_furniture:cherry_bench", "another_furniture:mangrove_bench", "another_furniture:oak_bench",
     "another_furniture:spruce_bench", "another_furniture:warped_bench", "another_furniture:acacia_bench", "another_furniture:bamboo_bench",
@@ -178,6 +354,7 @@ let categoryDecorativeBlock = [
     "another_furniture:magenta_curtain", "another_furniture:orange_curtain", "another_furniture:pink_curtain",
     "another_furniture:purple_curtain", "another_furniture:red_curtain", "another_furniture:white_curtain",
     "another_furniture:yellow_curtain", "another_furniture:brown_curtain", "another_furniture:light_gray_curtain",
+    
     
     "another_furniture:black_lamp", "another_furniture:blue_lamp", "another_furniture:brown_lamp", "another_furniture:cyan_lamp",
     "another_furniture:gray_lamp", "another_furniture:green_lamp", "another_furniture:light_blue_lamp", "another_furniture:light_gray_lamp",
@@ -198,7 +375,7 @@ let categoryDecorativeBlock = [
     "another_furniture:yellow_tall_stool", "another_furniture:green_tall_stool", "another_furniture:light_blue_tall_stool",
     "another_furniture:light_gray_tall_stool", "another_furniture:lime_tall_stool", "another_furniture:magenta_tall_stool",
     "another_furniture:orange_tall_stool", "another_furniture:pink_tall_stool", "another_furniture:purple_tall_stool",
-    "another_furniture:white_tall_stool", "another_furniture:black_tall_stool", "another_furniture:red_tall_stool",
+    "another_furniture:white_tall_stool", "another_furniture:black_tall_stool", "another_furniture:red_tall_stool", 
     
     //  Architect's Palette
     "architects_palette:abyssaline", "architects_palette:abyssaline_brick_slab", "architects_palette:abyssaline_bricks",
@@ -464,8 +641,214 @@ let categoryDecorativeBlock = [
     "buzzier_bees:honeycomb_brick_stairs", "buzzier_bees:honeycomb_brick_wall", "buzzier_bees:honeycomb_bricks",
     "buzzier_bees:honeycomb_tile_slab", "buzzier_bees:honeycomb_tile_wall", "buzzier_bees:honeycomb_tiles",
 
+    // Let's Do Camping
+    "camping:tent_amber", "camping:tent_aqua", "camping:tent_beige", "camping:tent_black",
+    "camping:tent_brown", "camping:tent_coral", "camping:tent_cyan", "camping:tent_forest", "camping:tent_ginger",
+    "camping:tent_green", "camping:tent_indigo", "camping:tent_light_blue", "camping:tent_light_gray", "camping:tent_lime",
+    "camping:tent_maroon", "camping:tent_mint", "camping:tent_navy", "camping:tent_olive", "camping:tent_orange",
+    "camping:tent_purple", "camping:tent_red", "camping:tent_rose", "camping:tent_slate", "camping:tent_tan",
+    "camping:tent_verdant", "camping:tent_white", "camping:tent_yellow",
+
+    // Clayworks
+    "clayworks:chiseled_bricks", "clayworks:glazed_terracotta",
+
+    "clayworks:concrete_powder",
+
+    "clayworks:blue_terracotta_bricks", "clayworks:brown_terracotta_bricks", "clayworks:cyan_terracotta_bricks",
+    "clayworks:gray_terracotta_bricks", "clayworks:green_terracotta_bricks", "clayworks:light_gray_terracotta_bricks",
+    "clayworks:lime_terracotta_bricks", "clayworks:orange_terracotta_bricks", "clayworks:pink_terracotta_bricks",
+    "clayworks:purple_terracotta_bricks", "clayworks:red_terracotta_bricks", "clayworks:white_terracotta_bricks",
+    "clayworks:yellow_terracotta_bricks",
+
+    "clayworks:chiseled_blue_terracotta_bricks", "clayworks:chiseled_brown_terracotta_bricks", "clayworks:chiseled_cyan_terracotta_bricks",
+    "clayworks:chiseled_gray_terracotta_bricks", "clayworks:chiseled_light_blue_terracotta_bricks", "clayworks:chiseled_orange_terracotta_bricks",
+    "clayworks:chiseled_light_gray_terracotta_bricks", "clayworks:chiseled_lime_terracotta_bricks", "clayworks:chiseled_magenta_terracotta_bricks",
+    "clayworks:chiseled_purple_terracotta_bricks", "clayworks:chiseled_red_terracotta_bricks", "clayworks:chiseled_terracotta_bricks",
+    "clayworks:chiseled_white_terracotta_bricks", "clayworks:chiseled_yellow_terracotta_bricks",
+
+    "clayworks:black_terracotta_brick_slab", "clayworks:blue_terracotta_brick_slab", "clayworks:brown_terracotta_brick_slab",
+    "clayworks:cyan_terracotta_brick_slab", "clayworks:green_terracotta_brick_slab", "clayworks:light_blue_terracotta_brick_slab",
+    "clayworks:light_gray_terracotta_brick_slab", "clayworks:lime_terracotta_brick_slab", "clayworks:magenta_terracotta_brick_slab",
+    "clayworks:orange_terracotta_brick_slab", "clayworks:pink_terracotta_brick_slab", "clayworks:purple_terracotta_brick_slab",
+    "clayworks:red_terracotta_brick_slab", "clayworks:terracotta_brick_slab", "clayworks:white_terracotta_brick_slab",
+    "clayworks:yellow_terracotta_brick_slab",
+
+    "clayworks:black_terracotta_brick_stairs", "clayworks:blue_terracotta_brick_stairs", "clayworks:gray_terracotta_brick_stairs",
+    "clayworks:green_terracotta_brick_stairs", "clayworks:light_blue_terracotta_brick_stairs", "clayworks:light_gray_terracotta_brick_stairs",
+    "clayworks:magenta_terracotta_brick_stairs", "clayworks:orange_terracotta_brick_stairs", "clayworks:purple_terracotta_brick_stairs",
+    "clayworks:red_terracotta_brick_stairs", "clayworks:terracotta_brick_stairs", "clayworks:white_terracotta_brick_stairs",
+
+    "clayworks:black_terracotta_brick_wall", "clayworks:blue_terracotta_brick_wall", "clayworks:brown_terracotta_brick_wall",
+    "clayworks:cyan_terracotta_brick_wall", "clayworks:gray_terracotta_brick_wall", "clayworks:light_blue_terracotta_brick_wall",
+    "clayworks:light_gray_terracotta_brick_wall", "clayworks:lime_terracotta_brick_wall", "clayworks:magenta_terracotta_brick_wall",
+    "clayworks:orange_terracotta_brick_wall", "clayworks:pink_terracotta_brick_wall", "clayworks:red_terracotta_brick_wall",
+    "clayworks:terracotta_brick_wall", "clayworks:white_terracotta_brick_wall", "clayworks:yellow_terracotta_brick_wall",
+
+    "clayworks:black_terracotta_slab", "clayworks:blue_terracotta_slab", "clayworks:brown_terracotta_slab", "clayworks:cyan_terracotta_slab",
+    "clayworks:gray_terracotta_slab", "clayworks:green_terracotta_slab", "clayworks:light_blue_terracotta_slab", "clayworks:light_gray_terracotta_slab",
+    "clayworks:lime_terracotta_slab", "clayworks:magenta_terracotta_slab", "clayworks:orange_terracotta_slab", "clayworks:pink_terracotta_slab",
+    "clayworks:purple_terracotta_slab", "clayworks:terracotta_slab", "clayworks:white_terracotta_slab", "clayworks:yellow_terracotta_slab",
+
+    "clayworks:black_terracotta_stairs", "clayworks:brown_terracotta_stairs", "clayworks:cyan_terracotta_stairs", "clayworks:gray_terracotta_stairs",
+    "clayworks:green_terracotta_stairs", "clayworks:light_blue_terracotta_stairs", "clayworks:lime_terracotta_stairs", "clayworks:magenta_terracotta_stairs",
+    "clayworks:pink_terracotta_stairs", "clayworks:purple_terracotta_stairs", "clayworks:red_terracotta_stairs", "clayworks:terracotta_stairs",
+    "clayworks:yellow_terracotta_stairs",
+
+    "clayworks:black_terracotta_wall", "clayworks:blue_terracotta_wall", "clayworks:brown_terracotta_wall", "clayworks:cyan_terracotta_wall",
+    "clayworks:green_terracotta_wall", "clayworks:light_blue_terracotta_wall", "clayworks:light_gray_terracotta_wall", "clayworks:lime_terracotta_wall",
+    "clayworks:magenta_terracotta_wall", "clayworks:orange_terracotta_wall", "clayworks:pink_terracotta_wall", "clayworks:purple_terracotta_wall",
+    "clayworks:red_terracotta_wall", "clayworks:terracotta_wall", "clayworks:white_terracotta_wall", "clayworks:yellow_terracotta_wall",
+
+    "clayworks:blue_decorated_pot", "clayworks:brown_decorated_pot", "clayworks:cyan_decorated_pot", "clayworks:gray_decorated_pot",
+    "clayworks:green_decorated_pot", "clayworks:light_gray_decorated_pot", "clayworks:lime_decorated_pot", "clayworks:orange_decorated_pot",
+    "clayworks:pink_decorated_pot", "clayworks:purple_decorated_pot", "clayworks:red_decorated_pot", "clayworks:white_decorated_pot",
+    "clayworks:yellow_decorated_pot",
+
+    // Connected Glass
+    "connectedglass:borderless_glass", "connectedglass:borderless_glass_amber", "connectedglass:borderless_glass_amber_pane", "connectedglass:borderless_glass_aqua", "connectedglass:borderless_glass_aqua_pane",
+    "connectedglass:borderless_glass_beige_pane", "connectedglass:borderless_glass_black", "connectedglass:borderless_glass_black_pane", "connectedglass:borderless_glass_blue", "connectedglass:borderless_glass_blue_pane",
+    "connectedglass:borderless_glass_brown_pane", "connectedglass:borderless_glass_coral", "connectedglass:borderless_glass_coral_pane", "connectedglass:borderless_glass_cyan", "connectedglass:borderless_glass_cyan_pane",
+    "connectedglass:borderless_glass_forest_pane", "connectedglass:borderless_glass_ginger", "connectedglass:borderless_glass_ginger_pane", "connectedglass:borderless_glass_gray", "connectedglass:borderless_glass_gray_pane",
+    "connectedglass:borderless_glass_green_pane", "connectedglass:borderless_glass_indigo", "connectedglass:borderless_glass_indigo_pane", "connectedglass:borderless_glass_light_blue", "connectedglass:borderless_glass_light_blue_pane",
+    "connectedglass:borderless_glass_light_gray_pane", "connectedglass:borderless_glass_lime", "connectedglass:borderless_glass_lime_pane", "connectedglass:borderless_glass_magenta", "connectedglass:borderless_glass_magenta_pane",
+    "connectedglass:borderless_glass_maroon_pane", "connectedglass:borderless_glass_mint", "connectedglass:borderless_glass_mint_pane", "connectedglass:borderless_glass_navy", "connectedglass:borderless_glass_navy_pane",
+    "connectedglass:borderless_glass_olive_pane", "connectedglass:borderless_glass_orange", "connectedglass:borderless_glass_orange_pane", "connectedglass:borderless_glass_pane", "connectedglass:borderless_glass_pink",
+    "connectedglass:borderless_glass_purple", "connectedglass:borderless_glass_purple_pane", "connectedglass:borderless_glass_red", "connectedglass:borderless_glass_red_pane", "connectedglass:borderless_glass_rose",
+    "connectedglass:borderless_glass_slate", "connectedglass:borderless_glass_slate_pane", "connectedglass:borderless_glass_tan", "connectedglass:borderless_glass_tan_pane", "connectedglass:borderless_glass_teal",
+    "connectedglass:borderless_glass_verdant", "connectedglass:borderless_glass_verdant_pane", "connectedglass:borderless_glass_white", "connectedglass:borderless_glass_white_pane", "connectedglass:borderless_glass_yellow",
+    "connectedglass:clear_glass", "connectedglass:clear_glass_amber", "connectedglass:clear_glass_amber_pane", "connectedglass:clear_glass_aqua", "connectedglass:clear_glass_aqua_pane",
+    "connectedglass:clear_glass_beige_pane", "connectedglass:clear_glass_black", "connectedglass:clear_glass_black_pane", "connectedglass:clear_glass_blue", "connectedglass:clear_glass_blue_pane",
+    "connectedglass:clear_glass_brown_pane", "connectedglass:clear_glass_coral", "connectedglass:clear_glass_coral_pane", "connectedglass:clear_glass_cyan", "connectedglass:clear_glass_cyan_pane",
+    "connectedglass:clear_glass_forest_pane", "connectedglass:clear_glass_ginger", "connectedglass:clear_glass_ginger_pane", "connectedglass:clear_glass_gray", "connectedglass:clear_glass_gray_pane",
+    "connectedglass:clear_glass_green_pane", "connectedglass:clear_glass_indigo", "connectedglass:clear_glass_indigo_pane", "connectedglass:clear_glass_light_blue", "connectedglass:clear_glass_light_blue_pane",
+    "connectedglass:clear_glass_light_gray_pane", "connectedglass:clear_glass_lime", "connectedglass:clear_glass_lime_pane", "connectedglass:clear_glass_magenta", "connectedglass:clear_glass_magenta_pane",
+    "connectedglass:clear_glass_maroon_pane", "connectedglass:clear_glass_mint", "connectedglass:clear_glass_mint_pane", "connectedglass:clear_glass_navy", "connectedglass:clear_glass_navy_pane",
+    "connectedglass:clear_glass_olive_pane", "connectedglass:clear_glass_orange", "connectedglass:clear_glass_orange_pane", "connectedglass:clear_glass_pane", "connectedglass:clear_glass_pink",
+    "connectedglass:clear_glass_purple", "connectedglass:clear_glass_purple_pane", "connectedglass:clear_glass_red", "connectedglass:clear_glass_red_pane", "connectedglass:clear_glass_rose",
+    "connectedglass:clear_glass_slate", "connectedglass:clear_glass_slate_pane", "connectedglass:clear_glass_tan", "connectedglass:clear_glass_tan_pane", "connectedglass:clear_glass_teal",
+    "connectedglass:clear_glass_verdant", "connectedglass:clear_glass_verdant_pane", "connectedglass:clear_glass_white", "connectedglass:clear_glass_white_pane", "connectedglass:clear_glass_yellow",
+    "connectedglass:scratched_glass", "connectedglass:scratched_glass_amber", "connectedglass:scratched_glass_amber_pane", "connectedglass:scratched_glass_aqua", "connectedglass:scratched_glass_aqua_pane",
+    "connectedglass:scratched_glass_beige_pane", "connectedglass:scratched_glass_black", "connectedglass:scratched_glass_black_pane", "connectedglass:scratched_glass_blue", "connectedglass:scratched_glass_blue_pane",
+    "connectedglass:scratched_glass_brown_pane", "connectedglass:scratched_glass_coral", "connectedglass:scratched_glass_coral_pane", "connectedglass:scratched_glass_cyan", "connectedglass:scratched_glass_cyan_pane",
+    "connectedglass:scratched_glass_forest_pane", "connectedglass:scratched_glass_ginger", "connectedglass:scratched_glass_ginger_pane", "connectedglass:scratched_glass_gray", "connectedglass:scratched_glass_gray_pane",
+    "connectedglass:scratched_glass_green_pane", "connectedglass:scratched_glass_indigo", "connectedglass:scratched_glass_indigo_pane", "connectedglass:scratched_glass_light_blue", "connectedglass:scratched_glass_light_blue_pane",
+    "connectedglass:scratched_glass_light_gray_pane", "connectedglass:scratched_glass_lime", "connectedglass:scratched_glass_lime_pane", "connectedglass:scratched_glass_magenta", "connectedglass:scratched_glass_magenta_pane",
+    "connectedglass:scratched_glass_maroon_pane", "connectedglass:scratched_glass_mint", "connectedglass:scratched_glass_mint_pane", "connectedglass:scratched_glass_navy", "connectedglass:scratched_glass_navy_pane",
+    "connectedglass:scratched_glass_olive_pane", "connectedglass:scratched_glass_orange", "connectedglass:scratched_glass_orange_pane", "connectedglass:scratched_glass_pane", "connectedglass:scratched_glass_pink",
+    "connectedglass:scratched_glass_purple", "connectedglass:scratched_glass_purple_pane", "connectedglass:scratched_glass_red", "connectedglass:scratched_glass_red_pane", "connectedglass:scratched_glass_rose",
+    "connectedglass:scratched_glass_slate", "connectedglass:scratched_glass_slate_pane", "connectedglass:scratched_glass_tan", "connectedglass:scratched_glass_tan_pane", "connectedglass:scratched_glass_teal",
+    "connectedglass:scratched_glass_verdant", "connectedglass:scratched_glass_verdant_pane", "connectedglass:scratched_glass_white", "connectedglass:scratched_glass_white_pane", "connectedglass:scratched_glass_yellow",
+    "connectedglass:tinted_borderless_glass", "connectedglass:tinted_borderless_glass_amber", "connectedglass:tinted_borderless_glass_aqua", "connectedglass:tinted_borderless_glass_beige", "connectedglass:tinted_borderless_glass_black",
+    "connectedglass:tinted_borderless_glass_brown", "connectedglass:tinted_borderless_glass_coral", "connectedglass:tinted_borderless_glass_cyan", "connectedglass:tinted_borderless_glass_forest", "connectedglass:tinted_borderless_glass_ginger",
+    "connectedglass:tinted_borderless_glass_green", "connectedglass:tinted_borderless_glass_indigo", "connectedglass:tinted_borderless_glass_light_blue", "connectedglass:tinted_borderless_glass_light_gray", "connectedglass:tinted_borderless_glass_lime",
+    "connectedglass:tinted_borderless_glass_maroon", "connectedglass:tinted_borderless_glass_mint", "connectedglass:tinted_borderless_glass_navy", "connectedglass:tinted_borderless_glass_olive", "connectedglass:tinted_borderless_glass_orange",
+    "connectedglass:tinted_borderless_glass_purple", "connectedglass:tinted_borderless_glass_red", "connectedglass:tinted_borderless_glass_rose", "connectedglass:tinted_borderless_glass_slate", "connectedglass:tinted_borderless_glass_tan", 
+    "connectedglass:tinted_borderless_glass_verdant", "connectedglass:tinted_borderless_glass_white", "connectedglass:tinted_borderless_glass_yellow",
+
+    // Create
+    "create:acacia_window", "create:bamboo_window", "create:birch_window", "create:crimson_window", "create:dark_oak_window",
+    "create:jungle_window", "create:industrial_iron_window", "create:mangrove_window", "create:oak_window", "create:ornate_iron_window",
+    "create:warped_window",
+
+    "create:acacia_window_pane", "create:bamboo_window_pane", "create:birch_window_pane", "create:cherry_window_pane",
+    "create:dark_oak_window_pane", "create:oak_window_pane", "create:ornate_iron_window_pane", "create:spruce_window_pane",
+
+    "create:framed_glass", "create:horizontal_framed_glass_pane", "create:tiled_glass", "create:vertical_framed_glass", "create:vertical_framed_glass_pane",
+
+    "create:andesite_bars", "create:brass_bars", "create:copper_bars",
+
+    "create:copper_shingle_stairs", "create:copper_shingles", "create:exposed_copper_shingle_slab", "create:exposed_copper_shingle_stairs",
+    "create:oxidized_copper_shingle_slab", "create:oxidized_copper_shingles", "create:waxed_copper_shingle_slab", "create:waxed_copper_shingle_stairs",
+    "create:waxed_copper_shingles", "create:waxed_exposed_copper_shingle_slab", "create:waxed_exposed_copper_shingle_stairs", "create:waxed_exposed_copper_shingles",
+    "create:waxed_oxidized_copper_shingle_slab", "create:waxed_oxidized_copper_shingle_stairs", "create:waxed_oxidized_copper_shingles",
+
+    "create:copper_tile_slab", "create:copper_tile_stairs", "create:exposed_copper_tile_slab", "create:exposed_copper_tile_stairs",
+    "create:exposed_copper_tiles", "create:oxidized_copper_tile_slab", "create:oxidized_copper_tile_stairs", "create:oxidized_copper_tiles",
+    "create:waxed_copper_tile_slab", "create:waxed_copper_tiles", "create:waxed_exposed_copper_tile_slab", "create:waxed_exposed_copper_tiles",
+    "create:waxed_oxidized_copper_tile_slab", "create:waxed_oxidized_copper_tiles",
+
+    "create:flywheel", "create:placard", "create:metal_girder",
+
+    "create:andesite_casing", "create:brass_casing", "create:industrial_iron_block", "create:railway_casing",
+    "create:shadow_steel_casing",
+
+    "create:copycat_panel", "create:copycat_step",
+
+    "create:andesite_pillar", "create:cut_andesite", "create:cut_andesite_brick_slab", "create:cut_andesite_bricks",
+    "create:cut_andesite_slab", "create:cut_andesite_brick_wall", "create:cut_andesite_stairs", "create:cut_andesite_wall",
+    "create:layered_andesite", "create:polished_cut_andesite", "create:polished_cut_andesite_slab", "create:polished_cut_andesite_wall",
+    "create:small_andesite_brick_slab", 
+
+    "create:asurine_pillar", "create:cut_asurine_brick_slab", "create:cut_asurine_brick_stairs", "create:cut_asurine_brick_wall",
+    "create:cut_asurine_bricks", "create:cut_asurine_slab", "create:cut_asurine_wall", "create:layered_asurine", "create:polished_cut_asurine",
+    "create:polished_cut_asurine_slab", "create:polished_cut_asurine_stairs", "create:polished_cut_asurine_wall",
+    "create:small_asurine_brick_slab", "create:small_asurine_brick_stairs", "create:small_asurine_brick_wall",
+
+    "create:calcite_pillar", "create:cut_calcite", "create:cut_calcite_brick_slab", "create:cut_calcite_brick_stairs", "create:cut_calcite_brick_wall",
+    "create:cut_calcite_slab", "create:cut_calcite_stairs", "create:cut_calcite_wall", "create:layered_calcite", "create:polished_cut_calcite_slab",
+    "create:polished_cut_calcite_stairs", "create:polished_cut_calcite_wall", "create:small_calcite_brick_slab", "create:small_calcite_brick_stairs",
+    "create:small_calcite_brick_wall", "create:small_calcite_bricks",
+
+    "create:crimsite", "create:crimsite_pillar", "create:cut_crimsite", "create:cut_crimsite_brick_slab", "create:cut_crimsite_brick_wall",
+    "create:cut_crimsite_bricks", "create:cut_crimsite_slab", "create:cut_crimsite_stairs", "create:cut_crimsite_wall", "create:polished_cut_crimsite",
+    "create:polished_cut_crimsite_slab", "create:polished_cut_crimsite_wall", "create:small_crimsite_brick_slab", "create:small_crimsite_brick_wall",
+    "create:small_crimsite_bricks",
+
+    "create:cut_deepslate_brick_slab", "create:cut_deepslate_brick_stairs", "create:cut_deepslate_brick_wall", "create:cut_deepslate_bricks",
+    "create:cut_deepslate_slab", "create:cut_deepslate_wall", "create:deepslate_pillar", "create:layered_deepslate", "create:polished_cut_deepslate",
+    "create:polished_cut_deepslate_slab", "create:polished_cut_deepslate_stairs", "create:polished_cut_deepslate_wall", "create:small_deepslate_brick_slab",
+    "create:small_deepslate_brick_stairs", "create:small_deepslate_brick_wall",
+
+    "create:cut_diorite", "create:cut_diorite_brick_slab", "create:cut_diorite_brick_stairs", "create:cut_diorite_brick_wall", "create:cut_diorite_slab",
+    "create:cut_diorite_stairs", "create:cut_diorite_wall", "create:diorite_pillar", "create:layered_diorite", "create:polished_cut_diorite_slab",
+    "create:polished_cut_diorite_stairs", "create:polished_cut_diorite_wall", "create:small_diorite_brick_slab", "create:small_diorite_brick_stairs",
+    "create:small_diorite_brick_wall", "create:small_diorite_bricks",
+
+    "create:cut_dripstone", "create:cut_dripstone_brick_slab", "create:cut_dripstone_brick_wall", "create:cut_dripstone_bricks", "create:cut_dripstone_slab",
+    "create:cut_dripstone_stairs", "create:cut_dripstone_wall", "create:layered_dripstone", "create:polished_cut_dripstone", "create:polished_cut_dripstone_slab",
+    "create:polished_cut_dripstone_wall", "create:small_dripstone_brick_slab", "create:small_dripstone_brick_wall", "create:small_dripstone_bricks",
+
+    "create:cut_granite_brick_slab", "create:cut_granite_brick_stairs", "create:cut_granite_brick_wall", "create:cut_granite_bricks", "create:cut_granite_slab",
+    "create:cut_granite_wall", "create:granite_pillar", "create:layered_granite", "create:polished_cut_granite", "create:polished_cut_granite_slab",
+    "create:polished_cut_granite_stairs", "create:polished_cut_granite_wall", "create:small_granite_brick_slab", "create:small_granite_brick_stairs",
+    "create:small_granite_brick_wall",
+
+    "create:cut_limestone", "create:cut_limestone_brick_slab", "create:cut_limestone_brick_stairs", "create:cut_limestone_brick_wall",
+    "create:cut_limestone_slab", "create:cut_limestone_stairs", "create:cut_limestone_wall", "create:layered_limestone",
+    "create:limestone", "create:limestone_pillar", "create:polished_cut_limestone_slab", "create:polished_cut_limestone_stairs",
+    "create:polished_cut_limestone_wall", "create:small_limestone_brick_slab", "create:small_limestone_brick_stairs", "create:small_limestone_brick_wall",
+    "create:small_limestone_bricks",
+
+    "create:cut_ochrum", "create:cut_ochrum_brick_slab", "create:cut_ochrum_brick_wall", "create:cut_ochrum_bricks", "create:cut_ochrum_slab",
+    "create:cut_ochrum_stairs", "create:cut_ochrum_wall", "create:ochrum", "create:ochrum_pillar", "create:polished_cut_ochrum",
+    "create:polished_cut_ochrum_slab", "create:polished_cut_ochrum_wall", "create:small_ochrum_brick_slab", "create:small_ochrum_brick_wall",
+    "create:small_ochrum_bricks",
+
+    "create:cut_scorchia_brick_slab", "create:cut_scorchia_brick_stairs", "create:cut_scorchia_brick_wall", "create:cut_scorchia_bricks", "create:cut_scorchia_slab",
+    "create:cut_scorchia_wall", "create:layered_scorchia", "create:polished_cut_scorchia", "create:polished_cut_scorchia_slab", "create:polished_cut_scorchia_stairs",
+    "create:polished_cut_scorchia_wall", "create:scorchia", "create:scorchia_pillar", "create:small_scorchia_brick_slab", "create:small_scorchia_brick_stairs",
+    "create:small_scorchia_bricks",
+
+    "create:cut_scoria", "create:cut_scoria_brick_slab", "create:cut_scoria_brick_stairs", "create:cut_scoria_brick_wall", "create:cut_scoria_slab",
+    "create:cut_scoria_stairs", "create:cut_scoria_wall", "create:layered_scoria", "create:polished_cut_scoria_slab", "create:polished_cut_scoria_stairs",
+    "create:polished_cut_scoria_wall", "create:scoria", "create:scoria_pillar", "create:small_scoria_brick_slab", "create:small_scoria_brick_stairs",
+    "create:small_scoria_brick_wall", "create:small_scoria_bricks",
+
+    "create:cut_tuff", "create:cut_tuff_brick_slab", "create:cut_tuff_brick_wall", "create:cut_tuff_bricks", "create:cut_tuff_slab", "create:cut_tuff_stairs",
+    "create:cut_tuff_wall", "create:layered_tuff", "create:polished_cut_tuff", "create:polished_cut_tuff_slab", "create:polished_cut_tuff_wall",
+    "create:small_tuff_brick_stairs", "create:small_tuff_brick_wall", "create:small_tuff_bricks", "create:tuff_pillar",
+
+    "create:cut_veridium_brick_slab", "create:cut_veridium_brick_stairs", "create:cut_veridium_brick_wall", "create:cut_veridium_bricks", "create:cut_veridium_slab",
+    "create:cut_veridium_wall", "create:layered_veridium", "create:polished_cut_veridium", "create:polished_cut_veridium_slab", "create:polished_cut_veridium_stairs",
+    "create:polished_cut_veridium_wall", "create:small_veridium_brick_slab", "create:small_veridium_brick_stairs", "create:small_veridium_bricks", "create:veridium",
+
+    "create:rose_quartz_tiles", "create:small_rose_quartz_tiles",
+
     // Other
+    "chimes:bamboo_chimes", "chimes:carved_bamboo_chimes", "chimes:copper_chimes", "chimes:glass_bells", "chimes:iron_chimes",
+
     "exposure:photograph_frame", "exposure:glass_photograph_frame"
+    
 
 ];
 
@@ -477,6 +860,9 @@ let categoryMaterialBlock = [
     "architects_palette:spool", "architects_palette:unobtanium_block",
 
     "autumnity:foul_berry_basket", "autumnity:turkey_egg_crate", "autumnity:snail_shell_block", "autumnity:snail_goo_block",
+
+    "create:bound_cardboard_block", "create:cardboard_block", "create:deepslate_zinc_ore", "create:experience_block",
+    "create:raw_zinc_block", "create:rose_quartz_block",
 ];
 
 // Blocks which serve some function, but not primarily for redstone or crafting
@@ -508,6 +894,88 @@ let categoryFunctionalBlock = [
     "bountiful:bountyboard",
 
     "buzzier_bees:honeycomb_door", "buzzier_bees:honeycomb_trapdoor",
+
+    "camping:grill", "camping:sleeping_bag_amber", "camping:sleeping_bag_beige", "camping:sleeping_bag_black",
+    "camping:sleeping_bag_blue", "camping:sleeping_bag_brown", "camping:sleeping_bag_coral",
+    "camping:sleeping_bag_forest", "camping:sleeping_bag_ginger", "camping:sleeping_bag_gray",
+    "camping:sleeping_bag_green", "camping:sleeping_bag_indigo", "camping:sleeping_bag_light_gray",
+    "camping:sleeping_bag_lime", "camping:sleeping_bag_magenta", "camping:sleeping_bag_maroon",
+    "camping:sleeping_bag_mint", "camping:sleeping_bag_olive", "camping:sleeping_bag_orange",
+    "camping:sleeping_bag_pink", "camping:sleeping_bag_purple", "camping:sleeping_bag_red",
+    "camping:sleeping_bag_slate", "camping:sleeping_bag_tan", "camping:sleeping_bag_teal",
+    "camping:sleeping_bag_verdant", "camping:sleeping_bag_white",
+
+    "clayworks:black_stained_glass_door", "clayworks:blue_stained_glass_door", "clayworks:brown_stained_glass_door",
+    "clayworks:cyan_stained_glass_door", "clayworks:gray_stained_glass_door", "clayworks:green_stained_glass_door",
+    "clayworks:light_blue_stained_glass_door", "clayworks:light_gray_stained_glass_door", "clayworks:lime_stained_glass_door",
+    "clayworks:magenta_stained_glass_door", "clayworks:orange_stained_glass_door", "clayworks:pink_stained_glass_door",
+    "clayworks:purple_stained_glass_door", "clayworks:white_stained_glass_door", "clayworks:yellow_stained_glass_door",
+
+    "clayworks:black_stained_glass_trapdoor", "clayworks:brown_stained_glass_trapdoor", "clayworks:cyan_stained_glass_trapdoor",
+    "clayworks:glass_trapdoor", "clayworks:gray_stained_glass_trapdoor", "clayworks:green_stained_glass_trapdoor",
+    "clayworks:light_blue_stained_glass_trapdoor", "clayworks:lime_stained_glass_trapdoor", "clayworks:magenta_stained_glass_trapdoor",
+    "clayworks:pink_stained_glass_trapdoor", "clayworks:purple_stained_glass_trapdoor", "clayworks:red_stained_glass_trapdoor",
+    "clayworks:yellow_stained_glass_trapdoor", 
+
+    "create:adjustable_chain_gearshift", "create:andesite_encased_cogwheel", "create:andesite_encased_large_cogwheel",
+    "create:andesite_funnel", "create:blaze_burner", "create:crushing_wheel", "create:cuckoo_clock",
+    "create:brass_encased_cogwheel", "create:brass_encased_large_cogwheel", "create:brass_encased_shaft",
+    "create:brass_tunnel", "create:cart_assembler", "create:chain_conveyor", "create:clockwork_bearing",
+    "create:clutch", "create:cogwheel", "create:contraption_controls", "create:controller_rail", "create:controls",
+    "create:deployer", "create:display_board", "create:display_link", "create:elevator_pulley", "create:empty_blaze_burner",
+    "create:encased_fan", "create:fluid_tank", "create:fluid_valve", "create:fluid_pipe", "create:factory_gauge",
+    "create:gantry_carriage", "create:gantry_shaft", "create:gearbox", "create:hand_crank", "create:haunted_bell",
+    "create:hose_pulley", "create:item_drain", "create:item_hatch", "create:item_vault", "create:large_cogwheel",
+    "create:large_water_wheel", "create:linear_chassis", "create:mechanical_bearing", "create:mechanical_crafter",
+    "create:mechanical_drill", "create:mechanical_harvester", "create:mechanical_plough", "create:mechanical_press",
+    "create:mechanical_pump", "create:mechanical_roller", "create:mechanical_saw", "create:millstone",
+    "create:nixie_tube", "create:mysterious_cuckoo_clock", "create:peculiar_bell", "create:packager",
+    "create:piston_extension_pole", "create:portable_fluid_interface", "create:portable_storage_interface",
+    "create:repackager", "create:rope_pulley", "create:sail_frame", "create:schematicannon",
+    "create:sequenced_gearshift", "create:shaft", "create:smart_chute", "create:smart_fluid_pipe", "create:speedometer",
+    "create:spout", "create:steam_engine", "create:steam_whistle", "create:sticker", "create:sticky_mechanical_piston",
+    "create:stock_ticker", "create:stressometer", "create:track", "create:track_signal", "create:track_station",
+    "create:turntable", "create:vertical_gearbox", "create:water_wheel",
+
+    "create:andesite_door", "create:brass_door", "create:brass_ladder", "create:andesite_ladder", "create:copper_ladder",
+    "create:copper_door", "create:andesite_scaffolding", "create:brass_scaffolding", "create:copper_scaffolding",
+    "create:framed_glass_door", "create:framed_glass_trapdoor", "create:train_door",
+
+    "create:aqua_seat", "create:beige_seat", "create:black_seat", "create:brown_seat", "create:coral_seat", "create:cyan_seat",
+    "create:ginger_seat", "create:gray_seat", "create:green_seat", "create:light_gray_seat", "create:lime_seat",
+    "create:magenta_seat", "create:maroon_seat", "create:orange_seat", "create:pink_seat", "create:purple_seat",
+    "create:red_seat", "create:rose_seat", "create:slate_seat", "create:tan_seat", "create:teal_seat", "create:verdant_seat",
+
+    "create:amber_postbox", "create:aqua_postbox", "create:beige_postbox", "create:black_postbox", "create:blue_postbox",
+    "create:brown_postbox", "create:coral_postbox", "create:cyan_postbox", "create:forest_postbox", "create:ginger_postbox",
+    "create:gray_postbox", "create:green_postbox", "create:indigo_postbox", "create:light_blue_postbox",
+    "create:light_gray_postbox", "create:lime_postbox", "create:maroon_postbox", "create:mint_postbox",
+    "create:navy_postbox", "create:olive_postbox", "create:orange_postbox", "create:pink_postbox", "create:purple_postbox",
+    "create:red_postbox", "create:rose_postbox", "create:tan_postbox", 
+
+    "create:amber_toolbox", "create:aqua_toolbox", "create:beige_toolbox", "create:blue_toolbox", "create:coral_toolbox",
+    "create:cyan_toolbox", "create:forest_toolbox", "create:ginger_toolbox", "create:green_toolbox", "create:indigo_toolbox",
+    "create:light_blue_toolbox", "create:light_gray_toolbox", "create:magenta_toolbox", "create:maroon_toolbox",
+    "create:mint_toolbox", "create:navy_toolbox", "create:olive_toolbox", "create:orange_toolbox", "create:purple_toolbox",
+    "create:rose_toolbox", "create:slate_toolbox", "create:tan_toolbox", "create:teal_toolbox", "create:verdant_toolbox",
+
+    "create:amber_table_cloth", "create:andesite_table_cloth", "create:aqua_table_cloth", "create:beige_table_cloth",
+    "create:black_table_cloth", "create:blue_table_cloth", "create:brass_table_cloth", "create:brown_table_cloth",
+    "create:copper_table_cloth", "create:cyan_table_cloth", "create:forest_table_cloth", "create:ginger_table_cloth",
+    "create:gray_table_cloth", "create:green_table_cloth", "create:indigo_table_cloth", "create:light_blue_table_cloth",
+    "create:lime_table_cloth", "create:magenta_table_cloth", "create:maroon_table_cloth", "create:mint_table_cloth",
+    "create:navy_table_cloth", "create:olive_table_cloth", "create:pink_table_cloth", "create:purple_table_cloth",
+    "create:red_table_cloth", "create:rose_table_cloth", "create:slate_table_cloth", "create:tan_table_cloth",
+    "create:teal_table_cloth", "create:verdant_table_cloth",
+
+    "create:amber_valve_handle", "create:aqua_valve_handle", "create:beige_valve_handle", "create:black_valve_handle",
+    "create:blue_valve_handle", "create:brown_valve_handle", "create:copper_valve_handle", "create:coral_valve_handle",
+    "create:forest_valve_handle", "create:ginger_valve_handle", "create:gray_valve_handle", "create:indigo_valve_handle",
+    "create:light_blue_valve_handle", "create:light_gray_valve_handle", "create:lime_valve_handle", "create:magenta_valve_handle",
+    "create:maroon_valve_handle", "create:mint_valve_handle", "create:navy_valve_handle", "create:olive_valve_handle",
+    "create:orange_valve_handle", "create:pink_valve_handle", "create: purple_valve_handle", "create:red_valve_handle",
+    "create:rose_valve_handle", "create:slate_valve_handle", "create:tan_valve_handle", "create:teal_valve_handle",
+    "create:verdant_valve_handle",
 ];
 
 // Blocks which primarily have redstone functionality
@@ -517,11 +985,19 @@ let categoryRedstoneBlock = [
     "architects_palette:twisted_button", "architects_palette:twisted_pressure_plate",
 
     "autumnity:maple_button", "autumnity:maple_pressure_plate",
+
+    "create:analog_lever", "create:desk_bell", "create:elevator_contact", "create:powered_latch",
+    "create:pulse_extender", "create:pulse_repeater", "create:redstone_contact", "create:redstone_link",
+    "create:redstone_requester", "create:stockpile_switch", "create:track_observer",
 ];
 
 // Blocks which are used from crafting or processing
 let categoryCraftingStation = [
     "apotheosis:augmenting_table", "apotheosis:salvaging_table", "apotheosis:reforging_table", "apotheosis:simple_reforging_table",
+    
+    "ancientreforging:ancient_reforging_table",
+
+    "clayworks:kiln",
 
     "exposure:lightroom"
 ];
