@@ -1,2 +1,32 @@
 type = user_variables
 
+variable {
+  name = completed_secret_world
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = completed_game
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = reached_pinnacle
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = entered_secret_world
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = completed_game_skyblock
+  value = false
+  reset_on_launch = false
+}
+

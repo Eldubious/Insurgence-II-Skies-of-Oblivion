@@ -2,7 +2,7 @@
 
 I:default_gui_scale = '-1';
 B:force_fullscreen = 'false';
-B:play_vanilla_menu_music = 'true';
+B:play_vanilla_menu_music = 'false';
 
 
 ##[customization]
@@ -26,10 +26,10 @@ S:custom_game_intro_skip_text = '';
 ##[window]
 
 B:show_custom_window_icon = 'false';
-S:custom_window_icon_macos = '';
-S:custom_window_icon_32 = '';
+S:custom_window_icon_macos = '/config/fancymenu/assets/macos_i2_sos_icon_small.icns';
+S:custom_window_icon_32 = '/config/fancymenu/assets/32x_i2_sos_icon_small.png';
 S:custom_window_title = '';
-S:custom_window_icon_16 = '';
+S:custom_window_icon_16 = '/config/fancymenu/assets/16x_i2_sos_icon_small.png';
 
 
 ##[multiplayer_screen]
@@ -71,7 +71,7 @@ S:ui_theme = 'dark';
 B:pip_window_docking = 'true';
 B:enable_ui_blur = 'false';
 F:ui_blur_intensity = '3.0';
-B:use_minecraft_font = 'false';
+B:use_minecraft_font = 'true';
 B:play_ui_click_sounds = 'true';
 B:smooth_font_multiline_rendering = 'false';
 
@@ -127,7 +127,7 @@ S:global_button_label_scale_raw = '';
 I:global_slider_handle_nine_slice_border_right = '5';
 S:global_slider_label_hover_color = '';
 I:global_slider_background_nine_slice_border_bottom = '5';
-S:global_menu_music_tracks = '';
+S:global_menu_music_tracks = '[source:location]minecraft:sounds/music/game/end/alpha.ogg%!source_end!%';
 I:global_slider_background_nine_slice_border_left = '5';
 S:global_button_background_hover = '';
 I:global_button_background_nine_slice_border_top = '5';
@@ -150,6 +150,6 @@ S:global_menu_background_texture = '';
 
 B:mcp_server_enabled = 'false';
 B:dev_pip_window_debug = 'false';
-B:dev_force_mcef_missing = 'false';
 B:dev_force_watermedia_missing = 'false';
+B:dev_force_rinku_missing = 'false';
 I:mcp_server_port = '48561';
