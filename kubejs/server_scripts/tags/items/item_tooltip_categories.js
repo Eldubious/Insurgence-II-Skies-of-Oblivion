@@ -973,7 +973,7 @@ let categoryFunctionalBlock = [
     "create:forest_valve_handle", "create:ginger_valve_handle", "create:gray_valve_handle", "create:indigo_valve_handle",
     "create:light_blue_valve_handle", "create:light_gray_valve_handle", "create:lime_valve_handle", "create:magenta_valve_handle",
     "create:maroon_valve_handle", "create:mint_valve_handle", "create:navy_valve_handle", "create:olive_valve_handle",
-    "create:orange_valve_handle", "create:pink_valve_handle", "create: purple_valve_handle", "create:red_valve_handle",
+    "create:orange_valve_handle", "create:pink_valve_handle", "create:purple_valve_handle", "create:red_valve_handle",
     "create:rose_valve_handle", "create:slate_valve_handle", "create:tan_valve_handle", "create:teal_valve_handle",
     "create:verdant_valve_handle",
 ];
