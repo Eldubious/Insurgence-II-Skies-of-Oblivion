@@ -3,7 +3,9 @@ StartupEvents.registry("fluid", event => {
     
     // type may be 'thick' or 'thin'
     function registerFluid(id, type, color, tags) {
-        event.create(id, type)
+        let fluid = event.create(id, type);
+
+        fluid
             .translationKey(`fluid.insurgence.${id}`)
             .tint(color)
             .tag(tags)
@@ -15,6 +17,8 @@ StartupEvents.registry("fluid", event => {
                 .supportsBoating(false)
                 .canPushEntity(true)
             );
+
+            fluid.block.lightLevel(14 / 15);
     }
 
     // Fuels

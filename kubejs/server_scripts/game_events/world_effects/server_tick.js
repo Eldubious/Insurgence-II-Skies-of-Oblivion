@@ -19,6 +19,9 @@ ServerEvents.tick(event => {
     
             // Teleport between dimensions
             dimensionTp(server, entity);
+
+            // Damage living entities in molten fluids
+            moltenFluidDamage(entity);
         }
     }
     
