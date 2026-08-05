@@ -1,0 +1,22 @@
+{
+    "description": {
+        "translate": "enchantment.insurgence.vein_resonance"
+    },
+    "exclusive_set": "#insurgence:exclusive_set/abilities",
+    "supported_items": "#minecraft:pickaxes",
+    "weight": 2,
+    "max_level": 3,
+    "min_cost": {
+        "base": 20,
+        "per_level_above_first": 15
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 15
+    },
+    "anvil_cost": 8,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {}
+}

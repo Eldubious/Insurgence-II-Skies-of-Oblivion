@@ -25,6 +25,16 @@ PlayerEvents.tick(event => {
 
     // Cleanup nether portal return data if no longer in the nether
     netherPortalReturnCleanup(pData, dimension)
+
+    if (pData.contains(INSURGENCE_ENCHANTMENT_STATE.veinBlock)) {
+      let level = insurgenceEnchantmentLevel(server, player.mainHandItem, "insurgence:vein_resonance")
+      let expired = time - pData.getLong(INSURGENCE_ENCHANTMENT_STATE.veinTick) > 200
+      let switchedSlot = player.inventory.selected != pData.getInt(INSURGENCE_ENCHANTMENT_STATE.veinSlot)
+      if (level <= 0 || expired || switchedSlot)
+        resetVeinResonance(server, player, pData)
+    }
+
+    updateUmbralReprieve(server, player, pData)
   }
 
 })

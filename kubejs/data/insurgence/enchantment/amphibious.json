@@ -1,0 +1,51 @@
+{
+    "description": {
+        "translate": "enchantment.insurgence.amphibious"
+    },
+    "exclusive_set": "#insurgence:exclusive_set/abilities",
+    "supported_items": "#insurgence:enchantable/animal_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 5,
+    "slots": [
+        "body"
+    ],
+    "effects": {
+        "minecraft:damage_immunity": [
+            {
+                "effect": {},
+                "requirements": {
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate": {
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "minecraft:is_drowning"
+                            },
+                            {
+                                "expected": false,
+                                "id": "minecraft:bypasses_invulnerability"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:generic.water_movement_efficiency",
+                "amount": 1.0,
+                "operation": "add_value",
+                "id": "enchant.insurgence.amphibious.water_movement_efficiency"
+            }
+        ]
+    }
+}
