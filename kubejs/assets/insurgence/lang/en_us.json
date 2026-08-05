@@ -684,6 +684,8 @@
     "insurgence.staves_tower/skeletons/blue_10": "Tower Protectors",
 
     "entity_name.insurgence.weak_zombie": "Zombie Weakling",
+    "entity_name.insurgence.electrum_skeleton": "Electrum Skeleton",
+    "entity_name.insurgence.electrum_zombie": "Electrum Zombie",
     "entity_name.insurgence.hoglin_rider": "Hoglin Rider",
     "entity_name.insurgence.baby_hoglin": "Baby Hoglin",
     "entity_name.insurgence.camel_jockey": "Camel Jockey",
