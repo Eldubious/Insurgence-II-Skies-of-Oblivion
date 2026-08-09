@@ -686,6 +686,8 @@
     "insurgence.staves_tower/skeletons/blue_10": "Tower Protectors",
 
     "entity_name.insurgence.weak_zombie": "Zombie Weakling",
+    "entity_name.insurgence.electrum_skeleton": "Electrum Skeleton",
+    "entity_name.insurgence.electrum_zombie": "Electrum Zombie",
     "entity_name.insurgence.hoglin_rider": "Hoglin Rider",
     "entity_name.insurgence.baby_hoglin": "Baby Hoglin",
     "entity_name.insurgence.camel_jockey": "Camel Jockey",
@@ -719,6 +721,8 @@
     "chat_message.insurgence.nether.time.half_time_left": "You have used half your time in the Nether.",
     "chat_message.insurgence.nether.time.one_minute_left": "You will return from the Nether in 1 minute.",
     "chat_message.insurgence.nether.time.ten_seconds_left": "You will return from the Nether in 10 seconds!",
+    "chat_message.insurgence.end_ritual.damage_warning": "The End's draconic energy is tearing through you. Complete the Ender Eye Ritual to withstand it.",
+    "death.attack.insurgence.draconic_energy": "%1$s couldn't withstand the draconic energy.",
     "chat_message.insurgence.set_world_tier_haven": "Your world tier has upgraded to Haven!",
     "chat_message.insurgence.set_world_tier_frontier": "Your world tier has upgraded to Frontier!",
     "chat_message.insurgence.set_world_tier_ascent": "Your world tier has upgraded to Ascent!",

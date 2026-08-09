@@ -14,12 +14,15 @@ ServerEvents.tick(event => {
 
     // Iterate through all entities every 10t/0.5s
     if (time % 10 == 0) {
-        for (let i in entityList) {
-            let entity = entityList[i];
-    
-            // Teleport between dimensions
-            dimensionTp(server, entity);
-        }
+        let playerList = entityList.filter(e => e.type == "minecraft:player");
+        let nonPlayerList = entityList.filter(e => e.type != "minecraft:player");
+
+        // Players handle their vehicles, so they must be processed first
+        for (let i in playerList)
+            dimensionTp(server, playerList[i]);
+
+        for (let i in nonPlayerList)
+            dimensionTp(server, nonPlayerList[i]);
     }
     
     // Only cleanup entity tags every 20 ticks/1 second
