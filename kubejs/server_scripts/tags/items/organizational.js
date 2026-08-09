@@ -34,4 +34,15 @@ ServerEvents.tags('item', event => {
         event.add('productivemetalworks:foundry_tanks', `productivemetalworks:${newDyeColors[i]}_foundry_tank`)
         event.add('productivemetalworks:foundry_windows', `productivemetalworks:${newDyeColors[i]}_foundry_window`)
     }
+
+    let copperHorseArmor = [
+        "caverns_and_chasms:copper_horse_armor", "caverns_and_chasms:waxed_copper_horse_armor",
+        "caverns_and_chasms:exposed_copper_horse_armor", "caverns_and_chasms:waxed_exposed_copper_horse_armor",
+        "caverns_and_chasms:weathered_copper_horse_armor", "caverns_and_chasms:waxed_weathered_copper_horse_armor",
+        "caverns_and_chasms:oxidized_copper_horse_armor", "caverns_and_chasms:waxed_oxidized_copper_horse_armor"
+    ];
+    for (let item of copperHorseArmor) {
+        event.add("c:horse_armor", item);
+        event.add("caverns_and_chasms:copper_horse_armors", item);
+    }
 })

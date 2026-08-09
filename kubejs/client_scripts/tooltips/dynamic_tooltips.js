@@ -1,4 +1,4 @@
-const DEBUG = false;
+const DEBUG = true;
 let lastLoggedItem = ""; // DEBUG make sure to only log tooltip if new item is hovered over
 
 const item_modifier_tooltips = [Component.translate('item.modifiers.any').getString(), Component.translate('item.modifiers.armor').getString(),
@@ -97,8 +97,9 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
                             name: sArgs[1].getContents().key,
                             idx: i,
                             operator: "",
-                            number: String(sArgs[0])
+                            number: String(sArgs[0].getContents().args[0])
                         };
+                        console.log(attribute)
                         attributes.push(attribute);
                     }
                     else {  // Bonus is unconventional
@@ -142,19 +143,29 @@ const item_modifier_tooltips = [Component.translate('item.modifiers.any').getStr
                     }
                     
                     // Following lines are attributes
-                    if (splitKey[0] == "curios" && splitKey[1] == "modifiers") {
+                    if (splitKey[0] == "curios" && (splitKey[1] == "modifiers" || splitKey[1] == "modifier")) {
                         currentlyReadingAttributes = true;
                         continue;
                     }
                     // Following lines are attributes
-                    else if (splitKey[0] == "item" && splitKey[1] == "modifiers") {
+                    else if (splitKey[0] == "item" && (splitKey[1] == "modifiers" || splitKey[1] == "modifier")) {
+                        currentlyReadingAttributes = true;
+                        continue;
+                    }
+                    // Following lines are attributes
+                    else if (splitKey[0] == "attribute" && (splitKey[1] == "modifiers" || splitKey[1] == "modifier")) {
+                        currentlyReadingAttributes = true;
+                        continue;
+                    }
+                    // Following lines are attributes
+                    else if (splitKey.length >= 4 && splitKey[2] == "augment" && splitKey[3] == "installed") {
                         currentlyReadingAttributes = true;
                         continue;
                     }
                     
                     if (currentlyReadingAttributes) {
                         // Current line is attribute
-                        if (splitKey[0] == "neoforge" && splitKey[1] == "modifier") {
+                        if ((splitKey[0] == "neoforge" && splitKey[1] == "modifier") || (splitKey[0] == "malum" && splitKey[1] == "effect") || (splitKey[0] == "attribute" && splitKey[1] == "modifier")) {
                             if (args != undefined && args.length >= 2) {
                                 if (event.shift) {  // Check for duplicate attribute listings when holding shift due to stat breakdown when holding
                                     let isDupeAttr = false;

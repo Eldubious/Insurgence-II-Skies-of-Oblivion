@@ -547,6 +547,8 @@
     "key.tooltipoverhaul.insurgence.crafted_boomerang": "§oCrafted §r§7§oBoomerang",
     "key.tooltipoverhaul.insurgence.crafted_firearm": "§oCrafted §r§7§oFirearm",
     "key.tooltipoverhaul.insurgence.crafted_wand": "§oCrafted §r§7§oWand",
+    "key.tooltipoverhaul.insurgence.crafted_shield": "§oCrafted §r§7§oShield",
+    "key.tooltipoverhaul.insurgence.crafted_belt": "§oCrafted §r§7§oBelt",
 
     "tooltip.insurgence.rarity.common": "COMMON",
     "tooltip.insurgence.rarity.uncommon": "UNCOMMON",

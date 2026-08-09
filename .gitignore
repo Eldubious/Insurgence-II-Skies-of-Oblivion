@@ -4,6 +4,7 @@
 .github
 .mixin.out
 .vscode
+.sable
 cache
 config/*
 !config/
