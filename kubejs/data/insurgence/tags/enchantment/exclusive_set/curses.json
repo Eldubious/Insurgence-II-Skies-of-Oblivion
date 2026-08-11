@@ -3,6 +3,14 @@
         "minecraft:binding_curse",
         "minecraft:vanishing_curse",
         "nova_structures:conductivity_curse",
-        "mynethersdelight:poaching"
+        "mynethersdelight:poaching",
+        "insurgence:brittle_curse",
+        "insurgence:greed_curse",
+        "insurgence:bad_luck_curse",
+        "insurgence:lightweight_curse",
+        "insurgence:bouncy_curse",
+        "insurgence:short_arms_curse",
+        "insurgence:slippery_curse",
+        "insurgence:giant_curse"
     ]
 }

@@ -1,0 +1,37 @@
+{
+    "description": {
+        "translate": "enchantment.insurgence.lightweight_curse"
+    },
+    "exclusive_set": "#insurgence:exclusive_set/curses",
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "body"
+    ],
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:generic.gravity",
+                "amount": -0.44,
+                "operation": "add_value",
+                "id": "enchant.lightweight_curse.generic.gravity"
+            },
+            {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "amount": -0.33,
+                "operation": "add_value",
+                "id": "enchant.lightweight_curse.generic.knockback_resistance"
+            }
+        ]
+    }
+}

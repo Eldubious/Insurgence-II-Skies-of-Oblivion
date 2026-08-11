@@ -1,0 +1,31 @@
+{
+    "description": {
+        "translate": "enchantment.insurgence.bad_luck_curse"
+    },
+    "exclusive_set": "#insurgence:exclusive_set/curses",
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "body"
+    ],
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:generic.luck",
+                "amount": -7,
+                "operation": "add_value",
+                "id": "enchant.bad_luck_curse.generic.luck"
+            }
+        ]
+    }
+}

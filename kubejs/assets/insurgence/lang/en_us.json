@@ -430,11 +430,33 @@
 
     "enchantment.insurgence.debug.all_attributes": "Zenith",
     "enchantment.insurgence.debug.all_attributes.desc": "An enchantment which grants +1 in every attribute. Used for debugging purposes.",
+
+    "enchantment.insurgence.brittle_curse": "Curse of Enbrittlement",
+    "enchantment.insurgence.brittle_curse.desc": "Item takes double durability damage.",
+    "enchantment.insurgence.greed_curse": "Curse of Greed",
+    "enchantment.insurgence.greed_curse.desc": "The tool is greedy and consumes all experience obtained from mining blocks or killing mobs.",
+    "enchantment.insurgence.bad_luck_curse": "Curse of Bad Luck",
+    "enchantment.insurgence.bad_luck_curse.desc": "Item decreases your luck when equipped.",
+    "enchantment.insurgence.lightweight_curse": "Curse of Lightweight",
+    "enchantment.insurgence.lightweight_curse.desc": "With this equipped, you become lighter and take more knockback.",
+    "enchantment.insurgence.bouncy_curse": "Curse of Bouncyness",
+    "enchantment.insurgence.bouncy_curse.desc": "Makes you bouncy!",
+    "enchantment.insurgence.slippery_curse": "Curse of Slippery Floors",
+    "enchantment.insurgence.slippery_curse.desc": "Reduces friction when worn.",
+    "enchantment.insurgence.short_arms_curse": "Curse of Short Arms",
+    "enchantment.insurgence.short_arms_curse.desc": "Reduces your reach distance when worn.",
+    "enchantment.insurgence.giant_curse": "Curse of Giants",
+    "enchantment.insurgence.giant_curse.desc": "With this equipped, you become slightly taller.",
+
     "enchantment.insurgence.feathery_paws": "Feathery Paws",
     "enchantment.insurgence.feathery_paws.desc": "Increases the safe fall distance and reduces the fall damage taken for the animal.",
+    "enchantment.insurgence.agility": "Agility",
+    "enchantment.insurgence.agility.desc": "Allows the user to travel further when dodge rolling.",
+
 
     "material.insurgence.sunmetal": "Sunmetal",
     "material.insurgence.candy": "Candy",
+
 
     "creative_tab.insurgence.vault_keys": "Vaults & Keys",
     "creative_tab.insurgence.collectors_cards": "Tarot Cards",

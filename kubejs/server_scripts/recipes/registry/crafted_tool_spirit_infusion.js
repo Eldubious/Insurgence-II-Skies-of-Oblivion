@@ -14,10 +14,7 @@ ServerEvents.recipes(event => {
         {output: "caverns_and_chasms:silver_horse_armor"}
     ])
 
-
-
     function spiritInfusion(input, result, extraInputs, spirits) {
-
         let extraInputsJson = [];
         for (let ei of extraInputs) {
             let id = ei.getId();
@@ -101,6 +98,7 @@ ServerEvents.recipes(event => {
         }
     }
     
+    // Copper Equipment
     spiritInfusion(
         "minecraft:wooden_sword", "caverns_and_chasms:copper_sword",
         [Item.of("minecraft:copper_ingot", 8)],
@@ -152,7 +150,7 @@ ServerEvents.recipes(event => {
         [Item.of("malum:sacred_spirit", 4)]
     );
 
-
+    // Silver Equipment
     spiritInfusion(
         "#caverns_and_chasms:copper_swords", "caverns_and_chasms:silver_sword",
         [Item.of("caverns_and_chasms:silver_ingot", 4)],

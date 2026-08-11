@@ -1,0 +1,31 @@
+{
+    "description": {
+        "translate": "enchantment.insurgence.slippery_curse"
+    },
+    "exclusive_set": "#insurgence:exclusive_set/curses",
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "feet"
+    ],
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:friction_modifier",
+                "amount": 1,
+                "operation": "add_value",
+                "id": "enchant.slippery_curse.friction_modifier"
+            }
+        ]
+    }
+}

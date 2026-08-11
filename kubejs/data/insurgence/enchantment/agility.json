@@ -1,0 +1,35 @@
+{
+    "description": {
+        "translate": "enchantment.insurgence.agility"
+    },
+    "exclusive_set": "#insurgence:exclusive_set/stat_bonuses",
+    "supported_items": "#minecraft:enchantable/leg_armor",
+    "weight": 1,
+    "max_level": 6,
+    "min_cost": {
+        "base": 20,
+        "per_level_above_first": 2
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 2
+    },
+    "anvil_cost": 9,
+    "slots": [
+        "legs"
+    ],
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "attribute": "combat_roll:distance",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.2,
+                    "per_level_above_first": 0.2
+                },
+                "operation": "add_value",
+                "id": "enchant.agility.distance"
+            }
+        ]
+    }
+}
