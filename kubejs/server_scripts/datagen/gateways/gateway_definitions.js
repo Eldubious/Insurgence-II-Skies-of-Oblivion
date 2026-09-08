@@ -161,7 +161,7 @@ const gateways = [
                 scaleFactor: 2
             }
         ]
-    }
+    },
     /*
         Nether encounter Gateways for Waystone Shrines
     */
