@@ -6,8 +6,8 @@ const materialItems = [
     "productivemetalworks:shiny_meat_ingot", "eternal_starlight:starfire", "eternal_starlight:dusted_shard",
     "eternal_starlight:soul_dew", "eternal_starlight:shivering_gel", "irons_spellbooks:arcane_ingot",
     "irons_spellbooks:permafrost_shard", "irons_spellbooks:divine_soulshard", "irons_spellbooks:pyrium_ingot",
-    "malum:rotting_essence", "malum:grim_talc", "malum:astral_weave", "malum:wind_nucleus", "malum:warp_flux",
-    "malum:hex_ash", "malum:living_flesh", "malum:alchemical_calx", "malum:soulwoven_silk"
+    "malum:rotting_essence", "malum:grim_talc", "malum:wind_nucleus", "malum:warp_flux",
+    "malum:living_flesh", "malum:alchemical_calx", "supplementaries:candy"
 ];
 
 // Adds fieldguide entries for items
