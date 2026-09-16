@@ -14,6 +14,9 @@ ItemEvents.rightClicked(event => {
         if (tag == "insurgence:category/unused") {
             event.cancel();
         }   
+        else if (tag == "insurgence:prevent_use") {
+            event.cancel();
+        }
         else if (tag == "insurgence:pocket_dimension_prevent_use" && dimension == "irons_spellbooks:pocket_dimension") {
             server.runCommandSilent(`execute as ${player.uuid} run title @s actionbar {"translate":"actionbar.insurgence.item_use.incorrect_dim","color":"red"}`);
             event.cancel();

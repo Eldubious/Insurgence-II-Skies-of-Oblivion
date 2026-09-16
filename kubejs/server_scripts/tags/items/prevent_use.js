@@ -8,4 +8,12 @@ ServerEvents.tags("item", event => {
         event.add("insurgence:pocket_dimension_prevent_use", item);
     };
 
+    let preventUse = [
+        "irons_spellbooks:scroll"
+    ];
+    for (let i in preventUse) {
+        let item = preventUse[i];
+        event.add("insurgence:prevent_use", item);
+    };
+
 });
