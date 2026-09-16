@@ -36,14 +36,20 @@ function vaultRightClicked(event) {
                 tellRefreshError(event.player);
             }
         }
-        else if (isHoldingKey(event.player, event.hand) && event.block.properties.get('vault_state') == 'active') {
-            let targetKey = event.block.getEntityData().get("config").get("key_item").get("id");
-            let keyComponents = event.block.getEntityData().get("config").get("key_item").get("components");
-            let keyName = parseKeyComponents(targetKey, keyComponents);
+        else if (event.block.properties.get('vault_state') == 'active') {
+            let targetItem = event.block.getEntityData().get("config").get("key_item").get("id");
+            let targetItemComponents = event.block.getEntityData().get("config").get("key_item").get("components");
 
-            if (!isHoldingCorrectKey(event.player, event.hand, targetKey, keyComponents)) {
-                let msg = Component.translate("chat_message.insurgence.vault.wrong_key").gray().append(keyName.green());
-                event.player.tell(msg);
+            if (vaultKeyItems.includes(targetItem)) {
+                // Only warn when a key is expected but the player isn't holding one, or is holding the wrong one
+                if (isHandEmpty(event.player, event.hand) || isHoldingKey(event.player, event.hand)) {
+                    if (!isHoldingCorrectKey(event.player, event.hand, targetItem, targetItemComponents)) {
+                        tellWrongItem(event.player, parseKeyComponents(targetItem, targetItemComponents));
+                    }
+                }
+            }
+            else if (!isHoldingCorrectItem(event.player, event.hand, targetItem)) {
+                tellWrongItem(event.player, Item.of(targetItem).getName());
             }
         }
     }
@@ -122,6 +128,30 @@ function isHoldingKey(player, hand) {
         return true;
     }
     return false;
+}
+
+// Returns the id of whatever item is in the given hand
+function getHeldItemId(player, hand) {
+    if (hand == "OFF_HAND") {
+        return player.offHandItem.id.toString();
+    }
+    return player.mainHandItem.id.toString();
+}
+
+// Returns boolean for if the given hand is empty
+function isHandEmpty(player, hand) {
+    return getHeldItemId(player, hand) == "minecraft:air";
+}
+
+// Returns boolean for if the player is holding the exact item a vault requires
+function isHoldingCorrectItem(player, hand, targetItemId) {
+    return getHeldItemId(player, hand) == targetItemId;
+}
+
+// Tells the player which key/item is needed to unlock the vault
+function tellWrongItem(player, nameComponent) {
+    let msg = Component.translate("chat_message.insurgence.vault.wrong_key").gray().append(nameComponent.green());
+    player.tell(msg);
 }
 
 // Returns a component with the translated name of the required key
