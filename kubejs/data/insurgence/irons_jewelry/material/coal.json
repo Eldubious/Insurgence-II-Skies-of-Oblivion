@@ -1,0 +1,21 @@
+{
+    "descriptionId": "material.insurgence.coal",
+    "ingredient": {
+        "item": "minecraft:coal"
+    },
+    "materialType": [
+        "gem"
+    ],
+    "paletteLocation": "irons_jewelry:palettes/emerald",
+    "quality": 0.5,
+    "bonusParameters": {
+        "irons_jewelry:attribute": {
+            "attribute": "minecraft:generic.burning_time",
+            "amount": -1,
+            "operation": "add_value"
+        },
+        "irons_jewelry:positive_effect": {
+            "effect": "minecraft:fire_resistance"
+        }
+    }
+}

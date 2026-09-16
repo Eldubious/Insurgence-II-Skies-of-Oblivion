@@ -979,7 +979,7 @@
     "category.insurgence.fieldguide.spells": "Spells",
 
     "fieldguide.name.minecraft.coal_block": "Coal",
-    "fieldguide.minecraft.coal_block.description": "A common non-renewable fuel source. When inserted into jewelry, it seems to usually provide __. Its effect depends on the type of jewelry.",
+    "fieldguide.minecraft.coal_block.description": "A common non-renewable fuel source. When inserted into jewelry, it seems to usually provide a reduction in burning time. Its effect depends on the type of jewelry.",
     "fieldguide.minecraft.coal_block.hint": "An ore found commonly in the Overworld...",
     "fieldguide.name.minecraft.iron_block": "Iron",
     "fieldguide.minecraft.iron_block.description": "A common but sturdy material. When made into jewelry, it usually increases its quality by 0.75x, but sometimes it provides armor. Its effect depends on the type of jewelry.",
